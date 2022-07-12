@@ -1,0 +1,20 @@
+{% extends "!layout.html" %}
+  {% block footer %} {{ super() }}
+
+  <style>
+    /* Sidebar */
+    .wy-nav-side {
+      background: #243B54;
+    }
+  </style>
+{% endblock %}
+
+{% block comments %} {{ super() }}
+<script src="https://utteranc.es/client.js"
+      repo="datacite/schema-docs"
+      issue-term="title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+</script>
+{% endblock %}
