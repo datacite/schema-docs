@@ -29,7 +29,7 @@ Cites
 
 Recommended for discovery. ::
 
-<relatedIdentifier relatedIdentifierType="ISBN" relationType="Cites“>0761964312</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="ISBN" relationType="Cites">0761964312</relatedIdentifier>
 
 
 IsSupplementTo
@@ -112,7 +112,7 @@ IsMetadataFor
 
 **Example and Usage Notes:**::
 
-<relatedIdentifier relatedIdentifierType="DOI" relationType="IsMetadataFor “relatedMetadataSchema="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567891</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="DOI" relationType="IsMetadataFor" "relatedMetadataSchema="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567891</relatedIdentifier>
 
 
 HasVersion
@@ -252,7 +252,7 @@ IsCompiledBy
 
 **Example and Usage Notes:**::
 
-relatedIdentifier relatedIdentifierType="URL" relationType="isCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="URL" relationType="isCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
 
 Note: This may be used to indicate either a traditional text compilation, or the compiler program used to generate executable software.
 

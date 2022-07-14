@@ -186,7 +186,7 @@ Journal
 
 Example::
 
-<resourceType resourceTypeGeneral="Journal”</resourceType>
+<resourceType resourceTypeGeneral="Journal"></resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -200,7 +200,7 @@ JournalArticle
 
 Example::
 
-<resourceType resourceTypeGeneral="JournalArticle</resourceType>
+<resourceType resourceTypeGeneral="JournalArticle"></resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -300,7 +300,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.2193
 Software
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A computer program other than a computational notebook, in either source code (text) or compiled form. Use this type for general software components supporting scholarly research. Use the “ComputationalNotebook” value for virtual notebooks.
+**Description:** A computer program other than a computational notebook, in either source code (text) or compiled form. Use this type for general software components supporting scholarly research. Use the "ComputationalNotebook" value for virtual notebooks.
 
 **Examples and Usage Notes:** Software supporting scholarly research
 
