@@ -87,7 +87,7 @@ Example: GBMF3859.01
 
 **Occurrences:** 0-1
 
-**Definition:** he URI leading to a page provided by the funder for more information about the award (grant).
+**Definition:** The URI leading to a page provided by the funder for more information about the award (grant).
 
 **Allowed values, examples, other constraints:**
 
