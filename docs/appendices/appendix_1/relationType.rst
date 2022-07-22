@@ -396,3 +396,27 @@ IsObsoletedBy
 **Example and Usage Notes:**::
 
 <relatedIdentifier relatedIdentifierType="DOI" relationType="IsObsoletedBy">10.5438/0005</relatedIdentifier>
+
+
+IsUsedBy
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** Indicates A is used by B
+
+**Example and Usage Notes:**::
+
+<relatedIdentifier relatedIdentifierType="DOI" relationType="IsUsedBy">10.5072/dataset</relatedIdentifier>
+
+May be used to indicate the relationship between an instrument and where it has been used (as in, instrument A is IsUsedBy research output B).
+
+
+Uses
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** Indicates A uses B
+
+**Example and Usage Notes:**::
+
+<relatedIdentifier relatedIdentifierType="DOI"relationType="Uses">10.5072/instrument</relatedIdentifier>
+
+May be used to indicate the relationship between an instrument and where it has been used (as in, research output A uses instrument B).

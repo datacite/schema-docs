@@ -165,6 +165,21 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.6083
 **Suggested Dublin Core Mapping:** Image
 
 
+Instrument
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** A device, tool or apparatus used for scientific purposes, to obtain, measure and analyze data from subjects around the research topic.
+
+**Examples and Usage Notes:**
+
+Example::
+
+<resourceType resourceTypeGeneral="Instrument">Reflectometer</resourceType>
+
+
+**Suggested Dublin Core Mapping:** N/A
+
+
 InteractiveResource
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
