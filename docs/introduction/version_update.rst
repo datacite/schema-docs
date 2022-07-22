@@ -5,4 +5,10 @@ Version 4.5 Update
 
    To do: Summarize updates.
 
+   * Addition of new subproperties for Publisher:
+
+     * publisherIdentifier
+     * publisherIdentifierScheme
+     * schemeURI
+
 Major Documentation changes:
