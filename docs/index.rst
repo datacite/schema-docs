@@ -7,9 +7,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
 Citation:
 
- DataCite Metadata Working Group; (2021): DataCite Metadata Schema for the Publication and Citation
- of Research Data and Other Research Output v4.4; DataCite e.V.
- https://doi.org/10.14454/3w3z-sa82
+ DataCite Metadata Working Group; (2021): DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Output v4.4; DataCite e.V. https://doi.org/10.14454/3w3z-sa82
 
 Members of the Metadata Working Group:
 
