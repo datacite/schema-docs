@@ -5,8 +5,8 @@
 project = 'DataCite Metadata Schema'
 author = 'DataCite Metadata Working Group'
 
-release = '4.4'
-version = '4.4'
+release = '4.5'
+version = '4.5'
 
 # -- General configuration
 
