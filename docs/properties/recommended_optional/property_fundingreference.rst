@@ -46,6 +46,8 @@ Example: https://doi.org/10.13039/100000936
 
 **Allowed values, examples, other constraints:**
 
+If funderIdentifier is used, funderIdentifierType is mandatory.
+
 *Controlled List Values:*
 
 * Crossref Funder ID [29]_
@@ -55,7 +57,7 @@ Example: https://doi.org/10.13039/100000936
 * Other
 
 
-19.2.b SchemeURI
+19.2.b schemeURI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
