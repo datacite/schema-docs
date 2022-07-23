@@ -146,6 +146,7 @@ The format is dependent upon scheme. Examples:
 **Allowed values, examples, other constraints:**
 
 If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
+
 Examples: ROR, GRID
 
 2.5.c schemeURI
