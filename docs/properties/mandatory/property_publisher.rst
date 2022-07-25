@@ -11,6 +11,8 @@ For software, use Publisher for the code repository. If there is an entity other
 
 Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo, GitHub
 
+.. _4.a:
+
 4.a publisherIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -27,6 +29,7 @@ Examples:
 * https://viaf.org/viaf/151411898/
 * https://www.wikidata.org/wiki/Q34433
 
+.. _4.b:
 
 4.b publisherIdentifierScheme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -51,6 +54,8 @@ Examples:
 * FAIRsharing
 * Ringgold
 * ISSN
+
+.. _4.c:
 
 4.c schemeURI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

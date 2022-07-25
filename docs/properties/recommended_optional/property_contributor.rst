@@ -169,6 +169,8 @@ Free text.
 The contributor's nameType may be *Organizational* or *Personal*. In the case of an organizational contributor, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
+.. _7.5.a:
+
 7.5.a affiliationIdentifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -195,6 +197,8 @@ The format is dependent upon scheme. Examples:
 If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
 
 Examples: ROR, GRID
+
+.. _7.5.c:
 
 7.5.c schemeURI
 ^^^^^^^^^^^^^^^^^^^

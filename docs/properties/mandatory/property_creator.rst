@@ -122,6 +122,8 @@ Free text.
 The creator’s nameType may be *Organizational* or *Personal*. In the case of an organizational creator, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
+.. _2.5.a:
+
 2.5.a affiliationIdentifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -148,6 +150,8 @@ The format is dependent upon scheme. Examples:
 If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
 
 Examples: ROR, GRID
+
+.. _2.5.c:
 
 2.5.c schemeURI
 ^^^^^^^^^^^^^^^^^^^
