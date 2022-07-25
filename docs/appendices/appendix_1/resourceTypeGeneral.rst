@@ -226,7 +226,7 @@ Model
 
 **Description:** An abstract, conceptual, graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes
 
-**Examples and Usage Notes:** Modelled descriptions of, for N/A example, different aspects of languages or a molecular biology reaction chain
+**Examples and Usage Notes:** Modelled descriptions of, for example, different aspects of languages or a molecular biology reaction chain
 
 Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5285/4d866cd2-c907-4ce2-b070-084ca9779dc2
 
