@@ -43,6 +43,7 @@ TableOfContents
 
 Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5678/LCRS/FOR816.CIT.1031
 
+.. _TechnicalInfo:
 
 TechnicalInfo
 ~~~~~~~~~~~~~~~~~~~~~~~~~

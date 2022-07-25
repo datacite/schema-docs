@@ -164,6 +164,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.6083
 
 **Suggested Dublin Core Mapping:** Image
 
+.. _Instrument:
 
 Instrument
 ~~~~~~~~~~~~~~~~~~~~~~~~~

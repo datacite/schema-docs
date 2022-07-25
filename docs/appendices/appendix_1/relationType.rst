@@ -398,6 +398,7 @@ IsObsoletedBy
 
 <relatedIdentifier relatedIdentifierType="DOI" relationType="IsObsoletedBy">10.5438/0005</relatedIdentifier>
 
+.. _IsUsedBy:
 
 IsUsedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -410,6 +411,7 @@ IsUsedBy
 
 May be used to indicate the relationship between an instrument and where it has been used (as in, instrument A is IsUsedBy research output B).
 
+.. _Uses:
 
 Uses
 ~~~~~~~~~~~~~~~~~~~~~~~~~
