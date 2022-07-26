@@ -21,3 +21,5 @@ Major Documentation changes:
   * :doc:`AlternateIdentifier </properties/recommended_optional/property_alternateidentifier>`
   * :doc:`Description </properties/recommended_optional/property_description>`
   * :ref:`Description (TechnicalInfo) <TechnicalInfo>`
+
+* To enhance support for instruments, addition of new appendix: :doc:`/appendices/appendix_6`
