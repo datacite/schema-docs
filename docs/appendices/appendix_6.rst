@@ -124,11 +124,11 @@ Instrument Model
 +----------------------------+-------------------------------------------------------+
 | PIDINST Property           | DataCite v. 4.5                                       |
 +============================+=======================================================+
-| **Model**                  | Description with descriptionType "TechnicalInfo"      |
-| modelName                  |                                                       |
-| modelName                  |                                                       |
-| modelIdentifier            |                                                       |
-| modelIdentifierType        |                                                       |
+| | **Model**                | Description with descriptionType "TechnicalInfo"      |
+| | modelName                |                                                       |
+| | modelName                |                                                       |
+| | modelIdentifier          |                                                       |
+| | modelIdentifierType      |                                                       |
 +----------------------------+-------------------------------------------------------+
 
 Detailed information associated with an instrument instance, e.g. model (model name and model identifier), instrument type (name and identifier), or measured variable.
@@ -215,9 +215,7 @@ Alternate Identifiers
 | alternateIdentifierType    | alternateIdentifierType                               |
 +----------------------------+-------------------------------------------------------+
 
-May be used for the instrument's serial number. Other possible uses include an owner"s inventory number or an entry in some instrument database.
-
-The type of the AlternateIdentifier.
+May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database. Indicate the type of the AlternateIdentifier.
 
 .. rubric:: Footnotes
 .. [36] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070
