@@ -39,6 +39,7 @@ Free-format text. The recommended content is a single term of some detail so tha
 * Event
 * Image
 * InteractiveResource
+* Instrument
 * Journal
 * JournalArticle
 * Model

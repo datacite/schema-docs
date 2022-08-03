@@ -4,7 +4,10 @@
 **Occurrences:** 0-n
 
 **Definition:** The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. To supply multiple contributors, repeat this property.
+
 For software, if there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the contributorType "hostingInstitution" for the code repository.
+
+For instruments, if there is an institution responsible for the management of the instrument (for example, the legal owner, the operator, or an institute providing access to the instrument), use the contributorType “hostingInstitution” for the owner of the instrument.
 
 **Allowed values, examples, other constraints:**
 

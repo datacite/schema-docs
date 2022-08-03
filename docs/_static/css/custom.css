@@ -3,6 +3,11 @@
   height: 300px;
 }
 
+/* Correct table alignment */
+.rst-content table.docutils td, .rst-content table.field-list td, .wy-table td {
+    vertical-align: top;
+}
+
 /* Override readthedocs theme with DataCite colors */
 
 /* Replace #2980b9 with #007EAE */

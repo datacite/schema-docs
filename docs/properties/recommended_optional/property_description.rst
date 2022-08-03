@@ -3,7 +3,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** All additional information that does not fit in any of the other categories. May be used for technical information.
+**Definition:** All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.
 
 **Allowed values, examples, other constraints:**
 
