@@ -4,7 +4,7 @@ DataCite to Dublin Core Mapping 4.4
 Citation:
 DataCite Metadata Working Group. (2021). DataCite to Dublin Core Mapping 4.4. DataCite e.V. https://doi.org/10.14454/qn00-qx85.
 
-On the occasion of the release of v4.4 of the DataCite Metadata Schema the Metadata Working Group has updated the mapping to Dublin Core. This replaces the mapping in the Appendix of the `DataCite-MetadataKernel v2.1 <https://schema.datacite.org/archive/kernel-2.1/doc/DataCite-MetadataKernel_v2.1.pdf>`_.
+On the occasion of the release of `v4.4 of the DataCite Metadata Schema <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>`_ the Metadata Working Group has updated the mapping to Dublin Core. This replaces the mapping in the Appendix of the `DataCite-MetadataKernel v2.1 <https://schema.datacite.org/archive/kernel-2.1/doc/DataCite-MetadataKernel_v2.1.pdf>`_.
 
 The mapping can be used to convert records described following version 4.4 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 
