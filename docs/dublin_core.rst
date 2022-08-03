@@ -254,7 +254,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
    * - 16.c
      - rightsIdentfierScheme
      - Not present in Dublin Core
-   * - 16.c
+   * - 16.d
      - schemeURI
      - Not present in Dublin Core
    * - 17
@@ -359,6 +359,9 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - | dcterms:relation
        | *For the details of the related ítem i.e. title etc., use dcterms:bibliographicCitation. Concatenate the content according to any preferred Citation format*
    * - 20.a
+     - relatedItemType
+     - dcterms:relation
+   * - 20.b
      - relationType [ii]_
      -
    * -
@@ -394,68 +397,59 @@ The Metadata Working Group are in discussion with ongoing developments by a team
    * -
      - *Other relation types*
      - dcterms:relation
-   * - 20.b
-     - relatedItemType
-     - dcterms:relation
-   * - 20.c
+   * - 20.1
      - relatedItemIdentifier
      - dcterms:relation
-   * - 20.d
+   * - 20.1.a
      - relatedItemIdentifierType
      - Not present in Dublin Core
-   * - 20.1
-     - Title
-     - dcterms:bibliographicCitation
-   * - 20.1.a
-     - Type
-     - dcterms:bibliographicCitation
    * - 20.2
-     - Volume
-     - dcterms:bibliographicCitation
-   * - 20.3
-     - Issue
-     - dcterms:bibliographicCitation
-   * - 20.4
-     - Number
-     - dcterms:bibliographicCitation
-   * - 20.4.a
-     - Type
-     - dcterms:bibliographicCitation
-   * - 20.5
-     - firstPage
-     - dcterms:bibliographicCitation
-   * - 20.6
-     - lastPage
-     - dcterms:bibliographicCitation
-   * - 20.7
-     - Year
-     - dcterms:bibliographicCitation
-   * - 20.8
-     - Month
-     - dcterms:bibliographicCitation
-   * - 20.9
-     - Day
-     - dcterms:bibliographicCitation
-   * - 20.10
-     - Edition
-     - dcterms:bibliographicCitation
-   * - 20.11
      - Creator
      - dcterms:bibliographicCitation
-   * - 20.11.a
+   * - 20.2.1
      - creatorName
      - dcterms:bibliographicCitation
-   * - 20.11.b
-     - nameIdentifier
+   * - 20.3
+     - Title
+     - dcterms:bibliographicCitation
+   * - 20.3.a
+     - titleType
+     - dcterms:bibliographicCitation
+   * - 20.4
+     - PublicationYear
+     - dcterms:bibliographicCitation
+   * - 20.5
+     - Volume
+     - dcterms:bibliographicCitation
+   * - 20.6
+     - Issue
+     - dcterms:bibliographicCitation
+   * - 20.7
+     - Number
+     - dcterms:bibliographicCitation
+   * - 20.7.a
+     - numberType
+     - dcterms:bibliographicCitation
+   * - 20.8
+     - firstPage
+     - dcterms:bibliographicCitation
+   * - 20.9
+     - lastPage
+     - dcterms:bibliographicCitation
+   * - 20.10
+     - Publisher
+     - dcterms:bibliographicCitation
+   * - 20.11
+     - Edition
      - dcterms:bibliographicCitation
    * - 20.12
      - Contributor
      - dcterms:bibliographicCitation
    * - 20.12.a
-     - contributorName
+     - contributorType
      - dcterms:bibliographicCitation
-   * - 20.12.b
-     - nameIdentifier
+   * - 20.12.1
+     - contributorName
      - dcterms:bibliographicCitation
 
 .. rubric:: Footnotes
