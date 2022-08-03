@@ -102,7 +102,7 @@ HasMetadata
 
 **Example and Usage Notes:**::
 
-<relatedIdentifier relatedIdentifierType="DOI" relationType="HasMetadata" relatedMetadataSchema="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567890</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="DOI" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567890</relatedIdentifier>
 
 
 IsMetadataFor
@@ -112,7 +112,7 @@ IsMetadataFor
 
 **Example and Usage Notes:**::
 
-<relatedIdentifier relatedIdentifierType="DOI" relationType="IsMetadataFor" "relatedMetadataSchema="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567891</relatedIdentifier>
+<relatedIdentifier relatedIdentifierType="DOI" relationType="IsMetadataFor" "relatedMetadataScheme="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567891</relatedIdentifier>
 
 
 HasVersion
