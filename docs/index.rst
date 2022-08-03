@@ -40,3 +40,4 @@ Contents
    properties/index
    notes
    appendices/index
+   dublin_core
