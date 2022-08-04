@@ -2,8 +2,7 @@
 ====================
 
 .. note::
-   References to 2.1 and 20.11.1 should reference 20.12.1.
-   ALA-LC schemas footnote missing (20.2.1)
+   ALA-LC schemas footnote "12" was missing (20.2.1, 20.12.1). Revisit after decision is made on footnotes.
 
 **Occurrences:** 0-n
 
