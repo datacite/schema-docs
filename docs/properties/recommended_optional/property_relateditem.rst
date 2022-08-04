@@ -1,9 +1,6 @@
 20. RelatedItem
 ====================
 
-.. note::
-   References to 2.1 and 20.11.1 should reference 20.12.1.
-
 **Occurrences:** 0-n
 
 **Definition:** Information about a resource related to the one being registered, e.g., a journal or book of which the article or chapter is part
