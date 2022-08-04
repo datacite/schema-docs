@@ -136,7 +136,7 @@ Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 Free text. Use to describe a geographic location.
 
 
-18.4 geeoLocationPolygon
+18.4 geoLocationPolygon
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
