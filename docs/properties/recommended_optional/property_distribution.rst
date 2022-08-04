@@ -1,10 +1,6 @@
 21. Distribution
 ====================
 
-.. note::
-
-   To do: Create Appendix 7; Add links to Appendix 7
-
 **Occurrences:** 0-n
 
 **Definition:** Represents an accessible form of a resource such as downloadable files.
@@ -19,6 +15,7 @@ Collections of files should be either using an archive format or a bagit folder 
 
 .. contents:: :local:
 
+.. _21.a:
 
 21.a mediaType
 ~~~~~~~~~~~~~~~~~~~~
@@ -38,8 +35,9 @@ Examples:
 - application/zip
 - audio/mpeg
 
+.. _21.b:
 
-21.b contentrl
+21.b contentUrl
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -59,6 +57,7 @@ Examples:
 - https://zenodo.org/record/6591787/files/bagit.zip
 - https://zenodo.org/record/6591787/files/files.gzip
 
+.. _21.b.1:
 
 21.b.1 lastUpdated
 ^^^^^^^^^^^^^^^^^^^^^
@@ -71,6 +70,7 @@ Examples:
 
 YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [30]_.
 
+.. _21.b.2:
 
 21.b.2 byteSize
 ^^^^^^^^^^^^^^^^^^^^^
@@ -86,6 +86,7 @@ The size in bytes can be approximated (as a decimal) when the precise size is no
 Examples:
 - 1048576 for 1 Megabyte
 
+.. _21.c:
 
 21.c checkSum
 ~~~~~~~~~~~~~~~~~~~~
@@ -98,6 +99,7 @@ Examples:
 
 This attribute allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.
 
+.. _21.c.1:
 
 21.c.1 algorithm
 ^^^^^^^^^^^^^^^^^^^^^
@@ -124,6 +126,7 @@ Examples:
 - SHA-384
 - SHA-512
 
+.. _21.d:
 
 21.d accessRights
 ~~~~~~~~~~~~~~~~~~~~
@@ -145,6 +148,7 @@ Examples:
 - open access
 
 
+.. _21.d.1:
 
 21.d.1 accessRightsScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
