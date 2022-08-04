@@ -28,3 +28,5 @@ Free text.
 * Subtitle
 * TranslatedTitle
 * Other
+
+The titleType subproperty is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.

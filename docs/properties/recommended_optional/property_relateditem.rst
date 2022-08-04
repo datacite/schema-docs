@@ -3,10 +3,11 @@
 
 .. note::
    References to 2.1 and 20.11.1 should reference 20.12.1.
+   ALA-LC schemas footnote missing (20.2.1)
 
 **Occurrences:** 0-n
 
-**Definition:** Information about a resource related to the one being registered, e.g., a journal or book of which the article or chapter is part
+**Definition:** Information about a resource related to the one being registered
 
 **Allowed values, examples, other constraints:**
 
@@ -21,7 +22,7 @@ Can be used to provide series information or a text citation where the related r
 
 **Occurrences:** 1
 
-**Definition:** The type of the related item, e.g., journal article; book or chapter
+**Definition:** The general type of the related item
 
 **Allowed values, examples, other constraints:**
 
@@ -35,7 +36,7 @@ See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </append
 
 **Occurrences:** 1
 
-**Definition:** Description of the relationship of the resource being registered (A) and the related resource (B)
+**Definition:** Description of the relationship of the resource being registered (A) and the related item (B)
 
 **Allowed values, examples, other constraints:**
 
@@ -57,13 +58,15 @@ See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/ap
 
 Example: 10.1021/jacs.9b01862
 
+If relatedItemIdentifier is provided, an identical :doc:`/properties/recommended_optional/property_relatedidentifier` is strongly recommended for indexing.
+
 
 20.1.a relatedItemIdentifierType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** The type of the Identifier for the related item, e.g., DOI
+**Definition:** The type of the Identifier for the related item
 
 **Allowed values, examples, other constraints:**
 
@@ -163,7 +166,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 **Allowed values, examples, other constraints:**
 
-Examples based on the :ref:`20.11.1 <20.2.1>` names: Antoine; Mae
+Examples based on the `20.2.1`_ names: Antoine; Mae
 
 
 20.2.3 familyName
@@ -175,7 +178,7 @@ Examples based on the :ref:`20.11.1 <20.2.1>` names: Antoine; Mae
 
 **Allowed values, examples, other constraints:**
 
-Examples based on the :ref:`2.1 <20.2.1>` names: Charpy; Jemison
+Examples based on the `20.2.1`_ names: Charpy; Jemison
 
 
 20.3 Title
@@ -223,6 +226,8 @@ YYYY
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
 
@@ -234,6 +239,8 @@ Free text
 **Definition:** Issue number or name of the related item
 
 **Allowed values, examples, other constraints:**
+
+Use only with relationType "IsPublishedIn".
 
 Free text
 
@@ -247,6 +254,8 @@ Free text
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
 
@@ -258,6 +267,8 @@ Free text
 **Definition:** Type of the related item’s number, e.g., report number or article number
 
 **Allowed values, examples, other constraints:**
+
+Use only with relationType "IsPublishedIn".
 
 *Controlled List Values:*
 
@@ -276,6 +287,8 @@ Free text
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
 
@@ -287,6 +300,8 @@ Free text
 **Definition:** Last page of the related item, e.g., of the chapter, article, or conference paper in proceedings
 
 **Allowed values, examples, other constraints:**
+
+Use only with relationType "IsPublishedIn".
 
 Free text
 
@@ -312,6 +327,8 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
 
@@ -323,8 +340,6 @@ Free text
 **Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this subproperty may be repeated for each contributor.
 
 **Allowed values, examples, other constraints:**
-
-Note: DataCite infrastructure supports up to 10000 names. For name lists above that size, consider attribution via linking to the related metadata.
 
 Examples: Charpy, Antoine; Foo Data Center
 
