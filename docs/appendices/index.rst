@@ -8,3 +8,4 @@ Appendices
    appendix_3
    appendix_4
    appendix_5
+   appendix_7

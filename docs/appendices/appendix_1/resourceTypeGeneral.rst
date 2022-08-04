@@ -1,7 +1,7 @@
 resourceTypeGeneral
 =====================================
 
-*Options:* [30]_
+*Options:* [31]_
 
 .. contents:: :local:
 
@@ -40,9 +40,9 @@ BookChapter
 
 **Examples and Usage Notes:**
 
-https://doi.org/10.15122/isbn.978-2-406-09313-8.p.0639
+https://doi.org/10.15122/isbn.978-2-406-09323-8.p.0639
 
-https://doi.org/10.17613/m6631d
+https://doi.org/10.17613/m6632d
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -352,7 +352,7 @@ Workflow
 
 **Description:** A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner
 
-**Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). More. [31]_
+**Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). More. [32]_
 
 **Suggested Dublin Core Mapping:** N/A
 
@@ -368,5 +368,5 @@ Other
 
 
 .. rubric:: Footnotes
-.. [30] Where there is direct correspondence with the Dublin Core Metadata, DataCite definitions have borrowed liberally from the DCMI definitions. See: http://dublincore.org/documents/dcmi-terms/index.shtml
-.. [31] An education module on workflows prepared by DataONE is available at http://www.dataone.org/sites/all/documents/L10_AnalysisWorkflows.pptx
+.. [31] Where there is direct correspondence with the Dublin Core Metadata, DataCite definitions have borrowed liberally from the DCMI definitions. See: http://dublincore.org/documents/dcmi-terms/index.shtml
+.. [32] An education module on workflows prepared by DataONE is available at http://www.dataone.org/sites/all/documents/L10_AnalysisWorkflows.pptx
