@@ -40,9 +40,9 @@ BookChapter
 
 **Examples and Usage Notes:**
 
-https://doi.org/10.15122/isbn.978-2-406-09323-8.p.0639
+https://doi.org/10.15122/isbn.978-2-406-09313-8.p.0639
 
-https://doi.org/10.17613/m6632d
+https://doi.org/10.17613/m6631d
 
 **Suggested Dublin Core Mapping:** Text
 
