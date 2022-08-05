@@ -45,6 +45,7 @@ RelationType “IsPublishedIn” can be used to include series information, like
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples, and usage notes.
 
+.. _20.1:
 
 20.1 relatedItemIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -179,6 +180,7 @@ Examples based on the `20.2.1`_ names: Antoine; Mae
 
 Examples based on the `20.2.1`_ names: Charpy; Jemison
 
+.. _20.3:
 
 20.3 Title
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -191,6 +193,7 @@ Examples based on the `20.2.1`_ names: Charpy; Jemison
 
 Example: Journal of the American Chemical Society
 
+.. _20.3.a:
 
 20.3.a titleType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -215,6 +218,7 @@ The titleType subproperty is used when more than a single title is provided. Unl
 
 YYYY
 
+.. _20.5:
 
 20.5 volume
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -229,6 +233,7 @@ Use only with relationType "IsPublishedIn".
 
 Free text
 
+.. _20.6:
 
 20.6 issue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -243,6 +248,7 @@ Use only with relationType "IsPublishedIn".
 
 Free text
 
+.. _20.7:
 
 20.7 number
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,6 +263,7 @@ Use only with relationType "IsPublishedIn".
 
 Free text
 
+.. _20.7.a:
 
 20.7.a numberType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -276,13 +283,14 @@ Use only with relationType "IsPublishedIn".
 * Report
 * Other
 
+.. _20.8:
 
 20.8 firstPage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** First page of the related item, e.g., of the chapter, article, or conference paper in proceedings
+**Definition:** First page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings
 
 **Allowed values, examples, other constraints:**
 
@@ -290,20 +298,20 @@ Use only with relationType "IsPublishedIn".
 
 Free text
 
+.. _20.9:
 
 20.9 lastPage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** Last page of the related item, e.g., of the chapter, article, or conference paper in proceedings
+**Definition:** Last page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings
 
 **Allowed values, examples, other constraints:**
 
 Use only with relationType "IsPublishedIn".
 
 Free text
-
 
 20.10 Publisher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -316,6 +324,7 @@ Free text
 
 Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo, GitHub
 
+.. _20.11:
 
 20.11 edition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

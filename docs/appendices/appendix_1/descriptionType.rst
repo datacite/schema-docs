@@ -25,6 +25,7 @@ Methods
 
 Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.6078/D1K01X
 
+.. _SeriesInformation:
 
 SeriesInformation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
