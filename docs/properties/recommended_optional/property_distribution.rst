@@ -57,6 +57,8 @@ Examples:
 - https://zenodo.org/record/6591787/files/bagit.zip
 - https://zenodo.org/record/6591787/files/files.gzip
 
+See :doc:`/appendices/appendix_7` for recommendations on archive file formats.
+
 .. _21.b.1:
 
 21.b.1 lastUpdated
@@ -150,12 +152,12 @@ Examples:
 
 .. _21.d.1:
 
-21.d.1 accessRightsScheme
+21.d.1 accessRightsUri
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** The scheme used to define the access rights.
+**Definition:** The URI used to define the access rights.
 
 **Allowed values, examples, other constraints:**
 

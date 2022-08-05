@@ -15,7 +15,7 @@ Version 4.5 Update
    * :ref:`checkSum <21.c>`
    * :ref:`algorithm <21.c.1>`
    * :ref:`accessRights <21.d>`
-   * :ref:`accessRightsScheme <21.d.1>`
+   * :ref:`accessRightsUri <21.d.1>`
 
 Major Documentation changes:
 
