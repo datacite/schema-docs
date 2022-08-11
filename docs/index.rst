@@ -30,9 +30,6 @@ Members of the Metadata Working Group:
 * Kelly Stathis, DataCite
 * Kristian Garza, DataCite
 
-Contents
---------
-
 .. toctree::
    :titlesonly:
 

@@ -67,9 +67,18 @@ comments_config = {
 
 # LaTeX configuration
 
+latex_engine = "xelatex"
+
+# latex_logo = "_static/DataCite-Logo_secondary_small.png"
+
 # Continuous footnote numbering (see https://github.com/sphinx-doc/sphinx/issues/3652)
 latex_elements = {
+    'releasename': "Version",
+    'pointsize': '11pt',
     'preamble': r'''
+    \usepackage{charter}
+    \usepackage[defaultsans]{lato}
+    \usepackage{inconsolata}
     \makeatletter
     \def\FNH@footnoteenv@i[#1]{\FNH@footnoteenv}
     \def\FNH@footnotetextenv@i[#1]{\FNH@footnotetextenv}
@@ -79,3 +88,9 @@ latex_elements = {
     \makeatother
 ''',
 }
+
+latex_documents = [
+  ('index', 'DataCite-MetadataKernel_v4.5.tex',
+    u'DataCite Metadata Schema Documentation',
+    u'DataCite Metadata Working Group', 'howto'),
+]
