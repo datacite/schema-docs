@@ -70,7 +70,7 @@ See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 **Allowed values, examples, other constraints:**
 
-YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [30]_.
+YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
 
 .. _21.b.2:
 
@@ -169,4 +169,4 @@ Examples:
 - http://purl.org/coar/access_right/c_14cb for “metadata only”
 
 .. rubric:: Footnotes
-.. [30] https://www.w3.org/TR/NOTE-datetime
+.. [#f1] https://www.w3.org/TR/NOTE-datetime
