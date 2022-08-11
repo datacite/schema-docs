@@ -4,7 +4,7 @@ Citation of dynamic datasets
 For datasets that are continuously and rapidly updated, there are special challenges both in citation and
 preservation. For citation, four approaches are possible:
 
-a) Cite a specific slice [6]_ or subset (the set of updates to the dataset made during a particular period of time or to a particular area of the dataset); Example:
+a) Cite a specific slice [#f1]_ or subset (the set of updates to the dataset made during a particular period of time or to a particular area of the dataset); Example:
 
   Data Request T.Jansen; SAHFOS; Work published 2014 via SAHFOS ; Area Def: 54-65°N, 0-45°W. Temporal Def: 1980-2012 (April-August) Taxonomic Def: All zooplankton; (dataset). https://doi.org/10.7487/2014.15.1.1
 
@@ -16,7 +16,7 @@ c) Cite the continuously updated dataset6 but add an Access Date and Time to the
 
   Doe, J. and R. Roe. 2001. The FOO Data Set. Version 2.3. The FOO Data Center. (dataset). https://doi.org/10.xxxx/notfoo.547983. Accessed 1 May 2011.
 
-d) Cite a query [7]_, time-stamped for re-execution against a versioned database. The RDA recommended citation for this approach is:
+d) Cite a query [#f2]_, time-stamped for re-execution against a versioned database. The RDA recommended citation for this approach is:
 
   R. Roe. 2017. "The Moo Data Query" created at 2017-07-21 10:25:30 PID https://doi.org/10.xxxx/notmoo.857988. Subset of Moo Database (dataset). PID https://doi.org/10.xxxx/bigmoo.360873.
 
@@ -33,5 +33,5 @@ Notes:
 
 .. rubric:: Footnotes
 
-.. [6] Ball, A. & Duke, M. (2015, July 30). ‘How to Cite Datasets and Link to Publications’. DCC How-to Guides. Edinburgh : Digital Curation Centre. Retrieved April 13, 2017, from: http://www.dcc.ac.uk/resources/how-guides/cite- datasets#sec:versions
-.. [7] Rauber, A., Uytvanck, D. V., Asmi, A., & Proll, S. (2016, February 09). Identification of Reproducible Subsets for Data Citation, Sharing and Re-Use. Retrieved April 13, 2017, from https://www.rd- alliance.org/system/files/documents/TCDL-RDA-Guidelines_160411.pdf
+.. [#f1] Ball, A. & Duke, M. (2015, July 30). ‘How to Cite Datasets and Link to Publications’. DCC How-to Guides. Edinburgh : Digital Curation Centre. Retrieved April 13, 2017, from: http://www.dcc.ac.uk/resources/how-guides/cite- datasets#sec:versions
+.. [#f2] Rauber, A., Uytvanck, D. V., Asmi, A., & Proll, S. (2016, February 09). Identification of Reproducible Subsets for Data Citation, Sharing and Re-Use. Retrieved April 13, 2017, from https://www.rd- alliance.org/system/files/documents/TCDL-RDA-Guidelines_160411.pdf

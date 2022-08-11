@@ -5,7 +5,7 @@
 
 **Definition:** The Identifier is a unique string that identifies a resource.
 
-For software, determine whether the identifier is for a specific version of a piece of software, (per the Force11 Software Citation Principles [11]_), or for all versions.
+For software, determine whether the identifier is for a specific version of a piece of software, (per the Force11 Software Citation Principles [#f1]_), or for all versions.
 
 **Allowed values, examples, other constraints:**
 
@@ -29,4 +29,4 @@ DOI (Digital Object Identifier) registered by a DataCite member. Format should b
 * DOI
 
 .. rubric:: Footnotes
-.. [11] Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. (2016) Software citation principles. PeerJ Computer Science 2:e86 https://doi.org/10.7717/peerj-cs.86
+.. [#f1] Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. (2016) Software citation principles. PeerJ Computer Science 2:e86 https://doi.org/10.7717/peerj-cs.86
