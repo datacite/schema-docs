@@ -38,6 +38,7 @@ Contents
 
    introduction/index
    properties/index
-   notes
    appendices/index
+   guidance/index
+   notes 
    dublin_core

@@ -2,7 +2,7 @@ Introduction
 =====================================
 
 .. toctree::
-   datacite_consortium
-   datacite_community
-   metadata_schema
+   about_datacite
+   about_schema
    version_update
+   citation
