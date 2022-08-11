@@ -61,3 +61,18 @@ comments_config = {
       "optional": "config",
    }
 }
+
+# LaTeX configuration
+
+# Continuous footnote numbering (see https://github.com/sphinx-doc/sphinx/issues/3652)
+latex_elements = {
+    'preamble': r'''
+    \makeatletter
+    \def\FNH@footnoteenv@i[#1]{\FNH@footnoteenv}
+    \def\FNH@footnotetextenv@i[#1]{\FNH@footnotetextenv}
+    \def\sphinxfootnotemark [#1]%
+       {\ifx\thepage\relax\else\protect\spx@opt@BeforeFootnote
+                                 \protect\footnotemark\fi}%
+    \makeatother
+''',
+}

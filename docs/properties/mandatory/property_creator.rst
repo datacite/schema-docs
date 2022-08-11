@@ -24,7 +24,7 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note that the personal name, format should be: family, given. Names in non-roman scripts may be transliterated according to the ALA-LC tables [12]_.
+Note that the personal name, format should be: family, given. Names in non-roman scripts may be transliterated according to the `ALA-LC tables <http://www.loc.gov/catdir/cpso/roman.html>`_.
 
 2.1.a nameType
 ^^^^^^^^^^^^^^^^^^^
@@ -88,7 +88,7 @@ The format is dependent upon scheme.
 
 If nameIdentifier is used, nameIdentifierScheme is mandatory.
 
-Examples: ORCID [13]_, ISNI [14]_, ROR [15]_, GRID [16]_.
+Examples: ORCID [#f1]_, ISNI, ROR, GRID.
 
 
 2.4.b schemeURI
@@ -169,8 +169,4 @@ Examples:
 * https://www.grid.ac/
 
 .. rubric:: Footnotes
-.. [12] http://www.loc.gov/catdir/cpso/roman.html
-.. [13] https://orcid.org/. When entering an ORCID, follow these style guidelines: https://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier
-.. [14] https://isni.org/
-.. [15] https://ror.org/
-.. [16] https://grid.ac/
+.. [#f1] When entering an ORCID, follow these style guidelines: https://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier

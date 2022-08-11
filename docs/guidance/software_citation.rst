@@ -1,7 +1,7 @@
-Appendix 4: Version 4.1 Changes in support of software citation
+Support for software citation
 ================================================================================
 
-Appendix 4 provides a quick reference guide for all the 4.1 version changes in support of software citation.
+This page provides a quick reference guide for all the 4.1 version changes in support of software citation.
 
 Documentation updates
 ~~~~~~~~~~~~~~~~~~~~~~~
