@@ -58,8 +58,9 @@ html_css_files = [
 comments_config = {
    "utterances": {
       "repo": "github-org/github-repo",
-      "optional": "config",
-   }
+      "optional": "config"
+   },
+   "hypothesis": True
 }
 
 # LaTeX configuration
