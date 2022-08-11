@@ -12,22 +12,30 @@ Version 4.5 Update
 
    To make the DataCite Metadata Schema more easily usable on the web, we have updated the documentation structure. As a result, numbering for footnotes, tables, and selected appendices has changed from Version 4.4.
 
-.. note::
-
-   *To do: Summarize updates.*
+These changes are in response to requests from DataCite community members, people like you that have used the metadata schema and have imagined ways in which it might work better for their particular use cases. We are indebted to everyone who has provided us with their feedback, allowing us to improve our service for the broader DataCite community.
 
 Schema changes
 -----------------------------
 
-This release of the Metadata Schema contains...
+* Addition of new values to the :ref:`resourceTypeGeneral <10.a>` property:
 
-The remainder of the Version 4.5 changes are in response to requests from DataCite community members, people like you that have used the metadata schema and have imagined ways in which it might work better for their particular use cases. We are indebted to everyone who has provided us with their feedback, allowing us to improve our service for the broader DataCite community.
+ * :ref:`Instrument <Instrument>`
 
+* Addition of new relationType pair: :ref:`IsUsedBy <IsUsedBy>` and :ref:`Uses <Uses>`
 
 Documentation changes
 -----------------------------
 
-To be added
+* Changes and additions to these definitions, in support of instruments:
+
+ * :doc:`Title </properties/mandatory/property_title>`
+ * :doc:`Creator </properties/mandatory/property_creator>`
+ * :doc:`Contributor </properties/recommended_optional/property_contributor>`
+ * :doc:`AlternateIdentifier </properties/recommended_optional/property_alternateidentifier>`
+ * :doc:`Description </properties/recommended_optional/property_description>`
+ * :ref:`Description (TechnicalInfo) <TechnicalInfo>`
+
+* To enhance support for instruments, addition of new mapping: :doc:`/mappings/pidinst`
 
 New documentation structure
 -----------------------------

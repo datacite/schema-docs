@@ -104,6 +104,8 @@ If RelatedIdentifier is used, relationType is mandatory.
 * Requires
 * IsObsoletedBy
 * Obsoletes
+* IsUsedBy
+* Uses
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples and usage notes.
 
