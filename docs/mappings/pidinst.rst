@@ -6,73 +6,78 @@ PIDINST Schema [#f1]_ Mapping
 Table 4: PIDINST to DataCite Mapping
 ------------------------------------------------------
 
-+----------------------------+----------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                          |
-+============================+==========================================================+
-| **Identifier**             | Identifier                                               |
-+----------------------------+----------------------------------------------------------+
-| identifierType             | identifierType "DOI"                                     |
-+----------------------------+----------------------------------------------------------+
-| | **Name**                 | | Title                                                  |
-|                            | | → *Comments:* :ref:`inst_name`                         |
-+----------------------------+----------------------------------------------------------+
-| **Owner**                  | | Contributor with contributorType "HostingInstitution"  |
-|                            | | → *Comments:* :ref:`inst_owner`                        |
-+----------------------------+----------------------------------------------------------+
-| ownerName                  | contributorName                                          |
-+----------------------------+----------------------------------------------------------+
-| ownerIdentifier            | nameIdentifier                                           |
-+----------------------------+----------------------------------------------------------+
-| ownerIdentifierType        | nameIdentifierScheme                                     |
-+----------------------------+----------------------------------------------------------+
-| **Manufacturer**           | | Creator                                                |
-|                            | | → *Comments:* :ref:`inst_manufacturer`                 |
-+----------------------------+----------------------------------------------------------+
-| manufacturerName           | creatorName                                              |
-+----------------------------+----------------------------------------------------------+
-| manufacturerIdentifier     | nameIdentifier                                           |
-+----------------------------+----------------------------------------------------------+
-| manufacturerIdentifierType | nameIdentifierScheme                                     |
-+----------------------------+----------------------------------------------------------+
-| | **Model**                | | Description with descriptionType "TechnicalInfo"       |
-| | modelName                | | → *Comments:* :ref:`inst_model`                        |
-| | modelName                |                                                          |
-| | modelIdentifier          |                                                          |
-| | modelIdentifierType      |                                                          |
-+----------------------------+----------------------------------------------------------+
-| **Description**            | | Description with descriptionType "Abstract"            |
-|                            | | → *Comments:* :ref:`inst_description`                  |
-+----------------------------+----------------------------------------------------------+
-| | **InstrumentType**       | Description with descriptionType "TechnicalInfo"         |
-| | instrumentTypeName       |                                                          |
-| | instrumentTypeIdentifier |                                                          |
-+----------------------------+----------------------------------------------------------+
-| **MeasuredVariable**       | | Description with descriptionType "TechnicalInfo"       |
-|                            | | → *Comments:* :ref:`inst_measuredvariable`             |
-+----------------------------+----------------------------------------------------------+
-| **Date**                   | | Date with dateType "Other"                             |
-|                            | | → *Comments:* :ref:`inst_dates`                        |
-+----------------------------+----------------------------------------------------------+
-| **RelatedIdentifier**      | RelatedIdentifier                                        |
-+----------------------------+----------------------------------------------------------+
-| relatedIdentifierType      | relatedIdentifierType                                    |
-+----------------------------+----------------------------------------------------------+
-| relationType               | | relationType                                           |
-|                            | |                                                        |
-|                            | | *Suggested values:*                                    |
-|                            | | - "Describes", "IsDescribedBy"                         |
-|                            | | - "IsNewVersionOf", IsPreviousVersionOf"               |
-|                            | | - "HasPart", IsPartOf"                                 |
-|                            | | - "HasMetadata", IsMetadataFor"                        |
-|                            | | - "Uses", IsUsedBy"                                    |
-|                            | |                                                        |
-|                            | | → *Comments:* :ref:`inst_relationtypes`                |
-+----------------------------+----------------------------------------------------------+
-| **AlternateIdentifier**    | AlternateIdentifier                                      |
-+----------------------------+----------------------------------------------------------+
-| alternateIdentifierType    | | alternateIdentifierType                                |
-|                            | | → *Comments:* :ref:`inst_alternateidentifiers`         |
-+----------------------------+----------------------------------------------------------+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+   :class: longtable
+   :name: Table 4: PIDINST to DataCite Mapping
+
+   * - PIDINST Property
+     - DataCite v. 4.5
+   * - **Identifier**
+     - Identifier
+   * - identifierType
+     - identifierType "DOI"
+   * - **Name**
+     - | Title
+       | → *Comments:* :ref:`inst_name`
+   * - **Owner**
+     - | Contributor with contributorType "HostingInstitution"
+       | → *Comments:* :ref:`inst_owner`
+   * - ownerName
+     - contributorName
+   * - ownerIdentifier
+     - nameIdentifier
+   * - ownerIdentifierType
+     - nameIdentifierScheme
+   * - **Manufacturer**
+     - | Creator
+       | → *Comments:* :ref:`inst_manufacturer`
+   * - manufacturerName
+     - creatorName
+   * - manufacturerIdentifier
+     - nameIdentifier
+   * - manufacturerIdentifierType
+     - nameIdentifierScheme
+   * - | **Model**
+       | modelName
+       | modelIdentifier
+       | modelIdentifierType
+     - | Description with descriptionType "TechnicalInfo"
+       | → *Comments:* :ref:`inst_model`
+   * - **Description**
+     - | Description with descriptionType "Abstract"
+       | → *Comments:* :ref:`inst_description`
+   * - | **InstrumentType**
+       | instrumentTypeName
+       | instrumentTypeIdentifier
+     - Description with descriptionType "TechnicalInfo"
+   * - **MeasuredVariable**
+     - | Description with descriptionType "TechnicalInfo"
+       | → *Comments:* :ref:`inst_measuredvariable`
+   * - **Date**
+     - | Date with dateType "Other"
+       | → *Comments:* :ref:`inst_dates`
+   * - **RelatedIdentifier**
+     - RelatedIdentifier
+   * - relatedIdentifierType
+     - relatedIdentifierType
+   * - relationType
+     - | relationType
+       |
+       | *Suggested values:*
+       | "Describes", "IsDescribedBy"
+       | "IsNewVersionOf", IsPreviousVersionOf"
+       | "HasPart", IsPartOf"
+       | "HasMetadata", IsMetadataFor"
+       | "Uses", IsUsedBy"
+       |
+       | → *Comments:* :ref:`inst_relationtypes`
+   * - **AlternateIdentifier**
+     - AlternateIdentifier
+   * - alternateIdentifierType
+     - | alternateIdentifierType
+       | → *Comments:* :ref:`inst_alternateidentifiers`
 
 Comments
 ------------------------------------------------------
