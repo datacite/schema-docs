@@ -29,6 +29,18 @@ Schema changes
    * :ref:`publisherIdentifierScheme <4.b>`
    * :ref:`schemeURI <4.c>`
 
+ * Addition of a new :doc:`Distribution </properties/recommended_optional/property_distribution>` property. Subproperties:
+
+   * :ref:`mediaType <21.a>`
+   * :ref:`contentUrl <21.b>`
+   * :ref:`lastUpdated <21.b.1>`
+   * :ref:`byteSize <21.b.2>`
+   * :ref:`checkSum <21.c>`
+   * :ref:`algorithm <21.c.1>`
+   * :ref:`accessRights <21.d>`
+   * :ref:`accessRightsUri <21.d.1>`
+
+
 Documentation changes
 -----------------------------
 
@@ -45,6 +57,8 @@ Documentation changes
 * Correction of the cardinality for ``affiliationIdentifier`` (properties :ref:`2.5.a <2.5.a>` and :ref:`7.5.a <7.5.a>`).
 * Correction of the capitalization of ``schemeURI`` (properties :ref:`2.5.c <2.5.a>`, :ref:`7.5.c <7.5.c>`, and :ref:`19.2.b <19.2.b>`).
 * Addition of a note to :ref:`funderIdentifierType <19.2.a>` to indicate when it is mandatory.
+* To enhance support for the Distribution property, addition of a new guidance document: :doc:`/guidance/distribution`
+
 
 New documentation structure
 -----------------------------
