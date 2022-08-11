@@ -4,6 +4,8 @@
 
 project = 'DataCite Metadata Schema'
 author = 'DataCite Metadata Working Group'
+copyright = "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
 
 release = '4.5'
 version = '4.5'
