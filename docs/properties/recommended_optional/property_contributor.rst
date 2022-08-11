@@ -120,7 +120,7 @@ Examples based on the `7.1`_ names: Patel
 
 **Occurrences:** 0-n
 
-**Definition:** Uniquely identifies an individual or legal entity, according to various schemes
+**Definition:** Uniquely identifies an individual or legal entity, according to various schemes.
 
 **Allowed values, examples, other constraints:**
 
@@ -172,10 +172,12 @@ Free text.
 The contributor's nameType may be *Organizational* or *Personal*. In the case of an organizational contributor, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
+.. _7.5.a:
+
 7.5.a affiliationIdentifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Occurrences:** 0-n
+**Occurrences:** 0-1
 
 **Definition:** Uniquely identifies the organizational affiliation of the contributor.
 
@@ -199,7 +201,9 @@ If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
 
 Examples: ROR, GRID
 
-7.5.c SchemeURI
+.. _7.5.c:
+
+7.5.c schemeURI
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
