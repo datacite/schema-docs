@@ -48,7 +48,7 @@ Example: https://doi.org/10.13039/100000936
 
 *Controlled List Values:*
 
-* Crossref Funder ID [29]_
+* Crossref Funder ID [#f1]_
 * GRID
 * ISNI
 * ROR
@@ -110,4 +110,4 @@ Example: Socioenvironmental Monitoring of the Amazon Basin and Xingu
 
 
 .. rubric:: Footnotes
-.. [29] The Crossref service is called “Funder Registry” (https://www.crossref.org/services/funder-registry/) and Crossref Funder ID is the name for a Crossref identifier.
+.. [#f1] The Crossref service is called “Funder Registry” (https://www.crossref.org/services/funder-registry/) and Crossref Funder ID is the name for a Crossref identifier.
