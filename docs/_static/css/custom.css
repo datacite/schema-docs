@@ -16,7 +16,10 @@ a {
 /* Exceptions to link underlining */
 .wy-menu a,
 .wy-side-nav-search a,
-.wy-breadcrumbs a.icon  {
+.wy-breadcrumbs a.icon,
+h2 a,
+h3 a,
+h4 a  {
   text-decoration: none;
 }
 
@@ -28,7 +31,7 @@ a:hover, a:focus {
 /* Add bold to menu items with hover/focus */
 .wy-menu-vertical li ul li a:hover,
 .wy-menu-vertical li ul li a:focus {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /* Add missing focus state to menu */
@@ -38,6 +41,14 @@ a:hover, a:focus {
 }
 
 /* Override readthedocs theme with DataCite colors */
+
+/* Replace #d9d9d9 with #F5F5F5 */
+.wy-menu-vertical a,
+.wy-menu-vertical a:hover button.toctree-expand,
+.wy-menu-vertical a:focus button.toctree-expand,
+.wy-menu-vertical li ul li a {
+    color: #F5F5F5;
+}
 
 /* Replace #2980b9 with #007EAE */
 .wy-side-nav-search {
