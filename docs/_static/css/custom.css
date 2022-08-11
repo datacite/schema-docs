@@ -8,6 +8,35 @@
     vertical-align: top;
 }
 
+/* Add underline to links */
+a {
+  text-decoration: underline;
+}
+
+/* Exceptions to link underlining */
+.wy-menu a,
+.wy-side-nav-search a,
+.wy-breadcrumbs a.icon  {
+  text-decoration: none;
+}
+
+/* Add bold to links with focus */
+a:hover, a:focus {
+  font-weight: bold;
+}
+
+/* Add bold to menu items with hover/focus */
+.wy-menu-vertical li ul li a:hover,
+.wy-menu-vertical li ul li a:focus {
+  font-weight: 700;
+}
+
+/* Add missing focus state to menu */
+.wy-menu-vertical li.current a:hover,
+.wy-menu-vertical li.current a:focus {
+    background: #d6d6d6;
+}
+
 /* Override readthedocs theme with DataCite colors */
 
 /* Replace #2980b9 with #007EAE */
@@ -31,10 +60,16 @@
 .btn-link {
     color: #005B80;
 }
-.wy-dropdown-menu>dd>a:hover {
+
+/* Add focus state */
+.wy-dropdown-menu>dd>a:hover,
+.wy-dropdown-menu>dd>a:focus {
     background: #005B80;
 }
-.wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover {
+
+/* Add focus state */
+.wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover,
+.wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:focus {
     background: #005B80;
 }
 .wy-inline-validate.wy-inline-validate-info .wy-input-context {
@@ -52,7 +87,10 @@ a {
 .wy-nav .wy-menu-vertical header {
     color: #005B80;
 }
-.wy-nav .wy-menu-vertical a:hover {
+
+/* Add focus state */
+.wy-nav .wy-menu-vertical a:hover,
+.wy-nav .wy-menu-vertical a:focus {
     background-color: #005B80;
 }
 .wy-nav-top {
@@ -106,12 +144,18 @@ html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-cont
 
 
 /* Replace #4e4a4a with #3E556E*/
-.wy-menu-vertical a:hover {
+
+/* Add focus state */
+.wy-menu-vertical a:hover,
+.wy-menu-vertical a:focus {
     background-color: #3E556E;
 }
 
 /* Replace #3091d1 with #23527c*/
-.wy-nav-content a:hover {
+
+/* Add focus state */
+.wy-nav-content a:hover,
+.wy-nav-content a:focus {
     color: #23527c;
 }
 
