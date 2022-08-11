@@ -71,6 +71,9 @@ latex_engine = "xelatex"
 
 # latex_logo = "_static/DataCite-Logo_secondary_small.png"
 
+    # \addto\captionsenglish{\renewcommand{\tablename}{ }}
+    # \addto\captionsenglish{\renewcommand{\thetable}{ }}
+
 # Continuous footnote numbering (see https://github.com/sphinx-doc/sphinx/issues/3652)
 latex_elements = {
     'releasename': "Version",
@@ -81,6 +84,8 @@ latex_elements = {
     \usepackage{inconsolata}
     \usepackage{raleway}
     \renewcommand*{\setsansfont}{\raleway\fontsize{34}{36}\mdseries\upshape}
+    \renewcommand{\sphinxtablecontinued}[1]{}
+    \renewcommand{\sphinxstyletheadfamily}{\sffamily\bfseries}
     \makeatletter
     \def\FNH@footnoteenv@i[#1]{\FNH@footnoteenv}
     \def\FNH@footnotetextenv@i[#1]{\FNH@footnotetextenv}
