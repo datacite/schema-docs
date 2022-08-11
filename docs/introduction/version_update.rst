@@ -2,6 +2,7 @@ Version 4.5 Update
 ====================
 
 .. note::
+
    For the first time, the DataCite Metadata Working Group is releasing the DataCite Metadata Schema documentation as web documentation.
 
    To access the documentation in PDF or Epub format, access the menu in the bottom left corner or the links below:
