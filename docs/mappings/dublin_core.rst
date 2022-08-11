@@ -132,7 +132,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - Date
      - dcterms:date
    * - 8.a
-     - dateType [i]_
+     - dateType [#f1]_
      -
    * -
      - Accepted
@@ -186,7 +186,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - relatedIdentifierType
      - Not present in Dublin Core
    * - 12.b
-     - relationType [ii]_
+     - relationType [#f2]_
      -
    * -
      - isReferencedBy
@@ -362,7 +362,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - relatedItemType
      - dcterms:relation
    * - 20.b
-     - relationType [ii]_
+     - relationType [#f2]_
      -
    * -
      - isReferencedBy
@@ -454,6 +454,6 @@ The Metadata Working Group are in discussion with ongoing developments by a team
 
 .. rubric:: Footnotes
 
-.. [i] dateType is mandatory in DataCite if Date is used. Controlled List Values: Accepted, Available, Copyrighted, Collected, Created, Issued, Submitted, Updated.
+.. [#f1] dateType is mandatory in DataCite if Date is used. Controlled List Values: Accepted, Available, Copyrighted, Collected, Created, Issued, Submitted, Updated.
 
-.. [ii] relationType is mandatory in DataCite if RelatedIdentifier is used. Controlled List Values: IsCitedBy, Cites, IsSupplementTo, IsSupplementedBy, IsContinuedBy, Continues, IsDescribedBy, Describes, HasMetadata, IsMetadataFor, HasVersion, IsVersionOf, IsNewVersionOf, IsPreviousVersionOf, IsPartOf, HasPart, IsPublishedIn, IsReferencedBy, References, IsDocumentedBy, Documents, IsCompiledBy, Compiles, IsVariantFormOf, IsOriginalFormOf, IsIdenticalTo, IsReviewedBy, Reviews, IsDerivedFrom, IsSourceOf, IsRequiredBy, Requires, IsObsoletedBy, Obsoletes.
+.. [#f2] relationType is mandatory in DataCite if RelatedIdentifier is used. Controlled List Values: IsCitedBy, Cites, IsSupplementTo, IsSupplementedBy, IsContinuedBy, Continues, IsDescribedBy, Describes, HasMetadata, IsMetadataFor, HasVersion, IsVersionOf, IsNewVersionOf, IsPreviousVersionOf, IsPartOf, HasPart, IsPublishedIn, IsReferencedBy, References, IsDocumentedBy, Documents, IsCompiledBy, Compiles, IsVariantFormOf, IsOriginalFormOf, IsIdenticalTo, IsReviewedBy, Reviews, IsDerivedFrom, IsSourceOf, IsRequiredBy, Requires, IsObsoletedBy, Obsoletes.
