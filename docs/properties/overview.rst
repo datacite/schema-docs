@@ -152,15 +152,20 @@ Conventions
 -------------------
 
 Throughout this document, a naming convention has been used for all properties and sub-properties as
-follows: properties begin with a capital letter, whereas sub-properties begin with a lower case letter. If
-the name is a compound of more than one word, subsequent words begin with capital letters. [#f1]_
-
-“ID” indicates major properties by hierarchical number, and modifiers on those
-properties by lowercase letters. In the XML schema, the hierarchical numbers indicate elements of the
-schema, while lowercase letters indicate attributes of the related numbered element.
-
-“Occurrence (Occ)” indicates cardinality/quantity constraints for the properties as
 follows:
+- properties begin with a capital letter
+- sub-properties begin with a lower case letter.
+
+If the name is a compound of more than one word, subsequent words begin with capital letters. [#f1]_
+
+Each property is numbered. The major properties are numbered 1-21.
+
+In the XML schema, sub-properties can be either elements or attributes. These are indicated using numbers and letters:
+
+* numbers indicate *sub-elements*
+* letters indicate *attributes*
+
+“Occurrences" indicates cardinality/quantity constraints for the properties as follows:
 
 * 0-n = optional and repeatable
 * 0-1 = optional, but not repeatable
