@@ -42,7 +42,7 @@ a:hover, a:focus {
 
 /* Override readthedocs theme with DataCite colors */
 
-/* Replace #d9d9d9 with #F5F5F5 */
+/* Replace #d9d9d9 with #F5F5F5 (color) */
 .wy-menu-vertical a,
 .wy-menu-vertical a:hover button.toctree-expand,
 .wy-menu-vertical a:focus button.toctree-expand,
@@ -50,75 +50,60 @@ a:hover, a:focus {
     color: #F5F5F5;
 }
 
-/* Replace #2980b9 with #007EAE */
-.wy-side-nav-search {
-    background-color: #007EAE;
-}
+/* Replace #2980b9 with #007EAE (background-color)  */
+.wy-side-nav-search,
 .wy-side-nav-search img {
     background-color: #007EAE;
 }
 
-/* Replace #2980b9 with #005B80 */
-.rst-content .wy-alert-neutral.admonition-todo a, .rst-content .wy-alert-neutral.admonition a, .rst-content .wy-alert-neutral.attention a, .rst-content .wy-alert-neutral.caution a, .rst-content .wy-alert-neutral.danger a, .rst-content .wy-alert-neutral.error a, .rst-content .wy-alert-neutral.hint a, .rst-content .wy-alert-neutral.important a, .rst-content .wy-alert-neutral.note a, .rst-content .wy-alert-neutral.seealso a, .rst-content .wy-alert-neutral.tip a, .rst-content .wy-alert-neutral.warning a, .wy-alert.wy-alert-neutral a {
-    color: #005B80;
-}
+/* Replace #2980b9 with #005B80 (background)  */
+.wy-nav-top,
 .wy-tray-container li.wy-tray-item-info {
     background: #005B80;
 }
-.btn-info {
-    background-color: #005B80!important;
-}
-.btn-link {
-    color: #005B80;
-}
 
-/* Add focus state */
+/* Replace #2980b9 with #005B80 (background) and add focus state */
 .wy-dropdown-menu>dd>a:hover,
-.wy-dropdown-menu>dd>a:focus {
-    background: #005B80;
-}
-
-/* Add focus state */
+.wy-dropdown-menu>dd>a:focus,
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover,
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:focus {
     background: #005B80;
 }
-.wy-inline-validate.wy-inline-validate-info .wy-input-context {
-    color: #005B80;
-}
-a {
-    color: #005B80;
-}
-.wy-text-info {
-    color: #005B80!important;
-}
+
+/* Replace #2980b9 with #005B80 (background-color)  */
+.wy-nav-top img,
 .wy-menu-vertical a:active {
     background-color: #005B80;
 }
-.wy-nav .wy-menu-vertical header {
-    color: #005B80;
-}
 
-/* Add focus state */
+/* Replace #2980b9 with #005B80 (background-color) and add focus state */
 .wy-nav .wy-menu-vertical a:hover,
 .wy-nav .wy-menu-vertical a:focus {
     background-color: #005B80;
 }
-.wy-nav-top {
-    background: #005B80;
+
+/* Replace #2980b9 with #005B80 (background-color - !important) */
+.btn-info {
+    background-color: #005B80!important;
 }
-.wy-nav-top img {
-    background-color: #005B80;
+
+/* Replace #2980b9 with #005B80 (color)  */
+.rst-versions a,
+.rst-content a code, .rst-content a tt,
+html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt,
+.wy-nav .wy-menu-vertical header,
+.wy-inline-validate.wy-inline-validate-info .wy-input-context,
+a,
+.rst-content .wy-alert-neutral.admonition-todo a, .rst-content .wy-alert-neutral.admonition a, .rst-content .wy-alert-neutral.attention a, .rst-content .wy-alert-neutral.caution a, .rst-content .wy-alert-neutral.danger a, .rst-content .wy-alert-neutral.error a, .rst-content .wy-alert-neutral.hint a, .rst-content .wy-alert-neutral.important a, .rst-content .wy-alert-neutral.note a, .rst-content .wy-alert-neutral.seealso a, .rst-content .wy-alert-neutral.tip a, .rst-content .wy-alert-neutral.warning a, .wy-alert.wy-alert-neutral a,
+.btn-link {
+   color: #005B80;
 }
-.rst-versions a {
-    color: #005B80;
+
+/* Replace #2980b9 with #005B80 (color - !important)  */
+.wy-text-info {
+    color: #005B80!important;
 }
-.rst-content a code, .rst-content a tt {
-    color: #005B80;
-}
-html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt {
-    color: #005B80;
-}
+
 
 /* Replace #6ab0de with #0097C7 */
 html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt {
@@ -127,44 +112,32 @@ html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-cont
 html.writer-html4 .rst-content dl:not(.docutils)>dt:before, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt:before {
     color: #0097C7;
 }
-
 .rst-content .admonition-title, .wy-alert-title {
     background: #0097C7;
 }
-
-.rst-content .note .admonition-title, .rst-content .note .wy-alert-title, .rst-content .seealso .admonition-title, .rst-content .seealso .wy-alert-title, .rst-content .wy-alert-info.admonition-todo .admonition-title, .rst-content .wy-alert-info.admonition-todo .wy-alert-title, .rst-content .wy-alert-info.admonition .admonition-title, .rst-content .wy-alert-info.admonition .wy-alert-title, .rst-content .wy-alert-info.attention .admonition-title, .rst-content .wy-alert-info.attention .wy-alert-title, .rst-content .wy-alert-info.caution .admonition-title, .rst-content .wy-alert-info.caution .wy-alert-title, .rst-content .wy-alert-info.danger .admonition-title, .rst-content .wy-alert-info.danger .wy-alert-title, .rst-content .wy-alert-info.error .admonition-title, .rst-content .wy-alert-info.error .wy-alert-title, .rst-content .wy-alert-info.hint .admonition-title, .rst-content .wy-alert-info.hint .wy-alert-title, .rst-content .wy-alert-info.important .admonition-title, .rst-content .wy-alert-info.important .wy-alert-title, .rst-content .wy-alert-info.tip .admonition-title, .rst-content .wy-alert-info.tip .wy-alert-title, .rst-content .wy-alert-info.warning .admonition-title, .rst-content .wy-alert-info.warning .wy-alert-title, .rst-content .wy-alert.wy-alert-info .admonition-title, .wy-alert.wy-alert-info .rst-content .admonition-title, .wy-alert.wy-alert-info .wy-alert-title {
+.rst-content .note .admonition-title, .rst-content .note .wy-alert-title, .rst-content .seealso .admonition-title, .rst-content .seealso .wy-alert-title, .rst-content .wy-alert-info.admonition-todo .admonition-title, .rst-content .wy-alert-info.admonition-todo .wy-alert-title, .rst-content .wy-alert-info.admonition .admonition-title, .rst-content .wy-alert-info.admonition .wy-alert-title, .rst-content .wy-alert-info.attention .admonition-title,
+.rst-content .wy-alert-info.attention .wy-alert-title, .rst-content .wy-alert-info.caution .admonition-title, .rst-content .wy-alert-info.caution .wy-alert-title, .rst-content .wy-alert-info.danger .admonition-title, .rst-content .wy-alert-info.danger .wy-alert-title, .rst-content .wy-alert-info.error .admonition-title, .rst-content .wy-alert-info.error .wy-alert-title, .rst-content .wy-alert-info.hint .admonition-title,
+.rst-content .wy-alert-info.hint .wy-alert-title, .rst-content .wy-alert-info.important .admonition-title, .rst-content .wy-alert-info.important .wy-alert-title, .rst-content .wy-alert-info.tip .admonition-title, .rst-content .wy-alert-info.tip .wy-alert-title, .rst-content .wy-alert-info.warning .admonition-title, .rst-content .wy-alert-info.warning .wy-alert-title, .rst-content .wy-alert.wy-alert-info .admonition-title,
+.wy-alert.wy-alert-info .rst-content .admonition-title, .wy-alert.wy-alert-info .wy-alert-title {
     background: #0097C7;
 }
 
-/* Replace #e7f2fa with #EBF8FF */
-html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt {
+/* Replace #e7f2fa with #EBF8FF (background) */
+html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt,
+.rst-content .guilabel,
+.rst-content .admonition, .rst-content .admonition-todo, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .note, .rst-content .seealso, .rst-content .tip, .rst-content .warning, .wy-alert,
+.rst-content .note, .rst-content .seealso, .rst-content .wy-alert-info.admonition, .rst-content .wy-alert-info.admonition-todo, .rst-content .wy-alert-info.attention, .rst-content .wy-alert-info.caution, .rst-content .wy-alert-info.danger, .rst-content .wy-alert-info.error, .rst-content .wy-alert-info.hint, .rst-content .wy-alert-info.important, .rst-content .wy-alert-info.tip,
+.rst-content .wy-alert-info.warning, .wy-alert.wy-alert-info {
     background: #EBF8FF;
 }
 
-.rst-content .guilabel {
-    background: #EBF8FF;
-}
-
-.rst-content .admonition, .rst-content .admonition-todo, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .note, .rst-content .seealso, .rst-content .tip, .rst-content .warning, .wy-alert {
-    background: #EBF8FF;
-}
-
-.rst-content .note, .rst-content .seealso, .rst-content .wy-alert-info.admonition, .rst-content .wy-alert-info.admonition-todo, .rst-content .wy-alert-info.attention, .rst-content .wy-alert-info.caution, .rst-content .wy-alert-info.danger, .rst-content .wy-alert-info.error, .rst-content .wy-alert-info.hint, .rst-content .wy-alert-info.important, .rst-content .wy-alert-info.tip, .rst-content .wy-alert-info.warning, .wy-alert.wy-alert-info {
-    background: #EBF8FF;
-}
-
-
-/* Replace #4e4a4a with #3E556E*/
-
-/* Add focus state */
+/* Replace #4e4a4a with #3E556E (background-color) and add focus state */
 .wy-menu-vertical a:hover,
 .wy-menu-vertical a:focus {
     background-color: #3E556E;
 }
 
-/* Replace #3091d1 with #23527c*/
-
-/* Add focus state */
+/* Replace #3091d1 with #23527c (color) and add focus state */
 .wy-nav-content a:hover,
 .wy-nav-content a:focus {
     color: #23527c;
