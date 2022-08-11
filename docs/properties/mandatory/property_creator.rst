@@ -3,7 +3,7 @@
 
 **Occurrences:** 1-n
 
-**Definition:** The main researchers involved in producing the data, or the authors of the publication, in priority order. To supply multiple creators, repeat this property.
+**Definition:** The main researchers involved in producing the data, or the authors of the publication, in priority order. For instruments this is the manufacturer or developer of the instrument. To supply multiple creators, repeat this property.
 
 **Allowed values, examples, other constraints:**
 
@@ -122,10 +122,12 @@ Free text.
 The creator’s nameType may be *Organizational* or *Personal*. In the case of an organizational creator, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
+.. _2.5.a:
+
 2.5.a affiliationIdentifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Occurrences:** 0-n
+**Occurrences:** 0-1
 
 **Definition:** Uniquely identifies the organizational affiliation of the creator.
 
@@ -149,7 +151,9 @@ If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
 
 Examples: ROR, GRID
 
-2.5.c SchemeURI
+.. _2.5.c:
+
+2.5.c schemeURI
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
