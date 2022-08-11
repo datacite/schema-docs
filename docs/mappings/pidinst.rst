@@ -1,4 +1,4 @@
-Appendix 6:  PIDINST Schema [36]_ Mapping
+PIDINST Schema [#f1]_ Mapping
 =================================================================
 
 .. _Table 4:
@@ -218,4 +218,4 @@ Alternate Identifiers
 May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database. Indicate the type of the AlternateIdentifier.
 
 .. rubric:: Footnotes
-.. [36] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070
+.. [#f1] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070
