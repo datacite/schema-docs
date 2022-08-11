@@ -12,7 +12,7 @@
 
 Free text
 
-Note: DataCite Event Data [24]_ collects all references to related resources based on the relatedIdentifier property.
+Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_ collects all references to related resources based on the relatedIdentifier property.
 
 *Sub-properties:*
 
@@ -164,6 +164,3 @@ Examples: XSD, DDT, Turtle
 Use the controlled list values as stated in :ref:`10.1 <10.a>`.
 
 See Appendix for definitions, examples and usage notes.
-
-.. rubric:: Footnotes
-.. [24] https://support.datacite.org/docs/eventdata-guide

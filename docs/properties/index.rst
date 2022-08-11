@@ -4,5 +4,5 @@ DataCite Metadata Properties
 
 .. toctree::
    overview
-   citation
-   datacite_properties
+   mandatory/index
+   recommended_optional/index

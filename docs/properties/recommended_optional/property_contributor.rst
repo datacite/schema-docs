@@ -74,7 +74,7 @@ If Contributor is used, then contributorName is mandatory.
 
 Examples: Patel, Emily; ABC Foundation
 
-The personal name format should be: family, given. Non- roman names should be transliterated according to the ALA-LC schemas [17]_.
+The personal name format should be: family, given. Non- roman names should be transliterated according to the `ALA-LC schemas <http://www.loc.gov/catdir/cpso/roman.html>`_.
 
 7.1.a nameType
 ^^^^^^^^^^^^^^^^^^^
@@ -138,7 +138,7 @@ The format is dependent upon scheme.
 
 If nameIdentifier is used, nameIdentifierScheme is mandatory.
 
-Examples: ORCID [18]_, ISNI [19]_, ROR [20]_, GRID [21]_.
+Examples: ORCID [#f1]_, ISNI, ROR, GRID.
 
 
 7.4.b schemeURI
@@ -152,8 +152,8 @@ Examples: ORCID [18]_, ISNI [19]_, ROR [20]_, GRID [21]_.
 
 Examples:
 
-* http://www.isni.org
 * http://orcid.org
+* http://www.isni.org
 * https://ror.org/
 * https://www.grid.ac/
 
@@ -215,8 +215,4 @@ Examples:
 * https://www.grid.ac/
 
 .. rubric:: Footnotes
-.. [17] http://www.loc.gov/catdir/cpso/roman.html
-.. [18] https://orcid.org/ When entering an ORCID, follow these style guidelines: https://orcid.org/content/journal- article-display-guidelines
-.. [19] https://isni.org/
-.. [20] https://ror.org/
-.. [21] https://grid.ac/c/
+.. [#f1] When entering an ORCID, follow these style guidelines: https://orcid.org/content/journal- article-display-guidelines
