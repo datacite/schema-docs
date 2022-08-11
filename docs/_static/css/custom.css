@@ -19,13 +19,19 @@ a {
 .wy-breadcrumbs a.icon,
 h2 a,
 h3 a,
-h4 a  {
+h4 a {
   text-decoration: none;
 }
 
 /* Add bold to links with focus */
 a:hover, a:focus {
   font-weight: bold;
+}
+
+/* Exceptions to link bold */
+.ethical-sidebar a:hover,
+.ethical-sidebar a:focus {
+  font-weight: normal;
 }
 
 /* Add bold to menu items with hover/focus */
