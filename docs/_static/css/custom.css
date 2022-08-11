@@ -11,62 +11,64 @@
 /* Override readthedocs theme with DataCite colors */
 
 /* Replace #2980b9 with #007EAE */
-.rst-content .wy-alert-neutral.admonition-todo a, .rst-content .wy-alert-neutral.admonition a, .rst-content .wy-alert-neutral.attention a, .rst-content .wy-alert-neutral.caution a, .rst-content .wy-alert-neutral.danger a, .rst-content .wy-alert-neutral.error a, .rst-content .wy-alert-neutral.hint a, .rst-content .wy-alert-neutral.important a, .rst-content .wy-alert-neutral.note a, .rst-content .wy-alert-neutral.seealso a, .rst-content .wy-alert-neutral.tip a, .rst-content .wy-alert-neutral.warning a, .wy-alert.wy-alert-neutral a {
-    color: #007EAE;
-}
-.wy-tray-container li.wy-tray-item-info {
-    background: #007EAE;
-}
-.btn-info {
-    background-color: #007EAE!important;
-}
-.btn-link {
-    color: #007EAE;
-}
-.wy-dropdown-menu>dd>a:hover {
-    background: #007EAE;
-}
-.wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover {
-    background: #007EAE;
-}
-.wy-inline-validate.wy-inline-validate-info .wy-input-context {
-    color: #007EAE;
-}
-a {
-    color: #007EAE;
-}
-.wy-text-info {
-    color: #007EAE!important;
-}
-.wy-menu-vertical a:active {
-    background-color: #007EAE;
-}
 .wy-side-nav-search {
     background-color: #007EAE;
 }
 .wy-side-nav-search img {
     background-color: #007EAE;
 }
+
+/* Replace #2980b9 with #005B80 */
+.rst-content .wy-alert-neutral.admonition-todo a, .rst-content .wy-alert-neutral.admonition a, .rst-content .wy-alert-neutral.attention a, .rst-content .wy-alert-neutral.caution a, .rst-content .wy-alert-neutral.danger a, .rst-content .wy-alert-neutral.error a, .rst-content .wy-alert-neutral.hint a, .rst-content .wy-alert-neutral.important a, .rst-content .wy-alert-neutral.note a, .rst-content .wy-alert-neutral.seealso a, .rst-content .wy-alert-neutral.tip a, .rst-content .wy-alert-neutral.warning a, .wy-alert.wy-alert-neutral a {
+    color: #005B80;
+}
+.wy-tray-container li.wy-tray-item-info {
+    background: #005B80;
+}
+.btn-info {
+    background-color: #005B80!important;
+}
+.btn-link {
+    color: #005B80;
+}
+.wy-dropdown-menu>dd>a:hover {
+    background: #005B80;
+}
+.wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover {
+    background: #005B80;
+}
+.wy-inline-validate.wy-inline-validate-info .wy-input-context {
+    color: #005B80;
+}
+a {
+    color: #005B80;
+}
+.wy-text-info {
+    color: #005B80!important;
+}
+.wy-menu-vertical a:active {
+    background-color: #005B80;
+}
 .wy-nav .wy-menu-vertical header {
-    color: #007EAE;
+    color: #005B80;
 }
 .wy-nav .wy-menu-vertical a:hover {
-    background-color: #007EAE;
+    background-color: #005B80;
 }
 .wy-nav-top {
-    background: #007EAE;
+    background: #005B80;
 }
 .wy-nav-top img {
-    background-color: #007EAE;
+    background-color: #005B80;
 }
 .rst-versions a {
-    color: #007EAE;
+    color: #005B80;
 }
 .rst-content a code, .rst-content a tt {
-    color: #007EAE;
+    color: #005B80;
 }
 html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt {
-    color: #007EAE;
+    color: #005B80;
 }
 
 /* Replace #6ab0de with #0097C7 */
@@ -85,21 +87,21 @@ html.writer-html4 .rst-content dl:not(.docutils)>dt:before, html.writer-html5 .r
     background: #0097C7;
 }
 
-/* Replace #e7f2fa with #e5f9ff */
+/* Replace #e7f2fa with #EBF8FF */
 html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt {
-    background: #e5f9ff;
+    background: #EBF8FF;
 }
 
 .rst-content .guilabel {
-    background: #e5f9ff;
+    background: #EBF8FF;
 }
 
 .rst-content .admonition, .rst-content .admonition-todo, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .note, .rst-content .seealso, .rst-content .tip, .rst-content .warning, .wy-alert {
-    background: #e5f9ff;
+    background: #EBF8FF;
 }
 
 .rst-content .note, .rst-content .seealso, .rst-content .wy-alert-info.admonition, .rst-content .wy-alert-info.admonition-todo, .rst-content .wy-alert-info.attention, .rst-content .wy-alert-info.caution, .rst-content .wy-alert-info.danger, .rst-content .wy-alert-info.error, .rst-content .wy-alert-info.hint, .rst-content .wy-alert-info.important, .rst-content .wy-alert-info.tip, .rst-content .wy-alert-info.warning, .wy-alert.wy-alert-info {
-    background: #e5f9ff;
+    background: #EBF8FF;
 }
 
 
