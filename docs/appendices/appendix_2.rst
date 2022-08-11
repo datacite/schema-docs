@@ -217,11 +217,11 @@ Version 3.1 of the documentation includes these changes:
 Version 3.0 Update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 3.0 of the DataCite Metadata Schema included these changes [33]_.
+Version 3.0 of the DataCite Metadata Schema included these changes [#f1]_.
 
 * Correction of a problem with our way of depicting dates by
 
-  * implementing RKMS-ISO8601 [34]_ standard for depicting date ranges, so that a range is indicated as follows: 2004-03-02/2005-06-02
+  * implementing RKMS-ISO8601 [#f2]_ standard for depicting date ranges, so that a range is indicated as follows: 2004-03-02/2005-06-02
   * deleting ``startDate`` and ``endDate`` date types, and derogating these from earlier versions
 
 * Addition of a new ``GeoLocation`` property, with the sub-properties ``geoLocationPoint``, ``geoLocationBox``, ``geoLocationPlace`` supporting a simple depiction of geospatial information, as well as a free text description.
@@ -238,7 +238,7 @@ Version 3.0 of the DataCite Metadata Schema included these changes [33]_.
 * new sub-properties for ``relationType``: ``relatedMetadataSchema``, ``schemeURI`` and ``schemaType``, to be used only for the new ``relationType`` pair of ``HasMetadata``, ``IsMetadataFor``
 * Addition of ``schemeURI`` sub-property to the ``nameIdentifierScheme`` associated with ``CreatorName``, ``ContributorName`` and ``Subject``
 * Addition of the ``rightsURI`` sub-property to ``Rights``; ``Rights`` is now repeatable (within wrapper element ``rightsList``).
-* Implementation of the xml:lang attribute [35]_ that can be used on the properties ``Title``, ``Subject`` and ``Description``.
+* Implementation of the xml:lang attribute [#f3]_ that can be used on the properties ``Title``, ``Subject`` and ``Description``.
 * Removal of two system-generated administrative metadata fields: ``LastMetadataUpdate`` and ``MetadataVersionNumber`` because both values are tracked in another way now.
 
 
@@ -281,6 +281,6 @@ Version 2.1 of the DataCite Metadata Schema documentation included these changes
 
 
 .. rubric:: Footnotes
-.. [33] Two additional schema code level changes are the allowance of keeping optional wrapper elements empty and the allowance of arbitrary ordering of elements (by removal of <xs:sequence>).
-.. [34] The standard is documented here: http://www.ukoln.ac.uk/metadata/dcmi/collection-RKMS-ISO8601/
-.. [35] Allowed values IETF BCP 47, ISO 639-1 language codes, e.g. en, de, fr
+.. [#f1] Two additional schema code level changes are the allowance of keeping optional wrapper elements empty and the allowance of arbitrary ordering of elements (by removal of <xs:sequence>).
+.. [#f2] The standard is documented here: http://www.ukoln.ac.uk/metadata/dcmi/collection-RKMS-ISO8601/
+.. [#f3] Allowed values IETF BCP 47, ISO 639-1 language codes, e.g. en, de, fr

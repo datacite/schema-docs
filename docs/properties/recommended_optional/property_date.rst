@@ -7,7 +7,7 @@
 
 **Allowed values, examples, other constraints:**
 
-YYYY, YYYY-MM-DD, YYYY- MM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [22]_. Use RKMS- ISO8601 [23]_ standard for depicting date ranges.
+YYYY, YYYY-MM-DD, YYYY- MM-DDThh:mm:ssTZD or any other format or level of granularity described in `W3CDTF <https://www.w3.org/TR/NOTE-datetime>`_. Use `RKMS-ISO8601 <http://www.ukoln.ac.uk/metadata/dcmi/collection-RKMS-ISO8601/>`_ standard for depicting date ranges.
 
 Example: 2004-03-02/2005- 06-02.
 
@@ -57,7 +57,3 @@ See :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/append
 Free text.
 
 May be used to provide more information about the publication, release, or collection date details, for example. May also be used to clarify dates in ancient history. Examples: 55 BC, 55 BCE.
-
-.. rubric:: Footnotes
-.. [22] https://www.w3.org/TR/NOTE-datetime
-.. [23] The standard is documented here: http://www.ukoln.ac.uk/metadata/dcmi/collection -RKMS-ISO8601/

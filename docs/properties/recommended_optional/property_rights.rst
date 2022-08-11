@@ -20,7 +20,7 @@ May be used for software licenses.
 Examples:
 
 * Creative Commons Attribution 3.0 Germany License
-* Apache License, Version 2.0 [26]_
+* `Apache License, Version 2.0 <http://www.apache.org/licenses/>`_
 
 *Sub-properties:*
 
@@ -72,6 +72,3 @@ Example: SPDX
 **Allowed values, examples, other constraints:**
 
 Example: https://spdx.org/licenses/
-
-.. rubric:: Footnotes
-.. [26] http://www.apache.org/licenses/

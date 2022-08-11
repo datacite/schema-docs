@@ -9,7 +9,7 @@
 
 The use of this property indicates directly downloadable distributions. Every distribution should represent the same resource in its entirety. It should NOT be used to describe collections.
 
-Collections of files should be either using an archive format or a bagit folder structure. See :doc:`/appendices/appendix_7` for recommendations.
+Collections of files should be either using an archive format or a bagit folder structure. See :doc:`/guidance/distribution` for recommendations.
 
 *Sub-properties:*
 
@@ -57,7 +57,7 @@ Examples:
 - https://zenodo.org/record/6591787/files/bagit.zip
 - https://zenodo.org/record/6591787/files/files.gzip
 
-See :doc:`/appendices/appendix_7` for recommendations on archive file formats.
+See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 .. _21.b.1:
 
