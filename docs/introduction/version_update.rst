@@ -12,9 +12,7 @@ Version 4.5 Update
 
    To make the DataCite Metadata Schema more easily usable on the web, we have updated the documentation structure. As a result, numbering for footnotes, tables, and selected appendices has changed from Version 4.4.
 
-.. note::
-
-   *To do: Summarize updates.*
+These changes are in response to requests from DataCite community members, people like you that have used the metadata schema and have imagined ways in which it might work better for their particular use cases. We are indebted to everyone who has provided us with their feedback, allowing us to improve our service for the broader DataCite community.
 
 Schema changes
 -----------------------------
