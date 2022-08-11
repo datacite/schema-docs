@@ -1,4 +1,4 @@
-Citation of Dynamic Datasets
+Citation of dynamic datasets
 =====================================
 
 For datasets that are continuously and rapidly updated, there are special challenges both in citation and

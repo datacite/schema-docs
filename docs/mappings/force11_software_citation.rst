@@ -1,4 +1,4 @@
-Appendix 5:  FORCE11 Software Citation Principles [35]_ Mapping
+FORCE11 Software Citation Principles [35]_ Mapping
 =================================================================
 
 *FORCE11 requirements:*
