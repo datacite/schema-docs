@@ -79,6 +79,8 @@ latex_elements = {
     \usepackage{charter}
     \usepackage[defaultsans]{lato}
     \usepackage{inconsolata}
+    \usepackage{raleway}
+    \renewcommand*{\setsansfont}{\raleway\fontsize{34}{36}\mdseries\upshape}
     \makeatletter
     \def\FNH@footnoteenv@i[#1]{\FNH@footnoteenv}
     \def\FNH@footnotetextenv@i[#1]{\FNH@footnotetextenv}
