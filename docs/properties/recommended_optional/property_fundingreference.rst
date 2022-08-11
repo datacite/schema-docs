@@ -36,6 +36,7 @@ Example: Gordon and Betty Moore Foundation
 
 Example: https://doi.org/10.13039/100000936
 
+.. _19.2.a:
 
 19.2.a funderIdentifierType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -46,6 +47,8 @@ Example: https://doi.org/10.13039/100000936
 
 **Allowed values, examples, other constraints:**
 
+If funderIdentifier is used, funderIdentifierType is mandatory.
+
 *Controlled List Values:*
 
 * Crossref Funder ID [#f1]_
@@ -54,8 +57,9 @@ Example: https://doi.org/10.13039/100000936
 * ROR
 * Other
 
+.. _19.2.b:
 
-19.2.b SchemeURI
+19.2.b schemeURI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1

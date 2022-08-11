@@ -4,7 +4,10 @@
 **Occurrences:** 0-n
 
 **Definition:** The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. To supply multiple contributors, repeat this property.
+
 For software, if there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the contributorType "hostingInstitution" for the code repository.
+
+For instruments, if there is an institution responsible for the management of the instrument (for example, the legal owner, the operator, or an institute providing access to the instrument), use the contributorType “hostingInstitution” for the owner of the instrument.
 
 **Allowed values, examples, other constraints:**
 
@@ -117,7 +120,7 @@ Examples based on the `7.1`_ names: Patel
 
 **Occurrences:** 0-n
 
-**Definition:** Uniquely identifies an individual or legal entity, according to various schemes
+**Definition:** Uniquely identifies an individual or legal entity, according to various schemes.
 
 **Allowed values, examples, other constraints:**
 
@@ -169,10 +172,12 @@ Free text.
 The contributor's nameType may be *Organizational* or *Personal*. In the case of an organizational contributor, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
+.. _7.5.a:
+
 7.5.a affiliationIdentifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Occurrences:** 0-n
+**Occurrences:** 0-1
 
 **Definition:** Uniquely identifies the organizational affiliation of the contributor.
 
@@ -196,7 +201,9 @@ If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
 
 Examples: ROR, GRID
 
-7.5.c SchemeURI
+.. _7.5.c:
+
+7.5.c schemeURI
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
