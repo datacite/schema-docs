@@ -152,6 +152,8 @@ Use only with this relation pair:
 
 Examples: XSD, DDT, Turtle
 
+.. _12.f:
+
 12.f resourceTypeGeneral
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

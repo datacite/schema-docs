@@ -22,9 +22,9 @@ Schema changes
 Support for instruments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of new values to the :ref:`resourceTypeGeneral <10.a>` property:
+* Addition of :ref:`Instrument <Instrument>` to the :doc:`resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` controlled list values.
 
- * :ref:`Instrument <Instrument>`
+ * This value may used in :ref:`10.a resourceTypeGeneral <10.a>` and other places where resourceTypeGeneral is used (:ref:`12.f <12.f>`, :ref:`20.a <20.a>`).
 
 * Addition of new relationType pair: :ref:`IsUsedBy <IsUsedBy>` and :ref:`Uses <Uses>`
 
@@ -65,7 +65,7 @@ Support for instruments
  * :doc:`Contributor </properties/recommended_optional/property_contributor>`
  * :doc:`AlternateIdentifier </properties/recommended_optional/property_alternateidentifier>`
  * :doc:`Description </properties/recommended_optional/property_description>`
- * :ref:`Description (TechnicalInfo) <TechnicalInfo>`
+ * :ref:`descriptionType: TechnicalInfo <TechnicalInfo>`
 
 * To enhance support for instruments, addition of new mapping: :doc:`/mappings/pidinst`
 
