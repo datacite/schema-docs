@@ -5,7 +5,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
    This is a **draft** proposal for version 4.5 of the DataCite Metadata Schema. The proposal is open for public comment.
 
-   The most recent schema release (4.4) is available at: https://schema.datacite.org/.
+   The most recent schema release (4.4) is available at: https://schema.datacite.org/
 
 ..
   _Citation:

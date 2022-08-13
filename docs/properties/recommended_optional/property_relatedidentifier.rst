@@ -1,9 +1,6 @@
 12. RelatedIdentifier
 =======================
 
-.. note::
-   References to 10.1 should reference 10.a.
-
 **Occurrences:** 0-n
 
 **Definition:** Identifiers of related resources. These must be globally unique identifiers.
@@ -163,6 +160,6 @@ Examples: XSD, DDT, Turtle
 
 **Allowed values, examples, other constraints:**
 
-Use the controlled list values as stated in :ref:`10.1 <10.a>`.
+Use the controlled list values as stated in :ref:`10.a <10.a>`.
 
 See Appendix for definitions, examples and usage notes.

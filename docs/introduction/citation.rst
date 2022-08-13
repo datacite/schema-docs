@@ -31,4 +31,4 @@ Here are several examples:
 
 .. rubric:: Footnotes
 
-.. [#f1] In collaboration with CrossRef, DataCite has created a DOI Citation Formatter Service available at https://citation.crosscite.org/. The user can choose from more than 500 different citation formats in 45 different languages.
+.. [#f1] In collaboration with Crossref, DataCite has created a DOI Citation Formatter Service available at https://citation.crosscite.org/. The user can choose from more than 500 different citation formats in 45 different languages.

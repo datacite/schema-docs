@@ -52,7 +52,6 @@ If funderIdentifier is used, funderIdentifierType is mandatory.
 *Controlled List Values:*
 
 * Crossref Funder ID [#f1]_
-* GRID
 * ISNI
 * ROR
 * Other

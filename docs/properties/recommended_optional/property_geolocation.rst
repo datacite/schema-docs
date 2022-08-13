@@ -23,7 +23,7 @@ Repeat this property to indicate several different locations.
 
 **Allowed values, examples, other constraints:**
 
-A point contains a single longitude-latitude pair
+A point contains a single longitude-latitude pair. [#f1]_
 
 
 18.1.1 pointLongitude
@@ -35,7 +35,7 @@ A point contains a single longitude-latitude pair
 
 **Allowed values, examples, other constraints:**
 
-If geolocationPoint [#f1]_ is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If geolocationPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 Example: -67.302
 
@@ -51,7 +51,7 @@ Domain: -180 <= pointLongitude <= 180
 
 **Allowed values, examples, other constraints:**
 
-If geolocationPoint [#f1]_ is used, pointLatitude is mandatory.
+If geolocationPoint is used, pointLatitude is mandatory.
 
 Latitude of the geographic point expressed in decimal degrees (positive north)
 
@@ -69,7 +69,7 @@ Domain: -90<= pointLatitude <= 90
 
 **Allowed values, examples, other constraints:**
 
-A box is defined by two geographic points. Left low corner and right upper corner. Each point is defined by its longitude and latitude.
+A box is defined by two geographic points. Left low corner and right upper corner. Each point is defined by its longitude and latitude. [#f1]_
 
 
 18.2.1 westBoundLongitude
@@ -81,7 +81,7 @@ A box is defined by two geographic points. Left low corner and right upper corne
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox [#f1]_ is used westBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If geolocationBox is used, westBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
 
@@ -94,7 +94,7 @@ Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox [#f1]_ is used eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east)
+If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east)
 Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
 
@@ -107,7 +107,7 @@ Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox [#f1]_ is used southBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+If geolocationBox is used, southBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
 Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
 
@@ -120,7 +120,7 @@ Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox [#f1]_ is used northBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+If geolocationBox is used, northBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
 Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 
 
@@ -145,7 +145,7 @@ Free text. Use to describe a geographic location.
 
 **Allowed values, examples, other constraints:**
 
-A polygon is delimited by geographic points. Each point is defined by a longitude-latitude pair. The last point should be the same as the first point.
+A polygon is delimited by geographic points. Each point is defined by a longitude-latitude pair. The last point should be the same as the first point. [#f1]_
 
 
 18.4.1 polygonPoint
@@ -157,7 +157,7 @@ A polygon is delimited by geographic points. Each point is defined by a longitud
 
 **Allowed values, examples, other constraints:**
 
-If geoLocationPolygon [#f1]_ is used, polygonPoint must be used as well. There must be at least 4 non-aligned points to make a closed curve, with the last point described the same as the first point.
+If geoLocationPolygon is used, polygonPoint must be used as well. There must be at least 4 non-aligned points to make a closed curve, with the last point described the same as the first point.
 
 
 18.4.1.1 pointLongitude
@@ -169,7 +169,7 @@ If geoLocationPolygon [#f1]_ is used, polygonPoint must be used as well. There m
 
 **Allowed values, examples, other constraints:**
 
-If polygonPoint is used pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If polygonPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 Domain: -180 <= pointLongitude <= 180
 
@@ -183,7 +183,7 @@ Domain: -180 <= pointLongitude <= 180
 
 **Allowed values, examples, other constraints:**
 
-If polygonPoint is used pointLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+If polygonPoint is used, pointLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
 
 Domain: -90 <= pointLatitude <= 90
 
@@ -209,7 +209,7 @@ inPolygonPoint is only necessary to indicate the "inside" of the polygon if the 
 
 **Allowed values, examples, other constraints:**
 
-If inPolygonPoint [#f1]_ is used pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If inPolygonPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 
 18.4.2.2 pointLatitude
