@@ -74,7 +74,7 @@ If Contributor is used, then contributorName is mandatory.
 
 Examples: Patel, Emily; ABC Foundation
 
-The personal name format should be: family, given. Non- roman names should be transliterated according to the `ALA-LC schemas <http://www.loc.gov/catdir/cpso/roman.html>`_.
+The personal name format should be: family, given. Non- roman names should be transliterated according to the `ALA-LC schemas <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
 
 7.1.a nameType
@@ -165,8 +165,8 @@ Examples:
 
 Examples:
 
-* http://orcid.org/
-* http://isni.org/
+* https://orcid.org/
+* https://isni.org/
 * https://ror.org/
 
 
