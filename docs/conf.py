@@ -62,7 +62,7 @@ comments_config = {
       "repo": "github-org/github-repo",
       "optional": "config"
    },
-   "hypothesis": True
+   "hypothesis": False
 }
 
 # LaTeX configuration
