@@ -79,7 +79,6 @@ Other changes and corrections
 
 * Correction of the cardinality for ``affiliationIdentifier`` (properties :ref:`2.5.a <2.5.a>` and :ref:`7.5.a <7.5.a>`).
 * Correction of the capitalization of ``schemeURI`` (properties :ref:`2.5.c <2.5.c>`, :ref:`7.5.c <7.5.c>`, and :ref:`19.2.b <19.2.b>`).
-* Removal of ``GRID`` from the controlled list values for :ref:`funderIdentifierType <19.2.a>`.
 * Addition of a note to :ref:`funderIdentifierType <19.2.a>` to indicate when it is mandatory.
 * Updated examples for ``nameIdentifier`` and its attributes (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`).
 * Updated examples for ``affiliationIdentifier`` and its attributes (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`).
