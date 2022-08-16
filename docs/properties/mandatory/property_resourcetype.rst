@@ -15,7 +15,7 @@ Free-format text. The recommended content is a single term of some detail so tha
 
 .. rubric:: Example XML
 
-::
+.. code:: xml
 
  <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
 

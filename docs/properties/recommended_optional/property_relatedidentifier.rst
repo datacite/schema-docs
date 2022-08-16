@@ -15,6 +15,15 @@ Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy" resourceTypeGeneral="JournaArticle">10.21384/bar</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeType="XSD" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">https://example.com/</relatedIdentifier>
+  </relatedIdentifiers>
+
 .. _12.a:
 
 12.a relatedIdentifierType

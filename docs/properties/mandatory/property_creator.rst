@@ -15,7 +15,7 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 
 .. rubric:: Example XML
 
-::
+.. code:: xml
 
   <creators>
       <creator>
@@ -23,7 +23,7 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
           <givenName>Sofia</givenName>
           <familyName>Garcia</familyName>
           <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" SchemeURI="https://ror.org">Arizona State University</affiliation>
+          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
       </creator>
       <creator>
           <creatorName xml:lang="en" nameType="Organizational">California Digital Library</creatorName>

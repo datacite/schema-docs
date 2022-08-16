@@ -13,6 +13,12 @@ Can be used to provide series information or a text citation where the related r
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. note::
+
+   To do: *Add reference to Related Item guidance.*
+
 .. _20.a:
 
 20.a relatedItemType

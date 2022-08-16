@@ -15,7 +15,7 @@ If there is no standard publication year value, use the date that would be prefe
 
 .. rubric:: Example XML
 
-::
+.. code:: xml
 
   <publicationYear>2022</publicationYear>
 

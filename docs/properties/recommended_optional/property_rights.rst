@@ -26,6 +26,14 @@ Examples:
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <rightsList>
+    <rights xml:lang="en" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by/4.0/"/>
+  </rightsList>
+
 16.a rightsURI
 ~~~~~~~~~~~~~~~~~~~~~~
 

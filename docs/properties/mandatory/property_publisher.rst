@@ -17,9 +17,9 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 .. rubric:: Example XML
 
-::
+.. code:: xml
 
- <publisher publisherIdentifier="http://doi.org/10.17616/R3J014" publisherIdentifierScheme="re3data" schemeURI="https://www.re3data.org">Global Biodiversity Information Facility</publisher>
+ <publisher xml:lang="en" publisherIdentifier="http://doi.org/10.17616/R3J014" publisherIdentifierScheme="re3data" schemeURI="https://www.re3data.org">Global Biodiversity Information Facility</publisher>
 
 .. _4.a:
 

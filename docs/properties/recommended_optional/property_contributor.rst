@@ -19,6 +19,24 @@ Examples: Charpy, Antoine; Foo Data Center
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <contributors>
+      <contributor contributorType="Data Collector">
+          <contributorName nameType="Personal">Garcia, Sofia</contributorName>
+          <givenName>Sofia</givenName>
+          <familyName>Garcia</familyName>
+          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
+          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
+      </contributor>
+      <contributor contributorType="HostingInstitution">
+          <contributorName xml:lang="en" nameType="Organizational">California Digital Library</contributorName>
+          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+      </contributor>
+  </contributors>
+
 .. _7.a:
 
 7.a contributorType

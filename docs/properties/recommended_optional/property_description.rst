@@ -15,6 +15,14 @@ It is a best practice to supply a description.
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <descriptions>
+      <description xml:lang="en" descriptionType="Abstract">Example abstract</date>
+  </descriptions>
+
 
 17.a descriptionType
 ~~~~~~~~~~~~~~~~~~~~~~

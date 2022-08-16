@@ -13,6 +13,27 @@ Repeat this property to indicate several different locations.
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Disko Bay</geoLocationPlace>
+      <geoLocationPoint>
+        <pointLongitude>-52.000000</pointLongitude>
+        <pointLatitude>69.000000</pointLatitude>
+      </geoLocationPoint>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationBox>
+        <westBoundLongitude>-123.27</westBoundLongitude>
+        <eastBoundLongitude>-123.225</eastBoundLongitude>
+        <southBoundLatitude>49.24</southBoundLatitude>
+        <northBoundLatitude>49.28</northBoundLatitude>
+      </geoLocationBox>
+    </geoLocation>
+  </geoLocations>
 
 18.1 geolocationPoint
 ~~~~~~~~~~~~~~~~~~~~~~~~~

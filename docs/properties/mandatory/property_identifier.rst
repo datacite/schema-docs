@@ -17,7 +17,7 @@ DOI (Digital Object Identifier) registered by a DataCite member. Format should b
 
 .. rubric:: Example XML
 
-::
+.. code:: xml
 
  <identifier identifierType="DOI">10.21384/foo</identifier>
 

@@ -10,3 +10,11 @@
 Free text
 
 Use file extension or MIME type where possible, e.g., PDF, XML, MPG or application/pdf, text/xml, video/mpeg.
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <formats>
+      <format>application/xml</format>
+  </formats>

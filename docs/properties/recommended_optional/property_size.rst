@@ -10,3 +10,12 @@
 Free text
 
 Examples: "15 pages", "6 MB", “45 minutes”
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <sizes>
+    <size>15 pages</size>
+    <size>1 MB</size>
+  </sizes>

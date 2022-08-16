@@ -15,6 +15,14 @@ Example: E-GEOD-34814
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <alternateIdentifiers>
+      <alternateIdentifier alternateIdentifierType="Local accession number">E-GEOD-34814</alternateIdentifier>
+  </alternateIdentifiers>
+
 11.a alternateIdentifierType
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -26,4 +34,4 @@ Example: E-GEOD-34814
 
 Free text
 
-If alternateIdentifier is used, alternateIdentifierType is mandatory. For the above example, the alternateIdentifierType would be “A local accession number”
+If alternateIdentifier is used, alternateIdentifierType is mandatory. For the above example, the alternateIdentifierType would be “Local accession number”

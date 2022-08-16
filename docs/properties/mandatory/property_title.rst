@@ -15,7 +15,7 @@ Free text.
 
 .. rubric:: Example XML
 
-::
+.. code:: xml
 
   <titles>
       <title xml:lang="en">Example title</title>
