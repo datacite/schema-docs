@@ -170,7 +170,7 @@ Recommended for discovery.
 
 Primarily this relation is applied to container-contained type relationships.
 
-Note: May be used for individual software modules; note that code repository-to-version relationships should be modeled using IsVersionOf and HasVersion
+May be used for individual software modules; note that code repository-to-version relationships should be modeled using IsVersionOf and HasVersion
 
 Recommended for discovery. ::
 
@@ -188,7 +188,7 @@ Recommended for discovery.
 
 Primarily this relation is applied to container-contained type relationships.
 
-Note: May be used for individual software modules; note that code repository-to-version relationships should be modeled using IsVersionOf and HasVersion
+May be used for individual software modules; note that code repository-to-version relationships should be modeled using IsVersionOf and HasVersion
 
 Recommended for discovery. ::
 
@@ -228,22 +228,24 @@ References
 IsDocumentedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates B is documentation about/explaining A; e.g. points to software documentation
+**Definition:** indicates B is documentation about/explaining A
 
 **Example and Usage Notes:**::
 
 <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">http://tobias-lib.uni-tuebingen.de/volltexte/2000/96/</relatedIdentifier>
 
+May be used for software documentation.
 
 Documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is documentation about B; e.g. points to software documentation
+**Definition:** indicates A is documentation about/explaining B
 
 **Example and Usage Notes:**::
 
 <relatedIdentifier relatedIdentifierType="DOI" relationType="Documents">10.1234/7836</relatedIdentifier>
 
+May be used for software documentation.
 
 IsCompiledBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -254,7 +256,7 @@ IsCompiledBy
 
 <relatedIdentifier relatedIdentifierType="URL" relationType="isCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
 
-Note: This may be used to indicate either a traditional text compilation, or the compiler program used to generate executable software.
+May be used to indicate either a traditional text compilation, or the compiler program used to generate executable software.
 
 
 Compiles
@@ -266,7 +268,7 @@ Compiles
 
 <relatedIdentifier relatedIdentifierType="URN" relationType="Compiles">urn:nbn:de:bsz:21-opus-963</relatedIdentifier>
 
-Note: may be used for software and text, as a compiler can be a computer program or a person.
+May be used for software and text, as a compiler can be a computer program or a person.
 
 
 IsVariantFormOf
@@ -364,7 +366,7 @@ IsRequiredBy
 
 <relatedIdentifier relatedIdentifierType="DOI" relationType="IsRequiredBy">10.1234/8675</relatedIdentifier>
 
-Note: May be used to indicate software dependencies.
+May be used to indicate software dependencies.
 
 
 Requires
@@ -376,7 +378,7 @@ Requires
 
 <relatedIdentifier relatedIdentifierType="DOI" relationType="Requires">10.1234/867</relatedIdentifier>
 
-Note: May be used to indicate software dependencies.
+May be used to indicate software dependencies.
 
 
 Obsoletes

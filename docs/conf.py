@@ -4,6 +4,8 @@
 
 project = 'DataCite Metadata Schema'
 author = 'DataCite Metadata Working Group'
+copyright = "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
 
 release = '4.5'
 version = '4.5'
@@ -58,15 +60,32 @@ html_css_files = [
 comments_config = {
    "utterances": {
       "repo": "github-org/github-repo",
-      "optional": "config",
-   }
+      "optional": "config"
+   },
+   "hypothesis": True
 }
 
 # LaTeX configuration
 
+latex_engine = "xelatex"
+
+# latex_logo = "_static/DataCite-Logo_secondary_small.png"
+
+    # \addto\captionsenglish{\renewcommand{\tablename}{ }}
+    # \addto\captionsenglish{\renewcommand{\thetable}{ }}
+
 # Continuous footnote numbering (see https://github.com/sphinx-doc/sphinx/issues/3652)
 latex_elements = {
+    'releasename': "Version",
+    'pointsize': '11pt',
     'preamble': r'''
+    \usepackage{charter}
+    \usepackage[defaultsans]{lato}
+    \usepackage{inconsolata}
+    \usepackage{raleway}
+    \renewcommand*{\setsansfont}{\raleway\fontsize{34}{36}\mdseries\upshape}
+    \renewcommand{\sphinxtablecontinued}[1]{}
+    \renewcommand{\sphinxstyletheadfamily}{\sffamily\bfseries}
     \makeatletter
     \def\FNH@footnoteenv@i[#1]{\FNH@footnoteenv}
     \def\FNH@footnotetextenv@i[#1]{\FNH@footnotetextenv}
@@ -76,3 +95,9 @@ latex_elements = {
     \makeatother
 ''',
 }
+
+latex_documents = [
+  ('index', 'DataCite-MetadataKernel_v4.5.tex',
+    u'DataCite Metadata Schema Documentation',
+    u'DataCite Metadata Working Group', 'howto'),
+]

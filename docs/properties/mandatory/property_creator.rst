@@ -24,7 +24,8 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note that the personal name, format should be: family, given. Names in non-roman scripts may be transliterated according to the `ALA-LC tables <http://www.loc.gov/catdir/cpso/roman.html>`_.
+Note that the personal name, format should be: family, given. Names in non-roman scripts may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
+
 
 2.1.a nameType
 ^^^^^^^^^^^^^^^^^^^
@@ -65,6 +66,8 @@ Examples based on the 2.1 names: Antoine; Mae
 Examples based on the 2.1 names: Charpy; Jemison
 
 
+.. _2.4:
+
 2.4 nameIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -75,6 +78,12 @@ Examples based on the 2.1 names: Charpy; Jemison
 **Allowed values, examples, other constraints:**
 
 The format is dependent upon scheme.
+
+Examples:
+
+* https://orcid.org/0000-0001-5727-2427
+* https://isni.org/isni/0000000492299539
+* https://ror.org/04aj4c181
 
 
 2.4.a nameIdentifierScheme
@@ -88,7 +97,11 @@ The format is dependent upon scheme.
 
 If nameIdentifier is used, nameIdentifierScheme is mandatory.
 
-Examples: ORCID [#f1]_, ISNI, ROR, GRID.
+Examples:
+
+* ORCID
+* ISNI
+* ROR
 
 
 2.4.b schemeURI
@@ -102,11 +115,12 @@ Examples: ORCID [#f1]_, ISNI, ROR, GRID.
 
 Examples:
 
-* http://www.isni.org
-* http://orcid.org
+* https://orcid.org/
+* https://isni.org/
 * https://ror.org/
-* https://www.grid.ac/
 
+
+.. _2.5:
 
 2.5 affiliation
 ~~~~~~~~~~~~~~~~~~~
@@ -122,6 +136,12 @@ Free text.
 The creator’s nameType may be *Organizational* or *Personal*. In the case of an organizational creator, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
+Examples:
+
+* German National Library of Science and Technology
+* DataCite
+
+
 .. _2.5.a:
 
 2.5.a affiliationIdentifier
@@ -133,10 +153,13 @@ this will often be the name of the institution to which that organization belong
 
 **Allowed values, examples, other constraints:**
 
-The format is dependent upon scheme. Examples:
+The format is dependent upon scheme.
+
+Examples:
 
 * https://ror.org/04aj4c181
-* grid.461819.3
+* https://isni.org/isni/0000000492299539
+
 
 2.5.b affiliationIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -149,7 +172,11 @@ The format is dependent upon scheme. Examples:
 
 If affiliationIdentifier is used, affiliationIdentifierScheme is mandatory.
 
-Examples: ROR, GRID
+Examples:
+
+* ROR
+* ISNI
+
 
 .. _2.5.c:
 
@@ -164,9 +191,5 @@ Examples: ROR, GRID
 
 Examples:
 
-* https://isni.org
 * https://ror.org/
-* https://www.grid.ac/
-
-.. rubric:: Footnotes
-.. [#f1] When entering an ORCID, follow these style guidelines: https://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier
+* https://isni.org/

@@ -22,9 +22,9 @@ Schema changes
 Support for instruments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of new values to the :ref:`resourceTypeGeneral <10.a>` property:
+* Addition of :ref:`Instrument <Instrument>` to the :doc:`resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` controlled list values.
 
- * :ref:`Instrument <Instrument>`
+ * This value may used in :ref:`10.a resourceTypeGeneral <10.a>` and other places where resourceTypeGeneral is used (:ref:`12.f <12.f>`, :ref:`20.a <20.a>`).
 
 * Addition of new relationType pair: :ref:`IsUsedBy <IsUsedBy>` and :ref:`Uses <Uses>`
 
@@ -65,7 +65,7 @@ Support for instruments
  * :doc:`Contributor </properties/recommended_optional/property_contributor>`
  * :doc:`AlternateIdentifier </properties/recommended_optional/property_alternateidentifier>`
  * :doc:`Description </properties/recommended_optional/property_description>`
- * :ref:`Description (TechnicalInfo) <TechnicalInfo>`
+ * :ref:`descriptionType: TechnicalInfo <TechnicalInfo>`
 
 * To enhance support for instruments, addition of new mapping: :doc:`/mappings/pidinst`
 
@@ -90,9 +90,13 @@ Other changes and corrections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Correction of the cardinality for ``affiliationIdentifier`` (properties :ref:`2.5.a <2.5.a>` and :ref:`7.5.a <7.5.a>`).
-* Correction of the capitalization of ``schemeURI`` (properties :ref:`2.5.c <2.5.a>`, :ref:`7.5.c <7.5.c>`, and :ref:`19.2.b <19.2.b>`).
+* Correction of the capitalization of ``schemeURI`` (properties :ref:`2.5.c <2.5.c>`, :ref:`7.5.c <7.5.c>`, and :ref:`19.2.b <19.2.b>`).
 * Addition of a note to :ref:`funderIdentifierType <19.2.a>` to indicate when it is mandatory.
 * Addition of a note to :ref:`3.a titleType <3.a>` (subproperty of :doc:`/properties/mandatory/property_title`) to match the corresponding note in :ref:`20.3.a titleType <20.3.a>` (subproperty of :ref:`20.3 Title <20.3>` in :doc:`/properties/recommended_optional/property_relateditem`).
+* Updated examples for ``nameIdentifier`` and its attributes (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`).
+* Updated examples for ``affiliationIdentifier`` and its attributes (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`).
+* Other minor corrections to definitions and examples.
+
 
 New documentation structure
 -----------------------------

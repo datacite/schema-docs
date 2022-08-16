@@ -138,7 +138,7 @@ Example::
 
 <resourceType resourceTypeGeneral="Dissertation">PhD thesis</resourceType>
 
-**Suggested Dublin Core Mapping:** ---
+**Suggested Dublin Core Mapping:** Text
 
 
 Event
