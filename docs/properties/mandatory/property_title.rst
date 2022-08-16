@@ -13,6 +13,15 @@ Free text.
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+::
+
+  <titles>
+      <title xml:lang="en">Example title</title>
+      <title xml:lang="en" titleType="Subtitle">Example subtitle</title>
+  </titles>
+
 3.a titleType
 ~~~~~~~~~~~~~~~~~~~~~~
 

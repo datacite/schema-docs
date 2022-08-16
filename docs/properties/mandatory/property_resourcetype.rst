@@ -13,6 +13,12 @@ Free-format text. The recommended content is a single term of some detail so tha
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+::
+
+ <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
+
 .. _10.a:
 
 10.a resourceTypeGeneral

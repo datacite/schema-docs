@@ -11,6 +11,12 @@ For software, use Publisher for the code repository. If there is an entity other
 
 Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo, GitHub
 
+.. rubric:: Example XML
+
+::
+
+ <publisher publisherIdentifier="http://doi.org/10.17616/R3J014" publisherIdentifierScheme="re3data" schemeURI="https://www.re3data.org">Global Biodiversity Information Facility</publisher>
+
 .. _4.a:
 
 4.a publisherIdentifier

@@ -15,6 +15,13 @@ DOI (Digital Object Identifier) registered by a DataCite member. Format should b
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+::
+
+ <identifier identifierType="DOI">10.21384/foo</identifier>
+
+
 1.a identifierType
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -27,6 +34,8 @@ DOI (Digital Object Identifier) registered by a DataCite member. Format should b
 *Controlled List Value:*
 
 * DOI
+
+
 
 .. rubric:: Footnotes
 .. [#f1] Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. (2016) Software citation principles. PeerJ Computer Science 2:e86 https://doi.org/10.7717/peerj-cs.86
