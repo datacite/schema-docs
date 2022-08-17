@@ -351,6 +351,22 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _StudyRegistration:
+
+StudyRegistration
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:**  A detailed, time-stamped description of the research plan, often openly shared before the study is conducted to lend accountability and transparency in the hypothesis generating and testing process.
+
+**Examples and Usage Notes:** Includes pre-registrations, registered reports, and clinical trials. Study registrations are sometimes peer-reviewed and may include the hypothesis, expected results, study design, and/or analysis plan.
+
+Example::
+
+<resourceType resourceTypeGeneral="StudyRegistration">Pre-registration</resourceType>
+
+**Suggested Dublin Core Mapping:** Text
+
+
 Text
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
