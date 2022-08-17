@@ -150,7 +150,7 @@ Examples:
 - open access
 
 
-.. _21.4.a:
+.. _21.3.a:
 
 21.3.a accessRightsUri
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
