@@ -42,14 +42,14 @@ Distribution property
 
  * Addition of a new :doc:`Distribution </properties/recommended_optional/property_distribution>` property. Subproperties:
 
-   * :ref:`mediaType <21.1>`
-   * :ref:`contentUrl <21.2>`
-   * :ref:`lastUpdated <21.2.a>`
-   * :ref:`byteSize <21.2.b>`
-   * :ref:`checkSum <21.3>`
-   * :ref:`algorithm <21.3.a>`
-   * :ref:`accessRights <21.4>`
-   * :ref:`accessRightsUri <21.4.a>`
+   * :ref:`mediaType <21.a>`
+   * :ref:`contentUrl <21.1>`
+   * :ref:`lastUpdated <21.1.a>`
+   * :ref:`byteSize <21.1.b>`
+   * :ref:`checkSum <21.2>`
+   * :ref:`algorithm <21.2.a>`
+   * :ref:`accessRights <21.3>`
+   * :ref:`accessRightsUri <21.3.a>`
 
 
 Documentation changes

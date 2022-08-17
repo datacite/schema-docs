@@ -15,9 +15,9 @@ Collections of files should be either using an archive format or a bagit folder 
 
 .. contents:: :local:
 
-.. _21.1:
+.. _21.a:
 
-21.1 mediaType
+21.a mediaType
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -35,9 +35,9 @@ Examples:
 - application/zip
 - audio/mpeg
 
-.. _21.2:
+.. _21.1:
 
-21.2 contentUrl
+21.1 contentUrl
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -59,9 +59,9 @@ Examples:
 
 See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
-.. _21.2.a:
+.. _21.1.a:
 
-21.2.a lastUpdated
+21.1.a lastUpdated
 ^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -72,9 +72,9 @@ See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
 
-.. _21.2.b:
+.. _21.1.b:
 
-21.2.b byteSize
+21.1.b byteSize
 ^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -88,9 +88,9 @@ The size in bytes can be approximated (as a decimal) when the precise size is no
 Examples:
 - 1048576 for 1 Megabyte
 
-.. _21.3:
+.. _21.2:
 
-21.3 checkSum
+21.2 checkSum
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -101,9 +101,9 @@ Examples:
 
 This attribute allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.
 
-.. _21.3.a:
+.. _21.2.a:
 
-21.3.a algorithm
+21.2.a algorithm
 ^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -128,9 +128,9 @@ Examples:
 - SHA-384
 - SHA-512
 
-.. _21.4:
+.. _21.3:
 
-21.4 accessRights
+21.3 accessRights
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -152,7 +152,7 @@ Examples:
 
 .. _21.4.a:
 
-21.4.a accessRightsUri
+21.3.a accessRightsUri
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
