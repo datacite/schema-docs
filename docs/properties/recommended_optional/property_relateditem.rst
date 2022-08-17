@@ -200,11 +200,11 @@ Example: Journal of the American Chemical Society
 
 **Occurrences:** 0-1
 
-**Definition:** Type of the related item title. Use this subproperty to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType subproperty.
+**Definition:** Type of the related item title. Use this attribute to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType attribute.
 
 **Allowed values, examples, other constraints:**
 
-The titleType subproperty is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
+The titleType attribute is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
 
 20.4 PublicationYear
@@ -325,7 +325,7 @@ Free text
 
 **Occurrences:** 0-n
 
-**Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this subproperty may be repeated for each contributor.
+**Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this sub-property may be repeated for each contributor.
 
 **Allowed values, examples, other constraints:**
 

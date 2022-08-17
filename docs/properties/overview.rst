@@ -113,15 +113,16 @@ Conventions
 
 Throughout this document, a naming convention has been used for all properties and sub-properties as
 follows:
-- properties begin with a capital letter (e.g., `Creator`)
-- sub-properties begin with a lower case letter (e.g., `creatorName`)
-- attributes begin with a lower case letter (e.g., `nameType`)
 
-If the name is a compound of more than one word, subsequent words begin with capital letters. [#f1]_
+- properties begin with a capital letter (e.g., ``Creator``)
+- sub-properties begin with a lower case letter (e.g., ``creatorName``)
+- attributes begin with a lower case letter (e.g., ``nameType``)
+
+If the name is a compound of more than one word, subsequent words begin with capital letters (e.g., ``creatorName``, ``nameType``). [#f1]_
 
 Each property is numbered. The major properties are numbered 1-21.
 
-In the XML schema, properties are elements and can have sub-properties (sub-elements). Both properties and sub-properties can have attributes. Elements and attributes are indicated using numbers and letters:
+In the XML schema, properties are represented as elements and can have sub-properties (sub-elements). Both properties and sub-properties can have attributes. Elements, sub-elements, and attributes are indicated using numbers and letters:
 
 * numbers indicate *elements* and *sub-elements* (e.g., 2. Creator, 2.1 creatorName)
 * letters indicate *attributes* (e.g., 2.1.a nameType)
