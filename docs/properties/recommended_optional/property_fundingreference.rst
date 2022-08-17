@@ -9,7 +9,7 @@
 
 It is a best practice to supply funding information when financial support has been received.
 
-*Sub-properties:*
+*Sub-properties and attributes:*
 
 .. contents:: :local:
 

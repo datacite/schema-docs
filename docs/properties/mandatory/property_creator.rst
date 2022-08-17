@@ -9,7 +9,7 @@
 
 May be a corporate/institutional or personal name. Note: DataCite infrastructure supports up to 10,000 names. For name lists above that size, consider attribution via linking to the related metadata.
 
-*Sub-properties:*
+*Sub-properties and attributes:*
 
 .. contents:: :local:
 

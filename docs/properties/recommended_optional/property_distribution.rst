@@ -11,7 +11,7 @@ The use of this property indicates directly downloadable distributions. Every di
 
 Collections of files should be either using an archive format or a bagit folder structure. See :doc:`/guidance/distribution` for recommendations.
 
-*Sub-properties:*
+*Sub-properties and attributes:*
 
 .. contents:: :local:
 

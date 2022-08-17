@@ -9,7 +9,7 @@
 
 Free-format text. The recommended content is a single term of some detail so that a pair can be formed with the resourceTypeGeneral subproperty. For example, a resourceType of “Census Data” paired with a resourceTypeGeneral of “Dataset” yields “Dataset/Census Data”.
 
-*Sub-properties:*
+*Attributes:*
 
 .. contents:: :local:
 

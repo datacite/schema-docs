@@ -9,7 +9,7 @@
 
 Can be used to provide series information or a text citation where the related resource does not have an identifier. However, it is also optional to provide an identifier here.
 
-*Sub-properties:*
+*Sub-properties and attributes:*
 
 .. contents:: :local:
 

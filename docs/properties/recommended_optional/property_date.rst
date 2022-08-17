@@ -13,7 +13,7 @@ Example: 2004-03-02/2005- 06-02.
 
 Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
 
-*Sub-properties:*
+*Attributes:*
 
 .. contents:: :local:
 

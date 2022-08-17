@@ -11,7 +11,7 @@ For software, determine whether the identifier is for a specific version of a pi
 
 DOI (Digital Object Identifier) registered by a DataCite member. Format should be “10.1234/foo”
 
-*Sub-properties:*
+*Attributes:*
 
 .. contents:: :local:
 

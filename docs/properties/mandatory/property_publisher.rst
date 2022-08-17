@@ -11,7 +11,7 @@ For software, use Publisher for the code repository. If there is an entity other
 
 Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo, GitHub
 
-*Sub-properties:*
+*Attributes:*
 
 .. contents:: :local:
 
