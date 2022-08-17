@@ -1,9 +1,9 @@
-Template for the Read the Docs tutorial
-=======================================
+DataCite Metadata Schema Documentation
+==========================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository holds the official metadata schema documentation from DataCite for versions:
 
-Read the tutorial here:
+- `Version 4.4 <https://datacite-metadata-schema.readthedocs.io/en/4.4/>`_
+- Version 4.5 (draft to be released for public comment)
 
-https://docs.readthedocs.io/en/stable/tutorial/
+All schema versions are available at https://schema.datacite.org/.
