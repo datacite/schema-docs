@@ -4,5 +4,5 @@ build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
 name = "datacite-metadata-schema"
-authors = [{name = "DataCite Metadata Working Group", email = "support@datacite.org"}]
-dynamic = ["version", "description"]
+author = "DataCite Metadata Working Group"
+author-email = "support@datacite.org"
