@@ -1,6 +1,8 @@
 13. Size
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Size (e.g., bytes, pages, inches, etc.) or duration (extent), e.g., hours, minutes, days, etc., of a resource

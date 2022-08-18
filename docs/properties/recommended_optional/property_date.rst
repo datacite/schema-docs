@@ -1,6 +1,8 @@
 8. Date
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Different dates relevant to the work

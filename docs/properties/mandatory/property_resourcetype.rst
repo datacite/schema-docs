@@ -1,6 +1,8 @@
 10. ResourceType
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1
 
 **Definition:** A description of the resource

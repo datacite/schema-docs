@@ -1,6 +1,8 @@
 14. Format
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Technical format of the resource

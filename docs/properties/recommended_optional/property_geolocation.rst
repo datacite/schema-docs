@@ -1,6 +1,8 @@
 18. GeoLocation
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Spatial region or named place where the data was gathered or about which the data is focused

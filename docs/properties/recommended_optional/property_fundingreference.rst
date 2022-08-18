@@ -1,6 +1,8 @@
 19. FundingReference
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Information about financial support (funding) for the resource being registered

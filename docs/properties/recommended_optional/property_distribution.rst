@@ -1,6 +1,8 @@
 21. Distribution
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Represents an accessible form of a resource such as downloadable files.

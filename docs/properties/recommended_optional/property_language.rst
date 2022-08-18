@@ -1,6 +1,8 @@
 9. Language
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-1
 
 **Definition:** The primary language of the resource

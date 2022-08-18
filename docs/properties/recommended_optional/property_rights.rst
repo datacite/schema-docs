@@ -1,6 +1,8 @@
 16. Rights
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Any rights information for this resource.

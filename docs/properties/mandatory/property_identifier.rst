@@ -1,6 +1,8 @@
 1. Identifier
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1
 
 **Definition:** The Identifier is a unique string that identifies a resource.

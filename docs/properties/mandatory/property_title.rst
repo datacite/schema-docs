@@ -1,6 +1,8 @@
 3. Title
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1-n
 
 **Definition:** A name or title by which a resource is known. May be the title of a dataset or the name of a piece of software or instrument.

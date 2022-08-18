@@ -1,6 +1,8 @@
 2. Creator
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1-n
 
 **Definition:** The main researchers involved in producing the data, or the authors of the publication, in priority order. For instruments this is the manufacturer or developer of the instrument. To supply multiple creators, repeat this property.

@@ -1,6 +1,8 @@
 12. RelatedIdentifier
 =======================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Identifiers of related resources. These must be globally unique identifiers.

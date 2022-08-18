@@ -1,6 +1,8 @@
 4. Publisher
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1
 
 **Definition:** The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role.

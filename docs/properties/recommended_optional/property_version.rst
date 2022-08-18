@@ -1,6 +1,8 @@
 15. Version
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-1
 
 **Definition:** The version number of the resource

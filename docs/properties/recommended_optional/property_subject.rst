@@ -1,6 +1,8 @@
 6. Subject
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Subject, keyword, classification code, or key phrase describing the resource
