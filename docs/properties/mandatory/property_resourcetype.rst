@@ -7,9 +7,9 @@
 
 **Allowed values, examples, other constraints:**
 
-Free-format text. The recommended content is a single term of some detail so that a pair can be formed with the resourceTypeGeneral attribute. For example, a resourceType of “Census Data” paired with a resourceTypeGeneral of “Dataset” yields “Dataset/Census Data”.
+Free-format text. The recommended content is a single term of some detail so that a pair can be formed with the resourceTypeGeneral sub-property. For example, a resourceType of “Census Data” paired with a resourceTypeGeneral of “Dataset” yields “Dataset/Census Data”.
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 

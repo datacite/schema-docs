@@ -11,7 +11,7 @@ Free text
 
 Example: E-GEOD-34814
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 

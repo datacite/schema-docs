@@ -22,7 +22,7 @@ Examples:
 * Creative Commons Attribution 3.0 Germany License
 * `Apache License, Version 2.0 <http://www.apache.org/licenses/>`_
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 

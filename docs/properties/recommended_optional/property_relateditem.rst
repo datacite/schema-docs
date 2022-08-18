@@ -9,7 +9,7 @@
 
 Can be used to provide series information or a text citation where the related resource does not have an identifier. However, it is also optional to provide an identifier here.
 
-*Sub-properties and attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 
@@ -200,11 +200,11 @@ Example: Journal of the American Chemical Society
 
 **Occurrences:** 0-1
 
-**Definition:** Type of the related item title. Use this attribute to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType attribute.
+**Definition:** Type of the related item title. Use this sub-property to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType sub-property.
 
 **Allowed values, examples, other constraints:**
 
-The titleType attribute is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
+The titleType sub-property is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
 
 20.4 PublicationYear

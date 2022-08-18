@@ -9,7 +9,7 @@
 
 Free text
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 
@@ -74,4 +74,4 @@ Example:
 310607
 (where 310607 is the classification code associated with the subject term “Nanobiotechnology” in the ANZSRC Fields of Research subject scheme)
 
-The classificationCode attribute may be used for subject schemes, like ANZSRC, which do not have valueURIs for each subject term.
+The classificationCode sub-property may be used for subject schemes, like ANZSRC, which do not have valueURIs for each subject term.

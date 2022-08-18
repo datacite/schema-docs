@@ -9,7 +9,7 @@
 
 Free text.
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 

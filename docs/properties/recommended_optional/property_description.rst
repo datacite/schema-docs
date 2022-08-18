@@ -11,7 +11,7 @@ Free text
 
 It is a best practice to supply a description.
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 

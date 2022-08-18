@@ -15,7 +15,7 @@ Note: DataCite infrastructure supports up to 10,000 names. For name lists above 
 
 Examples: Charpy, Antoine; Foo Data Center
 
-*Sub-properties and attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 

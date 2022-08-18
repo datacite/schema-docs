@@ -11,7 +11,7 @@ Free text
 
 Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_ collects all references to related resources based on the relatedIdentifier property.
 
-*Attributes:*
+*Sub-properties:*
 
 .. contents:: :local:
 
