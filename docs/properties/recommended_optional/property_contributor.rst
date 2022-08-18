@@ -94,6 +94,7 @@ Examples: Patel, Emily; ABC Foundation
 
 The personal name format should be: family, given. Non- roman names should be transliterated according to the `ALA-LC schemas <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
+.. _7.1.a:
 
 7.1.a nameType
 ^^^^^^^^^^^^^^^^^^^
