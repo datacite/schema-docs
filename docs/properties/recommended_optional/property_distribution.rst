@@ -49,9 +49,9 @@ Examples:
 - application/zip
 - audio/mpeg
 
-.. _21.b:
+.. _21.1:
 
-21.b contentUrl
+21.1 contentUrl
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -73,9 +73,9 @@ Examples:
 
 See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
-.. _21.b.1:
+.. _21.1.a:
 
-21.b.1 lastUpdated
+21.1.a lastUpdated
 ^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -86,9 +86,9 @@ See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
 
-.. _21.b.2:
+.. _21.1.b:
 
-21.b.2 byteSize
+21.1.b byteSize
 ^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -102,9 +102,9 @@ The size in bytes can be approximated (as a decimal) when the precise size is no
 Examples:
 - 1048576 for 1 Megabyte
 
-.. _21.c:
+.. _21.2:
 
-21.c checkSum
+21.2 checkSum
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -115,9 +115,9 @@ Examples:
 
 This attribute allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.
 
-.. _21.c.1:
+.. _21.2.a:
 
-21.c.1 algorithm
+21.2.a algorithm
 ^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -142,9 +142,9 @@ Examples:
 - SHA-384
 - SHA-512
 
-.. _21.d:
+.. _21.3:
 
-21.d accessRights
+21.3 accessRights
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -164,9 +164,9 @@ Examples:
 - open access
 
 
-.. _21.d.1:
+.. _21.3.a:
 
-21.d.1 accessRightsUri
+21.3.a accessRightsUri
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1

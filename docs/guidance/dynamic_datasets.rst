@@ -8,11 +8,11 @@ a) Cite a specific slice [#f1]_ or subset (the set of updates to the dataset mad
 
   Data Request T.Jansen; SAHFOS; Work published 2014 via SAHFOS ; Area Def: 54-65°N, 0-45°W. Temporal Def: 1980-2012 (April-August) Taxonomic Def: All zooplankton; (dataset). https://doi.org/10.7487/2014.15.1.1
 
-b) Cite a specific snap-shot (a copy of the entire dataset made at a specific time; Example:
+b) Cite a specific snap-shot [#f1]_ (a copy of the entire dataset made at a specific time); Example:
 
   König-Langlo, G., & Sieger, R. (2010). BSRN snapshot 2010-01 as ISO image file (3.75 GB) [Data set]. PANGAEA - Data Publisher for Earth & Environmental Science. (dataset). https://doi.org/10.1594/pangaea.833424
 
-c) Cite the continuously updated dataset6 but add an Access Date and Time to the citation. Example:
+c) Cite the continuously updated dataset [#f1]_ but add an Access Date and Time to the citation. Example:
 
   Doe, J. and R. Roe. 2001. The FOO Data Set. Version 2.3. The FOO Data Center. (dataset). https://doi.org/10.xxxx/notfoo.547983. Accessed 1 May 2011.
 

@@ -61,7 +61,7 @@ Example: https://id.loc.gov/authorities/subjects.html
 **Allowed values, examples, other constraints:**
 
 Example:
-https://id.loc.gov/authorities/ subjects/sh85118622.html
+https://id.loc.gov/authorities/subjects/sh85118622.html
 
 6.d classificationCode
 ~~~~~~~~~~~~~~~~~~~~~~
