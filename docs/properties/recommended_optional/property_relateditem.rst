@@ -13,6 +13,12 @@ Can be used to provide series information or a text citation where the related r
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. note::
+
+   To do: *Add reference to Related Item guidance.*
+
 .. _20.a:
 
 20.a relatedItemType
@@ -176,6 +182,7 @@ Examples based on the :ref:`20.11.1 <20.2.1>` names: Antoine; Mae
 
 Examples based on the :ref:`2.1 <20.2.1>` names: Charpy; Jemison
 
+.. _20.3:
 
 20.3 Title
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -194,11 +201,11 @@ Example: Journal of the American Chemical Society
 
 **Occurrences:** 0-1
 
-**Definition:** Type of the related item title. Use this subproperty to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType subproperty.
+**Definition:** Type of the related item title. Use this sub-property to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType sub-property.
 
 **Allowed values, examples, other constraints:**
 
-The titleType subproperty is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
+The titleType sub-property is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
 
 20.4 PublicationYear
@@ -319,7 +326,7 @@ Free text
 
 **Occurrences:** 0-n
 
-**Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this subproperty may be repeated for each contributor.
+**Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this sub-property may be repeated for each contributor.
 
 **Allowed values, examples, other constraints:**
 

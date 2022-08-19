@@ -1,6 +1,8 @@
 7. Contributor
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. To supply multiple contributors, repeat this property.
@@ -18,6 +20,24 @@ Examples: Charpy, Antoine; Foo Data Center
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <contributors>
+      <contributor contributorType="Data Collector">
+          <contributorName nameType="Personal">Garcia, Sofia</contributorName>
+          <givenName>Sofia</givenName>
+          <familyName>Garcia</familyName>
+          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
+          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
+      </contributor>
+      <contributor contributorType="HostingInstitution">
+          <contributorName xml:lang="en" nameType="Organizational">California Digital Library</contributorName>
+          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+      </contributor>
+  </contributors>
 
 .. _7.a:
 
@@ -76,6 +96,7 @@ Examples: Patel, Emily; ABC Foundation
 
 The personal name format should be: family, given. Non- roman names should be transliterated according to the `ALA-LC schemas <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
+.. _7.1.a:
 
 7.1.a nameType
 ^^^^^^^^^^^^^^^^^^^

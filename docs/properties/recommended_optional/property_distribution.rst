@@ -1,6 +1,8 @@
 21. Distribution
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Represents an accessible form of a resource such as downloadable files.
@@ -14,6 +16,18 @@ Collections of files should be either using an archive format or a bagit folder 
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <distributions>
+     <distribution mediaType="application/gzip">
+       <contentUrl lastUpdated="2022-05-05" byteSize="1236546456">https://zenodo.org/record/6591787/files/bagit.gzip</contentUrl>
+       <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
+       <accessRights accessRightsUri="https://vocabularies.coar-repositories.org/access_rights/c_abf2/">open access</accessRights>
+     </distribution>
+   </distributions>
 
 .. _21.a:
 

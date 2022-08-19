@@ -1,6 +1,8 @@
 6. Subject
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Subject, keyword, classification code, or key phrase describing the resource
@@ -12,6 +14,15 @@ Free text
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <subjects>
+    <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="https://id.loc.gov/authorities/subjects.html" valueURI="https://id.loc.gov/authorities/subjects/sh2009009655.html">Climate change mitigation</subject>
+    <subject xml:lang="en" subjectScheme="ANZSRC Fields of Research" schemeURI="https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc" classificationCode="370201">Climate change processes</subject>
+  </subject>
 
 6.a subjectScheme
 ~~~~~~~~~~~~~~~~~~~~~~
