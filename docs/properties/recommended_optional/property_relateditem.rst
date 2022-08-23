@@ -1,9 +1,6 @@
 20. RelatedItem
 ====================
 
-.. note::
-   ALA-LC schemas footnote "12" was missing (20.2.1, 20.12.1). Revisit after decision is made on footnotes.
-
 **Occurrences:** 0-n
 
 **Definition:** Information about a resource related to the one being registered
@@ -20,7 +17,7 @@ Can be used to provide series information or a text citation where the related r
 
 .. note::
 
-   To do: *Add reference to Related Item guidance.*
+   See :doc:`Using RelatedItem for publication information and related resources </guidance/related_item_guide>` for guidance.
 
 .. _20.a:
 
@@ -147,7 +144,7 @@ To supply multiple creators, repeat this property.
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the ALA-LC schemas.
+Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
 
 20.2.1.a nameType
@@ -388,7 +385,7 @@ If Contributor is used, then contributorName is mandatory.
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the ALA-LC schemas.
+Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
 20.12.1.a nameType
 ###################
