@@ -59,7 +59,7 @@ Examples:
 * ROR
 * Crossref Funder ID
 * VIAF
-* Re3data
+* re3data
 * Wikidata
 * ISNI
 * OpenDOAR
