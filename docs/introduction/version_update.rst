@@ -32,9 +32,9 @@ Support for instruments
 Support for pre-registrations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of :ref:`StudyRegistration <StudyRegistration>` to the :doc:`resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` controlled list values.
+* Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
 
- * This value may used in :ref:`10.a resourceTypeGeneral <10.a>` and other places where resourceTypeGeneral is used (:ref:`12.f <12.f>`, :ref:`20.a <20.a>`).
+ * This value may used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
 
 Support for publisher identifiers
