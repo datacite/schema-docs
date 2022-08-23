@@ -76,27 +76,28 @@ Because XML attributes are not repeatable, sub-properties represented as attribu
      - Example
    * - Element
      - Property
-     - :doc:`2. Creator </properties/mandatory/property_creator>`
+     - :doc:`/properties/mandatory/property_creator`
    * - Sub-element
      - Sub-property
-     - :ref:`2.1 creatorName <2.1>`
+     - :ref:`2.1`
    * - Attribute
      - Sub-property
-     - :ref:`2.1.a nameType <2.1.a>`
+     - :ref:`2.1.a`
 
 XML provides an xml:lang attribute [#f2]_ that can be used on the following properties and sub-properties:
-- :doc:`2. Title </properties/mandatory/property_title>`
-- :doc:`4. Publisher </properties/mandatory/property_publisher>`
-- :doc:`6. Subject </properties/recommended_optional/property_subject>`
-- :doc:`16. Rights </properties/recommended_optional/property_rights>`
-- :doc:`17. Description </properties/recommended_optional/property_description>`
-- :ref:`20.3 RelatedItem Title <20.3>`
-- :ref:`2.1 creatorName <2.1>` when `2.1.a nameType <2.1.a>` is "Organizational"
-- :ref:`7.1 creatorName <2.1>` when `7.1.a nameType <7.1.a>` is "Organizational"
+
+- :doc:`/properties/mandatory/property_title`
+- :doc:`/properties/mandatory/property_publisher`
+- :doc:`/properties/recommended_optional/property_subject`
+- :doc:`/properties/recommended_optional/property_rights`
+- :doc:`/properties/recommended_optional/property_description`
+- :ref:`20.3`
+- :ref:`2.1` when :ref:`2.1.a` is "Organizational"
+- :ref:`7.1` when :ref:`7.1.a` is "Organizational"
 
 This provides a way to describe the language used for the *content of the specified properties*.
 
-The schema provides the :doc:`Language </properties/recommended_optional/property_language>` property to be used to describe the language of the resource.
+The schema provides the :doc:`/properties/recommended_optional/property_language` property to be used to describe the language of the resource.
 
 
 Mandatory Properties
@@ -139,7 +140,7 @@ an example of how to make a submission in XML format, please see the `XML Exampl
 
 
 Of the Recommended set of properties, the most important to use is the ``Description`` property,
-together with the Recommended sub-property ``descriptionType="Abstract"`` (see :doc:`17. Description </properties/recommended_optional/property_description>`). :doc:`Appendix 1 </appendices/appendix_1/index>` includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in
+together with the Recommended sub-property ``descriptionType="Abstract"`` (see :doc:`/properties/recommended_optional/property_description`). :doc:`Appendix 1 </appendices/appendix_1/index>` includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in
 finding the resource and then determining whether or not the resource, once found, is worth
 investigating further, re-using, or validating.
 

@@ -17,7 +17,7 @@ Can be used to provide series information or a text citation where the related r
 
 .. note::
 
-   See :doc:`Using RelatedItem for publication information and related resources </guidance/related_item_guide>` for guidance.
+   See :doc:`/guidance/related_item_guide` for guidance.
 
 .. _20.a:
 

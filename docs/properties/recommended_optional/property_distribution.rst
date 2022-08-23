@@ -155,7 +155,7 @@ Examples:
 
 Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/access_rights.nt
 
-To provide copyright or licensing information, use the :doc:`Rights </properties/recommended_optional/property_rights>` property.
+To provide copyright or licensing information, use the :doc:`/properties/recommended_optional/property_rights` property.
 
 Examples:
 

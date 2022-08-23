@@ -171,6 +171,6 @@ Examples: XSD, DDT, Turtle
 
 **Allowed values, examples, other constraints:**
 
-Use the controlled list values as stated in :ref:`10.a <10.a>`.
+Use the controlled list values as stated in :ref:`10.a`.
 
 See Appendix for definitions, examples and usage notes.
