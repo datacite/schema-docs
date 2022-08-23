@@ -46,7 +46,7 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note that the personal name, format should be: family, given. Names in non-roman scripts may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
+Note that the personal name format should be: family, given. Names in non-roman scripts may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
 .. _2.1.a:
 
