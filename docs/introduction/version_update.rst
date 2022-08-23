@@ -85,6 +85,7 @@ RelatedItem property
  * Minor changes to other RelatedItem subproperty definitions to improve consistency.
 
 * Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a descriptionType <17.a>` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superceded by RelatedItem *with the "relationType IsPublishedIn" selected*.
+* To enhance support for the RelatedItem property, addition of a new guidance document: :doc:`/guidance/related_item_guide`
 
 Other changes and corrections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2,6 +2,8 @@ Guidance
 =====================================
 
 .. toctree::
+   :titlesonly:
+
    dynamic_datasets
    software_citation
    distribution
