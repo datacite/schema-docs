@@ -25,7 +25,7 @@ Collections of files should be either using an archive format or a bagit folder 
      <distribution mediaType="application/gzip">
        <contentUrl lastUpdated="2022-05-05" byteSize="1236546456">https://zenodo.org/record/6591787/files/bagit.gzip</contentUrl>
        <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
-       <accessRights accessRightsUri="https://vocabularies.coar-repositories.org/access_rights/c_abf2/">open access</accessRights>
+       <accessRights accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
      </distribution>
    </distributions>
 
@@ -179,7 +179,7 @@ Recommended values should follow the COAR vocabulary for to declare the access s
 
 Examples:
 
-- https://vocabularies.coar-repositories.org/access_rights/c_abf2/ for “open access”
+- http://purl.org/coar/access_right/c_abf2 for “open access”
 - http://purl.org/coar/access_right/c_14cb for “metadata only”
 
 .. rubric:: Footnotes
