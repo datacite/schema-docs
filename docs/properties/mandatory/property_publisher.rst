@@ -12,6 +12,7 @@ For software, use Publisher for the code repository. If there is an entity other
 **Allowed values, examples, other constraints:**
 
 Examples:
+
 * World Data Center for Climate (WDCC)
 * GeoForschungsZentrum Potsdam (GFZ)
 * Consejo Superior de Investigaciones Científicas
