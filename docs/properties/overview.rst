@@ -57,10 +57,10 @@ XML schema
 
 In the XML schema:
 
-- Properties always represented as *elements*.
+- Properties are always represented as *elements*.
 - Sub-properties can be either *sub-elements* or *attributes*.
 
-The numbering convention distinguishes *elements and *sub-elements* from *attributes*:
+The numbering convention distinguishes *elements* and *sub-elements* from *attributes*:
 
 - *Elements* and *sub-elements* are numbered (e.g., 2. Creator, 2.1 creatorName).
 - *Attributes* are represented with letters (e.g., 2.1.a nameType)
@@ -86,14 +86,14 @@ Because XML attributes are not repeatable, sub-properties represented as attribu
 
 XML provides an xml:lang attribute [#f2]_ that can be used on the following properties and sub-properties:
 
-- :doc:`/properties/mandatory/property_title`
-- :doc:`/properties/mandatory/property_publisher`
-- :doc:`/properties/recommended_optional/property_subject`
-- :doc:`/properties/recommended_optional/property_rights`
-- :doc:`/properties/recommended_optional/property_description`
-- :ref:`20.3`
-- :ref:`2.1` when :ref:`2.1.a` is "Organizational"
-- :ref:`7.1` when :ref:`7.1.a` is "Organizational"
+* :doc:`/properties/mandatory/property_title`
+* :doc:`/properties/mandatory/property_publisher`
+* :doc:`/properties/recommended_optional/property_subject`
+* :doc:`/properties/recommended_optional/property_rights`
+* :doc:`/properties/recommended_optional/property_description`
+* :ref:`20.3`
+* :ref:`2.1` when :ref:`2.1.a` is "Organizational"
+* :ref:`7.1` when :ref:`7.1.a` is "Organizational"
 
 This provides a way to describe the language used for the *content of the specified properties*.
 
@@ -104,7 +104,7 @@ Mandatory Properties
 -------------------------------------------------
 
 :doc:`mandatory/index` provides a detailed description of the mandatory properties, which must be supplied with any
-initial metadata submission to DataCite, together with their sub-properties. **If one of the required
+initial metadata submission to DataCite, together with their relevant sub-properties. **If one of the required
 properties is unavailable**, please use one of the standard (machine-recognizable) codes listed in
 :doc:`/appendices/appendix_3`.
 
@@ -187,4 +187,4 @@ Table 2: DataCite Recommended and Optional Properties
 
 .. rubric:: Footnotes
 .. [#f1] This convention is known as “camelCase.” https://en.wikipedia.org/wiki/CamelCase
-.. [#f2] Allowed values IETF BCP 47, ISO 639-1 language codes, e.g. en, de, fr
+.. [#f2] Allowed values `IETF BCP 47 <https://en.wikipedia.org/wiki/IETF_language_tag>`_, `ISO 639-1 language codes <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_, e.g. en, de, fr
