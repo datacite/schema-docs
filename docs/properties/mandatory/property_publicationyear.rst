@@ -1,9 +1,11 @@
 5. PublicationYear
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1
 
-**Definition:** The year when the data was or will be made publicly available. In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date/dateType/ dateInformation property and sub-properties to provide more information about the publication or release date details.
+**Definition:** The year when the data was or will be made publicly available. In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date property and sub-properties (dateType/dateInformation) to provide more information about the publication or release date details.
 
 **Allowed values, examples, other constraints:**
 
@@ -13,6 +15,11 @@ If an embargo period has been in effect, use the date when the embargo period en
 In the case of datasets, "publish" is understood to mean making the data available on a specific date to the community of researchers.
 If there is no standard publication year value, use the date that would be preferred from a citation perspective.
 
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <publicationYear>2022</publicationYear>
 
 *PublicationYear—Additional guidance*
 
@@ -21,7 +28,7 @@ PublicationYear : the year when the data was or will be made publicly available.
 * If that date cannot be determined, use the date of registration.
 * If an embargo period has been in effect, use the date when the embargo period ends.
 * If there is no standard publication year value, use the date that would be preferred from a citation perspective.
-* In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date/dateType/dateInformation property and sub-properties to provide more information about the publication or release date details.
+* In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date property and sub-properties (dateType/dateInformation) to provide more information about the publication or release date details.
 
 
 *In the case of a digitised version of a physical object*

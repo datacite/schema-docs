@@ -38,4 +38,4 @@ Members of the Metadata Working Group:
    appendices/index
    mappings/index
    guidance/index
-   notes
+   xml

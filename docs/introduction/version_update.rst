@@ -31,7 +31,7 @@ Support for instruments
 Support for publisher identifiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of new subproperties for :doc:`Publisher </properties/mandatory/property_publisher>`:
+* Addition of new sub-properties for :doc:`Publisher </properties/mandatory/property_publisher>`:
 
    * :ref:`publisherIdentifier <4.a>`
    * :ref:`publisherIdentifierScheme <4.b>`
@@ -40,16 +40,16 @@ Support for publisher identifiers
 Distribution property
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * Addition of a new :doc:`Distribution </properties/recommended_optional/property_distribution>` property. Subproperties:
+ * Addition of a new :doc:`Distribution </properties/recommended_optional/property_distribution>` property. Sub-properties:
 
    * :ref:`mediaType <21.a>`
-   * :ref:`contentUrl <21.b>`
-   * :ref:`lastUpdated <21.b.1>`
-   * :ref:`byteSize <21.b.2>`
-   * :ref:`checkSum <21.c>`
-   * :ref:`algorithm <21.c.1>`
-   * :ref:`accessRights <21.d>`
-   * :ref:`accessRightsUri <21.d.1>`
+   * :ref:`contentUrl <21.1>`
+   * :ref:`lastUpdated <21.1.a>`
+   * :ref:`byteSize <21.1.b>`
+   * :ref:`checkSum <21.2>`
+   * :ref:`algorithm <21.2.a>`
+   * :ref:`accessRights <21.3>`
+   * :ref:`accessRightsUri <21.3.a>`
 
 
 Documentation changes

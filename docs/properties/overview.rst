@@ -5,6 +5,14 @@ The properties of the DataCite Metadata Schema are presented in this section.
 
 .. contents:: :local:
 
+
+
+Conventions
+-------------------
+
+Levels of obligation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 There are three different levels of obligation for the metadata properties:
 
 * **Mandatory (M)** properties *must* be provided;
@@ -20,7 +28,75 @@ purpose of achieving greater exposure for the resource’s metadata record and, 
 research itself.
 
 The prospect that a resource's metadata will be found, cited, and linked is enhanced by using the
-combined Mandatory and Recommended "super set" of properties and sub-properties. These are bolded in Tables 1 and 2.
+combined Mandatory and Recommended "super set" of properties and sub-properties. These are bolded in :ref:`Table 1 <Table_1>` (Mandatory Properties) and :ref:`Table 2 <Table_2>` (Recommended and Optional Properties).
+
+
+Naming and numbering
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Properties and sub-properties have naming and numbering conventions as follows:
+
+- properties begin with a capital letter (e.g., ``Creator``)
+- sub-properties begin with a lower case letter, with subsequent words using capital letters (e.g., ``creatorName``, ``nameType``) [#f1]_
+
+Each property is numbered. The major properties are numbered 1-21.
+
+Occurrences
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+“Occurrences" indicates cardinality/quantity constraints for the properties as follows:
+
+* 0-n = optional and repeatable
+* 0-1 = optional, but not repeatable
+* 1-n = required and repeatable
+* 1 = required, but not repeatable
+
+
+XML schema
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the XML schema:
+
+- Properties always represented as *elements*.
+- Sub-properties can be either *sub-elements* or *attributes*.
+
+The numbering convention distinguishes *elements and *sub-elements* from *attributes*:
+
+- *Elements* and *sub-elements* are numbered (e.g., 2. Creator, 2.1 creatorName).
+- *Attributes* are represented with letters (e.g., 2.1.a nameType)
+
+Because XML attributes are not repeatable, sub-properties represented as attributes will always have an occurrence of either 0-1 (optional) or 1 (required).
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - XML representation
+     - Property or sub-property
+     - Example
+   * - Element
+     - Property
+     - :doc:`2. Creator </properties/mandatory/property_creator>`
+   * - Sub-element
+     - Sub-property
+     - :ref:`2.1 creatorName <2.1>`
+   * - Attribute
+     - Sub-property
+     - :ref:`2.1.a nameType <2.1.a>`
+
+XML provides an xml:lang attribute [#f2]_ that can be used on the following properties and sub-properties:
+- :doc:`2. Title </properties/mandatory/property_title>`
+- :doc:`4. Publisher </properties/mandatory/property_publisher>`
+- :doc:`6. Subject </properties/recommended_optional/property_subject>`
+- :doc:`16. Rights </properties/recommended_optional/property_rights>`
+- :doc:`17. Description </properties/recommended_optional/property_description>`
+- :ref:`20.3 RelatedItem Title <20.3>`
+- :ref:`2.1 creatorName <2.1>` when `2.1.a nameType <2.1.a>` is "Organizational"
+- :ref:`7.1 creatorName <2.1>` when `7.1.a nameType <7.1.a>` is "Organizational"
+
+This provides a way to describe the language used for the *content of the specified properties*.
+
+The schema provides the :doc:`Language </properties/recommended_optional/property_language>` property to be used to describe the language of the resource.
 
 
 Mandatory Properties
@@ -31,7 +107,7 @@ initial metadata submission to DataCite, together with their sub-properties. **I
 properties is unavailable**, please use one of the standard (machine-recognizable) codes listed in
 :doc:`/appendices/appendix_3`.
 
-.. _Table 1:
+.. _Table_1:
 
 Table 1: DataCite Mandatory Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,28 +117,16 @@ Table 1: DataCite Mandatory Properties
 |    |                                                                                         |            |
 +====+=========================================================================================+============+
 | 1  | **Identifier**                                                                          | M          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with mandatory type sub-property)                                                      |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 2  | **Creator**                                                                             | M          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with optional given name, family name, name identifier and affiliation sub-properties) |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 3  | **Title**                                                                               | M          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with optional type sub-properties)                                                     |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 4  | **Publisher**                                                                           | M          |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 5  | **PublicationYear**                                                                     | M          |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 10 | **ResourceType**                                                                        | M          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with mandatory general type description sub- property)                                 |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 
 
@@ -75,12 +139,11 @@ an example of how to make a submission in XML format, please see the `XML Exampl
 
 
 Of the Recommended set of properties, the most important to use is the ``Description`` property,
-together with the Recommended sub-property ``descriptionType="Abstract"`` (see DataCite
-Properties and property 17). Appendix 1 includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in
+together with the Recommended sub-property ``descriptionType="Abstract"`` (see :doc:`17. Description </properties/recommended_optional/property_description>`). :doc:`Appendix 1 </appendices/appendix_1/index>` includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in
 finding the resource and then determining whether or not the resource, once found, is worth
 investigating further, re-using, or validating.
 
-.. _Table 2:
+.. _Table_2:
 
 Table 2: DataCite Recommended and Optional Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,31 +153,16 @@ Table 2: DataCite Recommended and Optional Properties
 |    |                                                                                         |            |
 +====+=========================================================================================+============+
 | 6  | **Subject**                                                                             | R          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with scheme sub-property)                                                              |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 7  | **Contributor**                                                                         | R          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with optional given name, family name, name identifier and affiliation sub-properties) |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 8  | **Date**                                                                                | R          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with type sub-property)                                                                |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 9  | Language                                                                                | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 11 | AlternateIdentifier                                                                     | O          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with type sub-property)                                                                |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 12 | **RelatedIdentifier**                                                                   | R          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with type and relation type sub-properties)                                            |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 13 | Size                                                                                    | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
@@ -125,58 +173,16 @@ Table 2: DataCite Recommended and Optional Properties
 | 16 | Rights                                                                                  | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 17 | **Description**                                                                         | R          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with type sub-property)                                                                |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 18 | **GeoLocation**                                                                         | R          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with point, box, place, and polygon sub-properties)                                    |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 19 | FundingReference                                                                        | O          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with name, identifier, and award related sub-properties)                               |            |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 20 | RelatedItem                                                                             | O          |
-|    |                                                                                         |            |
-|    |                                                                                         |            |
-|    | (with identifier, creator, title, publication year, volume, issue, number, page,        |            |
-|    |                                                                                         |            |
-|    | publisher, edition, and contributor sub-properties)                                     |            |
++----+-----------------------------------------------------------------------------------------+------------+
+| 21 | Distribution                                                                            | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 
-
-Conventions
--------------------
-
-Throughout this document, a naming convention has been used for all properties and sub-properties as
-follows:
-- properties begin with a capital letter
-- sub-properties begin with a lower case letter.
-
-If the name is a compound of more than one word, subsequent words begin with capital letters. [#f1]_
-
-Each property is numbered. The major properties are numbered 1-21.
-
-In the XML schema, sub-properties can be either elements or attributes. These are indicated using numbers and letters:
-
-* numbers indicate *sub-elements*
-* letters indicate *attributes*
-
-“Occurrences" indicates cardinality/quantity constraints for the properties as follows:
-
-* 0-n = optional and repeatable
-* 0-1 = optional, but not repeatable
-* 1-n = required and repeatable
-* 1 = required, but not repeatable
-
-XML provides an xml:lang attribute [#f2]_ that can be used on the properties ``Title``, ``Subject``, ``Rights``,
-``Description``, and ``RelatedItem Title``, as well as on the properties ``Creator``,
-``Contributor`` and ``Publisher`` for organizational names. This provides a way to describe the
-language used for the content of the specified properties. The schema provides a ``Language`` property
-to be used to describe the language of the resource.
 
 .. rubric:: Footnotes
 .. [#f1] This convention is known as “camelCase.” https://en.wikipedia.org/wiki/CamelCase

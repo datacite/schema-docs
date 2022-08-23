@@ -1,6 +1,8 @@
 8. Date
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Different dates relevant to the work
@@ -16,6 +18,15 @@ Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <dates>
+      <date dateType="Issued">2022-08-01</date>
+      <date dateType="Other" dateInformation="Conceptualized">2020-01-01</date>
+  </dates>
 
 
 8.a dateType

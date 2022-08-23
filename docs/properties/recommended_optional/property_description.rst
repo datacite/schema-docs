@@ -1,6 +1,8 @@
 17. Description
 ====================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.
@@ -14,6 +16,14 @@ It is a best practice to supply a description.
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <descriptions>
+      <description xml:lang="en" descriptionType="Abstract">Example abstract</date>
+  </descriptions>
 
 
 .. _17.a:

@@ -1,6 +1,8 @@
 2. Creator
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1-n
 
 **Definition:** The main researchers involved in producing the data, or the authors of the publication, in priority order. For instruments this is the manufacturer or developer of the instrument. To supply multiple creators, repeat this property.
@@ -12,6 +14,26 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <creators>
+      <creator>
+          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+          <givenName>Sofia</givenName>
+          <familyName>Garcia</familyName>
+          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
+          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
+      </creator>
+      <creator>
+          <creatorName xml:lang="en" nameType="Organizational">California Digital Library</creatorName>
+          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+      </creator>
+  </creators>
+
+.. _2.1:
 
 2.1 creatorName
 ~~~~~~~~~~~~~~~~~~~
@@ -26,6 +48,7 @@ Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
 Note that the personal name, format should be: family, given. Names in non-roman scripts may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
+.. _2.1.a:
 
 2.1.a nameType
 ^^^^^^^^^^^^^^^^^^^
