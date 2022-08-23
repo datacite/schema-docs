@@ -173,4 +173,4 @@ Examples: XSD, DDT, Turtle
 
 Use the controlled list values as stated in :ref:`10.a`.
 
-See Appendix for definitions, examples and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` for definitions, examples and usage notes.
