@@ -3,7 +3,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Information about a resource related to the one being registered, e.g., a journal or book of which the article or chapter is part
+**Definition:** Information about a resource related to the one being registered
 
 **Allowed values, examples, other constraints:**
 
@@ -13,6 +13,12 @@ Can be used to provide series information or a text citation where the related r
 
 .. contents:: :local:
 
+.. rubric:: Example XML
+
+.. note::
+
+   See :doc:`/guidance/related_item_guide` for guidance.
+
 .. _20.a:
 
 20.a relatedItemType
@@ -20,7 +26,7 @@ Can be used to provide series information or a text citation where the related r
 
 **Occurrences:** 1
 
-**Definition:** The type of the related item, e.g., journal article; book or chapter
+**Definition:** The general type of the related item
 
 **Allowed values, examples, other constraints:**
 
@@ -34,7 +40,7 @@ See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </append
 
 **Occurrences:** 1
 
-**Definition:** Description of the relationship of the resource being registered (A) and the related resource (B)
+**Definition:** Description of the relationship of the resource being registered (A) and the related item (B)
 
 **Allowed values, examples, other constraints:**
 
@@ -44,6 +50,7 @@ RelationType “IsPublishedIn” can be used to include series information, like
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples, and usage notes.
 
+.. _20.1:
 
 20.1 relatedItemIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,13 +63,15 @@ See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/ap
 
 Example: 10.1021/jacs.9b01862
 
+If relatedItemIdentifier is provided, an identical :doc:`/properties/recommended_optional/property_relatedidentifier` is strongly recommended for indexing.
+
 
 20.1.a relatedItemIdentifierType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** The type of the Identifier for the related item, e.g., DOI
+**Definition:** The type of the Identifier for the related item
 
 **Allowed values, examples, other constraints:**
 
@@ -135,7 +144,7 @@ To supply multiple creators, repeat this property.
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the ALA-LC schemas.
+Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
 
 20.2.1.a nameType
@@ -162,7 +171,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 **Allowed values, examples, other constraints:**
 
-Examples based on the :ref:`20.11.1 <20.2.1>` names: Antoine; Mae
+Examples based on the `20.2.1`_ names: Antoine; Mae
 
 
 20.2.3 familyName
@@ -174,8 +183,9 @@ Examples based on the :ref:`20.11.1 <20.2.1>` names: Antoine; Mae
 
 **Allowed values, examples, other constraints:**
 
-Examples based on the :ref:`2.1 <20.2.1>` names: Charpy; Jemison
+Examples based on the `20.2.1`_ names: Charpy; Jemison
 
+.. _20.3:
 
 20.3 Title
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -188,17 +198,18 @@ Examples based on the :ref:`2.1 <20.2.1>` names: Charpy; Jemison
 
 Example: Journal of the American Chemical Society
 
+.. _20.3.a:
 
 20.3.a titleType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** Type of the related item title. Use this subproperty to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType subproperty.
+**Definition:** Type of the related item title. Use this sub-property to add a subtitle, translation, or alternate title to the main title. The primary title of the related item should not have a titleType sub-property.
 
 **Allowed values, examples, other constraints:**
 
-The titleType subproperty is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
+The titleType sub-property is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
 
 20.4 PublicationYear
@@ -212,6 +223,7 @@ The titleType subproperty is used when more than a single title is provided. Unl
 
 YYYY
 
+.. _20.5:
 
 20.5 volume
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -222,8 +234,11 @@ YYYY
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
+.. _20.6:
 
 20.6 issue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -234,8 +249,11 @@ Free text
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
+.. _20.7:
 
 20.7 number
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -246,8 +264,11 @@ Free text
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
+.. _20.7.a:
 
 20.7.a numberType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -258,6 +279,8 @@ Free text
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 *Controlled List Values:*
 
 * Article
@@ -265,30 +288,35 @@ Free text
 * Report
 * Other
 
+.. _20.8:
 
 20.8 firstPage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** First page of the related item, e.g., of the chapter, article, or conference paper in proceedings
+**Definition:** First page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
+.. _20.9:
 
 20.9 lastPage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** Last page of the related item, e.g., of the chapter, article, or conference paper in proceedings
+**Definition:** Last page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Use only with relationType "IsPublishedIn".
 
+Free text
 
 20.10 Publisher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -301,6 +329,7 @@ Free text
 
 Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo, GitHub
 
+.. _20.11:
 
 20.11 edition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -311,6 +340,8 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 **Allowed values, examples, other constraints:**
 
+Use only with relationType "IsPublishedIn".
+
 Free text
 
 
@@ -319,11 +350,9 @@ Free text
 
 **Occurrences:** 0-n
 
-**Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this subproperty may be repeated for each contributor.
+**Definition:** An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this sub-property may be repeated for each contributor.
 
 **Allowed values, examples, other constraints:**
-
-Note: DataCite infrastructure supports up to 10000 names. For name lists above that size, consider attribution via linking to the related metadata.
 
 Examples: Charpy, Antoine; Foo Data Center
 
@@ -356,7 +385,7 @@ If Contributor is used, then contributorName is mandatory.
 
 Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
-Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the ALA-LC schemas.
+Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
 20.12.1.a nameType
 ###################

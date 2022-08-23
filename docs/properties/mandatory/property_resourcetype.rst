@@ -1,17 +1,25 @@
 10. ResourceType
 ====================
 
+**Obligation:** Mandatory
+
 **Occurrences:** 1
 
 **Definition:** A description of the resource
 
 **Allowed values, examples, other constraints:**
 
-Free-format text. The recommended content is a single term of some detail so that a pair can be formed with the resourceTypeGeneral subproperty. For example, a resourceType of “Census Data” paired with a resourceTypeGeneral of “Dataset” yields “Dataset/Census Data”.
+Free-format text. The recommended content is a single term of some detail so that a pair can be formed with the resourceTypeGeneral sub-property. For example, a resourceType of “Census Data” paired with a resourceTypeGeneral of “Dataset” yields “Dataset/Census Data”.
 
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+ <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
 
 .. _10.a:
 

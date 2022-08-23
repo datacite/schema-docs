@@ -1,6 +1,8 @@
 12. RelatedIdentifier
 =======================
 
+**Obligation:** Recommended
+
 **Occurrences:** 0-n
 
 **Definition:** Identifiers of related resources. These must be globally unique identifiers.
@@ -14,6 +16,15 @@ Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_
 *Sub-properties:*
 
 .. contents:: :local:
+
+.. rubric:: Example XML
+
+.. code:: xml
+
+  <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy" resourceTypeGeneral="JournaArticle">10.21384/bar</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeType="XSD" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">https://example.com/</relatedIdentifier>
+  </relatedIdentifiers>
 
 .. _12.a:
 
@@ -160,6 +171,6 @@ Examples: XSD, DDT, Turtle
 
 **Allowed values, examples, other constraints:**
 
-Use the controlled list values as stated in :ref:`10.a <10.a>`.
+Use the controlled list values as stated in :ref:`10.a`.
 
 See Appendix for definitions, examples and usage notes.
