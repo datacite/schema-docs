@@ -11,7 +11,12 @@ For software, use Publisher for the code repository. If there is an entity other
 
 **Allowed values, examples, other constraints:**
 
-Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo, GitHub
+Examples:
+* World Data Center for Climate (WDCC)
+* GeoForschungsZentrum Potsdam (GFZ)
+* Consejo Superior de Investigaciones Científicas
+* University of Tokyo
+* GitHub
 
 *Sub-properties:*
 
@@ -36,10 +41,10 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 Examples:
 
-* http://doi.org/10.17616/R3P88S
-* https://ror.org/01k4yrm29
+* https://doi.org/10.17616/R3989R
+* https://ror.org/04z8jg394
 * https://viaf.org/viaf/151411898/
-* https://www.wikidata.org/wiki/Q34433
+* https://www.wikidata.org/wiki/Q7842
 
 .. _4.b:
 
@@ -56,11 +61,11 @@ If publisherIdentifier is used, publisherIdentifierScheme is mandatory.
 
 Examples:
 
+* re3data
 * ROR
-* Crossref Funder ID
 * VIAF
-* Re3data
 * Wikidata
+* Crossref Funder ID
 * ISNI
 * OpenDOAR
 * FAIRsharing
@@ -80,7 +85,7 @@ Examples:
 
 Examples:
 
-* https://ror.org/
 * https://www.re3data.org/
-* https://fairsharing.org/
+* https://ror.org/
+* https://viaf.org/
 * https://www.wikidata.org
