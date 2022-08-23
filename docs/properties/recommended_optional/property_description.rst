@@ -26,6 +26,8 @@ It is a best practice to supply a description.
   </descriptions>
 
 
+.. _17.a:
+
 17.a descriptionType
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -47,6 +49,6 @@ If Description is used, descriptionType is mandatory.
 * TechnicalInfo
 * Other
 
-Note: SeriesInformation as a container for series title, volume, issue, page number, and related fields, is now superseded by the new :doc:`RelatedItem </properties/recommended_optional/property_relateditem>` property.
+Note: SeriesInformation as a container for series title, volume, issue, page number, and related fields, is now superseded by the new :doc:`RelatedItem </properties/recommended_optional/property_relateditem>` property with relationType "IsPublishedIn" selected.
 
 See :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` for definitions.
