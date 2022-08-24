@@ -12,6 +12,8 @@ resourceTypeGeneral
 .. contents:: :local:
 
 
+.. _Audiovisual:
+
 Audiovisual
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -24,6 +26,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1760
 
 **Suggested Dublin Core Mapping:** MovingImage
 
+
+.. _Book:
 
 Book
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,6 +43,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _BookChapter:
+
 BookChapter
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -53,6 +59,8 @@ https://doi.org/10.17613/m6631d
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Collection:
+
 Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -64,6 +72,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594
 
 **Suggested Dublin Core Mapping:** Collection
 
+
+.. _ComputationalNotebook:
 
 ComputationalNotebook
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,6 +89,8 @@ Example::
 **Suggested Dublin Core Mapping:** InteractiveResource
 
 
+.. _ConferencePaper:
+
 ConferencePaper
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -92,6 +104,8 @@ Example::
 
 **Suggested Dublin Core Mapping:** Text
 
+
+.. _ConferenceProceeding:
 
 ConferenceProceeding
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -107,6 +121,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _DataPaper:
+
 DataPaper
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -118,6 +134,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1791
 
 **Suggested Dublin Core Mapping:** Text
 
+
+.. _Dataset:
 
 Dataset
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -133,6 +151,8 @@ https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594/pangaea.
 **Suggested Dublin Core Mapping:** Dataset
 
 
+.. _Dissertation:
+
 Dissertation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -147,6 +167,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Event:
+
 Event
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -159,6 +181,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7269
 **Suggested Dublin Core Mapping:** Event
 
 
+.. _Image:
+
 Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -169,6 +193,7 @@ Image
 Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.6083/m4qn65c5
 
 **Suggested Dublin Core Mapping:** Image
+
 
 .. _Instrument:
 
@@ -183,9 +208,10 @@ Example::
 
 <resourceType resourceTypeGeneral="Instrument">Reflectometer</resourceType>
 
-
 **Suggested Dublin Core Mapping:** N/A
 
+
+.. _InteractiveResource:
 
 InteractiveResource
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -198,6 +224,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7269
 
 **Suggested Dublin Core Mapping:** InteractiveResource
 
+
+.. _Journal:
 
 Journal
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -213,6 +241,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _JournalArticle:
+
 JournalArticle
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -227,6 +257,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Model:
+
 Model
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -238,6 +270,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5285
 
 **Suggested Dublin Core Mapping:** N/A
 
+
+.. _OutputManagementPlan:
 
 OutputManagementPlan
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -253,6 +287,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _PeerReview:
+
 PeerReview
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -267,6 +303,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _PhysicalObject:
+
 PhysicalObject
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -278,6 +316,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7299
 
 **Suggested Dublin Core Mapping:** PhysicalObject
 
+
+.. _Preprint:
 
 Preprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -293,6 +333,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Report:
+
 Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -307,6 +349,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Service:
+
 Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -318,6 +362,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.2193
 
 **Suggested Dublin Core Mapping:** Service
 
+
+.. _Software:
 
 Software
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -331,6 +377,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.4225
 **Suggested Dublin Core Mapping:** Software
 
 
+.. _Sound:
+
 Sound
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -342,6 +390,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7282
 
 **Suggested Dublin Core Mapping:** Sound
 
+
+.. _Standard:
 
 Standard
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -357,6 +407,8 @@ Example::
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Text:
+
 Text
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -369,6 +421,8 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5682
 **Suggested Dublin Core Mapping:** Text
 
 
+.. _Workflow:
+
 Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -378,6 +432,8 @@ Workflow
 
 **Suggested Dublin Core Mapping:** N/A
 
+
+.. _resourceTypeGeneral_Other:
 
 Other
 ~~~~~~~~~~~~~~~~~~~~~~~~~
