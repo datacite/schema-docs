@@ -41,25 +41,25 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 
 *Controlled List Values:*
 
-* ARK
-* arXiv
-* bibcode
-* DOI
-* EAN13
-* EISSN
-* Handle
-* IGSN
-* ISBN
-* ISSN
-* ISTC
-* LISSN
-* LSID
-* PMID
-* PURL
-* UPC
-* URL
-* URN
-* w3id
+* :ref:`ARK`
+* :ref:`arXiv`
+* :ref:`bibcode`
+* :ref:`DOI`
+* :ref:`EAN13`
+* :ref:`EISSN`
+* :ref:`Handle`
+* :ref:`IGSN`
+* :ref:`ISBN`
+* :ref:`ISSN`
+* :ref:`ISTC`
+* :ref:`LISSN`
+* :ref:`LSID`
+* :ref:`PMID`
+* :ref:`PURL`
+* :ref:`UPC`
+* :ref:`URL`
+* :ref:`URN`
+* :ref:`w3id`
 
 See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix_1/relatedIdentifierType>` for full names and examples.
 

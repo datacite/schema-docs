@@ -11,6 +11,8 @@ relatedIdentifierType
 .. contents:: :local:
 
 
+.. _ARK:
+
 ARK
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -23,6 +25,8 @@ ARK
   <relatedIdentifier relatedIdentifierType="ARK" relationType="IsCitedBy">ark:/13030/tqb3kh97gh8w</relatedIdentifier>
 
 
+.. _arXiv:
+
 arXiv
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -34,6 +38,8 @@ arXiv
 
   <relatedIdentifier relatedIdentifierType="arXiv" relationType="IsCitedBy">arXiv:0706.0001</relatedIdentifier>
 
+
+.. _bibcode:
 
 bibcode
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,6 +55,8 @@ bibcode
 Note: bibcodes can be resolved via http://adsabs.harvard.edu/abs/bibcode or https://ui.adsabs.harvard.edu
 
 
+.. _DOI:
+
 DOI
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -60,6 +68,8 @@ DOI
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo">10.1016/j.epsl.2011.11.037</relatedIdentifier>
 
+
+.. _EAN13:
 
 EAN13
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -73,6 +83,8 @@ EAN13
   <relatedIdentifier relatedIdentifierType="EAN13" relationType="Cites">9783468111242</relatedIdentifier>
 
 
+.. _EISSN:
+
 EISSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -84,6 +96,8 @@ EISSN
 
   <relatedIdentifier relatedIdentifierType="eISSN" relationType="Cites">1562-6865</relatedIdentifier>
 
+
+.. _Handle:
 
 Handle
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,6 +111,8 @@ Handle
   <relatedIdentifier relatedIdentifierType="Handle" relationType="References">10013/epic.10033</relatedIdentifier>
 
 
+.. _IGSN:
+
 IGSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -108,6 +124,8 @@ IGSN
 
   <relatedIdentifier relatedIdentifierType="IGSN" relationType="References">IECUR0097 </relatedIdentifier>
 
+
+.. _ISBN:
 
 ISBN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -121,6 +139,8 @@ ISBN
   <relatedIdentifier><relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPartOf">978-3-905673-82-1 </relatedIdentifier>
 
 
+.. _ISSN:
+
 ISSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -132,6 +152,8 @@ ISSN
 
   <relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPartOf">0077-5606 </relatedIdentifier>
 
+
+.. _ISTC:
 
 ISTC
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -145,6 +167,8 @@ ISTC
   <relatedIdentifier relatedIdentifierType="ISTC" relationType="Cites">0A9 2002 12B4A105 7 </relatedIdentifier>
 
 
+.. _LISSN:
+
 LISSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -156,6 +180,8 @@ LISSN
 
   <relatedIdentifier relatedIdentifierType="LISSN" relationType="Cites">1188-1534</relatedIdentifier>
 
+
+.. _LSID:
 
 LSID
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -169,6 +195,8 @@ LSID
   <relatedIdentifier relatedIdentifierType="LSID" relationType="Cites"> urn:lsid:ubio.org:namebank:11815</relatedIdentifier>
 
 
+.. _PMID:
+
 PMID
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -180,6 +208,8 @@ PMID
 
   <relatedIdentifier relatedIdentifierType="PMID" relationType="IsReferencedBy">12082125</relatedIdentifier>
 
+
+.. _PURL:
 
 PURL
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -193,6 +223,8 @@ PURL
   <relatedIdentifier relatedIdentifierType="PURL" relationType="Cites"> http://purl.oclc.org/foo/bar</relatedIdentifier>
 
 
+.. _UPC:
+
 UPC
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -204,6 +236,8 @@ UPC
 
   <relatedIdentifier relatedIdentifierType="UPC" relationType="Cites"> 123456789999</relatedIdentifier>
 
+
+.. _URL:
 
 URL
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -217,6 +251,8 @@ URL
   <relatedIdentifier relatedIdentifierType="URL" relationType="IsCitedBy">http://www.heatflow.und.edu/index2.html</relatedIdentifier>
 
 
+.. _URN:
+
 URN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -228,6 +264,8 @@ URN
 
   <relatedIdentifier relatedIdentifierType="URN" relationType="IsSupplementTo">urn:nbn:de:101:1-201102033592</relatedIdentifier>
 
+
+.. _w3id:
 
 w3id
 ~~~~~~~~~~~~~~~~~~~~~~~~~
