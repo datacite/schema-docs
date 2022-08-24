@@ -78,42 +78,42 @@ If RelatedIdentifier is used, relationType is mandatory.
 
 *Controlled List Values:*
 
-* IsCitedBy
-* Cites
-* IsSupplementTo
-* IsSupplementedBy
-* IsContinuedBy
-* Continues
-* IsDescribedBy
-* Describes
-* HasMetadata
-* IsMetadataFor
-* HasVersion
-* IsVersionOf
-* IsNewVersionOf
-* IsPreviousVersionOf
-* IsPartOf
-* HasPart
-* IsPublishedIn
-* IsReferencedBy
-* References
-* IsDocumentedBy
-* Documents
-* IsCompiledBy
-* Compiles
-* IsVariantFormOf
-* IsOriginalFormOf
-* IsIdenticalTo
-* IsReviewedBy
-* Reviews
-* IsDerivedFrom
-* IsSourceOf
-* IsRequiredBy
-* Requires
-* IsObsoletedBy
-* Obsoletes
-* IsUsedBy
-* Uses
+* :ref:`IsCitedBy`
+* :ref:`Cites`
+* :ref:`IsSupplementTo`
+* :ref:`IsSupplementedBy`
+* :ref:`IsContinuedBy`
+* :ref:`Continues`
+* :ref:`IsDescribedBy`
+* :ref:`Describes`
+* :ref:`HasMetadata`
+* :ref:`IsMetadataFor`
+* :ref:`HasVersion`
+* :ref:`IsVersionOf`
+* :ref:`IsNewVersionOf`
+* :ref:`IsPreviousVersionOf`
+* :ref:`IsPartOf`
+* :ref:`HasPart`
+* :ref:`IsPublishedIn`
+* :ref:`IsReferencedBy`
+* :ref:`References`
+* :ref:`IsDocumentedBy`
+* :ref:`Documents`
+* :ref:`IsCompiledBy`
+* :ref:`Compiles`
+* :ref:`IsVariantFormOf`
+* :ref:`IsOriginalFormOf`
+* :ref:`IsIdenticalTo`
+* :ref:`IsReviewedBy`
+* :ref:`Reviews`
+* :ref:`IsDerivedFrom`
+* :ref:`IsSourceOf`
+* :ref:`IsRequiredBy`
+* :ref:`Requires`
+* :ref:`IsObsoletedBy`
+* :ref:`Obsoletes`
+* :ref:`IsUsedBy`
+* :ref:`Uses`
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples and usage notes.
 
@@ -127,8 +127,7 @@ See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/ap
 
 **Allowed values, examples, other constraints:**
 
-Use only with this relation pair:
-(HasMetadata/ IsMetadataFor)
+Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata <HasMetadata>` for example.
 
@@ -141,8 +140,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Allowed values, examples, other constraints:**
 
-Use only with this relation pair:
-(HasMetadata/ IsMetadataFor)
+Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata <HasMetadata>` for example.
 
@@ -155,8 +153,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Allowed values, examples, other constraints:**
 
-Use only with this relation pair:
-(HasMetadata/ IsMetadataFor)
+Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 Examples: XSD, DDT, Turtle
 

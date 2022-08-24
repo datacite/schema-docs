@@ -75,9 +75,46 @@ See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </append
 
 **Allowed values, examples, other constraints:**
 
-Use the controlled list values as stated in :ref:`12.b`.
+Use the controlled list values as stated in :ref:`12.b`:
 
-RelationType “IsPublishedIn” can be used to include series information, like title, volume, issue, page, etc.
+* :ref:`IsCitedBy`
+* :ref:`Cites`
+* :ref:`IsSupplementTo`
+* :ref:`IsSupplementedBy`
+* :ref:`IsContinuedBy`
+* :ref:`Continues`
+* :ref:`IsDescribedBy`
+* :ref:`Describes`
+* :ref:`HasMetadata`
+* :ref:`IsMetadataFor`
+* :ref:`HasVersion`
+* :ref:`IsVersionOf`
+* :ref:`IsNewVersionOf`
+* :ref:`IsPreviousVersionOf`
+* :ref:`IsPartOf`
+* :ref:`HasPart`
+* :ref:`IsPublishedIn`
+* :ref:`IsReferencedBy`
+* :ref:`References`
+* :ref:`IsDocumentedBy`
+* :ref:`Documents`
+* :ref:`IsCompiledBy`
+* :ref:`Compiles`
+* :ref:`IsVariantFormOf`
+* :ref:`IsOriginalFormOf`
+* :ref:`IsIdenticalTo`
+* :ref:`IsReviewedBy`
+* :ref:`Reviews`
+* :ref:`IsDerivedFrom`
+* :ref:`IsSourceOf`
+* :ref:`IsRequiredBy`
+* :ref:`Requires`
+* :ref:`IsObsoletedBy`
+* :ref:`Obsoletes`
+* :ref:`IsUsedBy`
+* :ref:`Uses`
+
+relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples, and usage notes.
 
@@ -121,7 +158,7 @@ See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appe
 
 **Allowed values, examples, other constraints:**
 
-Use only with this relation pair: (HasMetadata/ IsMetadataFor)
+Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata <HasMetadata>` for example.
 
@@ -135,7 +172,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Allowed values, examples, other constraints:**
 
-Use only with this relation pair: (HasMetadata/ IsMetadataFor)
+Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata <HasMetadata>` for example.
 
@@ -149,7 +186,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Allowed values, examples, other constraints:**
 
-Use only with this relation pair: (HasMetadata/ IsMetadataFor)
+Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 Examples: XSD, DDT, Turtle
 
@@ -266,7 +303,7 @@ YYYY
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -281,7 +318,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -296,7 +333,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -311,7 +348,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 *Controlled List Values:*
 
@@ -331,7 +368,7 @@ Use only with relationType "IsPublishedIn".
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -346,7 +383,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -372,7 +409,7 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType "IsPublishedIn".
+Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 

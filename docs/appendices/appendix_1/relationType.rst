@@ -13,6 +13,8 @@ Description of the relationship of the resource being registered (A) and the rel
 .. contents:: :local:
 
 
+.. _IsCitedBy:
+
 IsCitedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -26,6 +28,8 @@ IsCitedBy
 
   <relatedIdentifier relatedIdentifierType="DOI"relationType="IsCited By">10.4232/10.ASEAS-5.2-1</relatedIdentifier>
 
+
+.. _Cites:
 
 Cites
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,6 +45,8 @@ Cites
   <relatedIdentifier relatedIdentifierType="ISBN" relationType="Cites">0761964312</relatedIdentifier>
 
 
+.. _IsSupplementTo:
+
 IsSupplementTo
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -54,6 +60,8 @@ IsSupplementTo
 
   <relatedIdentifier relatedIdentifierType="URN" relationType="IsSupplementTo">urn:nbn:de:0168-ssoar-13172</relatedIdentifier>
 
+
+.. _IsSupplementedBy:
 
 IsSupplementedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,6 +77,8 @@ IsSupplementedBy
   <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementedBy">16911322/</relatedIdentifier>
 
 
+.. _IsContinuedBy:
+
 IsContinuedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -79,6 +89,9 @@ IsContinuedBy
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URN" relationType="IsContinuedBy">urn:nbn:de:bsz:21-opus-4967</relatedIdentifier>
+
+
+.. _Continues:
 
 Continues
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,6 +105,8 @@ Continues
   <relatedIdentifier relatedIdentifierType="URN" relationType="Continues">urn:nbn:de:bsz:21-opus-4966</relatedIdentifier>
 
 
+.. _Describes:
+
 Describes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -102,6 +117,9 @@ Describes
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="Describes">10.6084/m9.figshare.c.3288407</relatedIdentifier>
+
+
+.. _IsDescribedBy:
 
 IsDescribedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -129,6 +147,8 @@ HasMetadata
   <relatedIdentifier relatedIdentifierType="DOI" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567890</relatedIdentifier>
 
 
+.. _IsMetadataFor:
+
 IsMetadataFor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -140,6 +160,8 @@ IsMetadataFor
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsMetadataFor" relatedMetadataScheme="DDI-L" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">10.1234/567891</relatedIdentifier>
 
+
+.. _HasVersion:
 
 HasVersion
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -155,6 +177,8 @@ The registered resource such as a software package or code repository has a vers
   <relatedIdentifier relatedIdentifierType="DOI" relationType="HasVersion">10.5281/ZENODO.832053</relatedIdentifier>
 
 
+.. _IsVersionOf:
+
 IsVersionOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -169,6 +193,8 @@ The registered resource is an instance of a target resource (indicates that A is
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsVersionOf">10.5281/ZENODO.832054</relatedIdentifier>
 
 
+.. _IsNewVersionOf:
+
 IsNewVersionOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -181,6 +207,8 @@ IsNewVersionOf
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsNewVersionOf">10.5438/0005</relatedIdentifier>
 
 
+.. _IsPreviousVersionOf:
+
 IsPreviousVersionOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -192,6 +220,8 @@ IsPreviousVersionOf
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPreviousVersionOf">10.5438/0007</relatedIdentifier>
 
+
+.. _IsPartOf:
 
 IsPartOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -213,6 +243,8 @@ May be used for individual software modules; note that code repository-to-versio
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPartOf">10.5281/zenodo.754312</relatedIdentifier>
 
 
+.. _HasPart:
+
 HasPart
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -233,6 +265,8 @@ May be used for individual software modules; note that code repository-to-versio
   <relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://zenodo.org/record/16564/files/dune-stuff-LSSC_15.zip</relatedIdentifier>
 
 
+.. _IsPublishedIn:
+
 IsPublishedIn
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -244,6 +278,8 @@ IsPublishedIn
 
   <relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPublishedIn">2213-1337</relatedIdentifier>
 
+
+.. _IsReferencedBy:
 
 IsReferencedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,6 +293,8 @@ IsReferencedBy
   <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.testpubl.de</relatedIdentifier>
 
 
+.. _References:
+
 References
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -268,6 +306,8 @@ References
 
   <relatedIdentifier relatedIdentifierType="URN" relationType="References">urn:nbn:de:bsz:21-opus-963</relatedIdentifier>
 
+
+.. _IsDocumentedBy:
 
 IsDocumentedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -282,6 +322,9 @@ IsDocumentedBy
 
 May be used for software documentation.
 
+
+.. _Documents:
+
 Documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -294,6 +337,9 @@ Documents
   <relatedIdentifier relatedIdentifierType="DOI" relationType="Documents">10.1234/7836</relatedIdentifier>
 
 May be used for software documentation.
+
+
+.. _IsCompiledBy:
 
 IsCompiledBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -309,6 +355,8 @@ IsCompiledBy
 May be used to indicate either a traditional text compilation, or the compiler program used to generate executable software.
 
 
+.. _Compiles:
+
 Compiles
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -322,6 +370,8 @@ Compiles
 
 May be used for software and text, as a compiler can be a computer program or a person.
 
+
+.. _IsVariantFormOf:
 
 IsVariantFormOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -339,6 +389,8 @@ Use for a different form of one thing.
 May be used for different software operating systems or compiler formats, for example.
 
 
+.. _IsOriginalFormOf:
+
 IsOriginalFormOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -352,6 +404,8 @@ IsOriginalFormOf
 
 May be used for different software operating systems or compiler formats, for example.
 
+
+.. _IsIdenticalTo:
 
 IsIdenticalTo
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -367,6 +421,8 @@ IsIdenticalTo
 IsIdenticalTo should be used for a resource that is the same as the registered resource but is saved on another location, maybe another institution.
 
 
+.. _IsReviewedBy:
+
 IsReviewedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -379,6 +435,8 @@ IsReviewedBy
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsReviewedBy">10.5256/F1000RESEARCH.4288.R4745</relatedIdentifier>
 
 
+.. _Reviews:
+
 Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -390,6 +448,8 @@ Reviews
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="Reviews">10.12688/f1000research.4001.1</relatedIdentifier>
 
+
+.. _IsDerivedFrom:
 
 IsDerivedFrom
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -407,6 +467,8 @@ IsDerivedFrom should be used for a resource that is a derivative of an original 
 In this example, the dataset is derived from a larger dataset and data values have been manipulated from their original state.
 
 
+.. _IsSourceOf:
+
 IsSourceOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -423,6 +485,8 @@ IsSourceOf is the original resource from which a derivative resource was created
 In this example, this is the original dataset without value manipulation.
 
 
+.. _IsRequiredBy:
+
 IsRequiredBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -436,6 +500,8 @@ IsRequiredBy
 
 May be used to indicate software dependencies.
 
+
+.. _Requires:
 
 Requires
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -451,6 +517,8 @@ Requires
 May be used to indicate software dependencies.
 
 
+.. _Obsoletes:
+
 Obsoletes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -463,6 +531,8 @@ Obsoletes
   <relatedIdentifier relatedIdentifierType="DOI" relationType="Obsoletes">10.5438/0007</relatedIdentifier>
 
 
+.. _IsObsoletedBy:
+
 IsObsoletedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -473,6 +543,7 @@ IsObsoletedBy
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsObsoletedBy">10.5438/0005</relatedIdentifier>
+
 
 .. _IsUsedBy:
 
@@ -488,6 +559,7 @@ IsUsedBy
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsUsedBy">10.5072/dataset</relatedIdentifier>
 
 May be used to indicate the relationship between an instrument and where it has been used (as in, instrument A is IsUsedBy research output B).
+
 
 .. _Uses:
 
