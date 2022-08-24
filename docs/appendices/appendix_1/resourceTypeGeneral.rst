@@ -278,7 +278,7 @@ OutputManagementPlan
 
 **Description:** A formal document that outlines how research outputs are to be handled both during a research project and after the project is completed.
 
-**Examples and Usage Notes:** Includes data, software, and Text materials.
+**Examples and Usage Notes:** Includes data, software, and materials.
 
 Example::
 
