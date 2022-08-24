@@ -22,7 +22,7 @@ It is a best practice to supply a description.
 .. code:: xml
 
   <descriptions>
-      <description xml:lang="en" descriptionType="Abstract">Example abstract</date>
+      <description xml:lang="en" descriptionType="Abstract">Example abstract</description>
   </descriptions>
 
 
