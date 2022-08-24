@@ -20,6 +20,8 @@ Accepted
 **Usage Notes:** To indicate the start of an embargo period, use Accepted or :ref:`Submitted`, as appropriate.
 
 
+.. _Available:
+
 Available
 ~~~~~~~~~~~~~~~~~
 
@@ -27,6 +29,8 @@ Available
 
 **Usage Notes:** To indicate the end of an embargo period, use Available.
 
+
+.. _Copyrighted:
 
 Copyrighted
 ~~~~~~~~~~~~~~~~~
@@ -36,6 +40,8 @@ Copyrighted
 **Usage Notes:** ---
 
 
+.. _Collected:
+
 Collected
 ~~~~~~~~~~~~~~~~~
 
@@ -43,6 +49,8 @@ Collected
 
 **Usage Notes:** To indicate precise or particular timeframes in which research was conducted.
 
+
+.. _Created:
 
 Created
 ~~~~~~~~~~~~~~~~~
@@ -52,12 +60,15 @@ Created
 **Usage Notes:** *Recommended for discovery.*
 
 
+.. _Issued:
+
 Issued
 ~~~~~~~~~~~~~~~~~
 
 **Description:** The date that the resource is published or distributed, e.g., to a data centre.
 
 **Usage Notes:** ---
+
 
 .. _Submitted:
 
@@ -71,6 +82,8 @@ Submitted
 To indicate the start of an embargo period, use Submitted or :ref:`Accepted`, as appropriate.
 
 
+.. _Updated:
+
 Updated
 ~~~~~~~~~~~~~~~~~
 
@@ -79,6 +92,8 @@ Updated
 **Usage Notes:** ---
 
 
+.. _Valid:
+
 Valid
 ~~~~~~~~~~~~~~~~~
 
@@ -86,6 +101,8 @@ Valid
 
 **Usage Notes:** ---
 
+
+.. _Withdrawn:
 
 Withdrawn
 ~~~~~~~~~~~~~~~~~

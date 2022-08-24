@@ -43,16 +43,16 @@ If Date is used, dateType is mandatory.
 
 *Controlled List Values:*
 
-* Accepted
-* Available
-* Copyrighted
-* Collected
-* Created
-* Issued
-* Submitted
-* Updated
-* Valid
-* Withdrawn
+* :ref:`Accepted`
+* :ref:`Available`
+* :ref:`Copyrighted`
+* :ref:`Collected`
+* :ref:`Created`
+* :ref:`Issued`
+* :ref:`Submitted`
+* :ref:`Updated`
+* :ref:`Valid`
+* :ref:`Withdrawn`
 * Other
 
 See :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix_1/dateType>` for definitions and recommendations.
