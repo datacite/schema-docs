@@ -11,7 +11,7 @@ Abstract
 
 **Definition:** A brief description of the resource and the context in which the resource was created.
 
-**Usage Notes:** Recommended for discovery. Use "<br>" to indicate a line break for improved rendering of multiple paragraphs, but otherwise no html markup.
+**Usage Notes:** *Recommended for discovery.* Use "<br>" to indicate a line break for improved rendering of multiple paragraphs, but otherwise no html markup.
 
 Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594/PANGAEA.771774
 
@@ -21,7 +21,7 @@ Methods
 
 **Definition:** The methodology employed for the study or research.
 
-**Usage Notes:** Recommended for discovery. Full documentation about methods supports open science.
+**Usage Notes:** *Recommended for discovery.* Full documentation about methods supports open science.
 
 Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.6078/D1K01X
 

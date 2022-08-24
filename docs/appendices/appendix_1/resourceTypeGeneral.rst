@@ -22,7 +22,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1760
 Book
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover
+**Description:** A medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover.
 
 **Examples and Usage Notes:**
 
@@ -62,7 +62,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594
 ComputationalNotebook
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A virtual notebook environment used for literate programming
+**Description:** A virtual notebook environment used for literate programming.
 
 **Examples and Usage Notes:**
 
@@ -76,7 +76,7 @@ Example::
 ConferencePaper
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** Article that is written with the goal of being accepted to a conference
+**Description:** Article that is written with the goal of being accepted to a conference.
 
 **Examples and Usage Notes:**
 
@@ -90,7 +90,7 @@ Example::
 ConferenceProceeding
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** Collection of academic papers published in the context of an academic conference
+**Description:** Collection of academic papers published in the context of an academic conference.
 
 **Examples and Usage Notes:**
 
@@ -104,7 +104,7 @@ Example::
 DataPaper
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A factual and objective publication with a focused intent to identify and describe specific data, sets of data, or data collections to facilitate discoverability
+**Description:** A factual and objective publication with a focused intent to identify and describe specific data, sets of data, or data collections to facilitate discoverability.
 
 **Examples and Usage Notes:** A data paper describes data provenance and methodologies used in the gathering, processing, organizing, and representing the data
 
@@ -116,7 +116,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1791
 Dataset
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** Data encoded in a defined structure
+**Description:** Data encoded in a defined structure.
 
 **Examples and Usage Notes:** Data file or files
 
@@ -130,7 +130,7 @@ https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594/pangaea.
 Dissertation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A written essay, treatise, or thesis, especially one written by a candidate for the degree of Doctor of Philosophy
+**Description:** A written essay, treatise, or thesis, especially one written by a candidate for the degree of Doctor of Philosophy.
 
 **Examples and Usage Notes:**
 
@@ -144,7 +144,7 @@ Example::
 Event
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A non-persistent, time-based occurrence
+**Description:** A non-persistent, time-based occurrence.
 
 **Examples and Usage Notes:** Descriptive information and/or content that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event such as a webcast or convention
 
@@ -156,7 +156,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7269
 Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A visual representation other than text
+**Description:** A visual representation other than text.
 
 **Examples and Usage Notes:** Digitised or born digital images, drawings or photographs
 
@@ -184,7 +184,7 @@ Example::
 InteractiveResource
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A resource requiring interaction from the user to be understood, executed, or experienced
+**Description:** A resource requiring interaction from the user to be understood, executed, or experienced.
 
 **Examples and Usage Notes:** Training modules, files that require use of a viewer (e.g., Flash), or query/response portals
 
@@ -224,7 +224,7 @@ Example::
 Model
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** An abstract, conceptual, graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes
+**Description:** An abstract, conceptual, graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes.
 
 **Examples and Usage Notes:** Modelled descriptions of, for example, different aspects of languages or a molecular biology reaction chain
 
@@ -236,7 +236,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5285
 OutputManagementPlan
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A formal document that outlines how research outputs are to be handled both during a research project and after the project is completed
+**Description:** A formal document that outlines how research outputs are to be handled both during a research project and after the project is completed.
 
 **Examples and Usage Notes:** Includes data, software, and Text materials.
 
@@ -250,7 +250,7 @@ Example::
 PeerReview
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** Evaluation of scientific, academic, or professional work by others working in the same field
+**Description:** Evaluation of scientific, academic, or professional work by others working in the same field.
 
 **Examples and Usage Notes:** https://doi.org/10.6084/m9.figshare.5742270
 
@@ -264,7 +264,7 @@ Example::
 PhysicalObject
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** An inanimate, three-dimensional object or substance
+**Description:** An inanimate, three-dimensional object or substance.
 
 **Examples and Usage Notes:** Artifacts, specimens
 
@@ -276,7 +276,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7299
 Preprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal
+**Description:** A version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal.
 
 **Examples and Usage Notes:**
 
@@ -290,7 +290,7 @@ Example::
 Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A document that presents information in an organized format for a specific audience and purpose
+**Description:** A document that presents information in an organized format for a specific audience and purpose.
 
 **Examples and Usage Notes:**
 
@@ -304,7 +304,7 @@ Example::
 Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** An organized system of apparatus, appliances, staff, etc., for supplying some function(s) required by end users
+**Description:** An organized system of apparatus, appliances, staff, etc., for supplying some function(s) required by end users.
 
 **Examples and Usage Notes:** Data management service, or long-term preservation service
 
@@ -328,7 +328,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.4225
 Sound
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A resource primarily intended to be heard
+**Description:** A resource primarily intended to be heard.
 
 **Examples and Usage Notes:** Audio recording
 
@@ -340,7 +340,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7282
 Standard
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** Something established by authority, custom, or general consent as a model, example, or point of reference
+**Description:** Something established by authority, custom, or general consent as a model, example, or point of reference.
 
 **Examples and Usage Notes:**
 
@@ -354,7 +354,7 @@ Example::
 Text
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A resource consisting primarily of words for reading that is not covered by any other textual resource type in this list
+**Description:** A resource consisting primarily of words for reading that is not covered by any other textual resource type in this list.
 
 **Examples and Usage Notes:**
 
@@ -366,7 +366,7 @@ Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5682
 Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner
+**Description:** A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner.
 
 **Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). More. [#f2]_
 
