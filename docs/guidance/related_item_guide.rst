@@ -17,9 +17,9 @@ The second use case is **providing information about related resources.**
 Use case: Providing publication information for journal articles, book chapters, and more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The RelatedItem property with relationType "IsPublishedIn" can be used to provide more complete publication for journal articles, book chapters, and other components of larger resources.
+The RelatedItem property with relationType :ref:`IsPublishedIn` can be used to provide more complete publication for journal articles, book chapters, and other components of larger resources.
 
-With the "IsPublishedIn" relationType, the following optional sub-properties may be used:
+With the :ref:`IsPublishedIn` relationType, the following optional sub-properties may be used:
 
 * :ref:`20.5`
 * :ref:`20.6`

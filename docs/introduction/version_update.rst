@@ -80,11 +80,11 @@ RelatedItem property
 * Changes and additions to sub-property definitions:
 
  * Addition of a note in :ref:`20.1` to strongly recommend the use of an identical :doc:`/properties/recommended_optional/property_relatedidentifier` for indexing.
- * Addition of a note in :ref:`20.5`, :ref:`20.6`, :ref:`20.7`, :ref:`20.7.a`, :ref:`20.8`, :ref:`20.9`, and :ref:`20.11` to indicate that these subproperties should only be used with the relationType “IsPublishedIn”.
+ * Addition of a note in :ref:`20.5`, :ref:`20.6`, :ref:`20.7`, :ref:`20.7.a`, :ref:`20.8`, :ref:`20.9`, and :ref:`20.11` to indicate that these subproperties should only be used with the relationType :ref:`IsPublishedIn`.
  * Change to :ref:`20.8` and :ref:`20.9` to specify that the pages refer to the resource *within* the related item (for which the DOI is being registered), not the entire related item.
  * Minor changes to other RelatedItem sub-property definitions to improve consistency.
 
-* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by RelatedItem *with the relationType "IsPublishedIn" selected*.
+* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by RelatedItem *with the relationType :ref:`IsPublishedIn` selected*.
 * To enhance support for the RelatedItem property, addition of a new guidance document: :doc:`/guidance/related_item_guide`
 
 Other changes and corrections
