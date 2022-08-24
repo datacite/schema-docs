@@ -10,6 +10,8 @@ contributorType
 .. contents:: :local:
 
 
+.. _ContactPerson:
+
 ContactPerson
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -18,6 +20,8 @@ ContactPerson
 **Usage Notes:** May also be the “Point of Contact” in an organisation that controls access to the resource, if that organisation is different from the Publisher, Distributor, and Data Manager.
 
 
+.. _DataCollector:
+
 DataCollector
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -25,6 +29,8 @@ DataCollector
 
 **Usage Notes:** May also be used when crediting survey conductors, interviewers, event or condition observers, or persons responsible for monitoring key instrument data.
 
+
+.. _DataCurator:
 
 DataCurator
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,6 +44,8 @@ Repository managers as well as data librarians working in the repository fall wi
 Example: https://doi.org/10.20375/0000-000D-1D1F-2
 
 
+.. _DataManager:
+
 DataManager
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -48,6 +56,8 @@ DataManager
 Example: https://doi.org/10.6073/pasta/41b3ed2e152e1e4c3846e646118208e7
 
 
+.. _Distributor:
+
 Distributor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -56,6 +66,8 @@ Distributor
 **Usage Notes:** Works stored in more than one archive/repository may credit each as a distributor.
 
 
+.. _Editor:
+
 Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -63,6 +75,8 @@ Editor
 
 **Usage Notes:** Note: if the Editor is to be credited in place of multiple creators, the Editor’s name may be supplied as Creator, with “(Ed.)” appended to the name.
 
+
+.. _HostingInstitution:
 
 HostingInstitution
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,6 +90,8 @@ Example: Université Grenoble Alpes (UGA)
 May also be used for an organisation that stores the data offline - often a data centre if that data centre is not the “publisher” of the resource.
 
 
+.. _Producer:
+
 Producer
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -83,6 +99,8 @@ Producer
 
 **Usage Notes:** In the data industry, this may be a company “producing” DVDs that package data for future dissemination by a distributor.
 
+
+.. _ProjectLeader:
 
 ProjectLeader
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,6 +110,8 @@ ProjectLeader
 **Usage Notes:** The Project Leader is not “removed” from the work that resulted in the resource; he or she remains intimately involved throughout the life of the particular project team.
 
 
+.. _ProjectManager:
+
 ProjectManager
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -99,6 +119,8 @@ ProjectManager
 
 **Usage Notes:** The manager of a project normally has more administrative responsibility than actual work involvement.
 
+
+.. _ProjectMember:
 
 ProjectMember
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -108,6 +130,8 @@ ProjectMember
 **Usage Notes:** This vocabulary may or may not indicate the quality, quantity, or substance of the person’s involvement.
 
 
+.. _RegistrationAgency:
+
 RegistrationAgency
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -115,6 +139,8 @@ RegistrationAgency
 
 **Usage Notes:** DataCite is a Registration Agency for the International DOI Foundation (IDF). One of DataCite’s tasks is to assign DOI prefixes to the allocating agents who then assign the full, specific character string to data clients, provide metadata back to the DataCite registry, etc.
 
+
+.. _RegistrationAuthority:
 
 RegistrationAuthority
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -124,6 +150,8 @@ RegistrationAuthority
 **Usage Notes:** The IDF serves as the Registration Authority for the International Standards Organisation (ISO) in the area/domain of Digital Object Identifiers.
 
 
+.. _RelatedPerson:
+
 RelatedPerson
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -132,6 +160,8 @@ RelatedPerson
 **Usage Notes:** This person could be an author’s intellectual mentor, a person providing intellectual leadership in the discipline or subject domain, etc.
 
 
+.. _Researcher:
+
 Researcher
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -139,6 +169,8 @@ Researcher
 
 **Usage Notes:** Should be a person, not an institution. Note that a person involved in the gathering of data would fall under the contributorType “DataCollector.” The researcher may find additional data online and correlate it to the data collected for the experiment or study, for example.
 
+
+.. _ResearchGroup:
 
 ResearchGroup
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -152,6 +184,7 @@ Example: Space Research & Planetary Sciences Division of the University of Bern 
 Source: doi:10.26302/SSHADE/EXPERIMEN T_OP_20201104_001
 
 
+.. _RightsHolder:
 
 RightsHolder
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -161,6 +194,8 @@ RightsHolder
 **Usage Notes:** ---
 
 
+.. _Sponsor:
+
 Sponsor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -168,6 +203,8 @@ Sponsor
 
 **Usage Notes:** Includes organisations that provide in-kind support, through donation, provision of people or a facility or instrumentation necessary for the development of the resource, etc.
 
+
+.. _Supervisor:
 
 Supervisor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -177,6 +214,8 @@ Supervisor
 **Usage Notes:** ---
 
 
+.. _WorkPackageLeader:
+
 WorkPackageLeader
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -184,6 +223,8 @@ WorkPackageLeader
 
 **Usage Notes:** ---
 
+
+.. _contributorType_Other:
 
 Other
 ~~~~~~~~~~~~~~~~~~~~~~~~~

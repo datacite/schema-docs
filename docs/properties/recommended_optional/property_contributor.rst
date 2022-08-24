@@ -54,27 +54,27 @@ If Contributor is used, then contributorType is mandatory.
 
 *Controlled List Values:*
 
-* ContactPerson
-* DataCollector
-* DataCurator
-* DataManager
-* Distributor
-* Editor
-* HostingInstitution
-* Producer
-* ProjectLeader
-* ProjectManager
-* ProjectMember
-* RegistrationAgency
-* RegistrationAuthority
-* RelatedPerson
-* Researcher
-* ResearchGroup
-* RightsHolder
-* Sponsor
-* Supervisor
-* WorkPackageLeader
-* Other
+* :ref:`ContactPerson`
+* :ref:`DataCollector`
+* :ref:`DataCurator`
+* :ref:`DataManager`
+* :ref:`Distributor`
+* :ref:`Editor`
+* :ref:`HostingInstitution`
+* :ref:`Producer`
+* :ref:`ProjectLeader`
+* :ref:`ProjectManager`
+* :ref:`ProjectMember`
+* :ref:`RegistrationAgency`
+* :ref:`RegistrationAuthority`
+* :ref:`RelatedPerson`
+* :ref:`Researcher`
+* :ref:`ResearchGroup`
+* :ref:`RightsHolder`
+* :ref:`Sponsor`
+* :ref:`Supervisor`
+* :ref:`WorkPackageLeader`
+* :ref:`contributorType_Other`
 
 See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix_1/contributorType>` for definitions.
 
