@@ -36,13 +36,13 @@ Collections of files should be either using an archive format or a bagit folder 
 
 **Occurrences:** 1
 
-**Definition:** Media type typically expressed using a MIME format (see `IANA site <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and `MDN reference <https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types>`_).
+**Definition:** Media type expressed using a MIME format.
 
 **Allowed values, examples, other constraints:**
 
 If Distribution is used, mediaType is mandatory.
 
-Only MIME formats are allowed: https://www.iana.org/assignments/media-types/media-types.xhtml
+Only MIME formats are allowed: see `IANA site <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and `MDN reference <https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types>`_.
 
 Examples:
 
@@ -66,10 +66,10 @@ Only URIs with schemes from IANA-registered schemes are allowed: https://www.ian
 
 Examples:
 
-- https://zenodo.org/record/6591787/files/frequent_bigrams.csv
-- ftp://ds.internic.net/rfc/rfc1436.txt
-- https://zenodo.org/record/6591787/files/bagit.zip
-- https://zenodo.org/record/6591787/files/files.gzip
+- https://example.org/data.csv
+- ftp://example.org/data.txt
+- https://example.org/bagit.zip
+- https://example.org/files.gzip
 
 See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
