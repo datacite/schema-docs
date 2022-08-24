@@ -42,13 +42,13 @@ If Description is used, descriptionType is mandatory.
 *Controlled List Values:*
 
 
-* Abstract
-* Methods
-* SeriesInformation
-* TableOfContents
-* TechnicalInfo
-* Other
+* :ref:`Abstract`
+* :ref:`Methods`
+* :ref:`SeriesInformation`
+* :ref:`TableOfContents`
+* :ref:`TechnicalInfo`
+* :ref:`descriptionType_Other`
 
-Note: SeriesInformation as a container for series title, volume, issue, page number, and related fields, is now superseded by the new :doc:`/properties/recommended_optional/property_relateditem` property with relationType "IsPublishedIn" selected.
+Note: :ref:`SeriesInformation` as a container for series title, volume, issue, page number, and related fields, is now superseded by the new :doc:`/properties/recommended_optional/property_relateditem` property with relationType "IsPublishedIn" selected.
 
 See :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` for definitions.
