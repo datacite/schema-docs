@@ -5,11 +5,11 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Subject, keyword, classification code, or key phrase describing the resource
+**Definition:** Subject, keyword, classification code, or key phrase describing the resource.
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 *Sub-properties:*
 

@@ -5,7 +5,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Spatial region or named place where the data was gathered or about which the data is focused
+**Definition:** Spatial region or named place where the data was gathered or about which the data is focused.
 
 **Allowed values, examples, other constraints:**
 

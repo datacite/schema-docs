@@ -5,7 +5,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Different dates relevant to the work
+**Definition:** Different dates relevant to the work.
 
 **Allowed values, examples, other constraints:**
 

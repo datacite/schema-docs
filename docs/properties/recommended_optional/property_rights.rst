@@ -11,7 +11,7 @@ The property may be repeated to record complex rights characteristics.
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 Provide a rights management statement for the resource or reference a service providing such information. Include embargo information if applicable.
 

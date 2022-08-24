@@ -9,7 +9,7 @@
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 Example: E-GEOD-34814
 

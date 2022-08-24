@@ -3,7 +3,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Information about a resource related to the one being registered
+**Definition:** Information about a resource related to the one being registered.
 
 **Allowed values, examples, other constraints:**
 
@@ -238,7 +238,7 @@ YYYY
 
 Use only with relationType "IsPublishedIn".
 
-Free text
+Free text.
 
 .. _20.6:
 
@@ -253,7 +253,7 @@ Free text
 
 Use only with relationType "IsPublishedIn".
 
-Free text
+Free text.
 
 .. _20.7:
 
@@ -268,7 +268,7 @@ Free text
 
 Use only with relationType "IsPublishedIn".
 
-Free text
+Free text.
 
 .. _20.7.a:
 
@@ -303,7 +303,7 @@ Use only with relationType "IsPublishedIn".
 
 Use only with relationType "IsPublishedIn".
 
-Free text
+Free text.
 
 .. _20.9:
 
@@ -318,7 +318,7 @@ Free text
 
 Use only with relationType "IsPublishedIn".
 
-Free text
+Free text.
 
 20.10 Publisher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -344,7 +344,7 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 Use only with relationType "IsPublishedIn".
 
-Free text
+Free text.
 
 
 20.12 Contributor

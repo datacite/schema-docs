@@ -9,7 +9,7 @@
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 It is a best practice to supply a description.
 

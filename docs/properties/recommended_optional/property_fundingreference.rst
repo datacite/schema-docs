@@ -5,7 +5,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Information about financial support (funding) for the resource being registered
+**Definition:** Information about financial support (funding) for the resource being registered.
 
 **Allowed values, examples, other constraints:**
 

@@ -5,7 +5,7 @@
 
 **Occurrences:** 0-1
 
-**Definition:** The primary language of the resource
+**Definition:** The primary language of the resource.
 
 **Allowed values, examples, other constraints:**
 
