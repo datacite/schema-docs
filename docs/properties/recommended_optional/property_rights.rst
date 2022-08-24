@@ -21,8 +21,8 @@ May be used for software licenses.
 
 Examples:
 
-* Creative Commons Attribution 3.0 Germany License
-* `Apache License, Version 2.0 <http://www.apache.org/licenses/>`_
+* Creative Commons Attribution 4.0 International
+* Apache License, Version 2.0
 
 *Sub-properties:*
 
@@ -33,7 +33,7 @@ Examples:
 .. code:: xml
 
   <rightsList>
-    <rights xml:lang="en" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by/4.0/"/>
+    <rights xml:lang="en" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</rights>
   </rightsList>
 
 16.a rightsURI
