@@ -34,6 +34,7 @@ Use the controlled list values as stated in :ref:`10.a`.
 
 See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` for definitions, examples, and usage notes.
 
+.. _20.b:
 
 20.b relationType
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,6 +66,7 @@ Example: 10.1021/jacs.9b01862
 
 If relatedItemIdentifier is provided, an identical :doc:`/properties/recommended_optional/property_relatedidentifier` is strongly recommended for indexing.
 
+.. _20.1.a:
 
 20.1.a relatedItemIdentifierType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

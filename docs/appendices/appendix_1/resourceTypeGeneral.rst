@@ -1,6 +1,12 @@
 resourceTypeGeneral
 =====================================
 
+*Used by:*
+
+* :ref:`10.a`
+* :ref:`12.f`
+* :ref:`20.a`
+
 *Options:* [#f1]_
 
 .. contents:: :local:

@@ -3,6 +3,11 @@ relationType
 
 Description of the relationship of the resource being registered (A) and the related resource (B).
 
+*Used by:*
+
+* :ref:`12.b`
+* :ref:`20.b`
+
 *Options:*
 
 .. contents:: :local:

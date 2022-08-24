@@ -1,11 +1,9 @@
 dateType
 =====================================
 
-NOTE: To indicate a date range, follow the RKMS-ISO8601 standard for depicting date ranges.
+*Used by:*
 
-For example:
-
-<date dateType="created">2012-03-01/2012-03-05</date>
+* :ref:`8.a`
 
 *Options:*
 

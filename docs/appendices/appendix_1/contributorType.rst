@@ -1,6 +1,10 @@
 contributorType
 =====================================
 
+*Used by:*
+
+* :ref:`7.a`
+
 *Options:*
 
 .. contents:: :local:
@@ -17,7 +21,7 @@ ContactPerson
 DataCollector
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** erson/institution responsible for finding or gathering/collecting data under the guidelines of the author(s) or Principal Investigator (PI).
+**Description:** Person/institution responsible for finding or gathering/collecting data under the guidelines of the author(s) or Principal Investigator (PI).
 
 **Usage Notes:** May also be used when crediting survey conductors, interviewers, event or condition observers, or persons responsible for monitoring key instrument data.
 
@@ -67,7 +71,7 @@ HostingInstitution
 
 **Usage Notes:** This role normally falls on the University, research center or organization where the data center/data repository belongs.
 
-EXAMPLE: Université Grenoble Alpes (UGA)
+Example: Université Grenoble Alpes (UGA)
 
 May also be used for an organisation that stores the data offline - often a data centre if that data centre is not the “publisher” of the resource.
 

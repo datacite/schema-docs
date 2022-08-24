@@ -28,6 +28,7 @@ Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
       <date dateType="Other" dateInformation="Conceptualized">2020-01-01</date>
   </dates>
 
+.. _8.a:
 
 8.a dateType
 ~~~~~~~~~~~~~~~~~~~~~~

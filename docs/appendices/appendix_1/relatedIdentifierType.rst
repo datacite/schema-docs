@@ -1,6 +1,11 @@
 relatedIdentifierType
 =====================================
 
+*Used by:*
+
+* :ref:`12.a`
+* :ref:`20.1.a`
+
 *Options:*
 
 .. contents:: :local:

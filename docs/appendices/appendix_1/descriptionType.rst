@@ -1,6 +1,10 @@
 descriptionType
 =====================================
 
+*Used by:*
+
+* :ref:`17.a`
+
 *Options:*
 
 .. contents:: :local:
