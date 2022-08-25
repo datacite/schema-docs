@@ -21,7 +21,7 @@ Audiovisual
 
 **Examples and Usage Notes:** May be used for films, video, etc.
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.17608/k6.auckland.4620790.v1
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17608/k6.auckland.4620790.v1
 
 
 **Suggested Dublin Core Mapping:** MovingImage
@@ -36,9 +36,11 @@ Book
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Book">Textbook</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Book">Textbook</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -52,9 +54,9 @@ BookChapter
 
 **Examples and Usage Notes:**
 
-https://doi.org/10.15122/isbn.978-2-406-09313-8.p.0639
+https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.15122/isbn.978-2-406-09313-8.p.0639
 
-https://doi.org/10.17613/m6631d
+https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17613/m6631d
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -68,7 +70,7 @@ Collection
 
 **Examples and Usage Notes:** A collection of samples, or various files making up a report
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594/pangaea.877589
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.1594/pangaea.877589
 
 **Suggested Dublin Core Mapping:** Collection
 
@@ -82,9 +84,11 @@ ComputationalNotebook
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="ComputationalNotebook">Jupyter</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="ComputationalNotebook">Jupyter</resourceType>
 
 **Suggested Dublin Core Mapping:** InteractiveResource
 
@@ -98,9 +102,11 @@ ConferencePaper
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="ConferencePaper">Experience Report</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="ConferencePaper">Experience Report</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -114,9 +120,11 @@ ConferenceProceeding
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="ConferenceProceeding">Annual Convention</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="ConferenceProceeding">Annual Convention</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -130,7 +138,7 @@ DataPaper
 
 **Examples and Usage Notes:** A data paper describes data provenance and methodologies used in the gathering, processing, organizing, and representing the data
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.17912/w2mw2d
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17912/w2mw2d
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -144,9 +152,7 @@ Dataset
 
 **Examples and Usage Notes:** Data file or files
 
-Example:
-
-https://data.datacite.org/application/vnd.datacite.datacite+xml/10.1594/pangaea.804876
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.1594/pangaea.804876
 
 **Suggested Dublin Core Mapping:** Dataset
 
@@ -160,9 +166,11 @@ Dissertation
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Dissertation">PhD thesis</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Dissertation">PhD thesis</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -176,7 +184,7 @@ Event
 
 **Examples and Usage Notes:** Descriptive information and/or content that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event such as a webcast or convention
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7269/p3rn35sz
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7269/p3rn35sz
 
 **Suggested Dublin Core Mapping:** Event
 
@@ -190,7 +198,7 @@ Image
 
 **Examples and Usage Notes:** Digitised or born digital images, drawings or photographs
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.6083/m4qn65c5
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.6083/m4qn65c5
 
 **Suggested Dublin Core Mapping:** Image
 
@@ -204,9 +212,11 @@ Instrument
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Instrument">Reflectometer</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Instrument">Reflectometer</resourceType>
 
 **Suggested Dublin Core Mapping:** N/A
 
@@ -220,7 +230,7 @@ InteractiveResource
 
 **Examples and Usage Notes:** Training modules, files that require use of a viewer (e.g., Flash), or query/response portals
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7269/p3tb14tr
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7269/p3tb14tr
 
 **Suggested Dublin Core Mapping:** InteractiveResource
 
@@ -234,9 +244,11 @@ Journal
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Journal"></resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Journal"></resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -250,9 +262,11 @@ JournalArticle
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="JournalArticle"></resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="JournalArticle"></resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -266,7 +280,7 @@ Model
 
 **Examples and Usage Notes:** Modelled descriptions of, for example, different aspects of languages or a molecular biology reaction chain
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5285/4d866cd2-c907-4ce2-b070-084ca9779dc2
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.5285/4d866cd2-c907-4ce2-b070-084ca9779dc2
 
 **Suggested Dublin Core Mapping:** N/A
 
@@ -280,9 +294,11 @@ OutputManagementPlan
 
 **Examples and Usage Notes:** Includes data, software, and materials.
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="OutputManagementPlan">Data Management Plan</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="OutputManagementPlan">Data Management Plan</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -294,11 +310,13 @@ PeerReview
 
 **Description:** Evaluation of scientific, academic, or professional work by others working in the same field.
 
-**Examples and Usage Notes:** https://doi.org/10.6084/m9.figshare.5742270
+**Examples and Usage Notes:** https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.6084/m9.figshare.5742270
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="PeerReview">Scientific Article</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="PeerReview">Scientific Article</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -312,7 +330,7 @@ PhysicalObject
 
 **Examples and Usage Notes:** Artifacts, specimens
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7299/X78052RB
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7299/X78052RB
 
 **Suggested Dublin Core Mapping:** PhysicalObject
 
@@ -326,9 +344,11 @@ Preprint
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Preprint"> Research Paper</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Preprint"> Research Paper</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -342,9 +362,11 @@ Report
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Report">Annual Report</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Report">Annual Report</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -358,7 +380,7 @@ Service
 
 **Examples and Usage Notes:** Data management service, or long-term preservation service
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.21938/3I01ISNUCODNH1ZJBCVUWA
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.21938/3I01ISNUCODNH1ZJBCVUWA
 
 **Suggested Dublin Core Mapping:** Service
 
@@ -372,7 +394,7 @@ Software
 
 **Examples and Usage Notes:** Software supporting scholarly research
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.4225/03/5954F738EE5AA
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.4225/03/5954F738EE5AA
 
 **Suggested Dublin Core Mapping:** Software
 
@@ -386,7 +408,7 @@ Sound
 
 **Examples and Usage Notes:** Audio recording
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.7282/T3J67F05
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7282/T3J67F05
 
 **Suggested Dublin Core Mapping:** Sound
 
@@ -400,9 +422,11 @@ Standard
 
 **Examples and Usage Notes:**
 
-Example::
+Example:
 
-<resourceType resourceTypeGeneral="Standard">Dublin Core</resourceType>
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Standard">Dublin Core</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -416,7 +440,7 @@ Text
 
 **Examples and Usage Notes:**
 
-Example: https://data.datacite.org/application/vnd.datacite.datacite+xml/10.5682/9786065914018
+Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.5682/9786065914018
 
 **Suggested Dublin Core Mapping:** Text
 
