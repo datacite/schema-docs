@@ -92,7 +92,7 @@ Other changes and corrections
 
 * Correction of the cardinality for properties :ref:`2.5.a` and :ref:`7.5.a`.
 * Correction of the capitalization of properties :ref:`2.5.c`, :ref:`7.5.c`, and :ref:`19.2.b`.
-* Addition of a note to :ref:`19.2.a` to indicate when it is mandatory.
+* Correction of the cardinality of :ref:`19.2.a` and addition of a note indicate when it is mandatory.
 * Addition of a note to :ref:`3.a` (sub-property of :doc:`/properties/mandatory/property_title`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :doc:`/properties/recommended_optional/property_relateditem`).
 * Updated examples for ``nameIdentifier`` and its attributes (properties :ref:`2.4` and :ref:`7.4`).
 * Updated examples for ``affiliationIdentifier`` and its attributes (properties :ref:`2.5` and :ref:`7.5`).

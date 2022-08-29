@@ -37,6 +37,8 @@ Repeat this property to indicate several different locations.
     </geoLocation>
   </geoLocations>
 
+
+
 18.1 geolocationPoint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -46,7 +48,9 @@ Repeat this property to indicate several different locations.
 
 **Allowed values, examples, other constraints:**
 
-A point contains a single longitude-latitude pair. [#f1]_
+A point contains a single longitude-latitude pair.
+
+Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
 
 18.1.1 pointLongitude
@@ -80,7 +84,7 @@ Latitude of the geographic point expressed in decimal degrees (positive north)
 
 Example: 31.233
 
-Domain: -90<= pointLatitude <= 90
+Domain: -90 <= pointLatitude <= 90
 
 
 18.2 geolocationBox
@@ -92,7 +96,9 @@ Domain: -90<= pointLatitude <= 90
 
 **Allowed values, examples, other constraints:**
 
-A box is defined by two geographic points. Left low corner and right upper corner. Each point is defined by its longitude and latitude. [#f1]_
+A box is defined by two geographic points. Left low corner and right upper corner. Each point is defined by its longitude and latitude.
+
+Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
 
 18.2.1 westBoundLongitude
@@ -105,6 +111,7 @@ A box is defined by two geographic points. Left low corner and right upper corne
 **Allowed values, examples, other constraints:**
 
 If geolocationBox is used, westBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+
 Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
 
@@ -118,6 +125,7 @@ Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 **Allowed values, examples, other constraints:**
 
 If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east)
+
 Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
 
@@ -131,6 +139,7 @@ Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 **Allowed values, examples, other constraints:**
 
 If geolocationBox is used, southBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+
 Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
 
@@ -144,6 +153,7 @@ Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 **Allowed values, examples, other constraints:**
 
 If geolocationBox is used, northBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+
 Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 
 
@@ -168,7 +178,9 @@ Free text. Use to describe a geographic location.
 
 **Allowed values, examples, other constraints:**
 
-A polygon is delimited by geographic points. Each point is defined by a longitude-latitude pair. The last point should be the same as the first point. [#f1]_
+A polygon is delimited by geographic points. Each point is defined by a longitude-latitude pair. The last point should be the same as the first point.
+
+Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
 
 18.4.1 polygonPoint
@@ -249,5 +261,4 @@ If inPolygonPoint is used, pointLatitude is mandatory. Latitude of the geographi
 
 
 .. rubric:: Footnotes
-.. [#f1] Use WGS 84 (World Geodetic System) coordinates. Use only decimal numbers for coordinates. Longitudes are -180 to 180 (0 is Greenwich, negative numbers are west, positive numbers are east), Latitudes are -90 to 90 (0 is the equator; negative numbers are south, positive numbers north).
 .. [#f2] A polygon that crosses the anti-meridian (i.e. the 180th meridian) can be represented by cutting it into two polygons such that neither crosses the anti-meridian.
