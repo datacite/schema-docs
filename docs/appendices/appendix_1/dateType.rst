@@ -109,4 +109,4 @@ Withdrawn
 
 **Description:** The date the resource is removed.
 
-**Usage Notes:** It is good practice to include a Description that indicates the reason for the retraction or withdrawal.
+**Usage Notes:** It is good practice to include a :doc:`/properties/recommended_optional/property_description` that indicates the reason for the retraction or withdrawal.
