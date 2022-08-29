@@ -95,13 +95,13 @@ Example: Digitized book chapter in a book (with no identifier)
       <titles>
         <title>Example Book Title</title>
       </titles>
-      <creators>
+      <contributors>
         <creator>
-          <creatorName nameType="Personal">Latham, John</creatorName>
-          <givenName>John</givenName>
-          <familyName>Latham</familyName>
-        </creator>
-      </creators>
+          <contributor nameType="Personal" contributorType="Editor">Miller, Elizabeth</creatorName>
+          <givenName>Elizabeth</givenName>
+          <familyName>Miller</familyName>
+        </contributor>
+      </contributors>
       <publicationYear>1980</publicationYear>
       <volume>I</volume>
       <firstPage>110</firstPage>
