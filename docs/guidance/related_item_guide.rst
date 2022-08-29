@@ -191,7 +191,7 @@ Describing related resources with identifiers
 
 Most related resources will have at least one of the identifier types specified in :doc:`/appendices/appendix_1/relatedIdentifierType`.
 
-In this case, the :doc:`/properties/recommended_optional/property_relatedidentifier` property is strongly recommended for indexing. In addition, the :doc:`/properties/recommended_optional/property_relateditem` property may be used to provide additional information about the related item.
+In this case, the :doc:`/properties/recommended_optional/property_relatedidentifier` property is strongly recommended for indexing. In addition, the :doc:`/properties/recommended_optional/property_relateditem` property *may* be used to provide additional information about the related item.
 
 .. code:: xml
 
