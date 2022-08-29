@@ -236,8 +236,6 @@ Primarily this relation is applied to container-contained type relationships.
 
 May be used for individual software modules; note that code repository-to-version relationships should be modeled using IsVersionOf and HasVersion
 
-*Recommended for discovery.*
-
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPartOf">10.5281/zenodo.754312</relatedIdentifier>
@@ -257,8 +255,6 @@ HasPart
 Primarily this relation is applied to container-contained type relationships.
 
 May be used for individual software modules; note that code repository-to-version relationships should be modeled using IsVersionOf and HasVersion
-
-*Recommended for discovery.*
 
 .. code:: xml
 
@@ -316,11 +312,11 @@ IsDocumentedBy
 
 **Example and Usage Notes:**
 
+May be used for software documentation.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">http://tobias-lib.uni-tuebingen.de/volltexte/2000/96/</relatedIdentifier>
-
-May be used for software documentation.
 
 
 .. _Documents:
@@ -332,11 +328,11 @@ Documents
 
 **Example and Usage Notes:**
 
+May be used for software documentation.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="Documents">10.1234/7836</relatedIdentifier>
-
-May be used for software documentation.
 
 
 .. _IsCompiledBy:
@@ -348,11 +344,11 @@ IsCompiledBy
 
 **Example and Usage Notes:**
 
+May be used to indicate either a traditional text compilation, or the compiler program used to generate executable software.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URL" relationType="isCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
-
-May be used to indicate either a traditional text compilation, or the compiler program used to generate executable software.
 
 
 .. _Compiles:
@@ -364,11 +360,11 @@ Compiles
 
 **Example and Usage Notes:**
 
+May be used for software and text, as a compiler can be a computer program or a person.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URN" relationType="Compiles">urn:nbn:de:bsz:21-opus-963</relatedIdentifier>
-
-May be used for software and text, as a compiler can be a computer program or a person.
 
 
 .. _IsVariantFormOf:
@@ -380,13 +376,13 @@ IsVariantFormOf
 
 **Example and Usage Notes:**
 
-.. code:: xml
-
-  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsVariantFormOf">10.1234/8675</relatedIdentifier>
-
 Use for a different form of one thing.
 
 May be used for different software operating systems or compiler formats, for example.
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsVariantFormOf">10.1234/8675</relatedIdentifier>
 
 
 .. _IsOriginalFormOf:
@@ -398,11 +394,11 @@ IsOriginalFormOf
 
 **Example and Usage Notes:**
 
+May be used for different software operating systems or compiler formats, for example.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsOriginalFormOf">10.1234/9035</relatedIdentifier>
-
-May be used for different software operating systems or compiler formats, for example.
 
 
 .. _IsIdenticalTo:
@@ -414,11 +410,11 @@ IsIdenticalTo
 
 **Example and Usage Notes:**
 
+IsIdenticalTo should be used for a resource that is the same as the registered resource but is saved on another location, maybe another institution.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URL" relationType="IsIdenticalTo">http://oac.cdlib.org/findaid/ark:/13030/c8r78fzq</relatedIdentifier>
-
-IsIdenticalTo should be used for a resource that is the same as the registered resource but is saved on another location, maybe another institution.
 
 
 .. _IsReviewedBy:
@@ -458,13 +454,13 @@ IsDerivedFrom
 
 **Example and Usage Notes:**
 
-.. code:: xml
-
-  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom">10.6078/M7DZ067C</relatedIdentifier>
-
 IsDerivedFrom should be used for a resource that is a derivative of an original resource.
 
 In this example, the dataset is derived from a larger dataset and data values have been manipulated from their original state.
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDerivedFrom">10.6078/M7DZ067C</relatedIdentifier>
 
 
 .. _IsSourceOf:
@@ -476,13 +472,13 @@ IsSourceOf
 
 **Example and Usage Notes:**
 
-.. code:: xml
-
-  <relatedIdentifier relatedIdentifierType="URL" relationType="IsSourceOf"> http://opencontext.org/projects/81204AF8-127C-4686-E9B0-1202C3A47959</relatedIdentifier>
-
 IsSourceOf is the original resource from which a derivative resource was created.
 
 In this example, this is the original dataset without value manipulation.
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="URL" relationType="IsSourceOf">http://opencontext.org/projects/81204AF8-127C-4686-E9B0-1202C3A47959</relatedIdentifier>
 
 
 .. _IsRequiredBy:
@@ -494,11 +490,11 @@ IsRequiredBy
 
 **Example and Usage Notes:**
 
+May be used to indicate software dependencies.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsRequiredBy">10.1234/8675</relatedIdentifier>
-
-May be used to indicate software dependencies.
 
 
 .. _Requires:
@@ -510,11 +506,11 @@ Requires
 
 **Example and Usage Notes:**
 
+May be used to indicate software dependencies.
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="Requires">10.1234/867</relatedIdentifier>
-
-May be used to indicate software dependencies.
 
 
 .. _Obsoletes:
@@ -554,11 +550,11 @@ IsUsedBy
 
 **Example and Usage Notes:**
 
+May be used to indicate the relationship between an instrument and where it has been used (as in, instrument A is IsUsedBy research output B).
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsUsedBy">10.5072/dataset</relatedIdentifier>
-
-May be used to indicate the relationship between an instrument and where it has been used (as in, instrument A is IsUsedBy research output B).
 
 
 .. _Uses:
@@ -570,8 +566,8 @@ Uses
 
 **Example and Usage Notes:**
 
+May be used to indicate the relationship between an instrument and where it has been used (as in, research output A uses instrument B).
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI"relationType="Uses">10.5072/instrument</relatedIdentifier>
-
-May be used to indicate the relationship between an instrument and where it has been used (as in, research output A uses instrument B).
