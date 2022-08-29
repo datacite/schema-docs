@@ -34,6 +34,8 @@ It is a best practice to supply funding information when financial support has b
     </fundingReference>
   </fundingReferences>
 
+.. _19.1:
+
 19.1 funderName
 ~~~~~~~~~~~~~~~~~~~
 
@@ -45,6 +47,7 @@ It is a best practice to supply funding information when financial support has b
 
 Example: Gordon and Betty Moore Foundation
 
+.. _19.2:
 
 19.2 funderIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -94,6 +97,7 @@ Examples:
 * https://www.crossref.org/services/funder-registry/
 * https://ror.org/
 
+.. _19.3:
 
 19.3 awardNumber
 ~~~~~~~~~~~~~~~~~~~
@@ -106,6 +110,7 @@ Examples:
 
 Example: GBMF3859.01
 
+.. _19.3.a:
 
 19.3.a awardURI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -120,6 +125,7 @@ Example: https://www.moore.org/grants/list/GBMF3859.01
 
 Note: In case the award or grant has an ID or DOI, the full URL of the grant DOI can be included here, e.g. https://doi.org/10.35802/221400.
 
+.. _19.4:
 
 19.4 awardTitle
 ~~~~~~~~~~~~~~~~~~~

@@ -112,6 +112,7 @@ The personal name format should be: family, given. Non- roman names should be tr
  * Organizational
  * Personal (default)
 
+.. _7.2:
 
 7.2 givenName
 ~~~~~~~~~~~~~~~~~~~
@@ -124,6 +125,7 @@ The personal name format should be: family, given. Non- roman names should be tr
 
 Examples based on the `7.1`_ names: Emily
 
+.. _7.3:
 
 7.3 familyName
 ~~~~~~~~~~~~~~~~~~~
@@ -156,6 +158,7 @@ Examples:
 * https://isni.org/isni/0000000492299539
 * https://ror.org/04aj4c181
 
+.. _7.4.a:
 
 7.4.a nameIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -174,6 +177,7 @@ Examples:
 * ISNI
 * ROR
 
+.. _7.4.b:
 
 7.4.b schemeURI
 ^^^^^^^^^^^^^^^^^^^
@@ -231,6 +235,7 @@ Examples:
 * https://ror.org/04aj4c181
 * https://isni.org/isni/0000000492299539
 
+.. _7.5.b:
 
 7.5.b affiliationIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -64,6 +64,7 @@ Note that the personal name format should be: family, given. Names in non-roman 
  * Organizational
  * Personal (default)
 
+.. _2.2:
 
 2.2 givenName
 ~~~~~~~~~~~~~~~~~~~
@@ -76,6 +77,7 @@ Note that the personal name format should be: family, given. Names in non-roman 
 
 Examples based on the 2.1 names: Antoine; Mae
 
+.. _2.3:
 
 2.3 familyName
 ~~~~~~~~~~~~~~~~~~~
@@ -108,6 +110,7 @@ Examples:
 * https://isni.org/isni/0000000492299539
 * https://ror.org/04aj4c181
 
+.. _2.4.a:
 
 2.4.a nameIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -126,6 +129,7 @@ Examples:
 * ISNI
 * ROR
 
+.. _2.4.b:
 
 2.4.b schemeURI
 ^^^^^^^^^^^^^^^^^^^
@@ -183,6 +187,7 @@ Examples:
 * https://ror.org/04aj4c181
 * https://isni.org/isni/0000000492299539
 
+.. _2.5.b:
 
 2.5.b affiliationIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

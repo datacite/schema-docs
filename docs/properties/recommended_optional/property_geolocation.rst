@@ -38,6 +38,7 @@ Repeat this property to indicate several different locations.
   </geoLocations>
 
 
+.. _18.1:
 
 18.1 geolocationPoint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,6 +87,7 @@ Example: 31.233
 
 Domain: -90 <= pointLatitude <= 90
 
+.. _18.2:
 
 18.2 geolocationBox
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -156,6 +158,7 @@ If geolocationBox is used, northBoundLatitude is mandatory. Latitude of the geog
 
 Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 
+.. _18.3:
 
 18.3 geoLocationPlace
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -168,6 +171,7 @@ Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 
 Free text. Use to describe a geographic location.
 
+.. _18.4:
 
 18.4 geoLocationPolygon
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -222,13 +226,14 @@ If polygonPoint is used, pointLatitude is mandatory. Latitude of the geographic 
 
 Domain: -90 <= pointLatitude <= 90
 
+.. _18.4.2:
 
-18.4.2 inPolygonPoint [#f2]_
+18.4.2 inPolygonPoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** For any bound area that is larger than half the earth, define a (random) point inside
+**Definition:** For any bound area that is larger than half the earth, define a (random) point inside [#f1]_
 
 **Allowed values, examples, other constraints:**
 
@@ -261,4 +266,4 @@ If inPolygonPoint is used, pointLatitude is mandatory. Latitude of the geographi
 
 
 .. rubric:: Footnotes
-.. [#f2] A polygon that crosses the anti-meridian (i.e. the 180th meridian) can be represented by cutting it into two polygons such that neither crosses the anti-meridian.
+.. [#f1] A polygon that crosses the anti-meridian (i.e. the 180th meridian) can be represented by cutting it into two polygons such that neither crosses the anti-meridian.

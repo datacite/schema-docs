@@ -210,6 +210,8 @@ Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 Examples: XSD, DDT, Turtle
 
+.. _20.2:
+
 20.2 Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -300,6 +302,7 @@ Example: Journal of the American Chemical Society
 
 The titleType sub-property is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
+.. _20.4:
 
 20.4 PublicationYear
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -407,6 +410,8 @@ Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
+.. _20.10:
+
 20.10 Publisher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -433,6 +438,7 @@ Use only with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
+.. _20.12:
 
 20.12 Contributor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

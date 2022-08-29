@@ -24,6 +24,8 @@ Free text.
     <subject xml:lang="en" subjectScheme="ANZSRC Fields of Research" schemeURI="https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc" classificationCode="370201">Climate change processes</subject>
   </subject>
 
+.. _6.a:
+
 6.a subjectScheme
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,6 +42,8 @@ Examples:
 * Library of Congress Subject Headings (LCSH)
 * ANZSRC Fields of Research
 
+.. _6.b:
+
 6.b schemeURI
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -50,6 +54,8 @@ Examples:
 **Allowed values, examples, other constraints:**
 
 Example: https://id.loc.gov/authorities/subjects.html
+
+.. _6.c:
 
 6.c valueURI
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -62,6 +68,9 @@ Example: https://id.loc.gov/authorities/subjects.html
 
 Example:
 https://id.loc.gov/authorities/subjects/sh85118622.html
+
+
+.. _6.d:
 
 6.d classificationCode
 ~~~~~~~~~~~~~~~~~~~~~~

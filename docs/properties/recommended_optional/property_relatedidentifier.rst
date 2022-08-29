@@ -117,6 +117,7 @@ If RelatedIdentifier is used, relationType is mandatory.
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples and usage notes.
 
+.. _12.c:
 
 12.c relatedMetadataScheme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -131,6 +132,8 @@ Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata <HasMetadata>` for example.
 
+.. _12.d:
+
 12.d schemeURI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -143,6 +146,8 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 Use only with this relation pair: (:ref:`HasMetadata`/ :ref:`IsMetadataFor`)
 
 See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata <HasMetadata>` for example.
+
+.. _12.e:
 
 12.e schemeType
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

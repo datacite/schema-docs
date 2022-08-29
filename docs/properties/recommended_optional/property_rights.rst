@@ -36,6 +36,8 @@ Examples:
     <rights xml:lang="en" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</rights>
   </rightsList>
 
+.. _16.a:
+
 16.a rightsURI
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -47,6 +49,7 @@ Examples:
 
 Example: https://creativecommons.org/licenses/by/3.0/de/
 
+.. _16.b:
 
 16.b rightsIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -61,6 +64,8 @@ Example: CC-BY-3.0
 
 A list of identifiers for commonly-used licenses may be found here: (https://spdx.org/licenses/).
 
+.. _16.c:
+
 16.c rightsIdentifierScheme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -71,6 +76,8 @@ A list of identifiers for commonly-used licenses may be found here: (https://spd
 **Allowed values, examples, other constraints:**
 
 Example: SPDX
+
+.. _16.d:
 
 16.d schemeURI
 ~~~~~~~~~~~~~~~~~~~~~~
