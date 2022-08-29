@@ -60,7 +60,7 @@ bibcode
 
   <relatedIdentifier relatedIdentifierType="bibcode" relationType="IsCitedBy">2018AGUFM.A24K..07S</relatedIdentifier>
 
-Note: bibcodes can be resolved via http://adsabs.harvard.edu/abs/bibcode or https://ui.adsabs.harvard.edu
+Note: bibcodes can be resolved via https://ui.adsabs.harvard.edu
 
 
 .. _DOI:
