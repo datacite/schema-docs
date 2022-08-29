@@ -106,6 +106,7 @@ Example: Digitized book chapter in a book (with no identifier)
       <volume>I</volume>
       <firstPage>110</firstPage>
       <lastPage>155</lastPage>
+      <edition>2nd edition</edition>
       <publisher>Example Publisher</publisher>
     </relatedItem>
   </relatedItems>
