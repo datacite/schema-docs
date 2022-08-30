@@ -56,7 +56,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The URI leading to a content provided by a repository using a valid protocol.
+**Definition:** The URI leading to content provided by a repository using a valid protocol.
 
 **Allowed values, examples, other constraints:**
 
@@ -153,7 +153,7 @@ Examples:
 
 **Allowed values, examples, other constraints:**
 
-Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/access_rights.nt
+Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/
 
 To provide copyright or licensing information, use the :doc:`/properties/recommended_optional/property_rights` property.
 
@@ -175,7 +175,7 @@ Examples:
 
 **Allowed values, examples, other constraints:**
 
-Recommended values should follow the COAR vocabulary for to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/access_rights.nt
+Recommended values should follow the COAR vocabulary for to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/
 
 Examples:
 
