@@ -63,6 +63,7 @@ Example: Journal article in a journal (with an ISSN)
       <publicationYear>2022</publicationYear>
       <volume>3</volume>
       <issue>4</issue>
+      <number numberType="Article">2</number>
       <firstPage>20</firstPage>
       <lastPage>35</lastPage>
       <publisher>Example Publisher</publisher>
@@ -95,13 +96,6 @@ Example: Digitized book chapter in a book (with no identifier)
       <titles>
         <title>Example Book Title</title>
       </titles>
-      <contributors>
-        <creator>
-          <contributor nameType="Personal" contributorType="Editor">Miller, Elizabeth</creatorName>
-          <givenName>Elizabeth</givenName>
-          <familyName>Miller</familyName>
-        </contributor>
-      </contributors>
       <publicationYear>1980</publicationYear>
       <volume>I</volume>
       <firstPage>110</firstPage>
