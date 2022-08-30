@@ -11,7 +11,7 @@
 
 The use of this property indicates directly downloadable distributions. Every distribution should represent the same resource in its entirety. It should NOT be used to describe collections.
 
-Collections of files should be either using an archive format or a bagit folder structure. See :doc:`/guidance/distribution` for recommendations.
+Collections of files should be either using an archive format or a BagIt folder structure. See :doc:`/guidance/distribution` for recommendations.
 
 *Sub-properties:*
 
