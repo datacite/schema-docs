@@ -27,6 +27,8 @@ Example: E-GEOD-34814
       <alternateIdentifier alternateIdentifierType="Local accession number">E-GEOD-34814</alternateIdentifier>
   </alternateIdentifiers>
 
+.. _11.a:
+
 11.a alternateIdentifierType
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

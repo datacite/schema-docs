@@ -8,6 +8,17 @@
     vertical-align: top;
 }
 
+/* Fix bullet size in tables */
+td>ul>li>p {
+    line-height: 1rem;
+    margin-bottom: 0;
+    font-size: .9rem;
+}
+
+td>ul {
+  margin-bottom: 0px !important;
+}
+
 /* Add underline to links */
 a {
   text-decoration: underline;

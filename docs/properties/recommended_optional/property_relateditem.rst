@@ -453,6 +453,7 @@ Free text.
 
 Examples: Charpy, Antoine; Foo Data Center
 
+.. _20.12.a:
 
 20.12.a contributorType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -55,6 +55,7 @@ A point contains a single longitude-latitude pair.
 
 Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
+.. _18.1.1:
 
 18.1.1 pointLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -71,6 +72,7 @@ Example: -67.302
 
 Domain: -180 <= pointLongitude <= 180
 
+.. _18.1.2:
 
 18.1.2 pointLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -104,6 +106,7 @@ A box is defined by two geographic points. Left low corner and right upper corne
 
 Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
+.. _18.2.1:
 
 18.2.1 westBoundLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -118,6 +121,7 @@ If geolocationBox is used, westBoundLongitude is mandatory. Longitude of the geo
 
 Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
+.. _18.2.2:
 
 18.2.2 eastBoundLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -132,6 +136,7 @@ If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geo
 
 Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
+.. _18.2.3:
 
 18.2.3 southBoundLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -146,6 +151,7 @@ If geolocationBox is used, southBoundLatitude is mandatory. Latitude of the geog
 
 Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
+.. _18.2.4:
 
 18.2.4 northBoundLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -188,6 +194,7 @@ A polygon is delimited by geographic points. Each point is defined by a longitud
 
 Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
+.. _18.4.1:
 
 18.4.1 polygonPoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -200,6 +207,7 @@ Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for 
 
 If geoLocationPolygon is used, polygonPoint must be used as well. There must be at least 4 non-aligned points to make a closed curve, with the last point described the same as the first point.
 
+.. _18.4.1.1:
 
 18.4.1.1 pointLongitude
 ##########################
@@ -214,6 +222,7 @@ If polygonPoint is used, pointLongitude is mandatory. Longitude of the geographi
 
 Domain: -180 <= pointLongitude <= 180
 
+.. _18.4.1.2:
 
 18.4.1.2 pointLatitude
 ##########################
@@ -241,6 +250,7 @@ Domain: -90 <= pointLatitude <= 90
 
 inPolygonPoint is only necessary to indicate the "inside" of the polygon if the polygon is larger than half the earth. Otherwise the smallest of the two areas bounded by the polygon will be used.
 
+.. _18.4.2.1:
 
 18.4.2.1 pointLongitude
 ##########################
@@ -253,6 +263,7 @@ inPolygonPoint is only necessary to indicate the "inside" of the polygon if the 
 
 If inPolygonPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
+.. _18.4.2.2:
 
 18.4.2.2 pointLatitude
 ##########################
