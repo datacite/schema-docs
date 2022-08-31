@@ -63,7 +63,7 @@ TechnicalInfo
 
 **Definition:** Detailed information that may be associated with design, implementation, operation, use, and/or maintenance of a process, system, or instrument.
 
-**Usage Notes:** For software description, this may include the contents of a “readme.txt” and necessary environmental information (hardware, operational software, applications/programs with version information, a human-readable synopsis of software purpose) that cannot be described using other properties (e.g., programming language). For other uses, this can include specific and detailed information as necessary and appropriate. The information entered will be unstructured and not parsed, so it may be useful to format the information using tags and/or line breaks.
+**Usage Notes:** For software description, this may include the contents of a “readme.txt” and necessary environmental information (hardware, operational software, applications/programs with version information, a human-readable synopsis of software purpose) that cannot be described using other properties (e.g., programming language). For other uses, this can include specific and detailed information as necessary and appropriate. The information entered will be unstructured and not parsed, so it may be useful to format the information using line breaks ("<br>").
 
 
 .. _descriptionType_Other:
