@@ -36,6 +36,13 @@ td>ul {
   margin-bottom: 0px !important;
 }
 
+/* Format affiliation links */
+.affiliation img,
+.orcid img {
+  padding-right: 5px;
+  height: 16px
+}
+
 /* Add underline to links */
 a {
   text-decoration: underline;
