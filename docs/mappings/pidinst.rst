@@ -1,16 +1,16 @@
 PIDINST Schema [#f1]_ Mapping
 =================================================================
 
-.. _Table 5:
+.. _Table 6:
 
-Table 5: PIDINST to DataCite Mapping
+Table 6: PIDINST to DataCite Mapping
 ------------------------------------------------------
 
 .. list-table::
    :header-rows: 1
    :widths: auto
    :class: longtable
-   :name: Table 5: PIDINST to DataCite Mapping
+   :name: Table 6: PIDINST to DataCite Mapping
 
    * - PIDINST Property
      - DataCite v. 4.5
