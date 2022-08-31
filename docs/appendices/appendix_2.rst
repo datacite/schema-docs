@@ -257,8 +257,8 @@ Version 2.2 of the DataCite Metadata Schema introduced several changes, as noted
 
 * Addition of “URL” to list of allowed values for relatedIdentifierType
 * Addition of the following values to list of allowed values for contributorType: :ref:`Producer`, :ref:`Distributor`, :ref:`RelatedPerson`, :ref:`Supervisor`, :ref:`Sponsor`, Funder, :ref:`RightsHolder`
-* Addition of :ref`SeriesInformation` to list of allowed values for descriptionType
-* Addition of :ref`Model` to list of allowed values for resourceTypeGeneral
+* Addition of :ref:`SeriesInformation` to list of allowed values for descriptionType
+* Addition of :ref:`Model` to list of allowed values for resourceTypeGeneral
 
 Version 2.2 of the DataCite Metadata Schema documentation included these changes:
 
