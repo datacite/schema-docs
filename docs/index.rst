@@ -130,7 +130,7 @@ Members of the Metadata Working Group:
 
   <a class="affiliation" href="https://ror.org/04wxnsj81"><img alt="ROR logo" src="https://raw.githubusercontent.com/ror-community/ror-logos/main/ror-icon-rgb.svg"/>DataCite</a>
 
-.. only:: html and epub
+.. only:: not latex
 
   * |Jan Ashton|, |British Library| (co-chair of working group)
   * |Isabel Bernal|, |Spanish National Research Council (CSIC)| (co-chair of working group)
