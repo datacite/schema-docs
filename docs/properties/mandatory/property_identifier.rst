@@ -1,3 +1,5 @@
+.. _1:
+
 1. Identifier
 ====================
 
@@ -23,6 +25,7 @@ A DOI (Digital Object Identifier) registered by a DataCite Member. The format sh
 
  <identifier identifierType="DOI">10.21384/foo</identifier>
 
+.. _1.a:
 
 1.a identifierType
 ~~~~~~~~~~~~~~~~~~~~~~

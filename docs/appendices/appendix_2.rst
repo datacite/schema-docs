@@ -6,7 +6,7 @@ Appendix 2 provides the update contents of earlier versions of the schema.
 Version 4.4 Update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of the new subproperty :ref:`6.d` in the :doc:`/properties/recommended_optional/property_subject` property.
+* Addition of the new subproperty :ref:`6.d` in the :ref:`6` property.
 * Addition of new values to the :ref:`10.a` property:
 
  * :ref:`Book`
@@ -24,7 +24,7 @@ Version 4.4 Update
  * :ref:`Standard`
 
 * Addition of a new relationType: :ref:`IsPublishedIn` (indicates that A is published in B)
-* Addition of a new :doc:`/properties/recommended_optional/property_relateditem` property, with subproperties to contain specific details for containing publication information previously encoded in a :doc:`/properties/recommended_optional/property_description` field with ``descriptionType=”SeriesInformation”`` (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
+* Addition of a new :ref:`20` property, with subproperties to contain specific details for containing publication information previously encoded in a :ref:`17` field with ``descriptionType=”SeriesInformation”`` (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
 
  * :ref:`20.b`
  * :ref:`20.a`
@@ -53,19 +53,19 @@ Version 4.3 Update
 
 Version 4.3 of the schema includes these changes:
 
-* Addition of new subproperties for affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) in the :doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor` properties:
+* Addition of new subproperties for affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) in the :ref:`2` and :ref:`7` properties:
 
   * affiliationIdentifier (:ref:`2.5.a <2.5.a>`, :ref:`7.5.a <7.5.a>`)
   * affiliationIdentifierScheme (:ref:`2.5.b <2.5.b>`, :ref:`7.5.b <7.5.b>`)
   * schemeURI (:ref:`2.5.c <2.5.c>`, :ref:`7.5.c <7.5.c>`)
-* Addition of a new subproperty :ref:`19.2.b` for :ref:`19.2` of the :doc:`/properties/recommended_optional/property_fundingreference` property.
-* Addition of “ROR” to the controlled list values of :ref:`19.2.a` of the :doc:`/properties/recommended_optional/property_fundingreference` property.
+* Addition of a new subproperty :ref:`19.2.b` for :ref:`19.2` of the :ref:`19` property.
+* Addition of “ROR” to the controlled list values of :ref:`19.2.a` of the :ref:`19` property.
 
 Version 4.3 of the documentation includes these changes:
 
-* Addition of “ROR” and “GRID” as examples of nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`) and schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`) of the properties :doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor`.
-* Addition of a usage note to the affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) subproperty of :doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor`.
-* Addition of a note to the :doc:`/properties/recommended_optional/property_date` property and :ref:`8.b` subproperty on the use of dates in ancient history.
+* Addition of “ROR” and “GRID” as examples of nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`) and schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`) of the properties :ref:`2` and :ref:`7`.
+* Addition of a usage note to the affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) subproperty of :ref:`2` and :ref:`7`.
+* Addition of a note to the :ref:`8` property and :ref:`8.b` subproperty on the use of dates in ancient history.
 * Broadening of the description of dateType :ref:`Created` with dates in ancient history (see :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix_1/dateType>`)
 * Amendment of the hierarchical numbering of the metadata properties to align with the schema XSD.
 * Removal of brackets in the guidance regarding unknown values.
@@ -78,20 +78,20 @@ Version 4.2 of the schema includes these changes:
 * Addition of new dateType :ref:`Withdrawn`
 * Addition of new relationType pair: :ref:`IsObsoletedBy` and :ref:`Obsoletes`
 * Addition of new relatedIdentifierType :ref:`w3id`
-* Addition of new subproperties for :doc:`/properties/recommended_optional/property_rights`:
+* Addition of new subproperties for :ref:`16`:
 
   * :ref:`16.b`
   * :ref:`16.c`
   * :ref:`16.d`
 
-* Addition of the XML language attribute to the properties :doc:`/properties/mandatory/property_creator`, :doc:`/properties/recommended_optional/property_contributor` and :doc:`/properties/mandatory/property_publisher` for organizational names.
+* Addition of the XML language attribute to the properties :ref:`2`, :ref:`7` and :ref:`4` for organizational names.
 
 Version 4.2 of the documentation includes these changes:
 
 * Addition of “data management plan” and “conference paper” as examples to the description of resourceTypeGeneral :ref:`Text` (see :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>`).
 * Addition of a usage note to the relationType pair :ref:`Compiles`/:ref:`IsCompiledBy` (see :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix_1/relatedIdentifierType>`).
-* Addition of a reference to the DataCite Event Data service to the description of the :doc:`/properties/recommended_optional/property_relatedidentifier` property.
-* Addition of subproperty :ref:`12.f` to :doc:`/properties/recommended_optional/property_relatedidentifier`.
+* Addition of a reference to the DataCite Event Data service to the description of the :ref:`12` property.
+* Addition of subproperty :ref:`12.f` to :ref:`12`.
 * Notes on the coverage and scope of the metadata schema, and the preferred language in which the metadata should be provided.
 
 Version 4.1 Update
@@ -99,12 +99,12 @@ Version 4.1 Update
 
 Version 4.1 of the schema includes these changes:
 
-* Allowing multiple polygons per :doc:`/properties/recommended_optional/property_geolocation`
+* Allowing multiple polygons per :ref:`18`
 * Addition of new optional subproperties for polygon
 
   * :ref:`18.4.2`
 * Addition of new dateType “Other”
-* Addition of new subproperty for :doc:`/properties/recommended_optional/property_date`
+* Addition of new subproperty for :ref:`8`
 
   * :ref:`8.b`
 * Addition of a new resourceType :ref:`DataPaper`
@@ -116,34 +116,34 @@ Version 4.1 of the schema includes these changes:
 * Addition of a new optional attribute for :ref:`2.1` and :ref:`7.1`:
 
   * nameType (:ref:`2.1.a <2.1.a>`, :ref:`7.1.a <7.1.a>`). Controlled list: personal, organizational
-* Addition of a new optional attribute for :doc:`/properties/recommended_optional/property_relatedidentifier`
+* Addition of a new optional attribute for :ref:`12`
 
   * :ref:`12.f`. Controlled list is identical to existing :ref:`10.a` attribute
-* Addition of optional lang attribute to :doc:`/properties/recommended_optional/property_rights` property
+* Addition of optional lang attribute to :ref:`16` property
 * Change to the definition of :ref:`Collection` to encompass collections of one resourceType as well as those of mixed types.
 * Inclusion of a reference to the Research Data Alliance (RDA)-recommended dynamic data citation approach in documentation in :doc:`section 2.2, Citation </guidance/dynamic_datasets>`.
-* Change to the definition and examples of :doc:`/properties/recommended_optional/property_size` property to include duration as well as extent.
-* Correction of the hierarchy of elements for :doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor`.
+* Change to the definition and examples of :ref:`13` property to include duration as well as extent.
+* Correction of the hierarchy of elements for :ref:`2` and :ref:`7`.
 * To enhance support for software citation, addition of 2 new appendices: one with a list of all the changes and explanatory notes (:doc:`/guidance/software_citation`); and one with Force11 mappings (:doc:`/mappings/force11_software_citation`)
 * Changes and additions to these definitions, in support of software citation:
 
-  * :doc:`/properties/mandatory/property_identifier`
-  * :doc:`/properties/mandatory/property_title`
-  * :doc:`/properties/mandatory/property_publisher`
-  * :doc:`/properties/recommended_optional/property_contributor`
-  * :doc:`/properties/mandatory/property_publicationyear`
+  * :ref:`1`
+  * :ref:`3`
+  * :ref:`4`
+  * :ref:`7`
+  * :ref:`5`
   * :ref:`10.a` (:ref:`Service`, :ref:`Software`)
   * relationType pairs (:ref:`IsPartOf`, :ref:`HasPart`, :ref:`IsDocumentedBy`, :ref:`Documents`, :ref:`IsVariantFormOf`, :ref:`IsOriginalFormOf`)
-  * :doc:`/properties/recommended_optional/property_version`
-  * :doc:`/properties/recommended_optional/property_rights`
-  * :doc:`/properties/recommended_optional/property_description` (:ref:`TechnicalInfo`)
+  * :ref:`15`
+  * :ref:`16`
+  * :ref:`17` (:ref:`TechnicalInfo`)
 
 Version 4.0 Update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Version 4.0 of the schema includes these changes:
 
-* Allowing more than one nameIdentifier (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) per :doc:`/properties/mandatory/property_creator` or :doc:`/properties/recommended_optional/property_contributor`
+* Allowing more than one nameIdentifier (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) per :ref:`2` or :ref:`7`
 * Addition of new optional subproperties for :ref:`2.1` and :ref:`7.1`:
 
   * givenName (:ref:`2.2 <2.2>`, :ref:`7.2 <7.2>`)
@@ -157,9 +157,9 @@ Version 4.0 of the schema includes these changes:
 * Changing :ref:`10.a` from optional to mandatory
 * Addition of a new relatedIdentifierType option :ref:`IGSN`
 * Addition of a new descriptionType :ref:`TechnicalInfo`
-* Addition of a new subproperty for :doc:`/properties/recommended_optional/property_geolocation`: :ref:`18.4`
-* Changing the definition of the existing :doc:`/properties/recommended_optional/property_geolocation` sub properties (:ref:`18.1`, and :ref:`18.2`)
-* Addition of a new property: :doc:`/properties/recommended_optional/property_fundingreference`, with subproperties
+* Addition of a new subproperty for :ref:`18`: :ref:`18.4`
+* Changing the definition of the existing :ref:`18` sub properties (:ref:`18.1`, and :ref:`18.2`)
+* Addition of a new property: :ref:`19`, with subproperties
 
   * :ref:`19.1`
   * :ref:`19.2`
@@ -169,21 +169,21 @@ Version 4.0 of the schema includes these changes:
   * :ref:`19.3`
   * :ref:`19.3.a`
   * :ref:`19.4`
-* Deprecation of contributorType “funder” (as a result of adding the new property :doc:`/properties/recommended_optional/property_fundingreference`)
+* Deprecation of contributorType “funder” (as a result of adding the new property :ref:`19`)
 
 Version 4.0 of the documentation includes these changes:
 
 * Provision of a link to guidelines for how to write the ORCID ID (See properties 2.2.1 and 7.3.1 nameIdentifierScheme)
 * Adjustment of the instructions for resourceTypeGeneral option :ref:`Collection` (See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>`)
 
-Note that, while the property :doc:`/properties/mandatory/property_resourcetype` has been relocated in the documentation to the mandatory property section, it retains its original numbering (10).
+Note that, while the property :ref:`10` has been relocated in the documentation to the mandatory property section, it retains its original numbering (10).
 
 Version 3.1 Update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Version 3.1 of the schema includes these changes:
 
-* New affiliation attribute (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor`
+* New affiliation attribute (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :ref:`2` and :ref:`7`
 * New relationType pairs
 
   * :ref:`IsReviewedBy` and :ref:`Reviews`
@@ -196,11 +196,11 @@ Version 3.1 of the schema includes these changes:
 
 Version 3.1 of the documentation includes these changes:
 
-* Documentation for the new affiliation attributes (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor`
-* Special notes about support for long lists of names (:doc:`/properties/mandatory/property_creator` and :doc:`/properties/recommended_optional/property_contributor`)
+* Documentation for the new affiliation attributes (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :ref:`2` and :ref:`7`
+* Special notes about support for long lists of names (:ref:`2` and :ref:`7`)
 * Additional guidance for:
 
-  * Recording :doc:`/properties/mandatory/property_publicationyear`
+  * Recording :ref:`5`
   * Handling the digitised version of physical object
   * Handling missing mandatory property values, including standard values table (:doc:`/appendices/appendix_3`)
 * Documentation for the new contributorType: :ref:`DataCurator`
@@ -224,7 +224,7 @@ Version 3.0 of the DataCite Metadata Schema included these changes [#f1]_.
   * implementing RKMS-ISO8601 [#f2]_ standard for depicting date ranges, so that a range is indicated as follows: 2004-03-02/2005-06-02
   * deleting ``startDate`` and ``endDate`` date types, and derogating these from earlier versions
 
-* Addition of a new :doc:`/properties/recommended_optional/property_geolocation` property, with the sub-properties :ref:`18.1`, :ref:`18.2`, :ref:`18.3` supporting a simple depiction of geospatial information, as well as a free text description.
+* Addition of a new :ref:`18` property, with the sub-properties :ref:`18.1`, :ref:`18.2`, :ref:`18.3` supporting a simple depiction of geospatial information, as well as a free text description.
 * Addition of new values to controlled lists:
 
   * :doc:`/appendices/appendix_1/contributorType`: :ref:`ResearchGroup` and :ref:`contributorType_Other`
@@ -236,9 +236,9 @@ Version 3.0 of the DataCite Metadata Schema included these changes [#f1]_.
   * :doc:`/appendices/appendix_1/descriptionType`: :ref:`Methods`
 * Deletion of the derogated resourceType: film
 * New sub-properties for :ref:`12.b`: :ref:`12.c`, :ref:`12.d` and :ref:`12.e`, to be used only for the new relationType pair of :ref:`HasMetadata`, :ref:`IsMetadataFor`
-* Addition of schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`, :ref:`6.b <6.b>`) sub-property to the nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`, :ref:`6.a <6.a>`) associated with :ref:`2.1`, :ref:`7.1` and :doc:`/properties/recommended_optional/property_subject`
-* Addition of the :ref:`16.a` sub-property to :doc:`/properties/recommended_optional/property_rights`; :doc:`/properties/recommended_optional/property_rights` is now repeatable (within wrapper element ``rightsList``).
-* Implementation of the xml:lang attribute [#f3]_ that can be used on the properties :doc:`/properties/mandatory/property_title`, :doc:`/properties/recommended_optional/property_subject` and :doc:`/properties/recommended_optional/property_description`.
+* Addition of schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`, :ref:`6.b <6.b>`) sub-property to the nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`, :ref:`6.a <6.a>`) associated with :ref:`2.1`, :ref:`7.1` and :ref:`6`
+* Addition of the :ref:`16.a` sub-property to :ref:`16`; :ref:`16` is now repeatable (within wrapper element ``rightsList``).
+* Implementation of the xml:lang attribute [#f3]_ that can be used on the properties :ref:`3`, :ref:`6` and :ref:`17`.
 * Removal of two system-generated administrative metadata fields: ``LastMetadataUpdate`` and ``MetadataVersionNumber`` because both values are tracked in another way now.
 
 
@@ -263,7 +263,7 @@ Version 2.2 of the DataCite Metadata Schema introduced several changes, as noted
 Version 2.2 of the DataCite Metadata Schema documentation included these changes:
 
 * Provision of more examples of xml for different types of resources
-* Explanation of the :doc:`/properties/mandatory/property_publicationyear` property in consideration of the requirements of citation. A change to the definition of the :doc:`/properties/mandatory/property_publisher` property, which now reads, “The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role.”
+* Explanation of the :ref:`5` property in consideration of the requirements of citation. A change to the definition of the :ref:`4` property, which now reads, “The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role.”
 
 Version 2.1 Update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -272,7 +272,7 @@ Version 2.1 of the DataCite Metadata Schema introduced several changes, as noted
 
 * Addition of a namespace (http://schema.datacite.org/namespace) to the schema in order to support OAI PMH compatibility
 * Enforcement of content for mandatory properties
-* New type for the :doc:`/properties/recommended_optional/property_date` property to conform with the specification that it handles both YYYY and YYYY-MM-DD values
+* New type for the :ref:`8` property to conform with the specification that it handles both YYYY and YYYY-MM-DD values
 
 Version 2.1 of the DataCite Metadata Schema documentation included these changes:
 

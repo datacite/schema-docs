@@ -1,3 +1,5 @@
+.. _15:
+
 15. Version
 ====================
 
@@ -13,7 +15,7 @@ Suggested practice: track major_version.minor_version. Register a new identifier
 
 Software engineering practice follows this approach of tracking changes and giving new version numbers.
 
-May be used in conjunction with properties :doc:`/properties/recommended_optional/property_alternateidentifier` and :doc:`/properties/recommended_optional/property_relatedidentifier` to indicate various information updates. May be used in conjunction with property :doc:`/properties/recommended_optional/property_description` to indicate the nature and file/record range of version.
+May be used in conjunction with properties :ref:`11` and :ref:`12` to indicate various information updates. May be used in conjunction with property :ref:`17` to indicate the nature and file/record range of version.
 
 .. rubric:: Example XML
 

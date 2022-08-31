@@ -1,3 +1,5 @@
+.. _21:
+
 21. Distribution
 ====================
 
@@ -155,7 +157,7 @@ Examples:
 
 Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/
 
-To provide copyright or licensing information, use the :doc:`/properties/recommended_optional/property_rights` property.
+To provide copyright or licensing information, use the :ref:`16` property.
 
 Examples:
 

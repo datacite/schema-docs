@@ -1,3 +1,5 @@
+.. _20:
+
 20. RelatedItem
 ====================
 
@@ -131,7 +133,7 @@ See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/ap
 
 Example: 10.1021/jacs.9b01862
 
-If relatedItemIdentifier is provided, an identical :doc:`/properties/recommended_optional/property_relatedidentifier` is strongly recommended for indexing.
+If relatedItemIdentifier is provided, an identical :ref:`12` is strongly recommended for indexing.
 
 .. _20.1.a:
 

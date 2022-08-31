@@ -1,14 +1,14 @@
 Using RelatedItem for publication information and related resources
 ================================================================================
 
-The :doc:`/properties/recommended_optional/property_relateditem` property was developed to satisfy two distinct use cases.
+The :ref:`20` property was developed to satisfy two distinct use cases.
 
 The first use case is **providing publication information** for journal articles, book chapters, and other resources that are published within another item. This information about the related item (the container) is needed to formulate a complete citation of the primary resource being described. For example, a book title is necessary to cite a book chapter, and a journal title and volume/issue number are necessary to cite a journal article.
 
 The second use case is **providing information about related resources.**
 
-- When a related resource *does not have an identifier*, the :doc:`/properties/recommended_optional/property_relateditem` property should be used to provide information about the related resource.
-- When a related resource *has an identifier*, the :doc:`/properties/recommended_optional/property_relatedidentifier` property should *always* be used. In addition, the :doc:`/properties/recommended_optional/property_relateditem` property may *optionally* be used to provide information about the related resource.
+- When a related resource *does not have an identifier*, the :ref:`20` property should be used to provide information about the related resource.
+- When a related resource *has an identifier*, the :ref:`12` property should *always* be used. In addition, the :ref:`20` property may *optionally* be used to provide information about the related resource.
 
 .. rubric:: Contents
 
@@ -28,7 +28,7 @@ With the :ref:`IsPublishedIn` relationType, the following optional sub-propertie
 * :ref:`20.9`
 * :ref:`20.11`
 
-The related item that the resource is published in may have an identifier of this own. When the related item has an identifier, it may be included in the :ref:`20.1` attribute. In addition, the :doc:`/properties/recommended_optional/property_relatedidentifier` property should also be supplied.
+The related item that the resource is published in may have an identifier of this own. When the related item has an identifier, it may be included in the :ref:`20.1` attribute. In addition, the :ref:`12` property should also be supplied.
 
 Example: Journal article in a journal (with an ISSN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -190,7 +190,7 @@ Describing related resources with identifiers
 
 Most related resources will have at least one of the identifier types specified in :doc:`/appendices/appendix_1/relatedIdentifierType`.
 
-In this case, the :doc:`/properties/recommended_optional/property_relatedidentifier` property is strongly recommended for indexing. In addition, the :doc:`/properties/recommended_optional/property_relateditem` property may be used to provide additional information about the related item.
+In this case, the :ref:`12` property is strongly recommended for indexing. In addition, the :ref:`20` property may be used to provide additional information about the related item.
 
 .. code:: xml
 

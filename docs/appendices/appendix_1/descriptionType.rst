@@ -41,7 +41,7 @@ SeriesInformation
 
 **Definition:** Information about a repeating series, such as volume, issue, number.
 
-**Usage Notes:** The information previously encoded as a description with this type should now be explicitly provided in tagged fields using the new :doc:`/properties/recommended_optional/property_relateditem` property with relationType "IsPublishedIn" selected.
+**Usage Notes:** The information previously encoded as a description with this type should now be explicitly provided in tagged fields using the new :ref:`20` property with relationType "IsPublishedIn" selected.
 
 
 .. _TableOfContents:
