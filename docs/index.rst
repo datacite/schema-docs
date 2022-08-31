@@ -130,21 +130,42 @@ Members of the Metadata Working Group:
 
   <a class="affiliation" href="https://ror.org/04wxnsj81"><img alt="ROR logo" src="https://raw.githubusercontent.com/ror-community/ror-logos/main/ror-icon-rgb.svg"/>DataCite</a>
 
-* |Jan Ashton|, |British Library| (co-chair of working group)
-* |Isabel Bernal|, |Spanish National Research Council (CSIC)| (co-chair of working group)
-* |Felix Burger|, |TIB|
-* |Madeleine de Smaele|, |TU Delft Library|
-* |Samantha Foulger|, |ETH Zurich|
-* |Vanessa Gabriel|, |University Library of the LMU Munich|
-* |Ted Habermann|, |Metadata Game Changers|
-* |Joseph Padfield|, |The National Gallery|
-* |Sarah Ramdeen|, |Columbia University|
-* |Anne Raugh|, |University of Maryland|
-* |Wendy Robertson|, |University of Iowa|
-* |Mike Shallcross|, |Inter-university Consortium for Political and Social Research|
-* Mohamed Yahia, |INIST-CNRS|
-* |Kelly Stathis|, |DataCite|
-* |Kristian Garza|, |DataCite|
+.. only:: html
+
+  * |Jan Ashton|, |British Library| (co-chair of working group)
+  * |Isabel Bernal|, |Spanish National Research Council (CSIC)| (co-chair of working group)
+  * |Felix Burger|, |TIB|
+  * |Madeleine de Smaele|, |TU Delft Library|
+  * |Samantha Foulger|, |ETH Zurich|
+  * |Vanessa Gabriel|, |University Library of the LMU Munich|
+  * |Ted Habermann|, |Metadata Game Changers|
+  * |Joseph Padfield|, |The National Gallery|
+  * |Sarah Ramdeen|, |Columbia University|
+  * |Anne Raugh|, |University of Maryland|
+  * |Wendy Robertson|, |University of Iowa|
+  * |Mike Shallcross|, |Inter-university Consortium for Political and Social Research|
+  * Mohamed Yahia, |INIST-CNRS|
+  * |Kelly Stathis|, |DataCite|
+  * |Kristian Garza|, |DataCite|
+
+.. only:: latex
+
+  * Jan Ashton, British Library (co-chair of working group)
+  * Isabel Bernal, Spanish National Research Council (CSIC) (co-chair of working group)
+  * Felix Burger, TIB
+  * Madeleine de Smaele, TU Delft Library
+  * Samantha Foulger, ETH Zurich
+  * Vanessa Gabriel, University Library of the LMU Munich
+  * Ted Habermann, Metadata Game Changers
+  * Joseph Padfield, The National Gallery
+  * Sarah Ramdeen, Columbia University
+  * Anne Raugh, University of Maryland
+  * Wendy Robertson, University of Iowa
+  * Mike Shallcross, Inter-university Consortium for Political and Social Research
+  * Mohamed Yahia, INIST-CNRS
+  * Kelly Stathis, DataCite
+  * Kristian Garza, DataCite
+
 
 Contents
 -----------
