@@ -41,7 +41,7 @@ It is a best practice to supply funding information when financial support has b
 
 **Occurrences:** 1
 
-**Definition:** Name of the funding provider
+**Definition:** Name of the funding provider.
 
 **Allowed values, examples, other constraints:**
 
@@ -67,7 +67,7 @@ Example: https://doi.org/10.13039/100000936
 
 **Occurrences:** 0-1
 
-**Definition:** The type of the funderIdentifier
+**Definition:** The type of the funderIdentifier.
 
 **Allowed values, examples, other constraints:**
 
@@ -88,7 +88,7 @@ If funderIdentifier is used, funderIdentifierType is mandatory.
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the funder identifier scheme
+**Definition:** The URI of the funder identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -104,7 +104,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The code assigned by the funder to a sponsored award (grant)
+**Definition:** The code assigned by the funder to a sponsored award (grant).
 
 **Allowed values, examples, other constraints:**
 
@@ -132,7 +132,7 @@ Note: In case the award or grant has an ID or DOI, the full URL of the grant DOI
 
 **Occurrences:** 0-1
 
-**Definition:** The human readable title or name of the award (grant)
+**Definition:** The human readable title or name of the award (grant).
 
 **Allowed values, examples, other constraints:**
 

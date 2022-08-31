@@ -46,7 +46,7 @@ Examples: Charpy, Antoine; Foo Data Center
 
 **Occurrences:** 1
 
-**Definition:** The type of contributor of the resource
+**Definition:** The type of contributor of the resource.
 
 **Allowed values, examples, other constraints:**
 
@@ -86,7 +86,7 @@ See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices
 
 **Occurrences:** 1
 
-**Definition:** The full name of the contributor
+**Definition:** The full name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -103,7 +103,7 @@ The personal name format should be: family, given. Non- roman names should be tr
 
 **Occurrences:** 0-1
 
-**Definition:** The type of name
+**Definition:** The type of name.
 
 **Allowed values, examples, other constraints:**
 
@@ -119,7 +119,7 @@ The personal name format should be: family, given. Non- roman names should be tr
 
 **Occurrences:** 0-1
 
-**Definition:** The personal or first name of the contributor
+**Definition:** The personal or first name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -132,7 +132,7 @@ Examples based on the `7.1`_ names: Emily
 
 **Occurrences:** 0-1
 
-**Definition:** The surname or last name of the contributor
+**Definition:** The surname or last name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -165,7 +165,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The name of the name identifier scheme
+**Definition:** The name of the name identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -184,7 +184,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the name identifier scheme
+**Definition:** The URI of the name identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -202,7 +202,7 @@ Examples:
 
 **Occurrences:** 0-n
 
-**Definition:** The organizational or institutional affiliation of the contributor
+**Definition:** The organizational or institutional affiliation of the contributor.
 
 **Allowed values, examples, other constraints**
 
@@ -242,7 +242,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The name of the affiliation identifier scheme
+**Definition:** The name of the affiliation identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -261,7 +261,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** URI of the affiliation identifier scheme
+**Definition:** URI of the affiliation identifier scheme.
 
 **Allowed values, examples, other constraints:**
 

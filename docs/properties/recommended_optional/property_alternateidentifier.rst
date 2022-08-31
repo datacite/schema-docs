@@ -30,7 +30,7 @@ Example: E-GEOD-34814
 
 **Occurrences:** 1
 
-**Definition:** The type of the AlternateIdentifier
+**Definition:** The type of the AlternateIdentifier.
 
 **Allowed values, examples, other constraints:**
 

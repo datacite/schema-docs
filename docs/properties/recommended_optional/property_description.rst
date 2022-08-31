@@ -33,7 +33,7 @@ It is a best practice to supply a description.
 
 **Occurrences:** 1
 
-**Definition:** The type of the Description
+**Definition:** The type of the Description.
 
 **Allowed values, examples, other constraints:**
 

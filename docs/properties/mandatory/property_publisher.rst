@@ -54,7 +54,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The name of the publisher identifier scheme
+**Definition:** The name of the publisher identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -80,7 +80,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the publisher identifier scheme
+**Definition:** The URI of the publisher identifier scheme.
 
 **Allowed values, examples, other constraints:**
 

@@ -45,7 +45,7 @@ Repeat this property to indicate several different locations.
 
 **Occurrences:** 0-1
 
-**Definition:** A point location in space
+**Definition:** A point location in space.
 
 **Allowed values, examples, other constraints:**
 
@@ -59,7 +59,7 @@ Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for 
 
 **Occurrences:** 1
 
-**Definition:** Longitudinal dimension of point
+**Definition:** Longitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -75,7 +75,7 @@ Domain: -180 <= pointLongitude <= 180
 
 **Occurrences:** 1
 
-**Definition:** Latitudinal dimension of point
+**Definition:** Latitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -94,7 +94,7 @@ Domain: -90 <= pointLatitude <= 90
 
 **Occurrences:** 0-1
 
-**Definition:** The spatial limits of a box
+**Definition:** The spatial limits of a box.
 
 **Allowed values, examples, other constraints:**
 
@@ -108,7 +108,7 @@ Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for 
 
 **Occurrences:** 1
 
-**Definition:** Western longitudinal dimension of box
+**Definition:** Western longitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -122,7 +122,7 @@ Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
 **Occurrences:** 1
 
-**Definition:** Eastern longitudinal dimension of box
+**Definition:** Eastern longitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -136,7 +136,7 @@ Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
 **Occurrences:** 1
 
-**Definition:** Southern latitudinal dimension of box
+**Definition:** Southern latitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -150,7 +150,7 @@ Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
 **Occurrences:** 1
 
-**Definition:** Northern latitudinal dimension of box
+**Definition:** Northern latitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -165,7 +165,7 @@ Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 
 **Occurrences:** 0-1
 
-**Definition:** Description of a geographic location
+**Definition:** Description of a geographic location.
 
 **Allowed values, examples, other constraints:**
 
@@ -178,7 +178,7 @@ Free text. Use to describe a geographic location.
 
 **Occurrences:** 0-n
 
-**Definition:** A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain
+**Definition:** A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain.
 
 **Allowed values, examples, other constraints:**
 
@@ -192,7 +192,7 @@ Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for 
 
 **Occurrences:** 4-n
 
-**Definition:** A point location in a polygon
+**Definition:** A point location in a polygon.
 
 **Allowed values, examples, other constraints:**
 
@@ -204,7 +204,7 @@ If geoLocationPolygon is used, polygonPoint must be used as well. There must be 
 
 **Occurrences:** 1
 
-**Definition:** Longitudinal dimension of point
+**Definition:** Longitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -218,7 +218,7 @@ Domain: -180 <= pointLongitude <= 180
 
 **Occurrences:** 1
 
-**Definition:** Latitudinal dimension of point
+**Definition:** Latitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -233,7 +233,7 @@ Domain: -90 <= pointLatitude <= 90
 
 **Occurrences:** 0-1
 
-**Definition:** For any bound area that is larger than half the earth, define a (random) point inside [#f1]_
+**Definition:** For any bound area that is larger than half the earth, define a (random) point inside. [#f1]_
 
 **Allowed values, examples, other constraints:**
 
@@ -245,7 +245,7 @@ inPolygonPoint is only necessary to indicate the "inside" of the polygon if the 
 
 **Occurrences:** 1
 
-**Definition:** Longitudinal dimension of point
+**Definition:** Longitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -257,7 +257,7 @@ If inPolygonPoint is used, pointLongitude is mandatory. Longitude of the geograp
 
 **Occurrences:** 1
 
-**Definition:** Latitudinal dimension of point
+**Definition:** Latitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
