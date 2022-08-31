@@ -148,7 +148,7 @@ Members of the Metadata Working Group:
   * |Kelly Stathis|, |DataCite|
   * |Kristian Garza|, |DataCite|
 
-.. only:: latex
+.. only:: latex and epub and text
 
   * Jan Ashton, British Library (co-chair of working group)
   * Isabel Bernal, Spanish National Research Council (CSIC) (co-chair of working group)
