@@ -62,7 +62,7 @@ Examples:
 
 If Distribution is used, contentUrl is mandatory.
 
-Only URIs with schemes from IANA-registered schemes are allowed: https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
+URLs should use schemes that are registered with IANA (e.g., https, ftp): https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
 Examples:
 
@@ -109,7 +109,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** A value that allows the contents of a file to be authenticated.
+**Definition:** A value that allows the integrity of a file to be verified.
 
 **Allowed values, examples, other constraints:**
 
@@ -128,7 +128,7 @@ This attribute allows the results of a variety of checksum and cryptographic mes
 
 If checkSum is used, algorithm is mandatory.
 
-Recommended values should follow Version 2.2 of SPDX: https://spdx.org/rdf/terms/#d4e1968
+Recommended values should follow Version 2.3 of SPDX: https://spdx.org/rdf/terms/#d4e1968
 
 Examples:
 
