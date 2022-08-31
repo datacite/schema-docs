@@ -8,14 +8,16 @@ On the occasion of the release of `v4.4 of the DataCite Metadata Schema <https:/
 
 The mapping can be used to convert records described following version 4.4 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 
-Future developments
-------------------------
+.. _Table 4:
 
-The Metadata Working Group are in discussion with ongoing developments by a team at the National Library of Finland who have proposed a draft DC application profile called SRAP (Scholarly Resources Application Profile) “for expressing metadata about scholarly works such as dissertations and academic articles. Describing these documents using current DC Terms is not ideal because many relevant elements are missing”. This is an interesting development because they hope that a future version may focus on research datasets. Examples of proposed SRAP elements which are of value to DataCite include dcterms:affiliation; dcterms:grantNumber and using an id= or pid= for identifier or value URIs for elements such as dcterms:creator or dcterms:contributor.
+Table 4: DataCite to Dublin Core Mapping
+------------------------------------------------------
 
 .. list-table::
    :header-rows: 1
    :widths: auto
+   :class: longtable
+   :name: Table 4: DataCite to Dublin Core Mapping
 
    * - ID
      - DataCite-Property
@@ -34,22 +36,22 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:creator
    * - 2.1.a
      - nameType
-     - Not present in Dublin Core
+     - –
    * - 2.2
      - givenName
-     - Not present in Dublin Core
+     - –
    * - 2.3
      - familyName
-     - Not present in Dublin Core
+     - –
    * - 2.4
      - nameIdentifier
      - dcterms:identifier
    * - 2.4.a
      - nameIdentifierScheme
-     - Not present in Dublin Core
+     - –
    * - 2.4.b
      - schemeURI
-     - Not present in Dublin Core
+     - –
    * - 2.5
      - Affiliation
      - dcterms:contributor
@@ -58,10 +60,10 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:identifier
    * - 2.5.b
      - affiliationIdentifierScheme
-     - Not present in Dublin Core
+     - –
    * - 2.5.c
      - SchemeURI
-     - Not present in Dublin Core
+     - –
    * - 3
      - Title
      - dcterms:title
@@ -79,10 +81,10 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:subject
    * - 6.a
      - subjectScheme
-     - Not present in Dublin Core
+     - –
    * - 6.b
      - schemeURI
-     - Not present in Dublin Core
+     - –
    * - 6.c
      - valueURI
      - dcterms:subject
@@ -94,28 +96,28 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:contributor
    * - 7.a
      - contributorType
-     - Not present in Dublin Core
+     - –
    * - 7.1
      - contributorName
      - dcterms:contributor
    * - 7.1.a
      - nameType
-     - Not present in Dublin Core
+     - –
    * - 7.2
      - givenName
-     - Not present in Dublin Core
+     - –
    * - 7.3
      - familyName
-     - Not present in Dublin Core
+     - –
    * - 7.4
      - nameIdentifier
      - dcterms:identifier
    * - 7.4.a
      - nameIdentifierScheme
-     - Not present in Dublin Core
+     - –
    * - 7.4.b
      - schemeURI
-     - Not present in Dublin Core
+     - –
    * - 7.5
      - Affiliation
      - dcterms:contributor
@@ -124,10 +126,10 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:identifier
    * - 7.5.b
      - affiliationIdentifierScheme
-     - Not present in Dublin Core
+     - –
    * - 7.5.c
      - SchemeURI
-     - Not present in Dublin Core
+     - –
    * - 8
      - Date
      - dcterms:date
@@ -154,7 +156,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:issue
    * -
      - Submitted
-     - dcterms:dateSubmitte
+     - dcterms:dateSubmitted
    * -
      - Updated
      - dcterms:modified
@@ -163,7 +165,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:temporal
    * - 8.b
      - dateInformation
-     - Not present in Dublin Core
+     - –
    * - 9
      - Language
      - dcterms:language
@@ -178,13 +180,13 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:identifier
    * - 11.a
      - alternateIdentifierType
-     - Not present in Dublin Core
+     - –
    * - 12
      - relatedIdentifier
      - dcterms:relation
    * - 12.a
      - relatedIdentifierType
-     - Not present in Dublin Core
+     - –
    * - 12.b
      - relationType [#f2]_
      -
@@ -226,10 +228,10 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:relation
    * - 12.d
      - schemeURI
-     - Not present in Dublin Core
+     - –
    * - 12.e
      - schemeType
-     - Not present in Dublin Core
+     - –
    * - 12.f
      - resourceTypeGeneral
      - dcterms:relation
@@ -241,7 +243,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:format
    * - 15
      - Version
-     - Not present in Dublin Core
+     - –
    * - 16
      - Rights
      - dcterms:rights
@@ -253,10 +255,10 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:rights
    * - 16.c
      - rightsIdentfierScheme
-     - Not present in Dublin Core
+     - –
    * - 16.d
      - schemeURI
-     - Not present in Dublin Core
+     - –
    * - 17
      - Description
      - dcterms:description
@@ -340,10 +342,10 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:contributor
    * - 19.2.a
      - funderIdentifierType
-     - Not present in Dublin Core
+     - –
    * - 19.2.b
      - SchemeURI
-     - Not present in Dublin Core
+     - –
    * - 19.3
      - awardNumber
      - dcterms:identifier
@@ -355,14 +357,13 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:description
 
    * - 20
-     - RelatedItem
-     - | dcterms:relation
-       | *For the details of the related ítem i.e. title etc., use dcterms:bibliographicCitation. Concatenate the content according to any preferred Citation format*
+     - RelatedItem [#f3]_
+     - dcterms:relation
    * - 20.a
      - relatedItemType
      - dcterms:relation
    * - 20.b
-     - relationType [#f2]_
+     - relationType
      -
    * -
      - isReferencedBy
@@ -402,7 +403,7 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - dcterms:relation
    * - 20.1.a
      - relatedItemIdentifierType
-     - Not present in Dublin Core
+     - –
    * - 20.2
      - Creator
      - dcterms:bibliographicCitation
@@ -452,8 +453,17 @@ The Metadata Working Group are in discussion with ongoing developments by a team
      - contributorName
      - dcterms:bibliographicCitation
 
+
+Future developments
+------------------------
+
+The Metadata Working Group are in discussion with ongoing developments by a team at the National Library of Finland who have proposed a draft DC application profile called SRAP (Scholarly Resources Application Profile) “for expressing metadata about scholarly works such as dissertations and academic articles. Describing these documents using current DC Terms is not ideal because many relevant elements are missing”. This is an interesting development because they hope that a future version may focus on research datasets. Examples of proposed SRAP elements which are of value to DataCite include dcterms:affiliation; dcterms:grantNumber and using an id= or pid= for identifier or value URIs for elements such as dcterms:creator or dcterms:contributor.
+
+
 .. rubric:: Footnotes
 
 .. [#f1] dateType is mandatory in DataCite if Date is used. Controlled List Values: Accepted, Available, Copyrighted, Collected, Created, Issued, Submitted, Updated.
 
 .. [#f2] relationType is mandatory in DataCite if RelatedIdentifier is used. Controlled List Values: IsCitedBy, Cites, IsSupplementTo, IsSupplementedBy, IsContinuedBy, Continues, IsDescribedBy, Describes, HasMetadata, IsMetadataFor, HasVersion, IsVersionOf, IsNewVersionOf, IsPreviousVersionOf, IsPartOf, HasPart, IsPublishedIn, IsReferencedBy, References, IsDocumentedBy, Documents, IsCompiledBy, Compiles, IsVariantFormOf, IsOriginalFormOf, IsIdenticalTo, IsReviewedBy, Reviews, IsDerivedFrom, IsSourceOf, IsRequiredBy, Requires, IsObsoletedBy, Obsoletes.
+
+.. [#f3] For the details of the related ítem i.e. title etc., use dcterms:bibliographicCitation. Concatenate the content according to any preferred Citation format.
