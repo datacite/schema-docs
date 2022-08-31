@@ -56,7 +56,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The URI leading to content provided by a repository using a valid protocol.
+**Definition:** The URL leading to content provided by a repository using a valid protocol.
 
 **Allowed values, examples, other constraints:**
 
