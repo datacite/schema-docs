@@ -1,7 +1,7 @@
 Using Distribution for a collection of files
 =================================================================
 
-If a repository wishes to provide a direct download link for a Direct Object of multiple files, it is recommended that the content be packaged in an archive file format (e.g., .TAR or .ZIP file), to which the contentUrl would resolve. In cases where there are multiple files that cannot be packaged in an archive format (for instance, due to the large size of individual files), it is recommended that the repository employ the BagIt file packaging specification (IETF RFC 8493, https://www.rfc-editor.org/rfc/rfc8493.html).
+If a repository wishes to provide a direct download link for a Direct Object of multiple files, it is recommended that the content be packaged in an archive file format (e.g., .TAR or .ZIP file), to which the :ref:`21.1` would resolve. In cases where there are multiple files that cannot be packaged in an archive format (for instance, due to the large size of individual files), it is recommended that the repository employ the BagIt file packaging specification (IETF RFC 8493, https://www.rfc-editor.org/rfc/rfc8493.html).
 
 BagIt defines “a set of hierarchical file layout conventions for storage and transfer of arbitrary digital content.” A “bag” is a structured file system directory that MUST include the following required elements:
 

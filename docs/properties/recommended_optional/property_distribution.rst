@@ -25,7 +25,7 @@ Collections of files should be either using an archive format or a BagIt folder 
 
   <distributions>
      <distribution mediaType="application/gzip">
-       <contentUrl lastUpdated="2022-05-05" byteSize="1236546456">https://zenodo.org/record/6591787/files/bagit.gzip</contentUrl>
+       <contentURL lastUpdated="2022-05-05" byteSize="1236546456">https://zenodo.org/record/6591787/files/bagit.gzip</contentURL>
        <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
        <accessRights accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
      </distribution>
@@ -53,7 +53,7 @@ Examples:
 
 .. _21.1:
 
-21.1 contentUrl
+21.1 contentURL
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -62,7 +62,7 @@ Examples:
 
 **Allowed values, examples, other constraints:**
 
-If Distribution is used, contentUrl is mandatory.
+If Distribution is used, contentURL is mandatory.
 
 URLs should use schemes that are registered with IANA (e.g., https, ftp): https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
@@ -95,7 +95,7 @@ YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granular
 
 **Occurrences:** 0-1
 
-**Definition:** The size of a distribution in bytes.
+**Definition:** The size of a distribution in bytes. The value is related to the object in :ref:`21.1`.
 
 **Allowed values, examples, other constraints:**
 
@@ -111,7 +111,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** A value that allows the integrity of a file to be verified.
+**Definition:** A value that allows the integrity of a file to be verified. The value is related to the object in :ref:`21.1`.
 
 **Allowed values, examples, other constraints:**
 
