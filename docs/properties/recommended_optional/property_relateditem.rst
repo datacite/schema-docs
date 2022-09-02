@@ -214,7 +214,7 @@ Examples: XSD, DDT, Turtle
 
 .. _20.2:
 
-20.2 Creator
+20.2 creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -306,7 +306,7 @@ The titleType sub-property is used when more than a single title is provided. Un
 
 .. _20.4:
 
-20.4 PublicationYear
+20.4 publicationYear
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -414,7 +414,7 @@ Free text.
 
 .. _20.10:
 
-20.10 Publisher
+20.10 publisher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -442,7 +442,7 @@ Free text.
 
 .. _20.12:
 
-20.12 Contributor
+20.12 contributor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n

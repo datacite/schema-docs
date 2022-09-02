@@ -25,7 +25,7 @@ Collections of files should be either using an archive format or a BagIt folder 
 
   <distributions>
      <distribution mediaType="application/gzip">
-       <contentURL lastUpdated="2022-05-05" byteSize="1236546456">https://zenodo.org/record/6591787/files/bagit.gzip</contentURL>
+       <contentURL lastUpdated="2022-05-05" byteSize="1236546456">https://example.org/bagit.gzip</contentURL>
        <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
        <accessRights accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
      </distribution>
@@ -102,6 +102,7 @@ YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granular
 The size in bytes can be approximated (as a decimal) when the precise size is not known.
 
 Examples:
+
 - 1048576 for 1 Megabyte
 
 .. _21.2:
