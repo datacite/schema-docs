@@ -33,7 +33,8 @@ Table 5: FORCE11 Software Citation Principles to DataCite Mapping
      - For software, if there is an alternate entity that “holds, archives, publishes, prints, distributes, releases, issues, or produces the code, use the :ref:`7.a` :ref:`HostingInstitution` for the code repository.
    * - Contributor role
      - :ref:`7.a`
-     - | See Definition in :doc:`contributorType Appendix </appendices/appendix_1/contributorType>`: :ref:`Distributor`: Includes distribution of software.
+     - | See Definition in :doc:`contributorType Appendix </appendices/appendix_1/contributorType>`:
+       | :ref:`Distributor`: Includes distribution of software.
        | See Example for :ref:`HostingInstitution`: Includes software or run code repositories.
    * - Version number
      - :ref:`15`
@@ -42,8 +43,8 @@ Table 5: FORCE11 Software Citation Principles to DataCite Mapping
      - :ref:`5`
      - See definition: In the case of resources such as software where there may be multiple releases in one year, other DataCite metadata or information such as the landing page should enable users to identify the newest one.
    * - Location/repository
-     - | :ref:`4` or :ref:`7` with :ref:`7.a`:
-       | :ref:`HostingInstitution`
+     - | :ref:`4`
+       | :ref:`7` with :ref:`7.a` :ref:`HostingInstitution`
      - For software, use :ref:`4` for Code Repository, following the data model. If there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the :ref:`7.a` :ref:`HostingInstitution` for the code repository."
    * - Indexed citations (and links between software versions)
      - :ref:`12` with :ref:`12.b`
@@ -76,9 +77,9 @@ Table 5: FORCE11 Software Citation Principles to DataCite Mapping
      - :ref:`16`
      - See example: May be used for software licenses.
    * - Description
-     - | :ref:`17` with :ref:`17.a`:
-       | :ref:`TechnicalInfo`
-       | :ref:`Abstract`
+     - | :ref:`17`
+       | :ref:`17` with :ref:`17.a`: :ref:`TechnicalInfo`
+       | :ref:`17` with :ref:`17.a`: :ref:`Abstract`
      - :ref:`TechnicalInfo`: For software description, this may include a readme.text, and necessary environmental information (hardware, operational software, applications/programs) that cannot be described using other properties such as ‘Format/version’ or ‘Description/summary’
    * - Keywords
      - :ref:`6`
