@@ -26,7 +26,7 @@ Support for instruments
 
  * This value may used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
-* Addition of new relationType pair: :ref:`IsUsedBy` and :ref:`Uses`
+* Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsUsedBy` and :ref:`Uses`
 
 Support for publisher identifiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -72,7 +72,7 @@ Support for instruments
 Distribution property
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* To enhance support for the Distribution property, addition of a new guidance document: :doc:`/guidance/distribution`
+* To enhance support for the :ref:`21` property, addition of a new guidance document: :doc:`/guidance/distribution`
 
 RelatedItem property
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -84,8 +84,8 @@ RelatedItem property
  * Change to :ref:`20.8` and :ref:`20.9` to specify that the pages refer to the resource *within* the related item (for which the DOI is being registered), not the entire related item.
  * Minor changes to other RelatedItem sub-property definitions to improve consistency.
 
-* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by RelatedItem with the relationType :ref:`IsPublishedIn` selected.
-* To enhance support for the RelatedItem property, addition of a new guidance document: :doc:`/guidance/related_item_guide`
+* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by :ref:`20` with the relationType :ref:`IsPublishedIn` selected.
+* To enhance support for the :ref:`20` property, addition of a new guidance document: :doc:`/guidance/related_item_guide`
 
 Other changes and corrections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -94,8 +94,8 @@ Other changes and corrections
 * Correction of the capitalization of properties :ref:`2.5.c`, :ref:`7.5.c`, and :ref:`19.2.b`.
 * Correction of the cardinality of :ref:`19.2.a` and addition of a note indicate when it is mandatory.
 * Addition of a note to :ref:`3.a` (sub-property of :ref:`3`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :ref:`20`).
-* Updated examples for ``nameIdentifier`` and its attributes (properties :ref:`2.4` and :ref:`7.4`).
-* Updated examples for ``affiliationIdentifier`` and its attributes (properties :ref:`2.5` and :ref:`7.5`).
+* Updated examples for nameIdentifier (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`) and its attributes.
+* Updated examples for affiliationIdentifier (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`) and its attributes.
 * Other minor corrections to definitions and examples.
 
 
