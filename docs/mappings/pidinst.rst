@@ -63,6 +63,7 @@ Table 6: PIDINST to DataCite Mapping
    * - | **InstrumentType**
        | instrumentTypeName
        | instrumentTypeIdentifier
+       | instrumentTypeIdentifierType
      - | :ref:`17` with :ref:`17.a`:
        | :ref:`TechnicalInfo`
      -
@@ -71,9 +72,11 @@ Table 6: PIDINST to DataCite Mapping
        | :ref:`TechnicalInfo`
      - The variable(s) that this instrument measures or observes.
    * - **Date**
-     - :ref:`8` with :ref:`8.a` "Other"
-     - | Dates relevant to the instrument.
-       | To indicate the date when the instrument started to be in operation (Commissioned), or ceased to be in operation (DeCommissioned), use :ref:`8.a` "Other" and add "Commissioned" resp. "Decommissioned" in :ref:`8.b`.
+     - :ref:`8`
+     - Dates relevant to the instrument.
+   * - dateType
+     - :ref:`8.a`
+     - To indicate the date when the instrument started to be in operation (Commissioned), or ceased to be in operation (DeCommissioned), use :ref:`8.a` "Other" and add "Commissioned" resp. "Decommissioned" in :ref:`8.b`.
    * - **RelatedIdentifier**
      - :ref:`12`
      -
@@ -100,10 +103,10 @@ Table 6: PIDINST to DataCite Mapping
      - If the instrument has been deployed in some research activity, such as a cruise or a research vessel, IsUsedBy may be used to link that activity.
    * - **AlternateIdentifier**
      - :ref:`11`
-     -
+     - May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database.
    * - alternateIdentifierType
-     - | :ref:`11.a`
-     - May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database. Indicate the type of the AlternateIdentifier.
+     - :ref:`11.a`
+     - The type of the AlternateIdentifier.
 
 .. rubric:: Footnotes
 .. [#f1] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070
