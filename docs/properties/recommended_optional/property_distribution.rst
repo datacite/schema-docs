@@ -82,11 +82,11 @@ See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 **Occurrences:** 0-1
 
-**Definition:** Date when the content URL was last updated.
+**Definition:** Date when the content URL value was last updated. [#f1]_
 
 **Allowed values, examples, other constraints:**
 
-YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
+YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f2]_.
 
 .. _21.1.b:
 
@@ -186,4 +186,5 @@ Examples:
 - http://purl.org/coar/access_right/c_14cb for “metadata only”
 
 .. rubric:: Footnotes
-.. [#f1] https://www.w3.org/TR/NOTE-datetime
+.. [#f1] To determine when the file contents were last updated, compare :ref:`21.2` values.
+.. [#f2] https://www.w3.org/TR/NOTE-datetime
