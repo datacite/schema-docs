@@ -63,6 +63,7 @@ Example: Journal article in a journal (with an ISSN)
       <publicationYear>2022</publicationYear>
       <volume>3</volume>
       <issue>4</issue>
+      <number numberType="Article">2</number>
       <firstPage>20</firstPage>
       <lastPage>35</lastPage>
       <publisher>Example Publisher</publisher>
@@ -95,17 +96,11 @@ Example: Digitized book chapter in a book (with no identifier)
       <titles>
         <title>Example Book Title</title>
       </titles>
-      <creators>
-        <creator>
-          <creatorName nameType="Personal">Latham, John</creatorName>
-          <givenName>John</givenName>
-          <familyName>Latham</familyName>
-        </creator>
-      </creators>
       <publicationYear>1980</publicationYear>
       <volume>I</volume>
       <firstPage>110</firstPage>
       <lastPage>155</lastPage>
+      <edition>2nd edition</edition>
       <publisher>Example Publisher</publisher>
     </relatedItem>
   </relatedItems>
@@ -190,7 +185,7 @@ Describing related resources with identifiers
 
 Most related resources will have at least one of the identifier types specified in :doc:`/appendices/appendix_1/relatedIdentifierType`.
 
-In this case, the :ref:`12` property is strongly recommended for indexing. In addition, the :ref:`20` property may be used to provide additional information about the related item.
+In this case, the :ref:`12` property is strongly recommended for indexing. In addition, the :ref:`20` property *may* be used to provide additional information about the related item.
 
 .. code:: xml
 
