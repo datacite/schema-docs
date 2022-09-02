@@ -6,7 +6,9 @@ Appendix 3 provides a set of standard values that may be used when mandatory pro
 Examples of usage:
 
 ``<creatorName>:unkn</creatorName>``
+
 ``<title>:unas</title>``
+
 ``<publisher>:null</publisher>``
 
 .. _Table 3:

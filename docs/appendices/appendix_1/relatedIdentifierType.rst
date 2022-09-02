@@ -140,7 +140,7 @@ IGSN
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="IGSN" relationType="References">IECUR0097 </relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="IGSN" relationType="References">IECUR0097</relatedIdentifier>
 
 
 .. _ISBN:

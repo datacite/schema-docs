@@ -119,10 +119,10 @@ Version 4.1 of the schema includes these changes:
 * Addition of a new optional attribute for :ref:`12`
 
   * :ref:`12.f`. Controlled list is identical to existing :ref:`10.a` attribute
+* Addition of optional lang attribute to :ref:`16` property
 
 Version 4.1 of the documentation includes these changes:
 
-* Addition of optional lang attribute to :ref:`16` property
 * Change to the definition of :ref:`Collection` to encompass collections of one resourceType as well as those of mixed types.
 * Inclusion of a reference to the Research Data Alliance (RDA)-recommended dynamic data citation approach in documentation in :doc:`section 2.2, Citation </guidance/dynamic_datasets>`.
 * Change to the definition and examples of :ref:`13` property to include duration as well as extent.
