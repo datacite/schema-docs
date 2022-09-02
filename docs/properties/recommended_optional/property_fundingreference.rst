@@ -67,7 +67,7 @@ Example: https://doi.org/10.13039/100000936
 19.2.a funderIdentifierType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Occurrences:** 0-1
+**Occurrences:** 1
 
 **Definition:** The type of the funderIdentifier.
 
