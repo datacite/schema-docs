@@ -354,7 +354,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** Number of the related item, e.g., report number of article number.
+**Definition:** Number of the related item, e.g., report number or article number.
 
 **Allowed values, examples, other constraints:**
 
