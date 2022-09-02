@@ -23,7 +23,7 @@ Version 4.4 Update
  * :ref:`Report`
  * :ref:`Standard`
 
-* Addition of a new relationType: :ref:`IsPublishedIn` (indicates that A is published in B)
+* Addition of a new :doc:`/appendices/appendix_1/relationType`: :ref:`IsPublishedIn` (indicates that A is published in B)
 * Addition of a new :ref:`20` property, with subproperties to contain specific details for containing publication information previously encoded in a :ref:`17` field with ``descriptionType=”SeriesInformation”`` (for example, to define the journal name, volume, and page number for an article resource). Subproperties:
 
  * :ref:`20.b`
@@ -45,7 +45,7 @@ Version 4.4 Update
 Major Documentation changes:
 
 * The title of this document has changed to: *DataCite Metadata Schema Documentation for the Publication and Citation for Research Data and Other Research Outputs*.
-* Following community feedback and suggestions, this version includes further clarification as regards the following contributorTypes: :ref:`DataManager`, :ref:`DataCurator`, :ref:`ResearchGroup`, and :ref:`HostingInstitution`.
+* Following community feedback and suggestions, this version includes further clarification as regards the following :doc:`contributorTypes </appendices/appendix_1/contributorType>`: :ref:`DataManager`, :ref:`DataCurator`, :ref:`ResearchGroup`, and :ref:`HostingInstitution`.
 
 
 Version 4.3 Update
@@ -66,7 +66,7 @@ Version 4.3 of the documentation includes these changes:
 * Addition of “ROR” and “GRID” as examples of nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`) and schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`) of the properties :ref:`2` and :ref:`7`.
 * Addition of a usage note to the affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) subproperty of :ref:`2` and :ref:`7`.
 * Addition of a note to the :ref:`8` property and :ref:`8.b` subproperty on the use of dates in ancient history.
-* Broadening of the description of dateType :ref:`Created` with dates in ancient history (see :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix_1/dateType>`)
+* Broadening of the description of :doc:`/appendices/appendix_1/dateType` :ref:`Created` with dates in ancient history (see :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix_1/dateType>`)
 * Amendment of the hierarchical numbering of the metadata properties to align with the schema XSD.
 * Removal of brackets in the guidance regarding unknown values.
 
@@ -75,9 +75,9 @@ Version 4.2 Update
 
 Version 4.2 of the schema includes these changes:
 
-* Addition of new dateType :ref:`Withdrawn`
-* Addition of new relationType pair: :ref:`IsObsoletedBy` and :ref:`Obsoletes`
-* Addition of new relatedIdentifierType :ref:`w3id`
+* Addition of new :doc:`/appendices/appendix_1/dateType` :ref:`Withdrawn`
+* Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsObsoletedBy` and :ref:`Obsoletes`
+* Addition of new :doc:`/appendices/appendix_1/relatedIdentifierType` :ref:`w3id`
 * Addition of new subproperties for :ref:`16`:
 
   * :ref:`16.b`
@@ -88,8 +88,8 @@ Version 4.2 of the schema includes these changes:
 
 Version 4.2 of the documentation includes these changes:
 
-* Addition of “data management plan” and “conference paper” as examples to the description of resourceTypeGeneral :ref:`Text` (see :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>`).
-* Addition of a usage note to the relationType pair :ref:`Compiles`/:ref:`IsCompiledBy` (see :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix_1/relatedIdentifierType>`).
+* Addition of “data management plan” and “conference paper” as examples to the description of :doc:`/appendices/appendix_1/resourceTypeGeneral` :ref:`Text` (see :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>`).
+* Addition of a usage note to the :doc:`/appendices/appendix_1/relationType` pair :ref:`Compiles`/:ref:`IsCompiledBy` (see :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix_1/relatedIdentifierType>`).
 * Addition of a reference to the DataCite Event Data service to the description of the :ref:`12` property.
 * Addition of subproperty :ref:`12.f` to :ref:`12`.
 * Notes on the coverage and scope of the metadata schema, and the preferred language in which the metadata should be provided.
@@ -103,12 +103,12 @@ Version 4.1 of the schema includes these changes:
 * Addition of new optional subproperties for polygon
 
   * :ref:`18.4.2`
-* Addition of new dateType “Other”
+* Addition of new :doc:`/appendices/appendix_1/dateType` “Other”
 * Addition of new subproperty for :ref:`8`
 
   * :ref:`8.b`
 * Addition of a new resourceType :ref:`DataPaper`
-* Addition of three new relationType pairs:
+* Addition of three new :doc:`/appendices/appendix_1/relationType` pairs:
 
   * :ref:`IsDescribedBy` and :ref:`Describes`
   * :ref:`HasVersion` and :ref:`IsVersionOf`
@@ -119,6 +119,9 @@ Version 4.1 of the schema includes these changes:
 * Addition of a new optional attribute for :ref:`12`
 
   * :ref:`12.f`. Controlled list is identical to existing :ref:`10.a` attribute
+
+Version 4.1 of the documentation includes these changes:
+
 * Addition of optional lang attribute to :ref:`16` property
 * Change to the definition of :ref:`Collection` to encompass collections of one resourceType as well as those of mixed types.
 * Inclusion of a reference to the Research Data Alliance (RDA)-recommended dynamic data citation approach in documentation in :doc:`section 2.2, Citation </guidance/dynamic_datasets>`.
@@ -133,7 +136,7 @@ Version 4.1 of the schema includes these changes:
   * :ref:`7`
   * :ref:`5`
   * :ref:`10.a` (:ref:`Service`, :ref:`Software`)
-  * relationType pairs (:ref:`IsPartOf`, :ref:`HasPart`, :ref:`IsDocumentedBy`, :ref:`Documents`, :ref:`IsVariantFormOf`, :ref:`IsOriginalFormOf`)
+  * :doc:`/appendices/appendix_1/relationType` pairs (:ref:`IsPartOf`, :ref:`HasPart`, :ref:`IsDocumentedBy`, :ref:`Documents`, :ref:`IsVariantFormOf`, :ref:`IsOriginalFormOf`)
   * :ref:`15`
   * :ref:`16`
   * :ref:`17` (:ref:`TechnicalInfo`)
@@ -155,8 +158,8 @@ Version 4.0 of the schema includes these changes:
 
      * :ref:`6.c`
 * Changing :ref:`10.a` from optional to mandatory
-* Addition of a new relatedIdentifierType option :ref:`IGSN`
-* Addition of a new descriptionType :ref:`TechnicalInfo`
+* Addition of a new :doc:`/appendices/appendix_1/relatedIdentifierType` option :ref:`IGSN`
+* Addition of a new :doc:`/appendices/appendix_1/descriptionType` :ref:`TechnicalInfo`
 * Addition of a new subproperty for :ref:`18`: :ref:`18.4`
 * Changing the definition of the existing :ref:`18` sub properties (:ref:`18.1`, and :ref:`18.2`)
 * Addition of a new property: :ref:`19`, with subproperties
@@ -169,12 +172,12 @@ Version 4.0 of the schema includes these changes:
   * :ref:`19.3`
   * :ref:`19.3.a`
   * :ref:`19.4`
-* Deprecation of contributorType “funder” (as a result of adding the new property :ref:`19`)
+* Deprecation of :doc:`/appendices/appendix_1/contributorType` “funder” (as a result of adding the new property :ref:`19`)
 
 Version 4.0 of the documentation includes these changes:
 
-* Provision of a link to guidelines for how to write the ORCID ID (See properties 2.2.1 and 7.3.1 nameIdentifierScheme)
-* Adjustment of the instructions for resourceTypeGeneral option :ref:`Collection` (See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>`)
+* Provision of a link to guidelines for how to write the ORCID ID (See properties :ref:`2.2.1 <2.4.a>` and :ref:`7.3.1 <7.4.a>` nameIdentifierScheme)
+* Adjustment of the instructions for :doc:`/appendices/appendix_1/resourceTypeGeneral` option :ref:`Collection` (See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>`)
 
 Note that, while the property :ref:`10` has been relocated in the documentation to the mandatory property section, it retains its original numbering (10).
 
@@ -184,12 +187,12 @@ Version 3.1 Update
 Version 3.1 of the schema includes these changes:
 
 * New affiliation attribute (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :ref:`2` and :ref:`7`
-* New relationType pairs
+* New :doc:`/appendices/appendix_1/relationType` pairs
 
   * :ref:`IsReviewedBy` and :ref:`Reviews`
   * :ref:`IsDerivedFrom` and :ref:`IsSourceOf`
-* New contributorType: :ref:`DataCurator`
-* New relatedIdentifierTypes:
+* New :doc:`/appendices/appendix_1/contributorType`: :ref:`DataCurator`
+* New :doc:`relatedIdentifierTypes </appendices/appendix_1/relatedIdentifierType>`:
 
   * :ref:`arXiv`
   * :ref:`bibcode`
@@ -201,14 +204,14 @@ Version 3.1 of the documentation includes these changes:
 * Additional guidance for:
 
   * Recording :ref:`5`
-  * Handling the digitised version of physical object
+  * Handling the :ref:`digitised version of physical object <PublicationYear_digitised_version>`
   * Handling missing mandatory property values, including standard values table (:doc:`/appendices/appendix_3`)
-* Documentation for the new contributorType: :ref:`DataCurator`
-* Documentation for the two new relatedIdentifierTypes:
+* Documentation for the new :doc:`/appendices/appendix_1/contributorType`: :ref:`DataCurator`
+* Documentation for the two new :doc:`relatedIdentifierTypes </appendices/appendix_1/relatedIdentifierType>`:
 
   * :ref:`arXiv`
   * :ref:`bibcode`
-* Documentation, including examples, for the new relationType pairs:
+* Documentation, including examples, for the new :doc:`/appendices/appendix_1/relationType` pairs:
 
   * :ref:`IsReviewedBy` and :ref:`Reviews`
   * :ref:`IsDerivedFrom` and :ref:`IsSourceOf`
@@ -235,7 +238,7 @@ Version 3.0 of the DataCite Metadata Schema included these changes [#f1]_.
   * :doc:`/appendices/appendix_1/relationType`: :ref:`HasMetadata`, (indicates resource A has additional metadata B and indicates), :ref:`IsMetadataFor` (indicates additional metadata A for resource B)
   * :doc:`/appendices/appendix_1/descriptionType`: :ref:`Methods`
 * Deletion of the derogated resourceType: film
-* New sub-properties for :ref:`12.b`: :ref:`12.c`, :ref:`12.d` and :ref:`12.e`, to be used only for the new relationType pair of :ref:`HasMetadata`, :ref:`IsMetadataFor`
+* New sub-properties for :ref:`12.b`: :ref:`12.c`, :ref:`12.d` and :ref:`12.e`, to be used only for the new :doc:`/appendices/appendix_1/relationType` pair of :ref:`HasMetadata`, :ref:`IsMetadataFor`
 * Addition of schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`, :ref:`6.b <6.b>`) sub-property to the nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`, :ref:`6.a <6.a>`) associated with :ref:`2.1`, :ref:`7.1` and :ref:`6`
 * Addition of the :ref:`16.a` sub-property to :ref:`16`; :ref:`16` is now repeatable (within wrapper element ``rightsList``).
 * Implementation of the xml:lang attribute [#f3]_ that can be used on the properties :ref:`3`, :ref:`6` and :ref:`17`.
@@ -255,10 +258,10 @@ Version 2.2 Update
 
 Version 2.2 of the DataCite Metadata Schema introduced several changes, as noted below:
 
-* Addition of “URL” to list of allowed values for relatedIdentifierType
-* Addition of the following values to list of allowed values for contributorType: :ref:`Producer`, :ref:`Distributor`, :ref:`RelatedPerson`, :ref:`Supervisor`, :ref:`Sponsor`, Funder, :ref:`RightsHolder`
-* Addition of :ref:`SeriesInformation` to list of allowed values for descriptionType
-* Addition of :ref:`Model` to list of allowed values for resourceTypeGeneral
+* Addition of :ref:`URL` to list of allowed values for :doc:`/appendices/appendix_1/relatedIdentifierType`
+* Addition of the following values to list of allowed values for :doc:`/appendices/appendix_1/contributorType`: :ref:`Producer`, :ref:`Distributor`, :ref:`RelatedPerson`, :ref:`Supervisor`, :ref:`Sponsor`, Funder, :ref:`RightsHolder`
+* Addition of :ref:`SeriesInformation` to list of allowed values for :doc:`/appendices/appendix_1/descriptionType`
+* Addition of :ref:`Model` to list of allowed values for :doc:`/appendices/appendix_1/resourceTypeGeneral`
 
 Version 2.2 of the DataCite Metadata Schema documentation included these changes:
 
@@ -270,7 +273,7 @@ Version 2.1 Update
 
 Version 2.1 of the DataCite Metadata Schema introduced several changes, as noted below:
 
-* Addition of a namespace (http://schema.datacite.org/namespace) to the schema in order to support OAI PMH compatibility
+* Addition of a namespace (http://schema.datacite.org/namespace) to the schema in order to support OAI-PMH compatibility
 * Enforcement of content for mandatory properties
 * New type for the :ref:`8` property to conform with the specification that it handles both YYYY and YYYY-MM-DD values
 

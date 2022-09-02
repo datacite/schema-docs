@@ -280,7 +280,7 @@ Examples based on the `20.2.1`_ names: Charpy; Jemison
 
 .. _20.3:
 
-20.3 Title
+20.3 title
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1-n
