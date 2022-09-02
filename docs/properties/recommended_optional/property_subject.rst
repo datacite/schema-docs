@@ -37,7 +37,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 Examples:
 

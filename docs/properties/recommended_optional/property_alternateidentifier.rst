@@ -38,6 +38,6 @@ Example: E-GEOD-34814
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 If alternateIdentifier is used, alternateIdentifierType is mandatory. For the above example, the alternateIdentifierType would be “Local accession number”

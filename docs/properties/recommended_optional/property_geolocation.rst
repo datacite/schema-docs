@@ -132,7 +132,7 @@ Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east)
+If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 

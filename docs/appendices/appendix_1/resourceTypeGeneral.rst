@@ -452,7 +452,7 @@ Workflow
 
 **Description:** A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner.
 
-**Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). More. [#f2]_
+**Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). [#f2]_
 
 **Suggested Dublin Core Mapping:** N/A
 
