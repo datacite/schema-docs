@@ -24,6 +24,7 @@ Notes:
   The “slice,” “snap‐shot” and "query" options require unique identifiers. Be aware that the third
   option (c) necessarily means that following the citation does not result in access to the resource
   as cited. This limits reproducibility of the work that uses this form of citation.
+
   In addition, please note that access date and time may be combined with the first (a), second (b)
   and fourth (d) options, but it must be used with the third option (c).
 
@@ -33,5 +34,5 @@ Notes:
 
 .. rubric:: Footnotes
 
-.. [#f1] Ball, A. & Duke, M. (2015, July 30). ‘How to Cite Datasets and Link to Publications’. DCC How-to Guides. Edinburgh : Digital Curation Centre. Retrieved April 13, 2017, from: http://www.dcc.ac.uk/resources/how-guides/cite- datasets#sec:versions
-.. [#f2] Rauber, A., Uytvanck, D. V., Asmi, A., & Proll, S. (2016, February 09). Identification of Reproducible Subsets for Data Citation, Sharing and Re-Use. Retrieved April 13, 2017, from https://www.rd- alliance.org/system/files/documents/TCDL-RDA-Guidelines_160411.pdf
+.. [#f1] Ball, A. & Duke, M. (2015, July 30). ‘How to Cite Datasets and Link to Publications’. DCC How-to Guides. Edinburgh : Digital Curation Centre. Retrieved April 13, 2017, from: http://www.dcc.ac.uk/resources/how-guides/cite-datasets#sec:versions
+.. [#f2] Rauber, A., Uytvanck, D. V., Asmi, A., & Proll, S. (2016, February 09). Identification of Reproducible Subsets for Data Citation, Sharing and Re-Use. Retrieved April 13, 2017, from https://www.rd-alliance.org/system/files/documents/TCDL-RDA-Guidelines_160411.pdf
