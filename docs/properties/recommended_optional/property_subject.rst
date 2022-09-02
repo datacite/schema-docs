@@ -1,3 +1,5 @@
+.. _6:
+
 6. Subject
 ====================
 
@@ -31,7 +33,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** The name of the subject scheme or classification code or authority if one is used
+**Definition:** The name of the subject scheme or classification code or authority if one is used.
 
 **Allowed values, examples, other constraints:**
 
@@ -49,7 +51,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the subject identifier scheme
+**Definition:** The URI of the subject identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -62,7 +64,7 @@ Example: https://id.loc.gov/authorities/subjects.html
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the subject term
+**Definition:** The URI of the subject term.
 
 **Allowed values, examples, other constraints:**
 
@@ -77,7 +79,7 @@ https://id.loc.gov/authorities/subjects/sh85118622.html
 
 **Occurrences:** 0-1
 
-**Definition:** The classification code used for the subject term in the subject scheme
+**Definition:** The classification code used for the subject term in the subject scheme.
 
 **Allowed values, examples, other constraints:**
 

@@ -76,7 +76,7 @@ Because XML attributes are not repeatable, sub-properties represented as attribu
      - Example
    * - Element
      - Property
-     - :doc:`/properties/mandatory/property_creator`
+     - :ref:`2`
    * - Sub-element
      - Sub-property
      - :ref:`2.1`
@@ -86,18 +86,18 @@ Because XML attributes are not repeatable, sub-properties represented as attribu
 
 XML provides an xml:lang attribute [#f2]_ that can be used on the following properties and sub-properties:
 
-* :doc:`/properties/mandatory/property_title`
-* :doc:`/properties/mandatory/property_publisher`
-* :doc:`/properties/recommended_optional/property_subject`
-* :doc:`/properties/recommended_optional/property_rights`
-* :doc:`/properties/recommended_optional/property_description`
+* :ref:`3`
+* :ref:`4`
+* :ref:`6`
+* :ref:`16`
+* :ref:`17`
 * :ref:`20.3`
 * :ref:`2.1` when :ref:`2.1.a` is "Organizational"
 * :ref:`7.1` when :ref:`7.1.a` is "Organizational"
 
 This provides a way to describe the language used for the *content of the specified properties*.
 
-The schema provides the :doc:`/properties/recommended_optional/property_language` property to be used to describe the language of the resource.
+The schema provides the :ref:`9` property to be used to describe the language of the resource.
 
 
 Mandatory Properties
@@ -139,10 +139,7 @@ an example of how to make a submission in XML format, please see the `XML Exampl
 `DataCite Metadata Schema website <https://schema.datacite.org/>`_.
 
 
-Of the Recommended set of properties, the most important to use is the ``Description`` property,
-together with the Recommended sub-property ``descriptionType="Abstract"`` (see :doc:`/properties/recommended_optional/property_description`). :doc:`Appendix 1 </appendices/appendix_1/index>` includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in
-finding the resource and then determining whether or not the resource, once found, is worth
-investigating further, re-using, or validating.
+Of the Recommended set of properties, the most important to use is the ``Description`` property, together with the Recommended sub-property ``descriptionType="Abstract"`` (see :ref:`17`). :doc:`Appendix 1 </appendices/appendix_1/index>` includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in finding the resource and then determining whether or not the resource, once found, is worth investigating further, re-using, or validating.
 
 .. _Table_2:
 

@@ -1,3 +1,5 @@
+.. _8:
+
 8. Date
 ====================
 
@@ -35,7 +37,7 @@ Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
 
 **Occurrences:** 1
 
-**Definition:** The type of date
+**Definition:** The type of date.
 
 **Allowed values, examples, other constraints:**
 
@@ -64,7 +66,7 @@ See :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/append
 
 **Occurrences:** 0-1
 
-**Definition:** Specific information about the date, if appropriate
+**Definition:** Specific information about the date, if appropriate.
 
 **Allowed values, examples, other constraints:**
 

@@ -1,3 +1,5 @@
+.. _11:
+
 11. AlternateIdentifier
 ========================
 
@@ -25,12 +27,14 @@ Example: E-GEOD-34814
       <alternateIdentifier alternateIdentifierType="Local accession number">E-GEOD-34814</alternateIdentifier>
   </alternateIdentifiers>
 
+.. _11.a:
+
 11.a alternateIdentifierType
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 
-**Definition:** The type of the AlternateIdentifier
+**Definition:** The type of the AlternateIdentifier.
 
 **Allowed values, examples, other constraints:**
 

@@ -1,226 +1,109 @@
 PIDINST Schema [#f1]_ Mapping
 =================================================================
 
-.. _Table 4:
+.. _Table 6:
 
-Table 4: PIDINST to DataCite Mapping
+Table 6: PIDINST to DataCite Mapping
 ------------------------------------------------------
 
 .. list-table::
    :header-rows: 1
    :widths: auto
    :class: longtable
-   :name: Table 4: PIDINST to DataCite Mapping
+   :name: Table 6: PIDINST to DataCite Mapping
 
    * - PIDINST Property
      - DataCite v. 4.5
+     - Comments
    * - **Identifier**
-     - Identifier
+     - :ref:`1`
+     -
    * - identifierType
-     - identifierType "DOI"
+     - :ref:`1.a` "DOI"
+     -
    * - **Name**
-     - | Title
-       | → *Comments:* :ref:`inst_name`
+     - :ref:`3`
+     - May be the title of a dataset, the name of a piece of software or instrument.
    * - **Owner**
-     - | Contributor with contributorType "HostingInstitution"
-       | → *Comments:* :ref:`inst_owner`
+     - | :ref:`7` with :ref:`7.a`:
+       | :ref:`HostingInstitution`
+     - Can be used for the owner of an instrument, i.e. the institution responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument. Use the contributorType “hostingInstitution”.
    * - ownerName
-     - contributorName
+     - :ref:`7.1`
+     -
    * - ownerIdentifier
-     - nameIdentifier
+     - :ref:`7.4`
+     -
    * - ownerIdentifierType
-     - nameIdentifierScheme
+     - :ref:`7.4.a`
+     -
    * - **Manufacturer**
-     - | Creator
-       | → *Comments:* :ref:`inst_manufacturer`
+     - :ref:`2`
+     - The instrument"s manufacturer(s) or developer. This may also be the owner for custom-build instruments.
    * - manufacturerName
-     - creatorName
+     - :ref:`2.1`
+     -
    * - manufacturerIdentifier
-     - nameIdentifier
+     - :ref:`2.4`
+     -
    * - manufacturerIdentifierType
-     - nameIdentifierScheme
+     - :ref:`2.4.a`
+     -
    * - | **Model**
        | modelName
        | modelIdentifier
        | modelIdentifierType
-     - | Description with descriptionType "TechnicalInfo"
-       | → *Comments:* :ref:`inst_model`
+     - | :ref:`17` with :ref:`17.a`:
+       | :ref:`TechnicalInfo`
+     - Detailed information associated with an instrument instance, e.g. model (model name and model identifier), instrument type (name and identifier), or measured variable.
    * - **Description**
-     - | Description with descriptionType "Abstract"
-       | → *Comments:* :ref:`inst_description`
+     - | :ref:`17` with :ref:`17.a`:
+       | :ref:`Abstract`
+     - Technical description of the device and its capabilities.
    * - | **InstrumentType**
        | instrumentTypeName
        | instrumentTypeIdentifier
-     - Description with descriptionType "TechnicalInfo"
+     - | :ref:`17` with :ref:`17.a`:
+       | :ref:`TechnicalInfo`
+     -
    * - **MeasuredVariable**
-     - | Description with descriptionType "TechnicalInfo"
-       | → *Comments:* :ref:`inst_measuredvariable`
+     - | :ref:`17` with :ref:`17.a`:
+       | :ref:`TechnicalInfo`
+     - The variable(s) that this instrument measures or observes.
    * - **Date**
-     - | Date with dateType "Other"
-       | → *Comments:* :ref:`inst_dates`
+     - :ref:`8` with :ref:`8.a` "Other"
+     - | Dates relevant to the instrument.
+       | To indicate the date when the instrument started to be in operation (Commissioned), or ceased to be in operation (DeCommissioned), use :ref:`8.a` "Other" and add "Commissioned" resp. "Decommissioned" in :ref:`8.b`.
    * - **RelatedIdentifier**
-     - RelatedIdentifier
+     - :ref:`12`
+     -
    * - relatedIdentifierType
-     - relatedIdentifierType
+     - :ref:`12.a`
+     -
    * - relationType
-     - | relationType
-       |
-       | *Suggested values:*
-       | "Describes", "IsDescribedBy"
-       | "IsNewVersionOf", IsPreviousVersionOf"
-       | "HasPart", IsPartOf"
-       | "HasMetadata", IsMetadataFor"
-       | "Uses", IsUsedBy"
-       |
-       | → *Comments:* :ref:`inst_relationtypes`
+     - :ref:`12.b`
+     - RelationTypes applicable to instruments.
+   * -
+     - :ref:`Describes`, :ref:`IsDescribedBy`
+     -  The linked resource is a document describing the instrument.
+   * -
+     - :ref:`IsNewVersionOf`, :ref:`IsPreviousVersionOf`
+     - If an instrument is substantially modified, a new DOI may be attributed to the new version. In that case the old and the new DOI should be linked to each other. IsNewVersionOf should be used in the new DOI record to link the old instrument before the modification.
+   * -
+     - :ref:`HasPart`, :ref:`IsPartOf`
+     - In the case of a complex instrument, having multiple components that may be considered as instruments in their own right, with their own DOIs, these DOIs should be linked. HasPart should be used in the DOI record of the compound instrument to link the components. IsPartOf should be used in the DOI records of the components to link the compound instrument.
+   * -
+     - :ref:`HasMetadata`, :ref:`IsMetadataFor`
+     - If there is additional metadata describing the instrument, possibly using a community specific metadata standard, that metadata record may be linked using HasMetadata.
+   * -
+     - :ref:`Uses`, :ref:`IsUsedBy`
+     - If the instrument has been deployed in some research activity, such as a cruise or a research vessel, IsUsedBy may be used to link that activity.
    * - **AlternateIdentifier**
-     - AlternateIdentifier
+     - :ref:`11`
+     -
    * - alternateIdentifierType
-     - | alternateIdentifierType
-       | → *Comments:* :ref:`inst_alternateidentifiers`
-
-Comments
-------------------------------------------------------
-
-.. _inst_name:
-
-Instrument Name
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| **Name**                   | Title                                                 |
-+----------------------------+-------------------------------------------------------+
-
-May be the title of a dataset, the name of a piece of software or instrument.
-
-.. _inst_owner:
-
-Instrument Owner
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| **Owner**                  | Contributor with contributorType "HostingInstitution" |
-+----------------------------+-------------------------------------------------------+
-
-Can be used for the owner of an instrument, i.e. the institution responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument. Use the contributorType “hostingInstitution”.
-
-.. _inst_manufacturer:
-
-Instrument Manufacturer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| Manufacturer               | Creator                                               |
-+----------------------------+-------------------------------------------------------+
-
-The instrument"s manufacturer(s) or developer. This may also be the owner for custom-build instruments.
-
-.. _inst_model:
-
-Instrument Model
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| | **Model**                | Description with descriptionType "TechnicalInfo"      |
-| | modelName                |                                                       |
-| | modelName                |                                                       |
-| | modelIdentifier          |                                                       |
-| | modelIdentifierType      |                                                       |
-+----------------------------+-------------------------------------------------------+
-
-Detailed information associated with an instrument instance, e.g. model (model name and model identifier), instrument type (name and identifier), or measured variable.
-
-.. _inst_description:
-
-Instrument Description
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| **Description**            | | Description with descriptionType "Abstract"         |
-+----------------------------+-------------------------------------------------------+
-
-Technical description of the device and its capabilities.
-
-.. _inst_measuredvariable:
-
-Measured Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| MeasuredVariable           | Description with descriptionType "TechnicalInfo"      |
-+----------------------------+-------------------------------------------------------+
-
-The variable(s) that this instrument measures or observes.
-
-.. _inst_dates:
-
-Dates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| **Date**                   | | Date with dateType `Other`                          |
-+----------------------------+-------------------------------------------------------+
-
-Dates relevant to the instrument.
-
-To indicate the date when the instrument started to be in operation (Commissioned), or ceased to be in operation (DeCommissioned), use dateType "Other" and add "Commissioned" resp. "Decommissioned" in dateInformation.
-
-.. _inst_relationtypes:
-
-Relation Types
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| relationType               | | relationType                                        |
-|                            | | - "Describes", "IsDescribedBy"                      |
-|                            | | - "IsNewVersionOf", IsPreviousVersionOf"            |
-|                            | | - "HasPart", IsPartOf"                              |
-|                            | | - "HasMetadata", IsMetadataFor"                     |
-|                            | | - "Uses", IsUsedBy"                                 |
-+----------------------------+-------------------------------------------------------+
-
-RelationTypes applicable to instruments.
-
-**Describes, IsDescribedBy**: The linked resource is a document describing the instrument.
-
-**IsNewVersionOf, IsPreviousVersionOf**: If an instrument is substantially modified, a new DOI may be attributed to the new version. In that case the old and the new DOI should be linked to each other. IsNewVersionOf should be used in the new DOI record to link the old instrument before the modification.
-
-**HasPart, IsPartOf**: In the case of a complex instrument, having multiple components that may be considered as instruments in their own right, with their own DOIs, these DOIs should be linked. HasPart should be used in the DOI record of the compound instrument to link the components. IsPartOf should be used in the DOI records of the components to link the compound instrument.
-
-**HasMetadata, IsMetadataFor**: If there is additional metadata describing the instrument, possibly using a community specific metadata standard, that metadata record may be linked using HasMetadata.
-
-**Uses, IsUsedBy**: If the instrument has been deployed in some research activity, such as a cruise or a research vessel, IsUsedBy may be used to link that activity.
-
-.. _inst_alternateidentifiers:
-
-Alternate Identifiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+----------------------------+-------------------------------------------------------+
-| PIDINST Property           | DataCite v. 4.5                                       |
-+============================+=======================================================+
-| **AlternateIdentifier**    | AlternateIdentifier                                   |
-+----------------------------+-------------------------------------------------------+
-| alternateIdentifierType    | alternateIdentifierType                               |
-+----------------------------+-------------------------------------------------------+
-
-May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database. Indicate the type of the AlternateIdentifier.
+     - | :ref:`11.a`
+     - May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database. Indicate the type of the AlternateIdentifier.
 
 .. rubric:: Footnotes
 .. [#f1] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070

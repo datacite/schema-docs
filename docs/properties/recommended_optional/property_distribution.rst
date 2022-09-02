@@ -1,3 +1,5 @@
+.. _21:
+
 21. Distribution
 ====================
 
@@ -11,7 +13,7 @@
 
 The use of this property indicates directly downloadable distributions. Every distribution should represent the same resource in its entirety. It should NOT be used to describe collections.
 
-Collections of files should be either using an archive format or a bagit folder structure. See :doc:`/guidance/distribution` for recommendations.
+Collections of files should be either using an archive format or a BagIt folder structure. See :doc:`/guidance/distribution` for recommendations.
 
 *Sub-properties:*
 
@@ -23,7 +25,7 @@ Collections of files should be either using an archive format or a bagit folder 
 
   <distributions>
      <distribution mediaType="application/gzip">
-       <contentUrl lastUpdated="2022-05-05" byteSize="1236546456">https://zenodo.org/record/6591787/files/bagit.gzip</contentUrl>
+       <contentURL lastUpdated="2022-05-05" byteSize="1236546456">https://example.org/bagit.gzip</contentURL>
        <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
        <accessRights accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
      </distribution>
@@ -51,18 +53,18 @@ Examples:
 
 .. _21.1:
 
-21.1 contentUrl
+21.1 contentURL
 ~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 
-**Definition:** The URI leading to a content provided by a repository using a valid protocol.
+**Definition:** The URL leading to content provided by a repository using a valid protocol.
 
 **Allowed values, examples, other constraints:**
 
-If Distribution is used, contentUrl is mandatory.
+If Distribution is used, contentURL is mandatory.
 
-Only URIs with schemes from IANA-registered schemes are allowed: https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
+URLs should use schemes that are registered with IANA (e.g., https, ftp): https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
 
 Examples:
 
@@ -80,11 +82,11 @@ See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 **Occurrences:** 0-1
 
-**Definition:** Date when the content URL was last updated.
+**Definition:** Date when the content URL value was last updated. [#f1]_
 
 **Allowed values, examples, other constraints:**
 
-YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
+YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f2]_.
 
 .. _21.1.b:
 
@@ -93,13 +95,14 @@ YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granular
 
 **Occurrences:** 0-1
 
-**Definition:** The size of a distribution in bytes.
+**Definition:** The size of a distribution in bytes. The value is related to the object in :ref:`21.1`.
 
 **Allowed values, examples, other constraints:**
 
 The size in bytes can be approximated (as a decimal) when the precise size is not known.
 
 Examples:
+
 - 1048576 for 1 Megabyte
 
 .. _21.2:
@@ -109,7 +112,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** A value that allows the contents of a file to be authenticated.
+**Definition:** A value that allows the integrity of a file to be verified. The value is related to the object in :ref:`21.1`.
 
 **Allowed values, examples, other constraints:**
 
@@ -128,7 +131,7 @@ This attribute allows the results of a variety of checksum and cryptographic mes
 
 If checkSum is used, algorithm is mandatory.
 
-Recommended values should follow Version 2.2 of SPDX: https://spdx.org/rdf/terms/#d4e1968
+Recommended values should follow Version 2.3 of SPDX: https://spdx.org/rdf/terms/#d4e1968
 
 Examples:
 
@@ -153,9 +156,9 @@ Examples:
 
 **Allowed values, examples, other constraints:**
 
-Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/access_rights.nt
+Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/
 
-To provide copyright or licensing information, use the :doc:`/properties/recommended_optional/property_rights` property.
+To provide copyright or licensing information, use the :ref:`16` property.
 
 Examples:
 
@@ -175,7 +178,7 @@ Examples:
 
 **Allowed values, examples, other constraints:**
 
-Recommended values should follow the COAR vocabulary for to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/access_rights.nt
+Recommended values should follow the COAR vocabulary for to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/
 
 Examples:
 
@@ -183,4 +186,5 @@ Examples:
 - http://purl.org/coar/access_right/c_14cb for “metadata only”
 
 .. rubric:: Footnotes
-.. [#f1] https://www.w3.org/TR/NOTE-datetime
+.. [#f1] To determine when the file contents were last updated, compare :ref:`21.2` values.
+.. [#f2] https://www.w3.org/TR/NOTE-datetime

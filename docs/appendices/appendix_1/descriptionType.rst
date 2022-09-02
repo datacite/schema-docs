@@ -41,7 +41,7 @@ SeriesInformation
 
 **Definition:** Information about a repeating series, such as volume, issue, number.
 
-**Usage Notes:** The information previously encoded as a description with this type should now be explicitly provided in tagged fields using the new :doc:`/properties/recommended_optional/property_relateditem` property with relationType "IsPublishedIn" selected.
+**Usage Notes:** The information previously encoded as a description with this type should now be explicitly provided in tagged fields using the new :ref:`20` property with relationType "IsPublishedIn" selected.
 
 
 .. _TableOfContents:
@@ -63,7 +63,7 @@ TechnicalInfo
 
 **Definition:** Detailed information that may be associated with design, implementation, operation, use, and/or maintenance of a process, system, or instrument.
 
-**Usage Notes:** For software description, this may include the contents of a “readme.txt” and necessary environmental information (hardware, operational software, applications/programs with version information, a human-readable synopsis of software purpose) that cannot be described using other properties (e.g., programming language). For other uses, this can include specific and detailed information as necessary and appropriate. The information entered will be unstructured and not parsed, so it may be useful to format the information using tags and/or line breaks.
+**Usage Notes:** For software description, this may include the contents of a “readme.txt” and necessary environmental information (hardware, operational software, applications/programs with version information, a human-readable synopsis of software purpose) that cannot be described using other properties (e.g., programming language). For other uses, this can include specific and detailed information as necessary and appropriate. The information entered will be unstructured and not parsed, so it may be useful to format the information using line breaks ("<br>").
 
 
 .. _descriptionType_Other:

@@ -1,3 +1,5 @@
+.. _16:
+
 16. Rights
 ====================
 
@@ -43,7 +45,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the license
+**Definition:** The URI of the license.
 
 **Allowed values, examples, other constraints:**
 
@@ -56,7 +58,7 @@ Example: https://creativecommons.org/licenses/by/3.0/de/
 
 **Occurrences:** 0-1
 
-**Definition:** A short, standardized version of the license name
+**Definition:** A short, standardized version of the license name.
 
 **Allowed values, examples, other constraints:**
 
@@ -71,7 +73,7 @@ A list of identifiers for commonly-used licenses may be found here: (https://spd
 
 **Occurrences:** 0-1
 
-**Definition:** The name of the scheme
+**Definition:** The name of the scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -84,7 +86,7 @@ Example: SPDX
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the rightsIdentifierScheme
+**Definition:** The URI of the rightsIdentifierScheme.
 
 **Allowed values, examples, other constraints:**
 

@@ -1,3 +1,5 @@
+.. _5:
+
 5. PublicationYear
 ====================
 
@@ -35,7 +37,7 @@ PublicationYear : the year when the data was or will be made publicly available.
 
 If the DOI is being used to identify a digitised version of an original item, the recommended approach is to supply the PublicationYear for the digital version and not the original object.
 
-The :doc:`property_title` field may be used to convey the approximate or known date of the original object. Other metadata properties available for additional date information about the object include: Subject and Description. However, only Title will be part of the citation.
+The :ref:`3` field may be used to convey the approximate or known date of the original object. Other metadata properties available for additional date information about the object include :ref:`6` and :ref:`17`. However, only :ref:`3` will be part of the citation.
 
 Here are two examples of citations using dates or date information in the titles.
 

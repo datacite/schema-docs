@@ -1,3 +1,5 @@
+.. _18:
+
 18. GeoLocation
 ====================
 
@@ -45,7 +47,7 @@ Repeat this property to indicate several different locations.
 
 **Occurrences:** 0-1
 
-**Definition:** A point location in space
+**Definition:** A point location in space.
 
 **Allowed values, examples, other constraints:**
 
@@ -53,13 +55,14 @@ A point contains a single longitude-latitude pair.
 
 Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
+.. _18.1.1:
 
 18.1.1 pointLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** Longitudinal dimension of point
+**Definition:** Longitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -69,13 +72,14 @@ Example: -67.302
 
 Domain: -180 <= pointLongitude <= 180
 
+.. _18.1.2:
 
 18.1.2 pointLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** Latitudinal dimension of point
+**Definition:** Latitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -94,7 +98,7 @@ Domain: -90 <= pointLatitude <= 90
 
 **Occurrences:** 0-1
 
-**Definition:** The spatial limits of a box
+**Definition:** The spatial limits of a box.
 
 **Allowed values, examples, other constraints:**
 
@@ -102,13 +106,14 @@ A box is defined by two geographic points. Left low corner and right upper corne
 
 Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
+.. _18.2.1:
 
 18.2.1 westBoundLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** Western longitudinal dimension of box
+**Definition:** Western longitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -116,13 +121,14 @@ If geolocationBox is used, westBoundLongitude is mandatory. Longitude of the geo
 
 Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
+.. _18.2.2:
 
 18.2.2 eastBoundLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** Eastern longitudinal dimension of box
+**Definition:** Eastern longitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -130,13 +136,14 @@ If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geo
 
 Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
+.. _18.2.3:
 
 18.2.3 southBoundLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** Southern latitudinal dimension of box
+**Definition:** Southern latitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -144,13 +151,14 @@ If geolocationBox is used, southBoundLatitude is mandatory. Latitude of the geog
 
 Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
+.. _18.2.4:
 
 18.2.4 northBoundLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** Northern latitudinal dimension of box
+**Definition:** Northern latitudinal dimension of box.
 
 **Allowed values, examples, other constraints:**
 
@@ -165,7 +173,7 @@ Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 
 **Occurrences:** 0-1
 
-**Definition:** Description of a geographic location
+**Definition:** Description of a geographic location.
 
 **Allowed values, examples, other constraints:**
 
@@ -178,7 +186,7 @@ Free text. Use to describe a geographic location.
 
 **Occurrences:** 0-n
 
-**Definition:** A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain
+**Definition:** A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain.
 
 **Allowed values, examples, other constraints:**
 
@@ -186,25 +194,27 @@ A polygon is delimited by geographic points. Each point is defined by a longitud
 
 Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for coordinates.
 
+.. _18.4.1:
 
 18.4.1 polygonPoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 4-n
 
-**Definition:** A point location in a polygon
+**Definition:** A point location in a polygon.
 
 **Allowed values, examples, other constraints:**
 
 If geoLocationPolygon is used, polygonPoint must be used as well. There must be at least 4 non-aligned points to make a closed curve, with the last point described the same as the first point.
 
+.. _18.4.1.1:
 
 18.4.1.1 pointLongitude
 ##########################
 
 **Occurrences:** 1
 
-**Definition:** Longitudinal dimension of point
+**Definition:** Longitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -212,13 +222,14 @@ If polygonPoint is used, pointLongitude is mandatory. Longitude of the geographi
 
 Domain: -180 <= pointLongitude <= 180
 
+.. _18.4.1.2:
 
 18.4.1.2 pointLatitude
 ##########################
 
 **Occurrences:** 1
 
-**Definition:** Latitudinal dimension of point
+**Definition:** Latitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
@@ -233,31 +244,33 @@ Domain: -90 <= pointLatitude <= 90
 
 **Occurrences:** 0-1
 
-**Definition:** For any bound area that is larger than half the earth, define a (random) point inside [#f1]_
+**Definition:** For any bound area that is larger than half the earth, define a (random) point inside. [#f1]_
 
 **Allowed values, examples, other constraints:**
 
 inPolygonPoint is only necessary to indicate the "inside" of the polygon if the polygon is larger than half the earth. Otherwise the smallest of the two areas bounded by the polygon will be used.
 
+.. _18.4.2.1:
 
 18.4.2.1 pointLongitude
 ##########################
 
 **Occurrences:** 1
 
-**Definition:** Longitudinal dimension of point
+**Definition:** Longitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 
 If inPolygonPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
+.. _18.4.2.2:
 
 18.4.2.2 pointLatitude
 ##########################
 
 **Occurrences:** 1
 
-**Definition:** Latitudinal dimension of point
+**Definition:** Latitudinal dimension of point.
 
 **Allowed values, examples, other constraints:**
 

@@ -1,3 +1,5 @@
+.. _12:
+
 12. RelatedIdentifier
 =======================
 
@@ -33,7 +35,7 @@ Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_
 
 **Occurrences:** 1
 
-**Definition:** The type of the RelatedIdentifier
+**Definition:** The type of the RelatedIdentifier.
 
 **Allowed values, examples, other constraints:**
 
@@ -70,7 +72,7 @@ See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appe
 
 **Occurrences:** 1
 
-**Definition:** Description of the relationship of the resource being registered (A) and the related resource (B)
+**Definition:** Description of the relationship of the resource being registered (A) and the related resource (B).
 
 **Allowed values, examples, other constraints:**
 
@@ -124,7 +126,7 @@ See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/ap
 
 **Occurrences:** 0-1
 
-**Definition:** The name of the scheme
+**Definition:** The name of the scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -139,7 +141,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the relatedMetadataScheme
+**Definition:** The URI of the relatedMetadataScheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -154,7 +156,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Occurrences:** 0-1
 
-**Definition:** The type of the relatedMetadataScheme, linked with the schemeURI
+**Definition:** The type of the relatedMetadataScheme, linked with the schemeURI.
 
 **Allowed values, examples, other constraints:**
 
@@ -169,7 +171,7 @@ Examples: XSD, DDT, Turtle
 
 **Occurrences:** 0-1
 
-**Definition:** The general type of the related resource
+**Definition:** The general type of the related resource.
 
 **Allowed values, examples, other constraints:**
 

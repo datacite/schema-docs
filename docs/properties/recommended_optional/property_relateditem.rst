@@ -1,3 +1,5 @@
+.. _20:
+
 20. RelatedItem
 ====================
 
@@ -26,7 +28,7 @@ Can be used to provide series information or a text citation where the related r
 
 **Occurrences:** 1
 
-**Definition:** The general type of the related item
+**Definition:** The general type of the related item.
 
 **Allowed values, examples, other constraints:**
 
@@ -71,7 +73,7 @@ See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </append
 
 **Occurrences:** 1
 
-**Definition:** Description of the relationship of the resource being registered (A) and the related item (B)
+**Definition:** Description of the relationship of the resource being registered (A) and the related item (B).
 
 **Allowed values, examples, other constraints:**
 
@@ -125,13 +127,13 @@ See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/ap
 
 **Occurrences:** 0-1
 
-**Definition:** The identifier for the related item
+**Definition:** The identifier for the related item.
 
 **Allowed values, examples, other constraints:**
 
 Example: 10.1021/jacs.9b01862
 
-If relatedItemIdentifier is provided, an identical :doc:`/properties/recommended_optional/property_relatedidentifier` is strongly recommended for indexing.
+If relatedItemIdentifier is provided, an identical :ref:`12` is strongly recommended for indexing.
 
 .. _20.1.a:
 
@@ -140,7 +142,7 @@ If relatedItemIdentifier is provided, an identical :doc:`/properties/recommended
 
 **Occurrences:** 0-1
 
-**Definition:** The type of the Identifier for the related item
+**Definition:** The type of the Identifier for the related item.
 
 **Allowed values, examples, other constraints:**
 
@@ -174,7 +176,7 @@ See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appe
 
 **Occurrences:** 0-1
 
-**Definition:** The name of the scheme
+**Definition:** The name of the scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -188,7 +190,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the relatedMetadataScheme
+**Definition:** The URI of the relatedMetadataScheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -202,7 +204,7 @@ See :ref:`Appendix 1: Controlled List Definitions - relationType  - HasMetadata 
 
 **Occurrences:** 0-1
 
-**Definition:** The type of the relatedMetadataScheme, linked with the schemeURI
+**Definition:** The type of the relatedMetadataScheme, linked with the schemeURI.
 
 **Allowed values, examples, other constraints:**
 
@@ -212,7 +214,7 @@ Examples: XSD, DDT, Turtle
 
 .. _20.2:
 
-20.2 Creator
+20.2 creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -229,7 +231,7 @@ To supply multiple creators, repeat this property.
 
 **Occurrences:** 1
 
-**Definition:** The full name of the related item creator
+**Definition:** The full name of the related item creator.
 
 **Allowed values, examples, other constraints:**
 
@@ -243,7 +245,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 **Occurrences:** 0-1
 
-**Definition:** The type of name
+**Definition:** The type of name.
 
 **Allowed values, examples, other constraints:**
 
@@ -258,7 +260,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 **Occurrences:** 0-1
 
-**Definition:** The personal or first name of the creator
+**Definition:** The personal or first name of the creator.
 
 **Allowed values, examples, other constraints:**
 
@@ -270,7 +272,7 @@ Examples based on the `20.2.1`_ names: Antoine; Mae
 
 **Occurrences:** 0-1
 
-**Definition:** The surname or last name of the creator
+**Definition:** The surname or last name of the creator.
 
 **Allowed values, examples, other constraints:**
 
@@ -283,7 +285,7 @@ Examples based on the `20.2.1`_ names: Charpy; Jemison
 
 **Occurrences:** 1-n
 
-**Definition:** Title of the related item
+**Definition:** Title of the related item.
 
 **Allowed values, examples, other constraints:**
 
@@ -304,12 +306,12 @@ The titleType sub-property is used when more than a single title is provided. Un
 
 .. _20.4:
 
-20.4 PublicationYear
+20.4 publicationYear
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The year when the item was or will be made publicly available
+**Definition:** The year when the item was or will be made publicly available.
 
 **Allowed values, examples, other constraints:**
 
@@ -322,7 +324,7 @@ YYYY
 
 **Occurrences:** 0-1
 
-**Definition:** Volume of the related item
+**Definition:** Volume of the related item.
 
 **Allowed values, examples, other constraints:**
 
@@ -337,7 +339,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** Issue number or name of the related item
+**Definition:** Issue number or name of the related item.
 
 **Allowed values, examples, other constraints:**
 
@@ -352,7 +354,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** Number of the related item, e.g., report number of article number
+**Definition:** Number of the related item, e.g., report number of article number.
 
 **Allowed values, examples, other constraints:**
 
@@ -367,7 +369,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** Type of the related item’s number, e.g., report number or article number
+**Definition:** Type of the related item’s number, e.g., report number or article number.
 
 **Allowed values, examples, other constraints:**
 
@@ -387,7 +389,7 @@ Use only with relationType :ref:`IsPublishedIn`.
 
 **Occurrences:** 0-1
 
-**Definition:** First page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings
+**Definition:** First page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings.
 
 **Allowed values, examples, other constraints:**
 
@@ -402,7 +404,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** Last page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings
+**Definition:** Last page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings.
 
 **Allowed values, examples, other constraints:**
 
@@ -412,12 +414,12 @@ Free text.
 
 .. _20.10:
 
-20.10 Publisher
+20.10 publisher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource
+**Definition:** The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource.
 
 **Allowed values, examples, other constraints:**
 
@@ -430,7 +432,7 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 **Occurrences:** 0-1
 
-**Definition:** Edition or version of the related item
+**Definition:** Edition or version of the related item.
 
 **Allowed values, examples, other constraints:**
 
@@ -440,7 +442,7 @@ Free text.
 
 .. _20.12:
 
-20.12 Contributor
+20.12 contributor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -451,13 +453,14 @@ Free text.
 
 Examples: Charpy, Antoine; Foo Data Center
 
+.. _20.12.a:
 
 20.12.a contributorType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** The type of contributor of the resource
+**Definition:** The type of contributor of the resource.
 
 **Allowed values, examples, other constraints:**
 
@@ -472,7 +475,7 @@ See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices
 
 **Occurrences:** 1
 
-**Definition:** The full name of the related item contributor
+**Definition:** The full name of the related item contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -487,7 +490,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 **Occurrences:** 0-1
 
-**Definition:** The type of name
+**Definition:** The type of name.
 
 **Allowed values, examples, other constraints:**
 
@@ -502,7 +505,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 **Occurrences:** 0-1
 
-**Definition:** The personal or first name of the contributor
+**Definition:** The personal or first name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -514,7 +517,7 @@ Examples based on the `20.12.1`_ names: Antoine; Mae
 
 **Occurrences:** 0-1
 
-**Definition:** The surname or last name of the contributor
+**Definition:** The surname or last name of the contributor.
 
 **Allowed values, examples, other constraints:**
 

@@ -1,3 +1,5 @@
+.. _3:
+
 3. Title
 ====================
 
@@ -31,7 +33,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** The type of Title (other than the Main Title)
+**Definition:** The type of Title (other than the Main Title).
 
 **Allowed values, examples, other constraints:**
 

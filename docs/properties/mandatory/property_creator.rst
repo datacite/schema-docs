@@ -1,3 +1,5 @@
+.. _2:
+
 2. Creator
 ====================
 
@@ -55,7 +57,7 @@ Note that the personal name format should be: family, given. Names in non-roman 
 
 **Occurrences:** 0-1
 
-**Definition:** The type of name
+**Definition:** The type of name.
 
 **Allowed values, examples, other constraints:**
 
@@ -71,7 +73,7 @@ Note that the personal name format should be: family, given. Names in non-roman 
 
 **Occurrences:** 0-1
 
-**Definition:** The personal or first name of the creator
+**Definition:** The personal or first name of the creator.
 
 **Allowed values, examples, other constraints:**
 
@@ -84,7 +86,7 @@ Examples based on the 2.1 names: Antoine; Mae
 
 **Occurrences:** 0-1
 
-**Definition:** The surname or last name of the creator
+**Definition:** The surname or last name of the creator.
 
 **Allowed values, examples, other constraints:**
 
@@ -117,7 +119,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The name of the name identifier scheme
+**Definition:** The name of the name identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -136,7 +138,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the name identifier scheme
+**Definition:** The URI of the name identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -154,7 +156,7 @@ Examples:
 
 **Occurrences:** 0-n
 
-**Definition:** The organizational or institutional affiliation of the creator
+**Definition:** The organizational or institutional affiliation of the creator.
 
 **Allowed values, examples, other constraints**
 
@@ -213,7 +215,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the affiliation identifier scheme
+**Definition:** The URI of the affiliation identifier scheme.
 
 **Allowed values, examples, other constraints:**
 

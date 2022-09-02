@@ -1,3 +1,5 @@
+.. _4:
+
 4. Publisher
 ====================
 
@@ -7,7 +9,7 @@
 
 **Definition:** The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role.
 
-For software, use Publisher for the code repository. If there is an entity other than a code repository, that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the property :doc:`/properties/recommended_optional/property_contributor` with contributorType "hostingInstitution" for the code repository.
+For software, use Publisher for the code repository. If there is an entity other than a code repository, that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the property :ref:`7` with contributorType "hostingInstitution" for the code repository.
 
 **Allowed values, examples, other constraints:**
 
@@ -54,7 +56,7 @@ Examples:
 
 **Occurrences:** 1
 
-**Definition:** The name of the publisher identifier scheme
+**Definition:** The name of the publisher identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -80,7 +82,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the publisher identifier scheme
+**Definition:** The URI of the publisher identifier scheme.
 
 **Allowed values, examples, other constraints:**
 

@@ -21,12 +21,12 @@ Examples for various resource types and special cases can be found at https://sc
 
     <distributions>
        <distribution mediaType="image/png">
-         <contentUrl lastUpdated="2022-05-05" byteSize="1236546456">http://example.org/data.png</contentUrl>
+         <contentURL lastUpdated="2022-05-05" byteSize="1236546456">http://example.org/data.png</contentURL>
          <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
          <accessRights accessRightsSchema="https://vocabularies.coar-repositories.org/access_rights/access_rights.nt">embargoedaccess</accessRights>
        </distribution>
        <distribution mediaType="text/csv">
-         <contentUrl>http://example.org/data.csv</contentUrl>
+         <contentURL>http://example.org/data.csv</contentURL>
        </distribution>
      </distributions>
 

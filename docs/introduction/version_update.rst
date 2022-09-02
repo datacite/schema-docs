@@ -31,7 +31,7 @@ Support for instruments
 Support for publisher identifiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of new sub-properties for :doc:`/properties/mandatory/property_publisher`:
+* Addition of new sub-properties for :ref:`4`:
 
    * :ref:`4.a`
    * :ref:`4.b`
@@ -40,7 +40,7 @@ Support for publisher identifiers
 Distribution property
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * Addition of a new :doc:`/properties/recommended_optional/property_distribution` property. Sub-properties:
+ * Addition of a new :ref:`21` property. Sub-properties:
 
    * :ref:`21.a`
    * :ref:`21.1`
@@ -60,11 +60,11 @@ Support for instruments
 
 * Changes and additions to these definitions, in support of instruments:
 
- * :doc:`/properties/mandatory/property_title`
- * :doc:`/properties/mandatory/property_creator`
- * :doc:`/properties/recommended_optional/property_contributor`
- * :doc:`/properties/recommended_optional/property_alternateidentifier`
- * :doc:`/properties/recommended_optional/property_description`
+ * :ref:`3`
+ * :ref:`2`
+ * :ref:`7`
+ * :ref:`11`
+ * :ref:`17`
  * :ref:`descriptionType: TechnicalInfo <TechnicalInfo>`
 
 * To enhance support for instruments, addition of new mapping: :doc:`/mappings/pidinst`
@@ -79,12 +79,12 @@ RelatedItem property
 
 * Changes and additions to sub-property definitions:
 
- * Addition of a note in :ref:`20.1` to strongly recommend the use of an identical :doc:`/properties/recommended_optional/property_relatedidentifier` for indexing.
+ * Addition of a note in :ref:`20.1` to strongly recommend the use of an identical :ref:`12` for indexing.
  * Addition of a note in :ref:`20.5`, :ref:`20.6`, :ref:`20.7`, :ref:`20.7.a`, :ref:`20.8`, :ref:`20.9`, and :ref:`20.11` to indicate that these subproperties should only be used with the relationType :ref:`IsPublishedIn`.
  * Change to :ref:`20.8` and :ref:`20.9` to specify that the pages refer to the resource *within* the related item (for which the DOI is being registered), not the entire related item.
  * Minor changes to other RelatedItem sub-property definitions to improve consistency.
 
-* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by RelatedItem *with the relationType :ref:`IsPublishedIn` selected*.
+* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by RelatedItem with the relationType :ref:`IsPublishedIn` selected.
 * To enhance support for the RelatedItem property, addition of a new guidance document: :doc:`/guidance/related_item_guide`
 
 Other changes and corrections
@@ -93,7 +93,7 @@ Other changes and corrections
 * Correction of the cardinality for properties :ref:`2.5.a` and :ref:`7.5.a`.
 * Correction of the capitalization of properties :ref:`2.5.c`, :ref:`7.5.c`, and :ref:`19.2.b`.
 * Correction of the cardinality of :ref:`19.2.a` and addition of a note indicate when it is mandatory.
-* Addition of a note to :ref:`3.a` (sub-property of :doc:`/properties/mandatory/property_title`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :doc:`/properties/recommended_optional/property_relateditem`).
+* Addition of a note to :ref:`3.a` (sub-property of :ref:`3`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :ref:`20`).
 * Updated examples for ``nameIdentifier`` and its attributes (properties :ref:`2.4` and :ref:`7.4`).
 * Updated examples for ``affiliationIdentifier`` and its attributes (properties :ref:`2.5` and :ref:`7.5`).
 * Other minor corrections to definitions and examples.
