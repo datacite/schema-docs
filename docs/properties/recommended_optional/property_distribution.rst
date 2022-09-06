@@ -27,7 +27,7 @@ Collections of files should be either using an archive format or a BagIt folder 
      <distribution mediaType="application/gzip">
        <contentURL lastUpdated="2022-05-05" byteSize="1236546456">https://example.org/bagit.gzip</contentURL>
        <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
-       <accessRights accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+       <accessRights xml:lang="en" accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
      </distribution>
    </distributions>
 
