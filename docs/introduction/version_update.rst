@@ -78,6 +78,11 @@ Support for instruments
 
 * To enhance support for instruments, addition of new mapping: :doc:`/mappings/pidinst`
 
+Updated PhysicalObject definition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Change to the definition of :ref:`PhysicalObject` in support of samples.
+
 Distribution property
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -105,6 +110,7 @@ Other changes and corrections
 * Addition of a note to :ref:`3.a` (sub-property of :ref:`3`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :ref:`20`).
 * Updated examples for nameIdentifier (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`) and its attributes.
 * Updated examples for affiliationIdentifier (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`) and its attributes.
+* Updated the full name of :doc:`/appendices/appendix_1/relatedIdentifierType` :ref:`IGSN` from "International Geo Sample Number" to "International Generic Sample Number" with an updated description.
 * Other minor corrections to definitions and examples.
 
 

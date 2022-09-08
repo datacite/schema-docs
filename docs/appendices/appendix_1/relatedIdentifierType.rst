@@ -134,7 +134,7 @@ IGSN
 
 **Full Name:** International Geo Sample Number
 
-**Description:** A 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.
+**Description:** A code that uniquely identifies samples from our natural environment and related features-of-interest.
 
 **Example:**
 
