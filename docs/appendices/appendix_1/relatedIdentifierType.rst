@@ -132,7 +132,7 @@ Handle
 IGSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Full Name:** International Geo Sample Number
+**Full Name:** International Generic Sample Number
 
 **Description:** A code that uniquely identifies samples from our natural environment and related features-of-interest.
 
