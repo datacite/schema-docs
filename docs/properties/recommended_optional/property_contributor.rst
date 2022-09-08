@@ -1,3 +1,5 @@
+.. _7:
+
 7. Contributor
 ====================
 
@@ -46,7 +48,7 @@ Examples: Charpy, Antoine; Foo Data Center
 
 **Occurrences:** 1
 
-**Definition:** The type of contributor of the resource
+**Definition:** The type of contributor of the resource.
 
 **Allowed values, examples, other constraints:**
 
@@ -54,27 +56,27 @@ If Contributor is used, then contributorType is mandatory.
 
 *Controlled List Values:*
 
-* ContactPerson
-* DataCollector
-* DataCurator
-* DataManager
-* Distributor
-* Editor
-* HostingInstitution
-* Producer
-* ProjectLeader
-* ProjectManager
-* ProjectMember
-* RegistrationAgency
-* RegistrationAuthority
-* RelatedPerson
-* Researcher
-* ResearchGroup
-* RightsHolder
-* Sponsor
-* Supervisor
-* WorkPackageLeader
-* Other
+* :ref:`ContactPerson`
+* :ref:`DataCollector`
+* :ref:`DataCurator`
+* :ref:`DataManager`
+* :ref:`Distributor`
+* :ref:`Editor`
+* :ref:`HostingInstitution`
+* :ref:`Producer`
+* :ref:`ProjectLeader`
+* :ref:`ProjectManager`
+* :ref:`ProjectMember`
+* :ref:`RegistrationAgency`
+* :ref:`RegistrationAuthority`
+* :ref:`RelatedPerson`
+* :ref:`Researcher`
+* :ref:`ResearchGroup`
+* :ref:`RightsHolder`
+* :ref:`Sponsor`
+* :ref:`Supervisor`
+* :ref:`WorkPackageLeader`
+* :ref:`contributorType_Other`
 
 See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix_1/contributorType>` for definitions.
 
@@ -86,7 +88,7 @@ See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices
 
 **Occurrences:** 1
 
-**Definition:** The full name of the contributor
+**Definition:** The full name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -103,7 +105,7 @@ The personal name format should be: family, given. Non- roman names should be tr
 
 **Occurrences:** 0-1
 
-**Definition:** The type of name
+**Definition:** The type of name.
 
 **Allowed values, examples, other constraints:**
 
@@ -112,25 +114,27 @@ The personal name format should be: family, given. Non- roman names should be tr
  * Organizational
  * Personal (default)
 
+.. _7.2:
 
 7.2 givenName
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The personal or first name of the contributor
+**Definition:** The personal or first name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
 Examples based on the `7.1`_ names: Emily
 
+.. _7.3:
 
 7.3 familyName
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The surname or last name of the contributor
+**Definition:** The surname or last name of the contributor.
 
 **Allowed values, examples, other constraints:**
 
@@ -156,13 +160,14 @@ Examples:
 * https://isni.org/isni/0000000492299539
 * https://ror.org/04aj4c181
 
+.. _7.4.a:
 
 7.4.a nameIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** The name of the name identifier scheme
+**Definition:** The name of the name identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -174,13 +179,14 @@ Examples:
 * ISNI
 * ROR
 
+.. _7.4.b:
 
 7.4.b schemeURI
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the name identifier scheme
+**Definition:** The URI of the name identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -198,7 +204,7 @@ Examples:
 
 **Occurrences:** 0-n
 
-**Definition:** The organizational or institutional affiliation of the contributor
+**Definition:** The organizational or institutional affiliation of the contributor.
 
 **Allowed values, examples, other constraints**
 
@@ -231,13 +237,14 @@ Examples:
 * https://ror.org/04aj4c181
 * https://isni.org/isni/0000000492299539
 
+.. _7.5.b:
 
 7.5.b affiliationIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
-**Definition:** The name of the affiliation identifier scheme
+**Definition:** The name of the affiliation identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
@@ -256,7 +263,7 @@ Examples:
 
 **Occurrences:** 0-1
 
-**Definition:** URI of the affiliation identifier scheme
+**Definition:** URI of the affiliation identifier scheme.
 
 **Allowed values, examples, other constraints:**
 

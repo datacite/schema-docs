@@ -1,3 +1,5 @@
+.. _8:
+
 8. Date
 ====================
 
@@ -5,7 +7,7 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Different dates relevant to the work
+**Definition:** Different dates relevant to the work.
 
 **Allowed values, examples, other constraints:**
 
@@ -28,13 +30,14 @@ Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
       <date dateType="Other" dateInformation="Conceptualized">2020-01-01</date>
   </dates>
 
+.. _8.a:
 
 8.a dateType
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 
-**Definition:** The type of date
+**Definition:** The type of date.
 
 **Allowed values, examples, other constraints:**
 
@@ -42,26 +45,28 @@ If Date is used, dateType is mandatory.
 
 *Controlled List Values:*
 
-* Accepted
-* Available
-* Copyrighted
-* Collected
-* Created
-* Issued
-* Submitted
-* Updated
-* Valid
-* Withdrawn
+* :ref:`Accepted`
+* :ref:`Available`
+* :ref:`Copyrighted`
+* :ref:`Collected`
+* :ref:`Created`
+* :ref:`Issued`
+* :ref:`Submitted`
+* :ref:`Updated`
+* :ref:`Valid`
+* :ref:`Withdrawn`
 * Other
 
 See :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix_1/dateType>` for definitions and recommendations.
+
+.. _8.b:
 
 8.b dateInformation
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** Specific information about the date, if appropriate
+**Definition:** Specific information about the date, if appropriate.
 
 **Allowed values, examples, other constraints:**
 

@@ -1,3 +1,5 @@
+.. _6:
+
 6. Subject
 ====================
 
@@ -5,11 +7,11 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Subject, keyword, classification code, or key phrase describing the resource
+**Definition:** Subject, keyword, classification code, or key phrase describing the resource.
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 *Sub-properties:*
 
@@ -24,51 +26,60 @@ Free text
     <subject xml:lang="en" subjectScheme="ANZSRC Fields of Research" schemeURI="https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc" classificationCode="370201">Climate change processes</subject>
   </subject>
 
+.. _6.a:
+
 6.a subjectScheme
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The name of the subject scheme or classification code or authority if one is used
+**Definition:** The name of the subject scheme or classification code or authority if one is used.
 
 **Allowed values, examples, other constraints:**
 
-Free text
+Free text.
 
 Examples:
 
 * Library of Congress Subject Headings (LCSH)
 * ANZSRC Fields of Research
 
+.. _6.b:
+
 6.b schemeURI
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the subject identifier scheme
+**Definition:** The URI of the subject identifier scheme.
 
 **Allowed values, examples, other constraints:**
 
 Example: https://id.loc.gov/authorities/subjects.html
+
+.. _6.c:
 
 6.c valueURI
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The URI of the subject term
+**Definition:** The URI of the subject term.
 
 **Allowed values, examples, other constraints:**
 
 Example:
 https://id.loc.gov/authorities/subjects/sh85118622.html
 
+
+.. _6.d:
+
 6.d classificationCode
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
 
-**Definition:** The classification code used for the subject term in the subject scheme
+**Definition:** The classification code used for the subject term in the subject scheme.
 
 **Allowed values, examples, other constraints:**
 

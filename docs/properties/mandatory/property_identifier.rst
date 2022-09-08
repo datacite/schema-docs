@@ -1,3 +1,5 @@
+.. _1:
+
 1. Identifier
 ====================
 
@@ -11,7 +13,7 @@ For software, determine whether the identifier is for a specific version of a pi
 
 **Allowed values, examples, other constraints:**
 
-DOI (Digital Object Identifier) registered by a DataCite member. Format should be “10.1234/foo”
+A DOI (Digital Object Identifier) registered by a DataCite Member. The format should be ``10.21384/foo``.
 
 *Sub-properties:*
 
@@ -23,6 +25,7 @@ DOI (Digital Object Identifier) registered by a DataCite member. Format should b
 
  <identifier identifierType="DOI">10.21384/foo</identifier>
 
+.. _1.a:
 
 1.a identifierType
 ~~~~~~~~~~~~~~~~~~~~~~

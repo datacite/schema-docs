@@ -3,9 +3,44 @@
   height: 300px;
 }
 
+/* override table no-wrap */
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+
 /* Correct table alignment */
 .rst-content table.docutils td, .rst-content table.field-list td, .wy-table td {
     vertical-align: top;
+}
+
+/* Correct table spacing*/
+
+.rst-content td .line-block {
+    margin-left: 0;
+    margin-bottom: 24px;
+    line-height: 16px;
+}
+
+.rst-content td .line {
+    margin-bottom: 24px;
+}
+
+/* Fix bullet size in tables */
+td>ul>li>p {
+    line-height: 1rem;
+    margin-bottom: 0;
+    font-size: .9rem;
+}
+
+td>ul {
+  margin-bottom: 0px !important;
+}
+
+/* Format affiliation links */
+.affiliation img,
+.orcid img {
+  padding-right: 5px;
+  height: 16px
 }
 
 /* Add underline to links */

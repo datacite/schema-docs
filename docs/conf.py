@@ -61,8 +61,7 @@ comments_config = {
    "utterances": {
       "repo": "github-org/github-repo",
       "optional": "config"
-   },
-   "hypothesis": True
+   }
 }
 
 # LaTeX configuration
