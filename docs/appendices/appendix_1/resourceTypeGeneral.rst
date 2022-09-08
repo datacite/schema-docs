@@ -326,9 +326,9 @@ Example:
 PhysicalObject
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** An inanimate, three-dimensional object or substance.
+**Description:** A physical object or substance.
 
-**Examples and Usage Notes:** Artifacts, specimens
+**Examples and Usage Notes:** Artifacts, specimens, material samples, and features-of-interest of any size. Note that digital representations of physical objects should use one of the other resourceTypeGeneral values.
 
 Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7299/X78052RB
 
