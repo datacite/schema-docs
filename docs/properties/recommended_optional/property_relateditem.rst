@@ -60,6 +60,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`Software`
 * :ref:`Sound`
 * :ref:`Standard`
+* :ref:`StudyRegistration`
 * :ref:`Text`
 * :ref:`Workflow`
 * :ref:`resourceTypeGeneral_Other`
