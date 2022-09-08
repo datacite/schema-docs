@@ -62,6 +62,7 @@ Free text. The recommended content is a single term of some detail so that a pai
 * :ref:`Software`
 * :ref:`Sound`
 * :ref:`Standard`
+* :ref:`StudyRegistration`
 * :ref:`Text`
 * :ref:`Workflow`
 * :ref:`resourceTypeGeneral_Other`
