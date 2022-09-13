@@ -54,7 +54,7 @@ Example: Gordon and Betty Moore Foundation
 19.2 funderIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Occurrences:** 1
+**Occurrences:** 0-1
 
 **Definition:** Uniquely identifies a funding entity, according to various types.
 
