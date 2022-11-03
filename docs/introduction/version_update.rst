@@ -29,7 +29,7 @@ Support for instruments
 * Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsUsedBy` and :ref:`Uses`
 
 
-Support for pre-registrations and registration reports
+Support for pre-registrations and registered reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
