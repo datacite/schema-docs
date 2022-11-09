@@ -107,6 +107,7 @@ Other changes and corrections
 * Correction of the cardinality for properties :ref:`2.5.a` and :ref:`7.5.a`.
 * Correction of the capitalization of properties :ref:`2.5.c`, :ref:`7.5.c`, and :ref:`19.2.b`.
 * Correction of the cardinality of :ref:`19.2.a` and addition of a note indicate when it is mandatory.
+* Correction of "default" value indication for nameType "Personal" (properties :ref:`2.1.a <2.1.a>`, :ref:`7.1.a <7.1.a>`, :ref:`20.2.1.a <20.2.1.a>`, :ref:`20.12.1.a <20.12.1.a>`).
 * Addition of a note to :ref:`3.a` (sub-property of :ref:`3`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :ref:`20`).
 * Updated examples for nameIdentifier (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`) and its attributes.
 * Updated examples for affiliationIdentifier (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`) and its attributes.
