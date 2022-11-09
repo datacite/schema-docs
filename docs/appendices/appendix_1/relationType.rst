@@ -74,7 +74,7 @@ IsSupplementedBy
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementedBy">16911322/</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementedBy">16911322</relatedIdentifier>
 
 
 .. _IsContinuedBy:
@@ -166,7 +166,7 @@ IsMetadataFor
 HasVersion
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A has a version (B)
+**Definition:** indicates A has a version B
 
 **Example and Usage Notes:**
 
