@@ -57,12 +57,12 @@ html_css_files = [
     'css/custom.css',
 ]
 
-comments_config = {
-   "utterances": {
-      "repo": "github-org/github-repo",
-      "optional": "config"
-   }
-}
+# comments_config = {
+#    "utterances": {
+#       "repo": "github-org/github-repo",
+#       "optional": "config"
+#    }
+# }
 
 # LaTeX configuration
 
