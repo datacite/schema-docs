@@ -110,3 +110,13 @@ Withdrawn
 **Description:** The date the resource is removed.
 
 **Usage Notes:** It is good practice to include a :ref:`17` that indicates the reason for the retraction or withdrawal.
+
+
+.. _dateType_Other:
+
+Other
+~~~~~~~~~~~~~~~~~
+
+**Description:** -
+
+**Usage Notes:** -
