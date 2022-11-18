@@ -7,13 +7,11 @@
 
 **Occurrences:** 0-n
 
-**Definition:** Represents an accessible form of a resource such as downloadable files.
+**Definition:** Represents an accessible form of a resource such as downloadable files. This property can be repeated if different variations are available.
 
 **Allowed values, examples, other constraints:**
 
-The use of this property indicates directly downloadable distributions. Every distribution should represent the same resource in its entirety. It should NOT be used to describe collections.
-
-Collections of files should be either using an archive format or a BagIt folder structure. See :doc:`/guidance/distribution` for recommendations.
+The use of this property indicates directly downloadable distributions. Every distribution should represent the same resource in its entirety.
 
 *Sub-properties:*
 
@@ -31,10 +29,27 @@ Collections of files should be either using an archive format or a BagIt folder 
      </distribution>
    </distributions>
 
-.. _21.a:
 
-21.a mediaType
+.. _21.1:
+
+21.1 file
 ~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1-n
+
+**Definition:** A container in a computer system for storing information.
+
+**Allowed values, examples, other constraints:**
+
+If Distribution is used, at least one file is mandatory.
+
+A file can either represent the entirety of the distribution, or a part of it. Collections of files can be described either using a single file (e.g., an archive format or a BagIt folder structure) or as multiple files. See :doc:`/guidance/distribution` for recommendations.
+
+
+.. _21.1.a:
+
+21.1.a mediaType
+^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
@@ -42,19 +57,19 @@ Collections of files should be either using an archive format or a BagIt folder 
 
 **Allowed values, examples, other constraints:**
 
-If Distribution is used, mediaType is mandatory.
+If file is used, mediaType is mandatory.
 
-Only MIME formats are allowed: see `IANA site <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and `MDN reference <https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types>`_.
+MIME formats are strongly recommended: see `IANA site <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and `MDN reference <https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types>`_.
 
 Examples:
 
 - application/zip
 - audio/mpeg
 
-.. _21.1:
+.. _21.1.1:
 
-21.1 contentURL
-~~~~~~~~~~~~~~~~~~~~
+21.1.1 contentURL
+^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
 
@@ -75,53 +90,53 @@ Examples:
 
 See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
-.. _21.1.a:
+.. _21.1.1.a:
 
-21.1.a lastUpdated
-^^^^^^^^^^^^^^^^^^^^^
-
-**Occurrences:** 0-1
-
-**Definition:** Date when the content URL value was last updated. [#f1]_
-
-**Allowed values, examples, other constraints:**
-
-YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f2]_.
-
-.. _21.1.b:
-
-21.1.b byteSize
-^^^^^^^^^^^^^^^^^^^^^
+21.1.1.a lastUpdated
+##########################
 
 **Occurrences:** 0-1
 
-**Definition:** The size of a distribution in bytes. The value is related to the object in :ref:`21.1`.
+**Definition:** Date when the contents of the file were last updated.
 
 **Allowed values, examples, other constraints:**
 
-The size in bytes can be approximated (as a decimal) when the precise size is not known.
+YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
+
+.. _21.1.1.b:
+
+21.1.1.b byteSize
+##########################
+
+**Occurrences:** 0-1
+
+**Definition:** The size of a distribution in bytes. The value is related to the object in :ref:`21.1.1`.
+
+**Allowed values, examples, other constraints:**
+
+The size in bytes can be approximated (as an integer) when the precise size is not known.
 
 Examples:
 
 - 1048576 for 1 Megabyte
 
-.. _21.2:
+.. _21.1.2:
 
-21.2 checkSum
-~~~~~~~~~~~~~~~~~~~~
+21.1.2 checkSum
+^^^^^^^^^^^^^^^^^^^^^
 
-**Occurrences:** 0-1
+**Occurrences:** 0-n
 
-**Definition:** A value that allows the integrity of a file to be verified. The value is related to the object in :ref:`21.1`.
+**Definition:** A value that allows the integrity of a file to be verified. The value is related to the object in :ref:`21.1.1`.
 
 **Allowed values, examples, other constraints:**
 
 This attribute allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.
 
-.. _21.2.a:
+.. _21.1.2.a:
 
-21.2.a algorithm
-^^^^^^^^^^^^^^^^^^^^^
+21.1.2.a algorithm
+##########################
 
 **Occurrences:** 1
 
@@ -135,30 +150,25 @@ Recommended values should follow Version 2.3 of SPDX: https://spdx.org/rdf/terms
 
 Examples:
 
-- MD2
-- MD4
 - MD5
-- MD6
 - SHA-1
-- SHA-224
 - SHA-256
-- SHA-384
 - SHA-512
 
-.. _21.3:
+.. _21.1.3:
 
-21.3 accessRights
-~~~~~~~~~~~~~~~~~~~~
+21.1.3 accessLevel
+^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
 
-**Definition:** A rights statement that describes how the distribution is accessed.
+**Definition:** A statement that describes how the distribution is accessed.
 
 **Allowed values, examples, other constraints:**
 
 Recommended values should follow the COAR vocabulary to declare the access status of a resource: https://vocabularies.coar-repositories.org/access_rights/
 
-To provide copyright or licensing information, use the :ref:`16` property.
+To provide copyright or licensing information, use the :ref:`16` property. To provide an embargo date, use the :ref:`8` property with :ref:`8.a` :ref:`Available`.
 
 Examples:
 
@@ -167,14 +177,14 @@ Examples:
 - open access
 
 
-.. _21.3.a:
+.. _21.1.3.a:
 
-21.3.a accessRightsUri
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+21.1.3.a accessLevelUri
+##########################
 
 **Occurrences:** 0-1
 
-**Definition:** The URI used to define the access rights.
+**Definition:** The URI used to define the access level.
 
 **Allowed values, examples, other constraints:**
 
@@ -183,8 +193,7 @@ Recommended values should follow the COAR vocabulary for to declare the access s
 Examples:
 
 - http://purl.org/coar/access_right/c_abf2 for “open access”
-- http://purl.org/coar/access_right/c_14cb for “metadata only”
+- http://purl.org/coar/access_right/c_14cb for “metadata only access”
 
 .. rubric:: Footnotes
-.. [#f1] To determine when the file contents were last updated, compare :ref:`21.2` values.
-.. [#f2] https://www.w3.org/TR/NOTE-datetime
+.. [#f1] https://www.w3.org/TR/NOTE-datetime

@@ -51,14 +51,15 @@ Distribution property
 
  * Addition of a new :ref:`21` property. Sub-properties:
 
-   * :ref:`21.a`
    * :ref:`21.1`
    * :ref:`21.1.a`
-   * :ref:`21.1.b`
-   * :ref:`21.2`
-   * :ref:`21.2.a`
-   * :ref:`21.3`
-   * :ref:`21.3.a`
+   * :ref:`21.1.1`
+   * :ref:`21.1.1.a`
+   * :ref:`21.1.1.b`
+   * :ref:`21.1.2`
+   * :ref:`21.1.2.a`
+   * :ref:`21.1.3`
+   * :ref:`21.1.3.a`
 
 
 Documentation changes
