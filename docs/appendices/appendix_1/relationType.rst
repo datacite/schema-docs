@@ -348,7 +348,7 @@ May be used to indicate either a traditional text compilation, or the compiler p
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="URL" relationType="isCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="URL" relationType="IsCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
 
 
 .. _Compiles:
