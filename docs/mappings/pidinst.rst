@@ -27,7 +27,7 @@ Table 6: PIDINST to DataCite Mapping
    * - **Owner**
      - | :ref:`7` with :ref:`7.a`:
        | :ref:`HostingInstitution`
-     - Can be used for the owner of an instrument, i.e. the institution responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument. Use the contributorType “hostingInstitution”.
+     - Can be used for the owner of an instrument, i.e. the institution responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument. Use the contributorType “hostingInstitution”. The instrument owner may also be included in :ref:`4`. [#f2]_
    * - ownerName
      - :ref:`7.1`
      -
@@ -39,7 +39,7 @@ Table 6: PIDINST to DataCite Mapping
      -
    * - **Manufacturer**
      - :ref:`2`
-     - The instrument"s manufacturer(s) or developer. This may also be the owner for custom-build instruments.
+     - The instrument's manufacturer(s) or developer. This may also be the owner for custom-build instruments.
    * - manufacturerName
      - :ref:`2.1`
      -
@@ -99,8 +99,8 @@ Table 6: PIDINST to DataCite Mapping
      - :ref:`HasMetadata`, :ref:`IsMetadataFor`
      - If there is additional metadata describing the instrument, possibly using a community specific metadata standard, that metadata record may be linked using HasMetadata.
    * -
-     - :ref:`Uses`, :ref:`IsUsedBy`
-     - If the instrument has been deployed in some research activity, such as a cruise or a research vessel, IsUsedBy may be used to link that activity.
+     - :ref:`Measures`, :ref:`IsMeasuredBy`
+     - If the instrument has been used to measure a physical quantity in some research activity, Measures may be used to link the instrument to the resulting dataset.
    * - **AlternateIdentifier**
      - :ref:`11`
      - May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database.
@@ -110,3 +110,4 @@ Table 6: PIDINST to DataCite Mapping
 
 .. rubric:: Footnotes
 .. [#f1] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070
+.. [#f2] The :doc:`/appendices/appendix_3` values may also be used for :ref:`4` (e.g., ``:unap`` for not applicable).

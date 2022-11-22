@@ -26,7 +26,7 @@ Support for instruments
 
  * This value may used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
-* Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsUsedBy` and :ref:`Uses`
+* Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsMeasuredBy` and :ref:`Measures`
 
 
 Support for pre-registrations and registration reports
