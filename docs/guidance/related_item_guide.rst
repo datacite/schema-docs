@@ -46,7 +46,7 @@ Example: Journal article in a journal (with an ISSN)
     </creator>
   </creators>
   <titles>
-    <title xml:lang="en-US">Example Article Title/title>
+    <title xml:lang="en-US">Example Article Title</title>
   </titles>
   <publisher xml:lang="en">Example Publisher</publisher>
   <publicationYear>2022</publicationYear>
@@ -79,14 +79,14 @@ Example: Digitized book chapter in a book (with no identifier)
   <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
   <creators>
     <creator>
-      <creatorName nameType="Personal"></creatorName>
+      <creatorName nameType="Personal">Garcia, Sofia</creatorName>
       <givenName>Sofia</givenName>
       <familyName>Garcia</familyName>
       </creatorName>
     </creator>
   </creators>
   <titles>
-    <title xml:lang="en-US">Example Chapter Title/title>
+    <title xml:lang="en-US">Example Chapter Title</title>
   </titles>
   <publisher xml:lang="en">Example Publisher</publisher>
   <publicationYear>1980</publicationYear>
@@ -100,8 +100,13 @@ Example: Digitized book chapter in a book (with no identifier)
       <volume>I</volume>
       <firstPage>110</firstPage>
       <lastPage>155</lastPage>
-      <edition>2nd edition</edition>
       <publisher>Example Publisher</publisher>
+      <edition>2nd edition</edition>
+      <contributors>
+        <contributor contributorType="Editor">
+          <contributorName nameType="Personal">Miller, Elizabeth</contributorName>
+        </contributor>
+      </contributors>
     </relatedItem>
   </relatedItems>
 
@@ -119,7 +124,7 @@ Example: Digitized book chapter in a book (with an ISBN)
     </creator>
   </creators>
   <titles>
-    <title xml:lang="en-US">Example Chapter Title/title>
+    <title xml:lang="en-US">Example Chapter Title</title>
   </titles>
   <publisher xml:lang="en">Example Publisher</publisher>
   <publicationYear>2016</publicationYear>
