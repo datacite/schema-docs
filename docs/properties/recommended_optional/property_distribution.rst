@@ -22,12 +22,16 @@ The use of this property indicates directly downloadable distributions. Every di
 .. code:: xml
 
   <distributions>
-     <distribution mediaType="application/gzip">
-       <contentURL lastUpdated="2022-05-05" byteSize="1236546456">https://example.org/bagit.gzip</contentURL>
-       <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
-       <accessRights xml:lang="en" accessRightsUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
-     </distribution>
-   </distributions>
+    <distribution>
+      <file mediaType="application/gzip">
+        <contentURL byteSize="1236546456">https://example.org/archive.zip</contentURL>
+        <checksums>
+              <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
+        </checksums>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+      </file>
+    </distribution>
+  </distributions>
 
 
 .. _21.1:

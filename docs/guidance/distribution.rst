@@ -30,18 +30,18 @@ As an alternative to archive file formats, a collection of files within a single
  
 .. code:: xml
 
-<distributions>
-   <distribution>
-     <file mediaType="text/csv">
-       <contentURL byteSize="1236546456">https://example.org/data.csv</contentURL>
-       <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
-     </file>
-     <file mediaType="text/plain">
-       <contentURL byteSize="200">https://example.org/README.txt</contentURL>
-       <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
-     </file>
-   </distribution>
- </distributions>
+  <distributions>
+    <distribution>
+      <file mediaType="text/csv">
+        <contentURL byteSize="1236546456">https://example.org/data.csv</contentURL>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+      </file>
+      <file mediaType="text/plain">
+        <contentURL byteSize="200">https://example.org/README.txt</contentURL>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+      </file>
+    </distribution>
+  </distributions>
 
 Option 3: Use conventions to describe multiple files (e.g., BagIt)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
