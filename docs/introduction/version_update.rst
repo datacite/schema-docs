@@ -55,7 +55,6 @@ Distribution property
    * :ref:`21.1.a`
    * :ref:`21.1.1`
    * :ref:`21.1.1.a`
-   * :ref:`21.1.1.b`
    * :ref:`21.1.2`
    * :ref:`21.1.2.a`
    * :ref:`21.1.3`

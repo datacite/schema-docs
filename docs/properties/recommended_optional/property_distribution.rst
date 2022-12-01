@@ -92,20 +92,7 @@ See :doc:`/guidance/distribution` for recommendations on archive file formats.
 
 .. _21.1.1.a:
 
-21.1.1.a lastUpdated
-##########################
-
-**Occurrences:** 0-1
-
-**Definition:** Date when the contents of the file were last updated.
-
-**Allowed values, examples, other constraints:**
-
-YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format or level of granularity described in W3CDTF [#f1]_.
-
-.. _21.1.1.b:
-
-21.1.1.b byteSize
+21.1.1.a byteSize
 ##########################
 
 **Occurrences:** 0-1
@@ -194,6 +181,3 @@ Examples:
 
 - http://purl.org/coar/access_right/c_abf2 for “open access”
 - http://purl.org/coar/access_right/c_14cb for “metadata only access”
-
-.. rubric:: Footnotes
-.. [#f1] https://www.w3.org/TR/NOTE-datetime
