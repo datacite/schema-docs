@@ -117,6 +117,6 @@ Withdrawn
 Other
 ~~~~~~~~~~~~~~~~~
 
-**Description:** -
+**Description:** Other date that does not fit into an existing category.
 
 **Usage Notes:** -
