@@ -284,6 +284,8 @@ IsReferencedBy
 
 **Example and Usage Notes:**
 
+*Recommended for discovery.*
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.testpubl.de</relatedIdentifier>
@@ -297,6 +299,8 @@ References
 **Definition:** indicates B is used as a source of information for A
 
 **Example and Usage Notes:**
+
+*Recommended for discovery.*
 
 .. code:: xml
 
