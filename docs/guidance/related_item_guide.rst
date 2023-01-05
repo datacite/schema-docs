@@ -426,9 +426,9 @@ In this case, the :ref:`12` property is strongly recommended for indexing. In ad
       <relatedItemIdentifier relatedItemIdentifierType="DOI">10.21384/ExampleJournalArticle</relatedItemIdentifier>
       <creators>
         <creator>
-          <creatorName nameType="Personal">Miller, Elizabeth</creatorName>
-          <givenName>Elizabeth</givenName>
-          <familyName>Miller</familyName>
+          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+          <givenName>Sofia</givenName>
+          <familyName>Garcia</familyName>
         </creator>
       </creators>
       <titles>
