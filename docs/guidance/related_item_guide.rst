@@ -69,7 +69,6 @@ Example: Journal article in a journal (with an ISSN)
           <publicationYear>2022</publicationYear>
           <volume>3</volume>
           <issue>4</issue>
-          <number numberType="Article">2</number>
           <firstPage>20</firstPage>
           <lastPage>35</lastPage>
           <publisher>Example Publisher</publisher>
@@ -128,7 +127,6 @@ Example: Journal article in a journal (with an ISSN)
               "relatedItems": [
                   {
                       "issue": "4",
-                      "number": "2",
                       "titles": [
                           {
                               "title": "Journal of Metadata Examples"
@@ -138,7 +136,6 @@ Example: Journal article in a journal (with an ISSN)
                       "lastPage": "35",
                       "firstPage": "20",
                       "publisher": "Example Publisher",
-                      "numberType": "Article",
                       "relationType": "IsPublishedIn",
                       "publicationYear": "2022",
                       "relatedItemType": "Journal",
