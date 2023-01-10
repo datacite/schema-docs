@@ -9,3 +9,4 @@
 
 docxbuilder==1.2.0
 sphinx-comments==0.0.3
+sphinx-design==0.3.0

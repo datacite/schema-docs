@@ -330,7 +330,7 @@ YYYY
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -345,7 +345,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -360,7 +360,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -375,7 +375,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 *Controlled List Values:*
 
@@ -395,7 +395,7 @@ Use only with relationType :ref:`IsPublishedIn`.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -410,7 +410,7 @@ Free text.
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
@@ -438,7 +438,7 @@ Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GF
 
 **Allowed values, examples, other constraints:**
 
-Use only with relationType :ref:`IsPublishedIn`.
+Typically used with relationType :ref:`IsPublishedIn`.
 
 Free text.
 
