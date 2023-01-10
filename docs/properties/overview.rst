@@ -94,7 +94,7 @@ XML provides an xml:lang attribute [#f2]_ that can be used on the following prop
 * :ref:`20.3`
 * :ref:`2.1` when :ref:`2.1.a` is "Organizational"
 * :ref:`7.1` when :ref:`7.1.a` is "Organizational"
-* :ref:`21.3`
+* :ref:`21.1.3`
 
 This provides a way to describe the language used for the *content of the specified properties*.
 

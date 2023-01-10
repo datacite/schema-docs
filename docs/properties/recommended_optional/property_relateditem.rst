@@ -240,6 +240,7 @@ Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
 Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
+.. _20.2.1.a:
 
 20.2.1.a nameType
 ###################
@@ -253,7 +254,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 *Controlled List Values:*
 
  * Organizational
- * Personal (default)
+ * Personal
 
 
 20.2.2 givenName
@@ -486,6 +487,8 @@ Examples: Charpy, Antoine; Jemison, Mae; Foo Data Center
 
 Note: The personal name, format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC tables <https://www.loc.gov/catdir/cpso/roman.html>`_.
 
+.. _20.12.1.a:
+
 20.12.1.a nameType
 ###################
 
@@ -498,7 +501,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 *Controlled List Values:*
 
  * Organizational
- * Personal (default)
+ * Personal
 
 
 20.12.2 givenName
