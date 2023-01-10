@@ -42,7 +42,7 @@ Repeat this property to indicate several different locations.
 
 .. _18.1:
 
-18.1 geolocationPoint
+18.1 geoLocationPoint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -66,7 +66,7 @@ Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for 
 
 **Allowed values, examples, other constraints:**
 
-If geolocationPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If geoLocationPoint is used, pointLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 Example: -67.302
 
@@ -83,7 +83,7 @@ Domain: -180 <= pointLongitude <= 180
 
 **Allowed values, examples, other constraints:**
 
-If geolocationPoint is used, pointLatitude is mandatory.
+If geoLocationPoint is used, pointLatitude is mandatory.
 
 Latitude of the geographic point expressed in decimal degrees (positive north)
 
@@ -93,7 +93,7 @@ Domain: -90 <= pointLatitude <= 90
 
 .. _18.2:
 
-18.2 geolocationBox
+18.2 geoLocationBox
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -117,7 +117,7 @@ Use WGS 84 (World Geodetic System) coordinates and use only decimal numbers for 
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox is used, westBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If geoLocationBox is used, westBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
@@ -132,7 +132,7 @@ Domain: -180.00 ≤ westBoundLongitude ≤ 180.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox is used, eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
+If geoLocationBox is used, eastBoundLongitude is mandatory. Longitude of the geographic point expressed in decimal degrees (positive east).
 
 Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
@@ -147,7 +147,7 @@ Domain: -180.00 ≤ eastBoundLongitude ≤ 180.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox is used, southBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+If geoLocationBox is used, southBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
 
 Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
@@ -162,7 +162,7 @@ Domain: -90.00 ≤ southBoundingLatitude ≤ 90.00
 
 **Allowed values, examples, other constraints:**
 
-If geolocationBox is used, northBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
+If geoLocationBox is used, northBoundLatitude is mandatory. Latitude of the geographic point expressed in decimal degrees (positive north).
 
 Domain: -90.00 ≤ northBoundingLatitude ≤ 90.00
 

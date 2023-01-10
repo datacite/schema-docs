@@ -348,7 +348,7 @@ Example:
 
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="Preprint"> Research Paper</resourceType>
+  <resourceType resourceTypeGeneral="Preprint">Research Paper</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 

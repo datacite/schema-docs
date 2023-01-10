@@ -64,7 +64,7 @@ Note that the personal name format should be: family, given. Names in non-roman 
 *Controlled List Values:*
 
  * Organizational
- * Personal (default)
+ * Personal
 
 .. _2.2:
 
