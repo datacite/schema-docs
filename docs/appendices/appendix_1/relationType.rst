@@ -74,7 +74,7 @@ IsSupplementedBy
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementedBy">16911322/</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="PMID" relationType="IsSupplementedBy">16911322</relatedIdentifier>
 
 
 .. _IsContinuedBy:
@@ -166,7 +166,7 @@ IsMetadataFor
 HasVersion
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A has a version (B)
+**Definition:** indicates A has a version B
 
 **Example and Usage Notes:**
 
@@ -284,6 +284,8 @@ IsReferencedBy
 
 **Example and Usage Notes:**
 
+*Recommended for discovery.*
+
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.testpubl.de</relatedIdentifier>
@@ -297,6 +299,8 @@ References
 **Definition:** indicates B is used as a source of information for A
 
 **Example and Usage Notes:**
+
+*Recommended for discovery.*
 
 .. code:: xml
 
@@ -348,7 +352,7 @@ May be used to indicate either a traditional text compilation, or the compiler p
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="URL" relationType="isCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="URL" relationType="IsCompiledBy">http://d-nb.info/gnd/4513749-3</relatedIdentifier>
 
 
 .. _Compiles:

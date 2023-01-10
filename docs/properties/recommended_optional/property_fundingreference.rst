@@ -47,6 +47,8 @@ It is a best practice to supply funding information when financial support has b
 
 **Allowed values, examples, other constraints:**
 
+If FundingReference is used, then funderName is mandatory.
+
 Example: Gordon and Betty Moore Foundation
 
 .. _19.2:

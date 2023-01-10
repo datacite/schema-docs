@@ -29,7 +29,7 @@ Examples:
 
 .. code:: xml
 
- <publisher xml:lang="en" publisherIdentifier="http://doi.org/10.17616/R3J014" publisherIdentifierScheme="re3data" schemeURI="https://www.re3data.org">Global Biodiversity Information Facility</publisher>
+ <publisher xml:lang="en" publisherIdentifier="https://ror.org/04z8jg394" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences</publisher>
 
 .. _4.a:
 

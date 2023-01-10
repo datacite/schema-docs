@@ -52,7 +52,7 @@ Table 5: FORCE11 Software Citation Principles to DataCite Mapping
    * -
      - :ref:`HasVersion`, :ref:`IsVersionOf`
      - | :ref:`HasVersion`: The registered resource such as a software package or code repository has a versioned instance (indicates A has the instance B). It may, e.g., be used to relate an un- versioned code repository to one of its specific software versions.
-       | :ref:`IsVersionOf`: The registered resource is an instance of a target resource (indicates that A is an instance of B). It may, e.g., be used to relate a specific version of a software package to its software code repository
+       | :ref:`IsVersionOf`: The registered resource is an instance of a target resource (indicates that A is an instance of B). It may, e.g., be used to relate a specific version of a software package to its software code repository.
    * -
      - :ref:`IsNewVersionOf`, :ref:`IsPreviousVersionOf`
      - | :ref:`IsNewVersionOf`: Can be used for “edition or software release etc.”
@@ -62,10 +62,10 @@ Table 5: FORCE11 Software Citation Principles to DataCite Mapping
      - :ref:`IsDerivedFrom` and :ref:`IsSourceOf`: Can be used to denote software that is a fork of other software or is the origin of a fork.
    * -
      - :ref:`IsPartOf`, :ref:`HasPart`
-     - :ref:`IsPartOf` and :ref:`HasPart`: May be used for individual software modules
+     - :ref:`IsPartOf` and :ref:`HasPart`: May be used for individual software modules.
    * -
      - :ref:`IsDocumentedBy`, :ref:`Documents`
-     - :ref:`IsDocumentedBy` and :ref:`Documents`: Points to software documentation, e.g.
+     - :ref:`IsDocumentedBy` and :ref:`Documents`: Points to software documentation.
    * -
      - :ref:`IsVariantFormOf`, :ref:`IsOriginalFormOf`
      - :ref:`IsVariantFormOf` and :ref:`IsOriginalFormOf`: May be used for different software operating systems or compiler formats, for example. Indicates that A is a variant or different form or packaging of B.
@@ -80,7 +80,7 @@ Table 5: FORCE11 Software Citation Principles to DataCite Mapping
      - | :ref:`17`
        | :ref:`17` with :ref:`17.a`: :ref:`TechnicalInfo`
        | :ref:`17` with :ref:`17.a`: :ref:`Abstract`
-     - :ref:`TechnicalInfo`: For software description, this may include a readme.text, and necessary environmental information (hardware, operational software, applications/programs) that cannot be described using other properties such as ‘Format/version’ or ‘Description/summary’
+     - :ref:`TechnicalInfo`: For software description, this may include a readme.text, and necessary environmental information (hardware, operational software, applications/programs) that cannot be described using other properties such as ‘Format/version’ or ‘Description/summary’.
    * - Keywords
      - :ref:`6`
      - Existing guidance applies: Subject, keyword, classification code, or key phrase describing the resource.

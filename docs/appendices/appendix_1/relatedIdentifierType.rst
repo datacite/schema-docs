@@ -156,7 +156,7 @@ ISBN
 
 .. code:: xml
 
-  <relatedIdentifier><relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPartOf">978-3-905673-82-1 </relatedIdentifier>
+  <relatedIdentifier><relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPartOf">978-3-905673-82-1</relatedIdentifier>
 
 
 .. _ISSN:
@@ -172,7 +172,7 @@ ISSN
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPartOf">0077-5606 </relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPartOf">0077-5606</relatedIdentifier>
 
 
 .. _ISTC:
