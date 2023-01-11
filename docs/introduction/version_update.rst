@@ -29,7 +29,7 @@ Support for instruments
 * Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsMeasuredBy` and :ref:`Measures`
 
 
-Support for pre-registrations and registration reports
+Support for pre-registrations and registered reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
@@ -51,14 +51,14 @@ Distribution property
 
  * Addition of a new :ref:`21` property. Sub-properties:
 
-   * :ref:`21.a`
    * :ref:`21.1`
    * :ref:`21.1.a`
-   * :ref:`21.1.b`
-   * :ref:`21.2`
-   * :ref:`21.2.a`
-   * :ref:`21.3`
-   * :ref:`21.3.a`
+   * :ref:`21.1.1`
+   * :ref:`21.1.1.a`
+   * :ref:`21.1.2`
+   * :ref:`21.1.2.a`
+   * :ref:`21.1.3`
+   * :ref:`21.1.3.a`
 
 
 Documentation changes
@@ -106,8 +106,11 @@ Other changes and corrections
 
 * Correction of the cardinality for properties :ref:`2.5.a` and :ref:`7.5.a`.
 * Correction of the capitalization of properties :ref:`2.5.c`, :ref:`7.5.c`, and :ref:`19.2.b`.
-* Correction of the cardinality of :ref:`19.2.a` and addition of a note indicate when it is mandatory.
+* Addition of a note to indicate when :ref:`19.1` is mandatory.
+* Correction of the cardinality of :ref:`19.2.a` and addition of a note to indicate when it is mandatory.
+* Correction of "default" value indication for nameType "Personal" (properties :ref:`2.1.a <2.1.a>`, :ref:`7.1.a <7.1.a>`, :ref:`20.2.1.a <20.2.1.a>`, :ref:`20.12.1.a <20.12.1.a>`).
 * Addition of a note to :ref:`3.a` (sub-property of :ref:`3`) to match the corresponding note in :ref:`20.3.a` (subproperty of :ref:`20.3` in :ref:`20`).
+* Addition of missing definition for dateType :ref:`dateType_Other`.
 * Updated examples for nameIdentifier (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`) and its attributes.
 * Updated examples for affiliationIdentifier (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`) and its attributes.
 * Updated the full name of :doc:`/appendices/appendix_1/relatedIdentifierType` :ref:`IGSN` from "International Geo Sample Number" to "International Generic Sample Number" with an updated description.

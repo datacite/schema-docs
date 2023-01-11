@@ -64,7 +64,7 @@ Members of the Metadata Working Group:
 
 .. |Mohamed Yahia| raw:: html
 
-  <a class="orcid" href=""><img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"/>Mohamed Yahia</a>
+  <a class="orcid" href="https://orcid.org/0000-0001-7829-1918"><img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"/>Mohamed Yahia</a>
 
 .. |Kelly Stathis| raw:: html
 
@@ -144,7 +144,7 @@ Members of the Metadata Working Group:
   * |Anne Raugh|, |University of Maryland|
   * |Wendy Robertson|, |University of Iowa|
   * |Mike Shallcross|, |Inter-university Consortium for Political and Social Research|
-  * Mohamed Yahia, |INIST-CNRS|
+  * |Mohamed Yahia|, |INIST-CNRS|
   * |Kelly Stathis|, |DataCite|
   * |Kristian Garza|, |DataCite|
 

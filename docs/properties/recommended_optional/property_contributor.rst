@@ -112,7 +112,7 @@ The personal name format should be: family, given. Non- roman names should be tr
 *Controlled List Values:*
 
  * Organizational
- * Personal (default)
+ * Personal
 
 .. _7.2:
 
