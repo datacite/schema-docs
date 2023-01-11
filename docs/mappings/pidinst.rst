@@ -99,8 +99,8 @@ Table 6: PIDINST to DataCite Mapping
      - :ref:`HasMetadata`, :ref:`IsMetadataFor`
      - If there is additional metadata describing the instrument, possibly using a community specific metadata standard, that metadata record may be linked using HasMetadata.
    * -
-     - :ref:`Measures`, :ref:`IsMeasuredBy`
-     - If the instrument has been used to measure a physical quantity in some research activity, Measures may be used to link the instrument to the resulting dataset.
+     - :ref:`Collects`, :ref:`IsCollectedBy`
+     - If the instrument has been used to collect data (e.g., to measure a physical quantity in some research activity), Collects may be used to link the instrument to the resulting dataset.
    * - **AlternateIdentifier**
      - :ref:`11`
      - May be used for the instrument's serial number. Other possible uses include an owner's inventory number or an entry in some instrument database.

@@ -114,8 +114,8 @@ Use the controlled list values as stated in :ref:`12.b`:
 * :ref:`Requires`
 * :ref:`IsObsoletedBy`
 * :ref:`Obsoletes`
-* :ref:`IsMeasuredBy`
-* :ref:`Measures`
+* :ref:`IsCollectedBy`
+* :ref:`Collects`
 
 relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
 

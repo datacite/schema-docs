@@ -114,8 +114,8 @@ If RelatedIdentifier is used, relationType is mandatory.
 * :ref:`Requires`
 * :ref:`IsObsoletedBy`
 * :ref:`Obsoletes`
-* :ref:`IsMeasuredBy`
-* :ref:`Measures`
+* :ref:`IsCollectedBy`
+* :ref:`Collects`
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples and usage notes.
 

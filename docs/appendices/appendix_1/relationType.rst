@@ -545,33 +545,33 @@ IsObsoletedBy
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsObsoletedBy">10.5438/0005</relatedIdentifier>
 
 
-.. _IsMeasuredBy:
+.. _IsCollectedBy:
 
-IsMeasuredBy
+IsCollectedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** Indicates A is measured by B
+**Definition:** Indicates A is collected by B
 
 **Example and Usage Notes:**
 
-May be used to indicate the relationship between a dataset and an instrument (as in, dataset A is IsMeasuredBy instrument B).
+May be used to indicate the relationship between a dataset and an instrument that is used to collect, measure, obtain, or observe data (as in, dataset A is IsCollectedBy instrument B).
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsMeasuredBy">10.5072/instrument</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCollectedBy">10.5072/instrument</relatedIdentifier>
 
 
-.. _Measures:
+.. _Collects:
 
-Measures
+Collects
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** Indicates A measures B
+**Definition:** Indicates A collects B
 
 **Example and Usage Notes:**
 
-May be used to indicate the relationship between an instrument and where it has been used for measurement (as in, instrument A measures dataset B).
+May be used to indicate the relationship between an instrument and where it has been used for to collect, measure, obtain, or observe data (as in, instrument A collects dataset B).
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI"relationType="Measures">10.5072/data</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI"relationType="Collects">10.5072/data</relatedIdentifier>
