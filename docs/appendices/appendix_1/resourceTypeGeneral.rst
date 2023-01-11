@@ -208,9 +208,9 @@ Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.
 Instrument
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A device, tool or apparatus used for scientific purposes, to obtain, measure and analyze data from subjects around the research topic.
+**Description:** A device, tool or apparatus used to obtain, measure and/or analyze data.
 
-**Examples and Usage Notes:**
+**Examples and Usage Notes:** Note that this is meant to be the instrument instance, e.g., the individual physical device, not the digital description or design of an instrument.
 
 Example:
 

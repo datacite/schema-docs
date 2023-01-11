@@ -545,33 +545,33 @@ IsObsoletedBy
   <relatedIdentifier relatedIdentifierType="DOI" relationType="IsObsoletedBy">10.5438/0005</relatedIdentifier>
 
 
-.. _IsUsedBy:
+.. _IsCollectedBy:
 
-IsUsedBy
+IsCollectedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** Indicates A is used by B
+**Definition:** Indicates A is collected by B
 
 **Example and Usage Notes:**
 
-May be used to indicate the relationship between an instrument and where it has been used (as in, instrument A is IsUsedBy research output B).
+May be used to indicate the relationship between a dataset and an instrument that is used to collect, measure, obtain, or observe data (as in, dataset A is IsCollectedBy instrument B).
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsUsedBy">10.5072/dataset</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCollectedBy">10.5072/instrument</relatedIdentifier>
 
 
-.. _Uses:
+.. _Collects:
 
-Uses
+Collects
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** Indicates A uses B
+**Definition:** Indicates A collects B
 
 **Example and Usage Notes:**
 
-May be used to indicate the relationship between an instrument and where it has been used (as in, research output A uses instrument B).
+May be used to indicate the relationship between an instrument and where it has been used for to collect, measure, obtain, or observe data (as in, instrument A collects dataset B).
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI"relationType="Uses">10.5072/instrument</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI"relationType="Collects">10.5072/data</relatedIdentifier>
