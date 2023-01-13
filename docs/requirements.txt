@@ -10,3 +10,5 @@
 docxbuilder==1.2.0
 sphinx-comments==0.0.3
 sphinx-design==0.3.0
+sphinx==5.3.0
+sphinx_rtd_theme==1.1.1
