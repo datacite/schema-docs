@@ -24,7 +24,7 @@ Support for instruments
 
 * Addition of :ref:`Instrument` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
 
- * This value may used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
+ * This value may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
 * Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsCollectedBy` and :ref:`Collects`
 
@@ -34,7 +34,7 @@ Support for pre-registrations and registered reports
 
 * Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
 
- * This value may used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
+ * This value may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
 
 Support for publisher identifiers
