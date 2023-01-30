@@ -15,6 +15,8 @@ Free text.
 
 Examples: "15 pages", "6 MB", “45 minutes”
 
+If :ref:`21` is used, indicating the file size with :ref:`21.1.1.a` is recommended.
+
 .. rubric:: Example XML
 
 .. code:: xml
