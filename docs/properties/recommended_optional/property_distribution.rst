@@ -28,7 +28,7 @@ The use of this property indicates directly downloadable distributions. Every di
         <checksums>
               <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
         </checksums>
-        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+        <accessLevel xml:lang="en" accessLevelURI="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
       </file>
     </distribution>
   </distributions>
@@ -170,7 +170,7 @@ Examples:
 
 .. _21.1.3.a:
 
-21.1.3.a accessLevelUri
+21.1.3.a accessLevelURI
 ##########################
 
 **Occurrences:** 0-1
