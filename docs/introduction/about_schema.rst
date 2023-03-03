@@ -5,11 +5,9 @@ About the DataCite Metadata Schema
 
 .. note::
 
-   Citation: *To be provided with official release*
+   **Citation:** DataCite Metadata Working Group. (2023). DataCite Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs. Version 4.5. DataCite e.V. https://doi.org/10.14454/g8e5-6293
 
    Note that the schema and this documentation will always have the same version number.
-
-   Each subsequent version of the schema will be at this same location using an address composed in the same manner, that is: ``https://schema.datacite.org/meta/kernel-versionnumber/metadata.xsd``.
 
    Earlier versions will continue to be available at their previous locations for permanent reference.
 
@@ -21,4 +19,4 @@ DataCite clients are strongly encouraged to provide metadata in English whenever
 
 For a list of all changes accompanying this release, see :doc:`version_update`.
 
-Lastly, we continue to support openness and the future extensibility of the schema by collaborating with the `Dublin Core Metadata Initiative (DCMI) Science and Metadata Community (SAM) <http://www.dublincore.org/groups/sam/>`_ to maintain a DataCite to Dublin Core crosswalk, available at :doc:`DataCite to Dublin Core Mapping 4.4 </mappings/dublin_core>`.
+Lastly, we continue to support openness and the future extensibility of the schema by collaborating with the `Dublin Core Metadata Initiative (DCMI) Science and Metadata Community (SAM) <http://www.dublincore.org/groups/sam/>`_ to maintain a DataCite to Dublin Core crosswalk, available at :doc:`DataCite to Dublin Core Mapping 4.5 </mappings/dublin_core>`.

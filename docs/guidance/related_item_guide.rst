@@ -40,7 +40,7 @@ Example: Journal article in a journal (with an ISSN)
     <?xml version="1.0" encoding="UTF-8"?>
     <resource
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
       <identifier identifierType="DOI">10.21384/ExampleArticle</identifier>
       <creators>
         <creator>
@@ -159,7 +159,7 @@ Example: Digitized book chapter in a book (with no identifier)
     <?xml version="1.0" encoding="UTF-8"?>
     <resource
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
       <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
       <creators>
         <creator>
@@ -267,7 +267,7 @@ Example: Digitized book chapter in a book (with an ISBN)
     <?xml version="1.0" encoding="UTF-8"?>
     <resource
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
       <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
       <creators>
         <creator>
