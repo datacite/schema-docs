@@ -17,7 +17,7 @@ If a repository wishes to provide a direct download link for a resource containi
        <checksums>
              <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
        </checksums>
-       <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+       <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessLevel>
      </file>
    </distribution>
  </distributions>
@@ -34,11 +34,11 @@ As an alternative to archive file formats, a collection of files within a single
     <distribution>
       <file mediaType="text/csv">
         <contentURL byteSize="1236546456">https://example.org/data.csv</contentURL>
-        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessLevel>
       </file>
       <file mediaType="text/plain">
         <contentURL byteSize="200">https://example.org/README.txt</contentURL>
-        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessLevel>
       </file>
     </distribution>
   </distributions>
@@ -91,7 +91,7 @@ A user may then download the bag and use a script to parse the “fetch.txt”, 
        <checksums>
              <checksum algorithm="MD5">d41d8cd98f00b204e9800998ecf8427e</checksum>
        </checksums>
-       <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+       <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessLevel>
      </file>
    </distribution>
  </distributions>
@@ -108,13 +108,13 @@ Every distribution should represent the same resource in its entirety. The prope
     <distribution>
       <file mediaType="text/csv">
         <contentURL byteSize="1236546456">https://example.org/data.csv</contentURL>
-        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessLevel>
       </file>
     </distribution>
     <distribution>
       <file mediaType="application/vnd.ms-excel">
         <contentURL byteSize="1236546456">https://example.org/data.xls</contentURL>
-        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
+        <accessLevel xml:lang="en" accessLevelUri="http://purl.org/coar/access_right/c_abf2">open access</accessLevel>
       </file>
     </distribution>
   </distributions>
