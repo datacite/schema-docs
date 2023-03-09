@@ -72,7 +72,6 @@ Examples:
 * ISNI
 * OpenDOAR
 * FAIRsharing
-* Ringgold
 * ISSN
 
 .. _4.c:
