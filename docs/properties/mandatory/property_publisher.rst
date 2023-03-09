@@ -44,8 +44,8 @@ Examples:
 
 Examples:
 
-* https://doi.org/10.17616/R3989R
 * https://ror.org/04z8jg394
+* https://doi.org/10.17616/R3989R
 * https://viaf.org/viaf/151411898/
 * https://www.wikidata.org/wiki/Q7842
 
@@ -64,8 +64,8 @@ If publisherIdentifier is used, publisherIdentifierScheme is mandatory.
 
 Examples:
 
-* re3data
 * ROR
+* re3data
 * VIAF
 * Wikidata
 * Crossref Funder ID
@@ -87,7 +87,7 @@ Examples:
 
 Examples:
 
-* https://www.re3data.org/
 * https://ror.org/
+* https://www.re3data.org/
 * https://viaf.org/
 * https://www.wikidata.org
