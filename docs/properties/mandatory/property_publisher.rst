@@ -47,7 +47,7 @@ Examples:
 * https://ror.org/04z8jg394
 * https://doi.org/10.17616/R3989R
 * https://viaf.org/viaf/151411898/
-* https://www.wikidata.org/wiki/Q7842
+* https://wikidata.org/wiki/Q7842
 
 .. _4.b:
 
@@ -88,6 +88,6 @@ Examples:
 Examples:
 
 * https://ror.org/
-* https://www.re3data.org/
+* https://re3data.org/
 * https://viaf.org/
-* https://www.wikidata.org
+* https://www.wikidata.org/wiki/
