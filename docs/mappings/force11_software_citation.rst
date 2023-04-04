@@ -5,9 +5,9 @@ FORCE11 Software Citation Principles [#f1]_ Mapping
 
 .. contents:: :local:
 
-.. _Table 5:
+.. _Table 6:
 
-Table 5: FORCE11 Software Citation Principles to DataCite Mapping
+Table 6: FORCE11 Software Citation Principles to DataCite Mapping
 ------------------------------------------------------------------
 
 .. list-table::

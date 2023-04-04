@@ -1,9 +1,9 @@
 PIDINST Schema [#f1]_ Mapping
 =================================================================
 
-.. _Table 6:
+.. _Table 7:
 
-Table 6: PIDINST to DataCite Mapping
+Table 7: PIDINST to DataCite Mapping
 ------------------------------------------------------
 
 .. list-table::
