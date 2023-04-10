@@ -107,11 +107,11 @@ Table 4: DataCite to Dublin Core Qualified Mapping
        | Mapped by :ref:`8.a`:
      - `dc.date <http://purl.org/dc/terms/date>`_
    * - - :ref:`Accepted`
-     - `dc.date.dateAccepted <http://purl.org/dc/terms/dateAccepted>`_
+     - `dc.date.accepted <http://purl.org/dc/terms/dateAccepted>`_
    * - - :ref:`Available`
      - `dc.date.available <http://purl.org/dc/terms/available>`_
    * - - :ref:`Copyrighted`
-     - `dc.date.dateCopyrighted <http://purl.org/dc/terms/dateCopyrighted>`_
+     - `dc.date.copyrighted <http://purl.org/dc/terms/dateCopyrighted>`_
    * - - :ref:`Collected`
      - `dc.date <http://purl.org/dc/terms/date>`_
    * - - :ref:`Created`
@@ -119,7 +119,7 @@ Table 4: DataCite to Dublin Core Qualified Mapping
    * - - :ref:`Issued`
      - `dc.date.issued <http://purl.org/dc/terms/issued>`_
    * - - :ref:`Submitted`
-     - `dc.date.dateSubmitted <http://purl.org/dc/terms/dateSubmitted>`_
+     - `dc.date.submitted <http://purl.org/dc/terms/dateSubmitted>`_
    * - - :ref:`Updated`
      - `dc.date.modified <http://purl.org/dc/terms/modified>`_
    * - - :ref:`Valid`
