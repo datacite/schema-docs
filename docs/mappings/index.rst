@@ -6,6 +6,6 @@ This section contains mappings from the DataCite Metadata Schema to other metada
 .. toctree::
    :titlesonly:
    
-   dublin_core
+   dublincore
    force11_software_citation
    pidinst
