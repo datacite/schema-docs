@@ -7,8 +7,8 @@ Version 4.5 Update
 
    To access the documentation in PDF or Epub format, access the menu in the bottom left corner or the links below:
 
-   - PDF: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.5_draft/pdf/
-   - Epub: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.5_draft/epub/
+   - PDF: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.5/pdf/
+   - Epub: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.5/epub/
 
    To make the DataCite Metadata Schema more easily usable on the web, we have updated the documentation structure. As a result, numbering for footnotes, tables, and selected appendices has changed from Version 4.4.
 
