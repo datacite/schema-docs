@@ -39,7 +39,7 @@ Properties and sub-properties have naming and numbering conventions as follows:
 - properties begin with a capital letter (e.g., ``Creator``)
 - sub-properties begin with a lower case letter, with subsequent words using capital letters (e.g., ``creatorName``, ``nameType``) [#f1]_
 
-Each property is numbered. The major properties are numbered 1-21.
+Each property is numbered. The major properties are numbered 1-20.
 
 Occurrences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -94,7 +94,6 @@ XML provides an xml:lang attribute [#f2]_ that can be used on the following prop
 * :ref:`20.3`
 * :ref:`2.1` when :ref:`2.1.a` is "Organizational"
 * :ref:`7.1` when :ref:`7.1.a` is "Organizational"
-* :ref:`21.1.3`
 
 This provides a way to describe the language used for the *content of the specified properties*.
 
@@ -178,8 +177,6 @@ Table 2: DataCite Recommended and Optional Properties
 | 19 | FundingReference                                                                        | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 20 | RelatedItem                                                                             | O          |
-+----+-----------------------------------------------------------------------------------------+------------+
-| 21 | Distribution                                                                            | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 
 

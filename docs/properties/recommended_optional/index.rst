@@ -17,4 +17,3 @@ Recommended and Optional Properties
    property_geolocation
    property_fundingreference
    property_relateditem
-   property_distribution

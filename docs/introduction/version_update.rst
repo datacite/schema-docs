@@ -46,21 +46,6 @@ Support for publisher identifiers
    * :ref:`4.b`
    * :ref:`4.c`
 
-Distribution property
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
- * Addition of a new :ref:`21` property. Sub-properties:
-
-   * :ref:`21.1`
-   * :ref:`21.1.a`
-   * :ref:`21.1.1`
-   * :ref:`21.1.1.a`
-   * :ref:`21.1.2`
-   * :ref:`21.1.2.a`
-   * :ref:`21.1.3`
-   * :ref:`21.1.3.a`
-
-
 Documentation changes
 -----------------------------
 
@@ -82,11 +67,6 @@ Updated PhysicalObject definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Change to the definition of :ref:`PhysicalObject` in support of samples.
-
-Distribution property
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* To enhance support for the :ref:`21` property, addition of a new guidance document: :doc:`/guidance/distribution`
 
 RelatedItem property
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

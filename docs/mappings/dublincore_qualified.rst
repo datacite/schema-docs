@@ -305,24 +305,6 @@ Table 4: DataCite to Dublin Core Qualified Mapping
      - –
    * - :ref:`20.12.1`
      - –
-   * - :ref:`21`
-     - –
-   * - :ref:`21.1`
-     - –
-   * - :ref:`21.1.a`
-     - `dc.format <http://purl.org/dc/terms/format>`_
-   * - :ref:`21.1.1`
-     - `dc.description <http://purl.org/dc/terms/description>`_
-   * - :ref:`21.1.1.a`
-     - `dc.format.extent <http://purl.org/dc/terms/extent>`_
-   * - :ref:`21.1.2`
-     - `dc.description.provenance <http://purl.org/dc/terms/provenance>`_
-   * - :ref:`21.1.2.a`
-     - `dc.description.provenance <http://purl.org/dc/terms/provenance>`_
-   * - :ref:`21.1.3`
-     - `dc.rights.accessRights <http://purl.org/dc/terms/accessRights>`_
-   * - :ref:`21.1.3.a`
-     - `dc.rights.accessRights <http://purl.org/dc/terms/accessRights>`_.pid
 
 
 .. rubric:: Footnotes
