@@ -75,7 +75,7 @@ RelatedItem property
 
  * Addition of a note in :ref:`20.1` to strongly recommend the use of an identical :ref:`12` for indexing.
  * Addition of a note in :ref:`20.5`, :ref:`20.6`, :ref:`20.7`, :ref:`20.7.a`, :ref:`20.8`, :ref:`20.9`, and :ref:`20.11` to indicate that these subproperties should only be used with the relationType :ref:`IsPublishedIn`.
- * Change to :ref:`20.8` and :ref:`20.9` to specify that the pages refer to the resource *within* the related item (for which the DOI is being registered), not the entire related item.
+ * Change to :ref:`20.8`, :ref:`20.9`, and :ref:`20.7` to specify that the pages and number refer to the resource *within* the related item (for which the DOI is being registered), not the entire related item.
  * Minor changes to other RelatedItem sub-property definitions to improve consistency.
 
 * Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by :ref:`20` with the relationType :ref:`IsPublishedIn` selected.

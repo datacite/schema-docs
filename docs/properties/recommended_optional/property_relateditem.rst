@@ -356,7 +356,7 @@ Free text.
 
 **Occurrences:** 0-1
 
-**Definition:** Number of the related item, e.g., report number or article number.
+**Definition:** Number of the resource within the related item, e.g., report number or article number.
 
 **Allowed values, examples, other constraints:**
 
