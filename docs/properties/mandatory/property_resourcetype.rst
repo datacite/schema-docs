@@ -21,7 +21,7 @@ Free text. The recommended content is a single term of some detail so that a pai
 
 .. code:: xml
 
- <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
+ <resourceType resourceTypeGeneral="Dataset">Census Data</resourceType>
 
 .. _10.a:
 
