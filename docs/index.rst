@@ -11,7 +11,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
   DataCite Metadata Working Group; (2023): DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Output v4.5; DataCite e.V. https://doi.org/10.14454/g8e5-6293
 
-Members of the Metadata Working Group:
+Contributors from the DataCite Metadata Working Group:
 
 .. |Jan Ashton| raw:: html
 
