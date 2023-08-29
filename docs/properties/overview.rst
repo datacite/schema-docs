@@ -103,8 +103,7 @@ The schema provides the :ref:`9` property to be used to describe the language of
 Mandatory Properties
 -------------------------------------------------
 
-:doc:`mandatory/index` provides a detailed description of the mandatory properties, which must be supplied with any
-initial metadata submission to DataCite, together with their relevant sub-properties. **If one of the required
+The mandatory properties must be supplied with any initial metadata submission to DataCite, together with their relevant sub-properties. **If one of the required
 properties is unavailable**, please use one of the standard (machine-recognizable) codes listed in
 :doc:`/appendices/appendix-3`.
 
@@ -133,11 +132,6 @@ Table 1: DataCite Mandatory Properties
 
 Recommended and Optional Properties
 -------------------------------------------------
-
-In :doc:`recommended_optional/index`, the Recommended and Optional properties are described in detail. For
-an example of how to make a submission in XML format, please see the `XML Examples <https://schema.datacite.org/meta/kernel-4.0/>`_ provided on the
-`DataCite Metadata Schema website <https://schema.datacite.org/>`_.
-
 
 Of the Recommended set of properties, the most important to use is the ``Description`` property, together with the Recommended sub-property ``descriptionType="Abstract"`` (see :ref:`17`). :doc:`Appendix 1 </appendices/appendix-1/index>` includes detailed descriptions of controlled list values, using bold text to indicate those values that are especially important for information seekers and added service providers. It cannot be emphasized enough how valuable an Abstract is to other scholars in finding the resource and then determining whether or not the resource, once found, is worth investigating further, re-using, or validating.
 
