@@ -9,11 +9,11 @@ DataCite Metadata Properties
    title
    publisher
    publicationyear
-   resourcetype
    subject
    contributor
    date
    language
+   resourcetype
    alternateidentifier
    relatedidentifier
    size
