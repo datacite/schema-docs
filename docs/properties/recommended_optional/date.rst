@@ -58,7 +58,7 @@ If Date is used, dateType is mandatory.
 * :ref:`Withdrawn`
 * :ref:`dateType_Other`
 
-See :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix_1/dateType>` for definitions and recommendations.
+See :doc:`Appendix 1: Controlled List Definitions - dateType </appendices/appendix-1/dateType>` for definitions and recommendations.
 
 .. _8.b:
 

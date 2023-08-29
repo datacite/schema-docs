@@ -6,8 +6,8 @@ These mappings can be used to convert records described following version 4.5 of
 .. toctree::
   :titlesonly:
 
-  dublincore_qualified
-  dublincore_local
+  dublincore-qualified
+  dublincore-local
 
 The first mapping in :ref:`Table 4` can be used to convert records described following version 4.5 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 

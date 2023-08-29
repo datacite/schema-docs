@@ -64,7 +64,7 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 * :ref:`URN`
 * :ref:`w3id`
 
-See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix_1/relatedIdentifierType>` for full names and examples.
+See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix-1/relatedIdentifierType>` for full names and examples.
 
 .. _12.b:
 
@@ -118,7 +118,7 @@ If RelatedIdentifier is used, relationType is mandatory.
 * :ref:`IsCollectedBy`
 * :ref:`Collects`
 
-See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples and usage notes.
 
 .. _12.c:
 
@@ -209,4 +209,4 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`Workflow`
 * :ref:`resourceTypeGeneral_Other`
 
-See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` for definitions, examples and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>` for definitions, examples and usage notes.

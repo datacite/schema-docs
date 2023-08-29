@@ -79,7 +79,7 @@ If Contributor is used, then contributorType is mandatory.
 * :ref:`WorkPackageLeader`
 * :ref:`contributorType_Other`
 
-See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix_1/contributorType>` for definitions.
+See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix-1/contributorType>` for definitions.
 
 
 .. _7.1:

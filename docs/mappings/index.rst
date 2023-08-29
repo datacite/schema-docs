@@ -7,5 +7,5 @@ This section contains mappings from the DataCite Metadata Schema to other metada
    :titlesonly:
    
    dublincore
-   force11_software_citation
+   force11-software-citation
    pidinst

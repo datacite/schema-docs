@@ -30,7 +30,7 @@ Documentation updates
        | New definition for :ref:`Software`: "A computer program in source code (text) or compiled form. *Use this type for all software components supporting scholarly research.*"
        | New example language for :ref:`Software`: "Software supporting *scholarly* research."
    * - :ref:`12.b`
-     - | Changes to Example and Usage Notes in the :doc:`relationType Appendix </appendices/appendix_1/relationType>`:
+     - | Changes to Example and Usage Notes in the :doc:`relationType Appendix </appendices/appendix-1/relationType>`:
        | :ref:`IsPartOf` and :ref:`HasPart`: may be used for individual software modules; note that code repository-to-*version* relationships should be modeled using IsVersionOf and HasVersion
        | :ref:`IsDocumentedBy` and :ref:`Documents`: e.g. points to software documentation
        | :ref:`IsVariantFormOf` and :ref:`IsOriginalFormOf`: May be used for different software operating systems or compiler formats, for example.

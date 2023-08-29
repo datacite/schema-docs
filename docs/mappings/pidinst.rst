@@ -110,4 +110,4 @@ Table 7: PIDINST to DataCite Mapping
 
 .. rubric:: Footnotes
 .. [#f1] Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., Stocker, M., & The Research Data Alliance Persistent Identification of Instruments Working Group members (2022). Metadata Schema for the Persistent Identification of Instruments (1.0). Research Data Alliance. https://doi.org/10.15497/RDA00070
-.. [#f2] The :doc:`/appendices/appendix_3` values may also be used for :ref:`4` (e.g., ``:unap`` for not applicable).
+.. [#f2] The :doc:`/appendices/appendix-3` values may also be used for :ref:`4` (e.g., ``:unap`` for not applicable).

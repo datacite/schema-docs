@@ -410,7 +410,7 @@ When a related resource does not have an identifier, the related item property c
 Describing related resources with identifiers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Most related resources will have at least one of the identifier types specified in :doc:`/appendices/appendix_1/relatedIdentifierType`.
+Most related resources will have at least one of the identifier types specified in :doc:`/appendices/appendix-1/relatedIdentifierType`.
 
 In this case, the :ref:`12` property is strongly recommended for indexing. In addition, the :ref:`20` property *may* be used to provide additional information about the related item.
 

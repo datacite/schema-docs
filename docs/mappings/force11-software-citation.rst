@@ -34,7 +34,7 @@ Table 6: FORCE11 Software Citation Principles to DataCite Mapping
      - For software, if there is an alternate entity that “holds, archives, publishes, prints, distributes, releases, issues, or produces the code, use the :ref:`7.a` :ref:`HostingInstitution` for the code repository.
    * - Contributor role
      - :ref:`7.a`
-     - | See Definition in :doc:`contributorType Appendix </appendices/appendix_1/contributorType>`:
+     - | See Definition in :doc:`contributorType Appendix </appendices/appendix-1/contributorType>`:
        | :ref:`Distributor`: Includes distribution of software.
        | See Example for :ref:`HostingInstitution`: Includes software or run code repositories.
    * - Version number

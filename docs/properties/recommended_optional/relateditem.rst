@@ -20,7 +20,7 @@ Can be used to provide series information or a text citation where the related r
 
 .. note::
 
-   See :doc:`/guidance/related_item_guide` for guidance.
+   See :doc:`/guidance/related-item-guide` for guidance.
 
 .. _20.a:
 
@@ -66,7 +66,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`Workflow`
 * :ref:`resourceTypeGeneral_Other`
 
-See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` for definitions, examples, and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>` for definitions, examples, and usage notes.
 
 .. _20.b:
 
@@ -120,7 +120,7 @@ Use the controlled list values as stated in :ref:`12.b`:
 
 relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
 
-See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix_1/relationType>` for definitions, examples, and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples, and usage notes.
 
 .. _20.1:
 
@@ -170,7 +170,7 @@ Use the controlled list values as stated in :ref:`12.a`:
 * :ref:`URN`
 * :ref:`w3id`
 
-See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix_1/relatedIdentifierType>` for definitions, examples, and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix-1/relatedIdentifierType>` for definitions, examples, and usage notes.
 
 
 20.1.b relatedMetadataScheme
@@ -469,7 +469,7 @@ Examples: Charpy, Antoine; Foo Data Center
 
 Use the controlled list values as stated in :ref:`7.a`.
 
-See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix_1/contributorType>` for definitions, examples and usage notes.
+See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix-1/contributorType>` for definitions, examples and usage notes.
 
 .. _20.12.1:
 

@@ -10,6 +10,6 @@ Guidance
 .. toctree::
    :titlesonly:
 
-   dynamic_datasets
-   software_citation
-   related_item_guide
+   dynamic-datasets
+   software-citation
+   related-item-guide

@@ -23,17 +23,17 @@ Schema changes
 Support for instruments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of :ref:`Instrument` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
+* Addition of :ref:`Instrument` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
  * This value may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
-* Addition of new :doc:`/appendices/appendix_1/relationType` pair: :ref:`IsCollectedBy` and :ref:`Collects`
+* Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`IsCollectedBy` and :ref:`Collects`
 
 
 Support for pre-registrations and registered reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix_1/resourceTypeGeneral` controlled list values.
+* Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
  * This value may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
@@ -79,8 +79,8 @@ RelatedItem property
  * Change to :ref:`20.8`, :ref:`20.9`, and :ref:`20.7` to specify that the pages and number refer to the resource *within* the related item (for which the DOI is being registered), not the entire related item.
  * Minor changes to other RelatedItem sub-property definitions to improve consistency.
 
-* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix_1/descriptionType>` and  to clarify that it is superseded by :ref:`20` with the relationType :ref:`IsPublishedIn` selected.
-* To enhance support for the :ref:`20` property, addition of a new guidance document: :doc:`/guidance/related_item_guide`
+* Updated definition of descriptionType :ref:`SeriesInformation` in :ref:`17.a` and :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix-1/descriptionType>` and  to clarify that it is superseded by :ref:`20` with the relationType :ref:`IsPublishedIn` selected.
+* To enhance support for the :ref:`20` property, addition of a new guidance document: :doc:`/guidance/related-item-guide`
 
 Other changes and corrections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -94,7 +94,7 @@ Other changes and corrections
 * Addition of missing definition for dateType :ref:`dateType_Other`.
 * Updated examples for nameIdentifier (properties :ref:`2.4 <2.4>` and :ref:`7.4 <7.4>`) and its attributes.
 * Updated examples for affiliationIdentifier (properties :ref:`2.5 <2.5>` and :ref:`7.5 <7.5>`) and its attributes.
-* Updated the full name of :doc:`/appendices/appendix_1/relatedIdentifierType` :ref:`IGSN` from "International Geo Sample Number" to "International Generic Sample Number" with an updated description.
+* Updated the full name of :doc:`/appendices/appendix-1/relatedIdentifierType` :ref:`IGSN` from "International Geo Sample Number" to "International Generic Sample Number" with an updated description.
 * Other minor corrections to definitions and examples.
 
 

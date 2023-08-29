@@ -68,4 +68,4 @@ Free text. The recommended content is a single term of some detail so that a pai
 * :ref:`Workflow`
 * :ref:`resourceTypeGeneral_Other`
 
-See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix_1/resourceTypeGeneral>` for definitions and examples.
+See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>` for definitions and examples.
