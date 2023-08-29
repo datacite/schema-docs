@@ -18,6 +18,7 @@ Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

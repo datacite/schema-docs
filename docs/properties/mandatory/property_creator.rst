@@ -16,6 +16,7 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

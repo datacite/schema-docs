@@ -18,6 +18,7 @@ Example: E-GEOD-34814
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

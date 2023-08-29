@@ -16,6 +16,7 @@ Repeat this property to indicate several different locations.
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

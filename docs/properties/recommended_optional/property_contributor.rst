@@ -22,6 +22,7 @@ Examples: Charpy, Antoine; Foo Data Center
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

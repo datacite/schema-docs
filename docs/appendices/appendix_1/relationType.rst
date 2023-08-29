@@ -11,6 +11,7 @@ Description of the relationship of the resource being registered (A) and the rel
 *Options:*
 
 .. contents:: :local:
+    :backlinks: none
 
 
 .. _IsCitedBy:

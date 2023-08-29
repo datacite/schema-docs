@@ -8,7 +8,7 @@ dateType
 *Options:*
 
 .. contents:: :local:
-
+    :backlinks: none
 
 .. _Accepted:
 

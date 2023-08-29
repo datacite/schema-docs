@@ -8,6 +8,7 @@ contributorType
 *Options:*
 
 .. contents:: :local:
+    :backlinks: none
 
 
 .. _ContactPerson:

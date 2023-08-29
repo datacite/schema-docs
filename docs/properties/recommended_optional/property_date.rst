@@ -20,7 +20,8 @@ Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
 *Sub-properties:*
 
 .. contents:: :local:
-
+    :backlinks: none
+    
 .. rubric:: Example XML
 
 .. code:: xml

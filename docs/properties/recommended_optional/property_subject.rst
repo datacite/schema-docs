@@ -16,7 +16,8 @@ Free text.
 *Sub-properties:*
 
 .. contents:: :local:
-
+    :backlinks: none
+    
 .. rubric:: Example XML
 
 .. code:: xml

@@ -18,6 +18,7 @@ A DOI (Digital Object Identifier) registered by a DataCite Member. The format sh
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

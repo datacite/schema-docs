@@ -14,6 +14,7 @@ Can be used to provide series information or a text citation where the related r
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

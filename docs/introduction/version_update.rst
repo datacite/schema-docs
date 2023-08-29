@@ -15,6 +15,7 @@ Version 4.5 Update
 These changes are in response to requests from DataCite community members, people like you that have used the metadata schema and have imagined ways in which it might work better for their particular use cases. We are indebted to everyone who has provided us with their feedback, allowing us to improve our service for the broader DataCite community.
 
 .. contents:: :local:
+    :backlinks: none
 
 Schema changes
 -----------------------------

@@ -4,7 +4,7 @@ Overview
 The properties of the DataCite Metadata Schema are presented in this section.
 
 .. contents:: :local:
-
+    :backlinks: none
 
 
 Conventions

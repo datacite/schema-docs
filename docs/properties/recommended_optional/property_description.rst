@@ -18,7 +18,8 @@ It is a best practice to supply a description.
 *Sub-properties:*
 
 .. contents:: :local:
-
+    :backlinks: none
+    
 .. rubric:: Example XML
 
 .. code:: xml

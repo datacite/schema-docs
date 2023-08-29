@@ -9,6 +9,7 @@ relatedIdentifierType
 *Options:*
 
 .. contents:: :local:
+    :backlinks: none
 
 
 .. _ARK:

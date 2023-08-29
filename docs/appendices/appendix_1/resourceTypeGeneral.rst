@@ -10,6 +10,7 @@ resourceTypeGeneral
 *Options:* [#f1]_
 
 .. contents:: :local:
+    :backlinks: none
 
 
 .. _Audiovisual:

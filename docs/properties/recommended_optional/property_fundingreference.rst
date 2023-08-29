@@ -16,6 +16,7 @@ It is a best practice to supply funding information when financial support has b
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

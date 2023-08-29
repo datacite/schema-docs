@@ -16,6 +16,7 @@ Free text. The recommended content is a single term of some detail so that a pai
 *Sub-properties:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. rubric:: Example XML
 

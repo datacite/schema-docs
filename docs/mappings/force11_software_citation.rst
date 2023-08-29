@@ -4,6 +4,7 @@ FORCE11 Software Citation Principles [#f1]_ Mapping
 *FORCE11 requirements:*
 
 .. contents:: :local:
+    :backlinks: none
 
 .. _Table 6:
 

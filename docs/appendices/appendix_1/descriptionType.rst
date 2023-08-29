@@ -8,7 +8,7 @@ descriptionType
 *Options:*
 
 .. contents:: :local:
-
+    :backlinks: none
 
 .. _Abstract:
 

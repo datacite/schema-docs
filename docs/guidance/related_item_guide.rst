@@ -13,6 +13,7 @@ The second use case is **providing information about related resources.**
 .. rubric:: Contents
 
 .. contents:: :local:
+    :backlinks: none
 
 Use case: Providing publication information for journal articles, book chapters, and more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
