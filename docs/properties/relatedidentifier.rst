@@ -79,6 +79,8 @@ See :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appe
 
 If RelatedIdentifier is used, relationType is mandatory.
 
+Note: Some relationTypes are processed as citations and references. Read more about `Contributing Citations and References <https://support.datacite.org/docs/contributing-citations-and-references>`_ on the DataCite support site.
+
 *Controlled List Values:*
 
 * :ref:`IsCitedBy`

@@ -8,6 +8,8 @@ Description of the relationship of the resource being registered (A) and the rel
 * :ref:`12.b`
 * :ref:`20.b`
 
+Note: Some relationTypes are processed as citations and references. Read more about `Contributing Citations and References <https://support.datacite.org/docs/contributing-citations-and-references>`_ on the DataCite support site.
+
 *Options:*
 
 .. contents:: :local:
