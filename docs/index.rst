@@ -3,7 +3,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
 .. note::
 
-   This documentation is for the upcomning version 4.5 of the DataCite Metadata Schema.
+   This documentation is for the upcoming version 4.5 of the DataCite Metadata Schema.
 
    The most recent schema release (4.4) is available at: https://schema.datacite.org/
 
