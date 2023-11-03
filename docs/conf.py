@@ -34,7 +34,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = "_static/DataCite-Logo_secondary-white.png"
+html_logo = "_static/DataCite-Logo_secondary-bicolor-light.png"
 
 html_theme_options = {
     # Toc options
