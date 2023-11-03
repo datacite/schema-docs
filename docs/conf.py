@@ -78,7 +78,7 @@ latex_engine = "xelatex"
 latex_elements = {
     'releasename': "Version",
     'pointsize': '11pt',
-    'sphinxsetup': 'TitleColor={HTML}{243b54}, InnerLinkColor={HTML}{0071b2}, OuterLinkColor={HTML}{0071b2}',
+    'sphinxsetup': 'TitleColor={HTML}{434343}, InnerLinkColor={HTML}{0071b2}, OuterLinkColor={HTML}{0071b2}',
     'fontpkg':
     u'''\
     \\setmainfont[Path=../../_static/fonts/Barlow/,
