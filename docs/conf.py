@@ -79,27 +79,15 @@ latex_elements = {
     'releasename': "Version",
     'pointsize': '11pt',
     'sphinxsetup': 'TitleColor={HTML}{434343}, InnerLinkColor={HTML}{0071b2}, OuterLinkColor={HTML}{0071b2}',
-    'fontpkg':
-    u'''\
-    \\setmainfont[Path=../../_static/fonts/Barlow/,
-        UprightFont= *-Regular,
-        ItalicFont= *-Italic,
-        BoldFont= *-Bold,
-        BoldItalicFont = *-BoldItalic]{Barlow}
-    \\setsansfont[Path=../../_static/fonts/Barlow/,
-        UprightFont= *-Regular,
-        ItalicFont= *-Italic,
-        BoldFont= *-Bold,
-        BoldItalicFont = *-BoldItalic]{Barlow}
-    ''',
     'preamble': r'''
+    \usepackage[sfdefault]{roboto}
+    \usepackage[T1]{fontenc}
     \usepackage{normalcolor}
     \usepackage{xcolor}
     \definecolor[named]{DarkGrey}{HTML}{434343}
-    \definecolor[named]{DataCiteBlue}{HTML}{00B1E2}
     \setnormalcolor{DarkGrey}
     \renewcommand{\sphinxtablecontinued}[1]{}
-    \renewcommand{\sphinxstyletheadfamily}{\sffamily\bfseries}
+    \renewcommand{\familydefault}{\sfdefault}
     \makeatletter
     \def\FNH@footnoteenv@i[#1]{\FNH@footnoteenv}
     \def\FNH@footnotetextenv@i[#1]{\FNH@footnotetextenv}
@@ -107,7 +95,7 @@ latex_elements = {
        {\ifx\thepage\relax\else\protect\spx@opt@BeforeFootnote
                                  \protect\footnotemark\fi}%
     \makeatother
-''',
+'''
 }
 
 latex_documents = [
