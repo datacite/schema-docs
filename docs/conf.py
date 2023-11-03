@@ -78,6 +78,7 @@ latex_engine = "xelatex"
 latex_elements = {
     'releasename': "Version",
     'pointsize': '11pt',
+    'sphinxsetup': 'TitleColor={HTML}{243b54}, InnerLinkColor={HTML}{0071b2}, OuterLinkColor={HTML}{0071b2}',
     'fontpkg':
     u'''\
     \\setmainfont[Path=../../_static/fonts/Barlow/,
@@ -85,13 +86,18 @@ latex_elements = {
         ItalicFont= *-Italic,
         BoldFont= *-Bold,
         BoldItalicFont = *-BoldItalic]{Barlow}
+    \\setsansfont[Path=../../_static/fonts/Barlow/,
+        UprightFont= *-Regular,
+        ItalicFont= *-Italic,
+        BoldFont= *-Bold,
+        BoldItalicFont = *-BoldItalic]{Barlow}
     ''',
     'preamble': r'''
-    \usepackage{charter}
-    \usepackage[defaultsans]{lato}
-    \usepackage{inconsolata}
-    \usepackage{raleway}
-    \renewcommand*{\setsansfont}{\raleway\fontsize{34}{36}\mdseries\upshape}
+    \usepackage{normalcolor}
+    \usepackage{xcolor}
+    \definecolor[named]{DarkGrey}{HTML}{434343}
+    \definecolor[named]{DataCiteBlue}{HTML}{00B1E2}
+    \setnormalcolor{DarkGrey}
     \renewcommand{\sphinxtablecontinued}[1]{}
     \renewcommand{\sphinxstyletheadfamily}{\sffamily\bfseries}
     \makeatletter
