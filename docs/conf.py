@@ -69,7 +69,7 @@ html_css_files = [
 
 latex_engine = "xelatex"
 
-# latex_logo = "_static/DataCite-Logo_secondary_small.png"
+# latex_logo = "_static/DataCite-Logo_primary.png"
 
     # \addto\captionsenglish{\renewcommand{\tablename}{ }}
     # \addto\captionsenglish{\renewcommand{\thetable}{ }}
@@ -78,6 +78,14 @@ latex_engine = "xelatex"
 latex_elements = {
     'releasename': "Version",
     'pointsize': '11pt',
+    'fontpkg':
+    u'''\
+    \\setmainfont[Path=../../_static/fonts/Barlow/,
+        UprightFont= *-Regular,
+        ItalicFont= *-Italic,
+        BoldFont= *-Bold,
+        BoldItalicFont = *-BoldItalic]{Barlow}
+    ''',
     'preamble': r'''
     \usepackage{charter}
     \usepackage[defaultsans]{lato}
