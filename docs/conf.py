@@ -81,12 +81,12 @@ latex_elements = {
     'sphinxsetup': 'TitleColor={HTML}{434343}, InnerLinkColor={HTML}{0071b2}, OuterLinkColor={HTML}{0071b2}',
     'fontpkg':
     u'''\
-    \\setmainfont[Path=docs/_static/fonts/Barlow/,
+    \\setmainfont[Path=../../_static/fonts/Barlow/,
         UprightFont= *-Regular,
         ItalicFont= *-Italic,
         BoldFont= *-Bold,
         BoldItalicFont = *-BoldItalic]{Barlow}
-    \\setsansfont[Path=docs/_static/fonts/Barlow/,
+    \\setsansfont[Path=../../_static/fonts/Barlow/,
         UprightFont= *-Regular,
         ItalicFont= *-Italic,
         BoldFont= *-Bold,
