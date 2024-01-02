@@ -3,13 +3,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
 .. note::
 
-   This documentation is for the upcoming version 4.5 of the DataCite Metadata Schema.
-
-   The most recent schema release (4.4) is available at: https://schema.datacite.org/
-
-.. note::
-
-  DataCite Metadata Working Group; (2024): DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Output v4.5; DataCite e.V. https://doi.org/10.14454/g8e5-6293
+  DataCite Metadata Working Group. (2024). DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Outputs. Version 4.5. DataCite e.V. https://doi.org/10.14454/g8e5-6293
 
 Contributors from the DataCite Metadata Working Group:
 
