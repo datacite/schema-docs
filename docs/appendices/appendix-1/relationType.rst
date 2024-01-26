@@ -573,7 +573,7 @@ Collects
 
 **Example and Usage Notes:**
 
-May be used to indicate the relationship between an instrument and where it has been used for to collect, measure, obtain, or observe data (as in, instrument A collects dataset B).
+May be used to indicate the relationship between an instrument and where it has been used to collect, measure, obtain, or observe data (as in, instrument A collects dataset B).
 
 .. code:: xml
 
