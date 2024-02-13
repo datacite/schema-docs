@@ -49,7 +49,7 @@ Example: Journal article in a journal (with an ISSN)
           <givenName>Sofia</givenName>
           <familyName>Garcia</familyName>
           <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" SchemeURI="https://ror.org">Arizona State University</affiliation>
+          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" SchemeURI="https://ror.org">Arizona State University</affiliation>
         </creator>
       </creators>
       <titles>
