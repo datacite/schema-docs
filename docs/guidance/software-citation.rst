@@ -19,9 +19,9 @@ Documentation updates
    * - :ref:`3`
      - Add: "May be the title of a dataset or the name of a piece of software."
    * - :ref:`4`
-     - Add: "For software, use Publisher for Code Repository, following the data model. If there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the contributorType "hostingInstitution" for the code repository."
+     - Add: "For software, use Publisher for Code Repository, following the data model. If there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the contributorType "HostingInstitution" for the code repository."
    * - :ref:`7`
-     - Add: "For software, if there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the contributorType "hostingInstitution" for the code repository."
+     - Add: "For software, if there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the contributorType "HostingInstitution" for the code repository."
    * - :ref:`5`
      - Add: "In the case of resources such as software where there may be multiple releases in one year, other DataCite metadata or information such as the landing page should enable users to identify the newest one."
    * - :ref:`10.a`
