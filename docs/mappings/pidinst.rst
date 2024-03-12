@@ -27,7 +27,7 @@ Table 7: PIDINST to DataCite Mapping
    * - **Owner**
      - | :ref:`7` with :ref:`7.a`:
        | :ref:`HostingInstitution`
-     - Can be used for the owner of an instrument, i.e. the institution responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument. Use the contributorType “hostingInstitution”. The instrument owner may also be included in :ref:`4`. [#f2]_
+     - Can be used for the owner of an instrument, i.e. the institution responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument. Use the contributorType "HostingInstitution". The instrument owner may also be included in :ref:`4`. [#f2]_
    * - ownerName
      - :ref:`7.1`
      -
