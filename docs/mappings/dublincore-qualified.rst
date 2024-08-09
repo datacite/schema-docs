@@ -114,6 +114,8 @@ Table 4: DataCite to Dublin Core Qualified Mapping
      - `dc.date.copyrighted <http://purl.org/dc/terms/dateCopyrighted>`_
    * - - :ref:`Collected`
      - `dc.date <http://purl.org/dc/terms/date>`_
+   * - - :ref:`Coverage`
+     - `dc.coverage.temporal <http://purl.org/dc/terms/temporal>`_
    * - - :ref:`Created`
      - `dc.date.created <http://purl.org/dc/terms/created>`_
    * - - :ref:`Issued`

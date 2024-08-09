@@ -1,7 +1,7 @@
-DataCite to Dublin Core Mapping 4.5
+DataCite to Dublin Core Mapping
 ========================================
 
-These mappings can be used to convert records described following version 4.5 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
+These mappings can be used to convert records described following version 4.6 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 
 .. toctree::
   :titlesonly:
@@ -9,7 +9,7 @@ These mappings can be used to convert records described following version 4.5 of
   dublincore-qualified
   dublincore-local
 
-The first mapping in :ref:`Table 4` can be used to convert records described following version 4.5 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
+The first mapping in :ref:`Table 4` can be used to convert records described following version 4.6 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 
 The second mapping in :ref:`Table 5` provides an example of a local DataCite Dublin Core extension.
 

@@ -19,4 +19,4 @@ DataCite clients are strongly encouraged to provide metadata in English whenever
 
 For a list of all changes accompanying this release, see :doc:`version-update`.
 
-Lastly, we continue to support openness and the future extensibility of the schema by collaborating with the `Dublin Core Metadata Initiative (DCMI) Science and Metadata Community (SAM) <http://www.dublincore.org/groups/sam/>`_ to maintain a DataCite to Dublin Core crosswalk, available at :doc:`DataCite to Dublin Core Mapping 4.5 </mappings/dublincore>`.
+Lastly, we continue to support openness and the future extensibility of the schema by collaborating with the `Dublin Core Metadata Initiative (DCMI) Science and Metadata Community (SAM) <http://www.dublincore.org/groups/sam/>`_ to maintain a DataCite to Dublin Core crosswalk, available at :doc:`DataCite to Dublin Core Mapping </mappings/dublincore>`.
