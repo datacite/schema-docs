@@ -47,6 +47,7 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 * :ref:`ARK`
 * :ref:`arXiv`
 * :ref:`bibcode`
+* :ref:`CSTR`
 * :ref:`DOI`
 * :ref:`EAN13`
 * :ref:`EISSN`
@@ -59,6 +60,7 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 * :ref:`LSID`
 * :ref:`PMID`
 * :ref:`PURL`
+* :ref:`RRID`
 * :ref:`UPC`
 * :ref:`URL`
 * :ref:`URN`
@@ -119,6 +121,8 @@ Note: Some relationTypes are processed as citations and references. Read more ab
 * :ref:`Obsoletes`
 * :ref:`IsCollectedBy`
 * :ref:`Collects`
+* :ref:`IsTranslationOf`
+* :ref:`HasTranslation`
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples and usage notes.
 
@@ -181,6 +185,7 @@ Examples: XSD, DDT, Turtle
 Use the controlled list values as stated in :ref:`10.a`:
 
 * :ref:`Audiovisual`
+* :ref:`Award`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`
@@ -201,6 +206,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`PeerReview`
 * :ref:`PhysicalObject`
 * :ref:`Preprint`
+* :ref:`Project`
 * :ref:`Report`
 * :ref:`Service`
 * :ref:`Software`

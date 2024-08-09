@@ -578,3 +578,35 @@ May be used to indicate the relationship between an instrument and where it has 
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="DOI"relationType="Collects">10.5072/data</relatedIdentifier>
+
+
+.. _IsTranslationOf:
+
+IsTranslationOf
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** FIXME
+
+**Example and Usage Notes:**
+
+FIXME
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsTranslationOf">FIXME</relatedIdentifier>
+
+
+.. _HasTranslation:
+
+HasTranslation
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** FIXME
+
+**Example and Usage Notes:**
+
+FIXME
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI"relationType="HasTranslation">FIXME</relatedIdentifier>

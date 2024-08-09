@@ -38,6 +38,7 @@ Free text. The recommended content is a single term of some detail so that a pai
 *Controlled List Values:*
 
 * :ref:`Audiovisual`
+* :ref:`Award`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`
@@ -58,6 +59,7 @@ Free text. The recommended content is a single term of some detail so that a pai
 * :ref:`PeerReview`
 * :ref:`PhysicalObject`
 * :ref:`Preprint`
+* :ref:`Project`
 * :ref:`Report`
 * :ref:`Service`
 * :ref:`Software`

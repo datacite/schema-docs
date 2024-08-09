@@ -50,6 +50,16 @@ Collected
 **Usage Notes:** To indicate precise or particular timeframes in which research was conducted.
 
 
+.. _Coverage:
+
+Coverage
+~~~~~~~~~~~~~~~~~
+
+**Description:** FIXME
+
+**Usage Notes:** FIXME
+
+
 .. _Created:
 
 Created

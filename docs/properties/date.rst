@@ -50,6 +50,7 @@ If Date is used, dateType is mandatory.
 * :ref:`Available`
 * :ref:`Copyrighted`
 * :ref:`Collected`
+* :ref:`Coverage`
 * :ref:`Created`
 * :ref:`Issued`
 * :ref:`Submitted`

@@ -215,6 +215,16 @@ Supervisor
 **Usage Notes:** ---
 
 
+.. _Translator:
+
+Translator
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** FIXME
+
+**Usage Notes:** FIXME
+
+
 .. _WorkPackageLeader:
 
 WorkPackageLeader

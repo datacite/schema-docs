@@ -76,6 +76,7 @@ If Contributor is used, then contributorType is mandatory.
 * :ref:`RightsHolder`
 * :ref:`Sponsor`
 * :ref:`Supervisor`
+* :ref:`Translator`
 * :ref:`WorkPackageLeader`
 * :ref:`contributorType_Other`
 

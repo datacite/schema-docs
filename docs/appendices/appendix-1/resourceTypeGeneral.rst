@@ -24,8 +24,21 @@ Audiovisual
 
 Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17608/k6.auckland.4620790.v1
 
-
 **Suggested Dublin Core Mapping:** MovingImage
+
+
+.. _Award:
+
+Award
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** FIXME
+
+**Examples and Usage Notes:** FIXME
+
+Example: FIXME
+
+**Suggested Dublin Core Mapping:** FIXME
 
 
 .. _Book:
@@ -352,6 +365,20 @@ Example:
   <resourceType resourceTypeGeneral="Preprint">Research Paper</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
+
+
+.. _Project:
+
+Project
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** FIXME
+
+**Examples and Usage Notes:** FIXME
+
+Example: FIXME
+
+**Suggested Dublin Core Mapping:** FIXME
 
 
 .. _Report:

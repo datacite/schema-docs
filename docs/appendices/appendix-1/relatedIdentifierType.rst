@@ -64,6 +64,22 @@ bibcode
 Note: bibcodes can be searched via https://ui.adsabs.harvard.edu/ or resolved using ``https://ui.adsabs.harvard.edu/abs/<bibcode>``.
 
 
+.. _CSTR:
+
+CSTR
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Full Name:** FIXME
+
+**Description:** FIXME
+
+**Example:**
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="CSTR" relationType="FIXME">FIXME</relatedIdentifier>
+
+
 .. _DOI:
 
 DOI
@@ -254,6 +270,22 @@ PURL
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="PURL" relationType="Cites">http://purl.oclc.org/foo/bar</relatedIdentifier>
+
+
+.. _RRID:
+
+RRID
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Full Name:** FIXME
+
+**Description:** FIXME
+
+**Example:**
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="RRID" relationType="FIXME">FIXME</relatedIdentifier>
 
 
 .. _UPC:

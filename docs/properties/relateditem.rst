@@ -36,6 +36,7 @@ Can be used to provide series information or a text citation where the related r
 Use the controlled list values as stated in :ref:`10.a`:
 
 * :ref:`Audiovisual`
+* :ref:`Award`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`
@@ -56,6 +57,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`PeerReview`
 * :ref:`PhysicalObject`
 * :ref:`Preprint`
+* :ref:`Project`
 * :ref:`Report`
 * :ref:`Service`
 * :ref:`Software`
@@ -117,6 +119,8 @@ Use the controlled list values as stated in :ref:`12.b`:
 * :ref:`Obsoletes`
 * :ref:`IsCollectedBy`
 * :ref:`Collects`
+* :ref:`IsTranslationOf`
+* :ref:`HasTranslation`
 
 relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
 
@@ -153,6 +157,7 @@ Use the controlled list values as stated in :ref:`12.a`:
 * :ref:`ARK`
 * :ref:`arXiv`
 * :ref:`bibcode`
+* :ref:`CSTR`
 * :ref:`DOI`
 * :ref:`EAN13`
 * :ref:`EISSN`
@@ -165,6 +170,7 @@ Use the controlled list values as stated in :ref:`12.a`:
 * :ref:`LSID`
 * :ref:`PMID`
 * :ref:`PURL`
+* :ref:`RRID`
 * :ref:`UPC`
 * :ref:`URL`
 * :ref:`URN`
