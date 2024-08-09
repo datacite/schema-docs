@@ -7,8 +7,8 @@ author = 'DataCite Metadata Working Group'
 copyright = "Creative Commons Attribution 4.0 International (CC BY 4.0)"
 license_url = "https://creativecommons.org/licenses/by/4.0/"
 
-release = '4.5'
-version = '4.5'
+release = '4.6'
+version = '4.6'
 
 # -- General configuration
 
@@ -99,7 +99,7 @@ latex_elements = {
 }
 
 latex_documents = [
-  ('index', 'DataCite-MetadataKernel_v4.5.tex',
+  ('index', 'DataCite-MetadataKernel_v4.6.tex',
     u'DataCite Metadata Schema Documentation',
     u'DataCite Metadata Working Group', 'howto'),
 ]
