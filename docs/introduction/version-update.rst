@@ -20,11 +20,11 @@ These changes are in response to requests from DataCite community members, peopl
 Schema changes
 -----------------------------
 
-* Addition of :ref:`Project` and :ref:`Award` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
+* Addition of :ref:`Award` and :ref:`Project` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
  * These values may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
-* Addition of :ref:`RRID` and :ref:`CSTR` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
+* Addition of :ref:`CSTR` and :ref:`RRID` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
 
  * These values may be used in :ref:`12.a` and other places where relatedIdentifierType is used (:ref:`20.1.a`).
 
