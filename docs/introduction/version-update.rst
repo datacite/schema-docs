@@ -32,7 +32,7 @@ Schema changes
 
  * This value may be used in :ref:`7.a` and other places where contributorType is used (:ref:`20.12.a`).
 
-* Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`IsTranslationOf` and :ref:`HasTranslation`
+* Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`HasTranslation` and :ref:`IsTranslationOf`
 
 * Addition of new :doc:`/appendices/appendix-1/dateType`: :ref:`Coverage`
 
