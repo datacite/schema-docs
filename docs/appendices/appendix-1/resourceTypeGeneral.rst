@@ -372,13 +372,22 @@ Example:
 Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** FIXME
+**Description:** A planned endeavor or activity, frequently collaborative, intended to achieve a particular aim using allocated resources such as budget, time, and expertise.
 
-**Examples and Usage Notes:** FIXME
+**Examples and Usage Notes:** This resource type represents the project and includes research projects and studies. For a project deliverable or description of a project, use the corresponding resource type for the output—e.g., for a project report, dissertation, or study registration, use the resourceTypeGeneral “Report”, “Dissertation”, or “StudyRegistration” instead.
 
-Example: FIXME
+Example:
 
-**Suggested Dublin Core Mapping:** FIXME
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Project">Field season</resourceType>
+
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Project">Cohort study</resourceType>
+
+
+**Suggested Dublin Core Mapping:** N/A
 
 
 .. _Report:

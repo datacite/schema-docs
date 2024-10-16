@@ -220,10 +220,9 @@ Supervisor
 Translator
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** FIXME
+**Description:** A person, organization, or automated system responsible for converting the content of a resource from one language into another, preserving its meaning and intended message.
 
-**Usage Notes:** FIXME
-
+**Usage Notes:** This contributor type should be applied to DOI metadata for a resource which has been translated from a previously published resource.
 
 .. _WorkPackageLeader:
 

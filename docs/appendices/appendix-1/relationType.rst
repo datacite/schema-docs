@@ -585,7 +585,7 @@ May be used to indicate the relationship between an instrument and where it has 
 IsTranslationOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** FIXME
+**Definition:** indicates A is a translation of B
 
 **Example and Usage Notes:**
 
@@ -593,7 +593,7 @@ FIXME
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsTranslationOf">FIXME</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsTranslationOf">>10.21384/828a-cm38</relatedIdentifier>
 
 
 .. _HasTranslation:
@@ -601,7 +601,7 @@ FIXME
 HasTranslation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** FIXME
+**Definition:** indicates A has a translation B
 
 **Example and Usage Notes:**
 
@@ -609,4 +609,4 @@ FIXME
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI"relationType="HasTranslation">FIXME</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI"relationType="HasTranslation">10.21384/g01j-jm06</relatedIdentifier>

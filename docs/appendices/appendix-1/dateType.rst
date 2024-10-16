@@ -55,9 +55,9 @@ Collected
 Coverage
 ~~~~~~~~~~~~~~~~~
 
-**Description:** FIXME
+**Description:** The date or date range that the resource content applies to, describes, or covers.
 
-**Usage Notes:** FIXME
+**Usage Notes:** To indicate the temporal coverage of the resource, use Coverage. This may be different from Collected.
 
 
 .. _Created:
