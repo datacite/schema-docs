@@ -36,12 +36,10 @@ Schema changes
 
 * Addition of new :doc:`/appendices/appendix-1/dateType`: :ref:`Coverage`
 
-* FIXME other changes TBD
-
 Documentation changes
 -----------------------------
 
-* FIXME describe Language documentation updates
+* Clarification of the allowed values for :ref:`9`.
 
 Other changes and corrections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

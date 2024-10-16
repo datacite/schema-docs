@@ -376,7 +376,7 @@ Project
 
 **Examples and Usage Notes:** This resource type represents the project and includes research projects and studies. For a project deliverable or description of a project, use the corresponding resource type for the output—e.g., for a project report, dissertation, or study registration, use the resourceTypeGeneral “Report”, “Dissertation”, or “StudyRegistration” instead.
 
-Example:
+Examples:
 
 .. code:: xml
 
