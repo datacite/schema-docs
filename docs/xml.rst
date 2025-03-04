@@ -48,7 +48,7 @@ Demonstration Examples
 
         * `Full DataCite metadata example (all properties) <https://api.test.datacite.org/dois/10.82433/B09Z-4K37?publisher=true&affiliation=true>`_
         * `Dataset resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/9184-DY35?publisher=true&affiliation=true>`_
-        * `Award resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/p1zt-4c6?publisher=true&affiliation=true>`_
+        * `Award resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/p1zt-4c67?publisher=true&affiliation=true>`_
         * `Project resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/84dj-am41?publisher=true&affiliation=true>`_
         * `Coverage dateType <https://api.test.datacite.org/dois/10.82433/pgk2-ar97?publisher=true&affiliation=true>`_
         * Connecting a translation to the original work: 
