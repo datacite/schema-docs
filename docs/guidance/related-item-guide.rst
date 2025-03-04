@@ -34,50 +34,50 @@ The related item that the resource is published in may have an identifier of thi
 Example: Journal article in a journal (with an ISSN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. tab-set-code::
-  
-  .. code:: xml
+.. tabs::
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <resource
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
-      <identifier identifierType="DOI">10.21384/ExampleArticle</identifier>
-      <creators>
-        <creator>
-          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" SchemeURI="https://ror.org">Arizona State University</affiliation>
-        </creator>
-      </creators>
-      <titles>
-        <title xml:lang="en">Example Article Title</title>
-      </titles>
-      <publisher xml:lang="en">Example Publisher</publisher>
-      <publicationYear>2022</publicationYear>
-      <resourceType resourceTypeGeneral="JournalArticle"></resourceType>
-      <relatedIdentifiers>
-        <relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPublishedIn">1234-5678</relatedIdentifier>
-      </relatedIdentifiers>
-      <relatedItems>
-        <relatedItem relationType="IsPublishedIn" relatedItemType="Journal">
-          <relatedItemIdentifier relatedItemIdentifierType="ISSN">1234-5678</relatedItemIdentifier>
-          <titles>
-            <title>Journal of Metadata Examples</title>
-          </titles>
-          <publicationYear>2022</publicationYear>
-          <volume>3</volume>
-          <issue>4</issue>
-          <firstPage>20</firstPage>
-          <lastPage>35</lastPage>
-          <publisher>Example Publisher</publisher>
-        </relatedItem>
-      </relatedItems>
-    </resource>
+  .. code-tab:: xml
 
-  .. code:: json
+      <?xml version="1.0" encoding="UTF-8"?>
+      <resource
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+        <identifier identifierType="DOI">10.21384/ExampleArticle</identifier>
+        <creators>
+            <creator>
+              <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+              <givenName>Sofia</givenName>
+              <familyName>Garcia</familyName>
+              <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
+              <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" SchemeURI="https://ror.org">Arizona State University</affiliation>
+            </creator>
+        </creators>
+        <titles>
+          <title xml:lang="en">Example Article Title</title>
+        </titles>
+        <publisher xml:lang="en">Example Publisher</publisher>
+        <publicationYear>2022</publicationYear>
+        <resourceType resourceTypeGeneral="JournalArticle"></resourceType>
+        <relatedIdentifiers>
+          <relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPublishedIn">1234-5678</relatedIdentifier>
+        </relatedIdentifiers>
+        <relatedItems>
+          <relatedItem relationType="IsPublishedIn" relatedItemType="Journal">
+            <relatedItemIdentifier relatedItemIdentifierType="ISSN">1234-5678</relatedItemIdentifier>
+            <titles>
+              <title>Journal of Metadata Examples</title>
+            </titles>
+            <publicationYear>2022</publicationYear>
+            <volume>3</volume>
+            <issue>4</issue>
+            <firstPage>20</firstPage>
+            <lastPage>35</lastPage>
+            <publisher>Example Publisher</publisher>
+          </relatedItem>
+        </relatedItems>
+      </resource>
+
+  .. code-tab:: json
 
     {
       "data": {
@@ -150,52 +150,54 @@ Example: Journal article in a journal (with an ISSN)
       }
     }
 
+
+
 Example: Digitized book chapter in a book (with no identifier)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. tab-set-code::
+.. tabs::
 
-  .. code:: xml
+  .. code-tab:: xml
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <resource
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
-      <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
-      <creators>
-        <creator>
-          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-        </creator>
-      </creators>
-      <titles>
-        <title xml:lang="en">Example Chapter Title</title>
-      </titles>
-      <publisher xml:lang="en">Example Publisher</publisher>
-      <publicationYear>1980</publicationYear>
-      <resourceType resourceTypeGeneral="BookChapter"></resourceType>
-      <relatedItems>
-        <relatedItem relationType="IsPublishedIn" relatedItemType="Book">
-          <titles>
-            <title>Example Book Title</title>
-          </titles>
-          <publicationYear>1980</publicationYear>
-          <volume>I</volume>
-          <firstPage>110</firstPage>
-          <lastPage>155</lastPage>
-          <publisher>Example Publisher</publisher>
-          <edition>2nd edition</edition>
-          <contributors>
-            <contributor contributorType="Editor">
-              <contributorName nameType="Personal">Miller, Elizabeth</contributorName>
-            </contributor>
-          </contributors>
-        </relatedItem>
-      </relatedItems>
-    </resource>
+      <?xml version="1.0" encoding="UTF-8"?>
+      <resource
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+        <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
+        <creators>
+          <creator>
+            <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+            <givenName>Sofia</givenName>
+            <familyName>Garcia</familyName>
+          </creator>
+        </creators>
+        <titles>
+          <title xml:lang="en">Example Chapter Title</title>
+        </titles>
+        <publisher xml:lang="en">Example Publisher</publisher>
+        <publicationYear>1980</publicationYear>
+        <resourceType resourceTypeGeneral="BookChapter"></resourceType>
+        <relatedItems>
+          <relatedItem relationType="IsPublishedIn" relatedItemType="Book">
+            <titles>
+              <title>Example Book Title</title>
+            </titles>
+            <publicationYear>1980</publicationYear>
+            <volume>I</volume>
+            <firstPage>110</firstPage>
+            <lastPage>155</lastPage>
+            <publisher>Example Publisher</publisher>
+            <edition>2nd edition</edition>
+            <contributors>
+              <contributor contributorType="Editor">
+                <contributorName nameType="Personal">Miller, Elizabeth</contributorName>
+              </contributor>
+            </contributors>
+          </relatedItem>
+        </relatedItems>
+      </resource>
   
-  .. code:: json
+  .. code-tab:: json
 
     {
       "data": {
@@ -257,58 +259,57 @@ Example: Digitized book chapter in a book (with no identifier)
 
 
 
-
 Example: Digitized book chapter in a book (with an ISBN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. tab-set-code::
+.. tabs::
 
-  .. code:: xml
+  .. code-tab:: xml
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <resource
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
-      <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
-      <creators>
-        <creator>
-          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-        </creator>
-      </creators>
-      <titles>
-        <title xml:lang="en">Example Chapter Title</title>
-      </titles>
-      <publisher xml:lang="en">Example Publisher</publisher>
-      <publicationYear>2016</publicationYear>
-      <resourceType resourceTypeGeneral="BookChapter"></resourceType>
-      <relatedIdentifiers>
-        <relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPublishedIn">0-12-345678-1</relatedIdentifier>
-      </relatedIdentifiers>
-      <relatedItems>
-        <relatedItem relationType="IsPublishedIn" relatedItemType="Book">
-          <relatedItemIdentifier relatedItemIdentifierType="ISBN">0-12-345678-1</relatedItemIdentifier>
-          <creators>
-            <creator>
-              <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-              <givenName>Sofia</givenName>
-              <familyName>Garcia</familyName>
-            </creator>
-          </creators>
-          <titles>
-            <title>Example Book Title</title>
-          </titles>
-          <publicationYear>2016</publicationYear>
-          <number numberType="Chapter">4</number>
-          <firstPage>45</firstPage>
-          <lastPage>63</lastPage>
-          <publisher>Example Publisher</publisher>
-        </relatedItem>
-      </relatedItems>
-    </resource>
+      <?xml version="1.0" encoding="UTF-8"?>
+      <resource
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+        <identifier identifierType="DOI">10.21384/ExampleBookChapter</identifier>
+        <creators>
+          <creator>
+            <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+            <givenName>Sofia</givenName>
+            <familyName>Garcia</familyName>
+          </creator>
+        </creators>
+        <titles>
+          <title xml:lang="en">Example Chapter Title</title>
+        </titles>
+        <publisher xml:lang="en">Example Publisher</publisher>
+        <publicationYear>2016</publicationYear>
+        <resourceType resourceTypeGeneral="BookChapter"></resourceType>
+        <relatedIdentifiers>
+          <relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPublishedIn">0-12-345678-1</relatedIdentifier>
+        </relatedIdentifiers>
+        <relatedItems>
+          <relatedItem relationType="IsPublishedIn" relatedItemType="Book">
+            <relatedItemIdentifier relatedItemIdentifierType="ISBN">0-12-345678-1</relatedItemIdentifier>
+            <creators>
+              <creator>
+                <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+                <givenName>Sofia</givenName>
+                <familyName>Garcia</familyName>
+              </creator>
+            </creators>
+            <titles>
+              <title>Example Book Title</title>
+            </titles>
+            <publicationYear>2016</publicationYear>
+            <number numberType="Chapter">4</number>
+            <firstPage>45</firstPage>
+            <lastPage>63</lastPage>
+            <publisher>Example Publisher</publisher>
+          </relatedItem>
+        </relatedItems>
+      </resource>
 
-  .. code:: json
+  .. code-tab:: json
 
     {
       "data": {
@@ -387,24 +388,51 @@ Describing related resources without identifiers
 
 When a related resource does not have an identifier, the related item property can be used on its own.
 
-.. code:: xml
+.. tabs::
 
-  <relatedItems>
-    <relatedItem relationType="References" relatedItemType="Dissertation">
-      <creators>
-        <creator>
-          <creatorName nameType="Personal">Miller, Elizabeth</creatorName>
-          <givenName>Elizabeth</givenName>
-          <familyName>Miller</familyName>
-        </creator>
-      </creators>
-      <titles>
-        <title>Example Dissertation Title</title>
-      </titles>
-      <publicationYear>1960</publicationYear>
-      <publisher>Example University</publisher>
-    </relatedItem>
-  </relatedItems>
+   .. code-tab:: xml
+
+      <relatedItems>
+        <relatedItem relationType="References" relatedItemType="Dissertation">
+          <creators>
+            <creator>
+              <creatorName nameType="Personal">Miller, Elizabeth</creatorName>
+              <givenName>Elizabeth</givenName>
+              <familyName>Miller</familyName>
+            </creator>
+          </creators>
+          <titles>
+            <title>Example Dissertation Title</title>
+          </titles>
+          <publicationYear>1960</publicationYear>
+          <publisher>Example University</publisher>
+        </relatedItem>
+      </relatedItems>
+
+   .. code-tab:: json
+      "relatedItems": [
+        {
+          "relationType": "References",
+          "relatedItemType": "Dissertation",
+          "creators": [
+            {
+              "name": "Miller, Elizabeth",
+              "nameType": "Personal",
+              "givenName": "Elizabeth",
+              "familyName": "Miller"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Example Dissertation Title"
+            }
+          ],
+          "publicationYear": 1960,
+          "publisher": "Example University"
+        }
+      ]
+
+
 
 
 Describing related resources with identifiers
@@ -414,25 +442,63 @@ Most related resources will have at least one of the identifier types specified 
 
 In this case, the :ref:`12` property is strongly recommended for indexing. In addition, the :ref:`20` property *may* be used to provide additional information about the related item.
 
-.. code:: xml
+.. tabs::
 
-  <relatedIdentifiers>
-    <relatedIdentifier relationType="IsCitedBy" relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle">10.21384/ExampleJournalArticle</relatedIdentifier>
-  </relatedIdentifiers>
-  <relatedItems>
-    <relatedItem relationType="IsCitedBy" relatedItemType="JournalArticle">
-      <relatedItemIdentifier relatedItemIdentifierType="DOI">10.21384/ExampleJournalArticle</relatedItemIdentifier>
-      <creators>
-        <creator>
-          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-        </creator>
-      </creators>
-      <titles>
-        <title>Example Article Title</title>
-      </titles>
-      <publicationYear>2021</publicationYear>
-      <publisher>Example Publisher</publisher>
-    </relatedItem>
-  </relatedItems>
+   .. code-tab:: xml
+
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="IsCitedBy" relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle">10.21384/ExampleJournalArticle</relatedIdentifier>
+      </relatedIdentifiers>
+      <relatedItems>
+        <relatedItem relationType="IsCitedBy" relatedItemType="JournalArticle">
+          <relatedItemIdentifier relatedItemIdentifierType="DOI">10.21384/ExampleJournalArticle</relatedItemIdentifier>
+          <creators>
+            <creator>
+              <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+              <givenName>Sofia</givenName>
+              <familyName>Garcia</familyName>
+            </creator>
+          </creators>
+          <titles>
+            <title>Example Article Title</title>
+          </titles>
+          <publicationYear>2021</publicationYear>
+          <publisher>Example Publisher</publisher>
+        </relatedItem>
+      </relatedItems>
+
+   .. code-tab:: json
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsCitedBy",
+          "relatedIdentifierType": "DOI",
+          "resourceTypeGeneral": "JournalArticle",
+          "relatedIdentifier": "10.21384/ExampleJournalArticle"
+        }
+      ],
+      "relatedItems": [
+        {
+          "relationType": "IsCitedBy",
+          "relatedItemType": "JournalArticle",
+          "relatedItemIdentifier": {
+            "relatedItemIdentifierType": "DOI",
+            "value": "10.21384/ExampleJournalArticle"
+          },
+          "creators": [
+            {
+              "name": "Garcia, Sofia",
+              "nameType": "Personal",
+              "givenName": "Sofia",
+              "familyName": "Garcia"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Example Article Title"
+            }
+          ],
+          "publicationYear": 2021,
+          "publisher": "Example Publisher"
+        }
+      ]
+
