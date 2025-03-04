@@ -49,7 +49,8 @@ Examples:
           "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
           "schemeUri": "https://spdx.org/licenses/",
           "rightsIdentifier": "CC-BY-4.0",
-          "rightsIdentifierScheme": "SPDX"
+          "rightsIdentifierScheme": "SPDX",
+          "lang": "en"
         }
       ]
 
