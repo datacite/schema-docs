@@ -7,6 +7,13 @@ XML Schema
 The XML Schema is available here:
 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
 
+
+JSON Representation
+--------------------------------
+
+The `DataCite XML to JSON Mapping <https://support.datacite.org/docs/datacite-xml-to-json-mapping>`_  is available on the DataCite Support site.
+
+
 Examples
 ------------------------
 
