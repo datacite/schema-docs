@@ -18,27 +18,50 @@ Repeat this property to indicate several different locations.
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <geoLocations>
-    <geoLocation>
-      <geoLocationPlace>Disko Bay</geoLocationPlace>
-      <geoLocationPoint>
-        <pointLongitude>-52.000000</pointLongitude>
-        <pointLatitude>69.000000</pointLatitude>
-      </geoLocationPoint>
-    </geoLocation>
-    <geoLocation>
-      <geoLocationBox>
-        <westBoundLongitude>-123.27</westBoundLongitude>
-        <eastBoundLongitude>-123.225</eastBoundLongitude>
-        <southBoundLatitude>49.24</southBoundLatitude>
-        <northBoundLatitude>49.28</northBoundLatitude>
-      </geoLocationBox>
-    </geoLocation>
-  </geoLocations>
+   .. code-tab:: xml
+
+      <geoLocations>
+        <geoLocation>
+          <geoLocationPlace>Disko Bay</geoLocationPlace>
+          <geoLocationPoint>
+            <pointLongitude>-52.000000</pointLongitude>
+            <pointLatitude>69.000000</pointLatitude>
+          </geoLocationPoint>
+        </geoLocation>
+        <geoLocation>
+          <geoLocationBox>
+            <westBoundLongitude>-123.27</westBoundLongitude>
+            <eastBoundLongitude>-123.225</eastBoundLongitude>
+            <southBoundLatitude>49.24</southBoundLatitude>
+            <northBoundLatitude>49.28</northBoundLatitude>
+          </geoLocationBox>
+        </geoLocation>
+      </geoLocations>
+
+   .. code-tab:: json
+
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Disko Bay",
+          "geoLocationPoint": {
+            "pointLatitude": 69.000000,
+            "pointLongitude": 52.000000
+          }
+        },
+        {
+          "geoLocationBox": {
+            "eastBoundLongitude": 123.225,
+            "northBoundLatitude": 49.28,
+            "southBoundLatitude": 49.24,
+            "westBoundLongitude": 123.27
+          }
+        }
+      ],
+
 
 
 .. _18.1:

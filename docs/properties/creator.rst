@@ -18,23 +18,63 @@ May be a corporate/institutional or personal name. Note: DataCite infrastructure
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <creators>
-      <creator>
-          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
-      </creator>
-      <creator>
-          <creatorName xml:lang="en" nameType="Organizational">California Digital Library</creatorName>
-          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
-      </creator>
-  </creators>
+   .. code-tab:: xml
+
+        <creators>
+            <creator>
+                <creatorName nameType="Personal">Garcia, Sofia</creatorName>
+                <givenName>Sofia</givenName>
+                <familyName>Garcia</familyName>
+                <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
+                <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
+            </creator>
+            <creator>
+                <creatorName xml:lang="en" nameType="Organizational">California Digital Library</creatorName>
+                <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+            </creator>
+        </creators>
+   
+   .. code-tab:: json
+
+      "creators": [
+        {
+          "name": "Garcia, Sofia",
+          "nameType": "Personal",
+          "givenName": "Sofia",
+          "familyName": "Garcia",
+          "affiliation": [
+            {
+              "affiliationIdentifier": "https://ror.org/03efmqc40",
+              "affiliationIdentifierScheme": "ROR",
+              "name": "Arizona State University",
+              "schemeUri": "https://ror.org/"
+            }
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-5727-2427",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "California Digital Library",
+          "nameType": "Organizational",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://ror.org",
+              "nameIdentifier": "https://ror.org/03yrm5c26",
+              "nameIdentifierScheme": "ROR"
+            },
+            "lang": "en"
+          ]
+        }
+      ]
 
 .. _2.1:
 

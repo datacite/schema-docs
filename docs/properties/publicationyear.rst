@@ -17,11 +17,18 @@ If an embargo period has been in effect, use the date when the embargo period en
 In the case of datasets, "publish" is understood to mean making the data available on a specific date to the community of researchers.
 If there is no standard publication year value, use the date that would be preferred from a citation perspective.
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <publicationYear>2022</publicationYear>
+   .. code-tab:: xml
+
+      <publicationYear>2022</publicationYear>
+   
+   .. code-tab:: json
+
+      "publicationYear": "2022"
+
 
 .. rubric:: PublicationYear—Additional guidance
 

@@ -20,13 +20,25 @@ Example: E-GEOD-34814
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <alternateIdentifiers>
-      <alternateIdentifier alternateIdentifierType="Local accession number">E-GEOD-34814</alternateIdentifier>
-  </alternateIdentifiers>
+   .. code-tab:: xml
+
+        <alternateIdentifiers>
+              <alternateIdentifier alternateIdentifierType="Local accession number">E-GEOD-34814</alternateIdentifier>
+        </alternateIdentifiers>
+   
+   .. code-tab:: json
+
+        "alternateIdentifiers": [
+          {
+            "alternateIdentifierType": "Local accession number",
+            "alternateIdentifier": "E-GEOD-3481"
+          }
+        ]
+  
 
 .. _11.a:
 

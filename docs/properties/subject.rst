@@ -18,14 +18,36 @@ Free text.
 .. contents:: :local:
     :backlinks: none
     
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <subjects>
-    <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="https://id.loc.gov/authorities/subjects.html" valueURI="https://id.loc.gov/authorities/subjects/sh2009009655.html">Climate change mitigation</subject>
-    <subject xml:lang="en" subjectScheme="ANZSRC Fields of Research" schemeURI="https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc" classificationCode="370201">Climate change processes</subject>
-  </subject>
+   .. code-tab:: xml
+
+      <subjects>
+        <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="https://id.loc.gov/authorities/subjects.html" valueURI="https://id.loc.gov/authorities/subjects/sh2009009655.html">Climate change mitigation</subject>
+        <subject xml:lang="en" subjectScheme="ANZSRC Fields of Research" schemeURI="https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc" classificationCode="370201">Climate change processes</subject>
+      </subject>
+   
+   .. code-tab:: json
+
+      "subjects": [
+        {
+          "subject": "Climate change mitigation",
+          "schemeUri": "https://id.loc.gov/authorities/subjects.html",
+          "valueUri": "https://id.loc.gov/authorities/subjects/sh2009009655.html",
+          "subjectScheme": "Library of Congress Subject Headings (LCSH)",
+          "lang": "en"
+        },
+        {
+          "subject": "Climate change processes",
+          "schemeUri": "https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-research-classification-anzsrc",
+          "valueUri": "https://id.loc.gov/authorities/subjects/sh2009009655.html",
+          "subjectScheme": "ANZSRC Fields of Research",
+          "classificationCode": "370201",
+          "lang": "en"
+        }
+      ]
 
 .. _6.a:
 

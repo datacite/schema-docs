@@ -13,11 +13,18 @@
 
 All values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_. [#f1]_ Examples: fr, cmn, nys, swh
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <language>en</language>
+   .. code-tab:: xml
+
+      <language>en</language>
+
+   .. code-tab:: json
+  
+        "language": "en"
+
   
 
 .. rubric:: Footnotes

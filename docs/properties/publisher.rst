@@ -26,11 +26,23 @@ Examples:
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
- <publisher xml:lang="en" publisherIdentifier="https://ror.org/04z8jg394" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences</publisher>
+   .. code-tab:: xml
+
+        <publisher xml:lang="en" publisherIdentifier="https://ror.org/04z8jg394" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences</publisher>
+   
+   .. code-tab:: json
+
+      "publisher": {
+        "name": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
+        "publisherIdentifier":"https://ror.org/04z8jg394",
+        "publisherIdentifierScheme":"ROR",
+        "schemeUri": "https://ror.org/",
+        "lang": "en"
+      }
 
 .. _4.a:
 

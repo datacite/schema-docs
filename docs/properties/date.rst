@@ -22,14 +22,31 @@ Years before 0000 must be prefixed with a - sign, e.g., -0054 to indicate 55 BC.
 .. contents:: :local:
     :backlinks: none
     
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <dates>
-      <date dateType="Issued">2022-08-01</date>
-      <date dateType="Other" dateInformation="Conceptualized">2020-01-01</date>
-  </dates>
+   .. code-tab:: xml
+
+      <dates>
+          <date dateType="Issued">2022-08-01</date>
+          <date dateType="Other" dateInformation="Conceptualized">2020-01-01</date>
+      </dates>
+   
+   .. code-tab:: json
+
+      "dates": [
+        {
+          "date": "2022-08-01",
+          "dateType": "Issued",
+        },
+        {
+          "date": "2020-01-01",
+          "dateType": "Other",
+          "dateInformation": "Conceptualized"
+        }
+      ]
+
 
 .. _8.a:
 
