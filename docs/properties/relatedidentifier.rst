@@ -20,14 +20,36 @@ Note: `DataCite Event Data <https://support.datacite.org/docs/eventdata-guide>`_
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <relatedIdentifiers>
-      <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy" resourceTypeGeneral="JournalArticle">10.21384/bar</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeType="XSD" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">https://example.com/</relatedIdentifier>
-  </relatedIdentifiers>
+   .. code-tab:: xml
+
+        <relatedIdentifiers>
+            <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy" resourceTypeGeneral="JournalArticle">10.21384/bar</relatedIdentifier>
+            <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeType="XSD" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">https://example.com/</relatedIdentifier>
+        </relatedIdentifiers>
+   
+   .. code-tab:: json
+
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsCitedBy",
+          "relatedIdentifier": "10.21384/bar",
+          "resourceTypeGeneral": "JournalArticle",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "schemeUri": "http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd",
+          "schemeType": "XSD",
+          "relationType": "HasMetadata",
+          "relatedIdentifier": "https://example.com/",
+          "relatedIdentifierType": "URL",
+          "relatedMetadataScheme": "DDI-L"
+        }
+      ]
+
 
 .. _12.a:
 

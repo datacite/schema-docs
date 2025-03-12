@@ -17,11 +17,19 @@ Software engineering practice follows this approach of tracking changes and givi
 
 May be used in conjunction with properties :ref:`11` and :ref:`12` to indicate various information updates. May be used in conjunction with property :ref:`17` to indicate the nature and file/record range of version.
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <version>2.1</version>
+   .. code-tab:: xml
+
+      <version>2.1</version>
+   
+   .. code-tab:: json
+
+      "version": "2.1"
+
+
 
 
 .. rubric:: Footnotes

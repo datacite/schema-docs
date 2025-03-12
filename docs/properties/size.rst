@@ -15,11 +15,20 @@ Free text.
 
 Examples: "15 pages", "6 MB", “45 minutes”
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <sizes>
-    <size>15 pages</size>
-    <size>1 MB</size>
-  </sizes>
+   .. code-tab:: xml
+
+      <sizes>
+        <size>15 pages</size>
+        <size>1 MB</size>
+      </sizes>
+   
+   .. code-tab:: json
+
+      "sizes": [
+        "15 pages",
+        "1 MB"
+      ]

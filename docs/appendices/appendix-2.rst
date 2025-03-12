@@ -5,17 +5,17 @@ Appendix 2 provides the update contents of earlier versions of the schema.
 
 .. contents:: :local:
 
-Version 4.5 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 4.5 <https://datacite-metadata-schema.readthedocs.io/en/4.5/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Schema changes:
+.. rubric:: Schema changes
 
 * Addition of :ref:`Instrument` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 * Addition of :ref:`StudyRegistration` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 * Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`IsCollectedBy` and :ref:`Collects`
 * Addition of new sub-properties for :ref:`4`: :ref:`4.a`, :ref:`4.b`, and :ref:`4.c`.
 
-Documentation changes:
+.. rubric:: Documentation changes
 
 * Changes and additions to these definitions, in support of instruments:
 
@@ -54,8 +54,10 @@ Documentation changes:
   - :doc:`/guidance/index`
   - :doc:`/mappings/index`
 
-Version 4.4 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 4.4 <https://schema.datacite.org/meta/kernel-4.4/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rubric:: Schema changes
 
 * Addition of the new subproperty :ref:`6.d` in the :ref:`6` property.
 * Addition of new values to the :ref:`10.a` property:
@@ -93,16 +95,16 @@ Version 4.4 Update
  * :ref:`20.11`
  * :ref:`20.12`
 
-Major Documentation changes:
+.. rubric:: Documentation changes
 
 * The title of this document has changed to: *DataCite Metadata Schema Documentation for the Publication and Citation for Research Data and Other Research Outputs*.
 * Following community feedback and suggestions, this version includes further clarification as regards the following :doc:`contributorTypes </appendices/appendix-1/contributorType>`: :ref:`DataManager`, :ref:`DataCurator`, :ref:`ResearchGroup`, and :ref:`HostingInstitution`.
 
 
-Version 4.3 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 4.3 <https://schema.datacite.org/meta/kernel-4.3/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 4.3 of the schema includes these changes:
+.. rubric:: Schema changes
 
 * Addition of new subproperties for affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) in the :ref:`2` and :ref:`7` properties:
 
@@ -112,7 +114,7 @@ Version 4.3 of the schema includes these changes:
 * Addition of a new subproperty :ref:`19.2.b` for :ref:`19.2` of the :ref:`19` property.
 * Addition of “ROR” to the controlled list values of :ref:`19.2.a` of the :ref:`19` property.
 
-Version 4.3 of the documentation includes these changes:
+.. rubric:: Documentation changes
 
 * Addition of “ROR” and “GRID” as examples of nameIdentifierScheme (:ref:`2.4.a <2.4.a>`, :ref:`7.4.a <7.4.a>`) and schemeURI (:ref:`2.4.b <2.4.b>`, :ref:`7.4.b <7.4.b>`) of the properties :ref:`2` and :ref:`7`.
 * Addition of a usage note to the affiliation (:ref:`2.5 <2.5>`, :ref:`7.5 <7.5>`) subproperty of :ref:`2` and :ref:`7`.
@@ -121,10 +123,10 @@ Version 4.3 of the documentation includes these changes:
 * Amendment of the hierarchical numbering of the metadata properties to align with the schema XSD.
 * Removal of brackets in the guidance regarding unknown values.
 
-Version 4.2 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 4.2 <https://schema.datacite.org/meta/kernel-4.2/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 4.2 of the schema includes these changes:
+.. rubric:: Schema changes
 
 * Addition of new :doc:`/appendices/appendix-1/dateType` :ref:`Withdrawn`
 * Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`IsObsoletedBy` and :ref:`Obsoletes`
@@ -137,7 +139,7 @@ Version 4.2 of the schema includes these changes:
 
 * Addition of the XML language attribute to the properties :ref:`2`, :ref:`7` and :ref:`4` for organizational names.
 
-Version 4.2 of the documentation includes these changes:
+.. rubric:: Documentation changes
 
 * Addition of “data management plan” and “conference paper” as examples to the description of :doc:`/appendices/appendix-1/resourceTypeGeneral` :ref:`Text` (see :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>`).
 * Addition of a usage note to the :doc:`/appendices/appendix-1/relationType` pair :ref:`Compiles`/:ref:`IsCompiledBy` (see :doc:`Appendix 1: Controlled List Definitions - relatedIdentifierType </appendices/appendix-1/relatedIdentifierType>`).
@@ -145,10 +147,10 @@ Version 4.2 of the documentation includes these changes:
 * Addition of subproperty :ref:`12.f` to :ref:`12`.
 * Notes on the coverage and scope of the metadata schema, and the preferred language in which the metadata should be provided.
 
-Version 4.1 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 4.1 <https://schema.datacite.org/meta/kernel-4.1/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 4.1 of the schema includes these changes:
+.. rubric:: Schema changes
 
 * Allowing multiple polygons per :ref:`18`
 * Addition of new optional subproperties for polygon
@@ -172,7 +174,7 @@ Version 4.1 of the schema includes these changes:
   * :ref:`12.f`. Controlled list is identical to existing :ref:`10.a` attribute
 * Addition of optional lang attribute to :ref:`16` property
 
-Version 4.1 of the documentation includes these changes:
+.. rubric:: Documentation changes
 
 * Change to the definition of :ref:`Collection` to encompass collections of one resourceType as well as those of mixed types.
 * Inclusion of a reference to the Research Data Alliance (RDA)-recommended dynamic data citation approach in documentation in :doc:`section 2.2, Citation </guidance/dynamic-datasets>`.
@@ -192,10 +194,10 @@ Version 4.1 of the documentation includes these changes:
   * :ref:`16`
   * :ref:`17` (:ref:`TechnicalInfo`)
 
-Version 4.0 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 4.0 <https://schema.datacite.org/meta/kernel-4.0/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 4.0 of the schema includes these changes:
+.. rubric:: Schema changes
 
 * Allowing more than one nameIdentifier (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) per :ref:`2` or :ref:`7`
 * Addition of new optional subproperties for :ref:`2.1` and :ref:`7.1`:
@@ -225,17 +227,17 @@ Version 4.0 of the schema includes these changes:
   * :ref:`19.4`
 * Deprecation of :doc:`/appendices/appendix-1/contributorType` “funder” (as a result of adding the new property :ref:`19`)
 
-Version 4.0 of the documentation includes these changes:
+.. rubric:: Documentation changes
 
 * Provision of a link to guidelines for how to write the ORCID ID (See properties :ref:`2.2.1 <2.4.a>` and :ref:`7.3.1 <7.4.a>` nameIdentifierScheme)
 * Adjustment of the instructions for :doc:`/appendices/appendix-1/resourceTypeGeneral` option :ref:`Collection` (See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>`)
 
 Note that, while the property :ref:`10` has been relocated in the documentation to the mandatory property section, it retains its original numbering (10).
 
-Version 3.1 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 3.1 <https://schema.datacite.org/meta/kernel-3.1/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 3.1 of the schema includes these changes:
+.. rubric:: Schema changes 
 
 * New affiliation attribute (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :ref:`2` and :ref:`7`
 * New :doc:`/appendices/appendix-1/relationType` pairs
@@ -248,7 +250,7 @@ Version 3.1 of the schema includes these changes:
   * :ref:`arXiv`
   * :ref:`bibcode`
 
-Version 3.1 of the documentation includes these changes:
+.. rubric:: Documentation changes
 
 * Documentation for the new affiliation attributes (:ref:`2.4 <2.4>`, :ref:`7.4 <7.4>`) for :ref:`2` and :ref:`7`
 * Special notes about support for long lists of names (:ref:`2` and :ref:`7`)
@@ -268,10 +270,10 @@ Version 3.1 of the documentation includes these changes:
   * :ref:`IsDerivedFrom` and :ref:`IsSourceOf`
 * Correction of link errors in 3.0 documentation
 
-Version 3.0 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 3.0 <https://schema.datacite.org/meta/kernel-3.0/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 3.0 of the DataCite Metadata Schema included these changes [#f1]_.
+.. rubric:: Schema changes [#f1]_.
 
 * Correction of a problem with our way of depicting dates by
 
@@ -295,8 +297,7 @@ Version 3.0 of the DataCite Metadata Schema included these changes [#f1]_.
 * Implementation of the xml:lang attribute [#f3]_ that can be used on the properties :ref:`3`, :ref:`6` and :ref:`17`.
 * Removal of two system-generated administrative metadata fields: ``LastMetadataUpdate`` and ``MetadataVersionNumber`` because both values are tracked in another way now.
 
-
-Version 3.0 of the DataCite Metadata Schema documentation included these changes:
+.. rubric:: Documentation changes
 
 * Updates to the introductory information
 * Provision of greater detail, explanatory material and definitions for controlled lists
@@ -304,31 +305,31 @@ Version 3.0 of the DataCite Metadata Schema documentation included these changes
 * Addition of more and more varied XML examples on the Metadata Schema website
 * Removal from documentation of information about administrative metadata (which cannot be edited by contributors).
 
-Version 2.2 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 2.2 <https://schema.datacite.org/archive/kernel-2.2/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 2.2 of the DataCite Metadata Schema introduced several changes, as noted below:
+.. rubric:: Schema changes
 
 * Addition of :ref:`URL` to list of allowed values for :doc:`/appendices/appendix-1/relatedIdentifierType`
 * Addition of the following values to list of allowed values for :doc:`/appendices/appendix-1/contributorType`: :ref:`Producer`, :ref:`Distributor`, :ref:`RelatedPerson`, :ref:`Supervisor`, :ref:`Sponsor`, Funder, :ref:`RightsHolder`
 * Addition of :ref:`SeriesInformation` to list of allowed values for :doc:`/appendices/appendix-1/descriptionType`
 * Addition of :ref:`Model` to list of allowed values for :doc:`/appendices/appendix-1/resourceTypeGeneral`
 
-Version 2.2 of the DataCite Metadata Schema documentation included these changes:
+.. rubric:: Documentation changes
 
 * Provision of more examples of xml for different types of resources
 * Explanation of the :ref:`5` property in consideration of the requirements of citation. A change to the definition of the :ref:`4` property, which now reads, “The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role.”
 
-Version 2.1 Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Version 2.1 <https://schema.datacite.org/archive/kernel-2.1/index.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 2.1 of the DataCite Metadata Schema introduced several changes, as noted below:
+.. rubric:: Schema changes
 
 * Addition of a namespace (http://schema.datacite.org/namespace) to the schema in order to support OAI-PMH compatibility
 * Enforcement of content for mandatory properties
 * New type for the :ref:`8` property to conform with the specification that it handles both YYYY and YYYY-MM-DD values
 
-Version 2.1 of the DataCite Metadata Schema documentation included these changes:
+.. rubric:: Documentation changes
 
 * Addition of a column to the Mandatory and Optional Properties tables providing an indicator of whether the property being described is an attribute or a child of the corresponding property that has preceded it
 * Revision of the allowed values description for the attribute 12.2 ``relationType``. These have been reviewed and rewritten for increased clarity. In several cases, corrections to the definitions occurred.

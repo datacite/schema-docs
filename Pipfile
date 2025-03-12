@@ -9,6 +9,8 @@ sphinx-rtd-theme = "*"
 docxbuilder = "*"
 sphinx-comments = "*"
 sphinx-design = "*"
+sphinx-tabs = "*"
+sphinx-copybutton = "*"
 
 [dev-packages]
 

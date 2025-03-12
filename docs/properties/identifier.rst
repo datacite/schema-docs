@@ -20,11 +20,17 @@ A DOI (Digital Object Identifier) registered by a DataCite Member. The format sh
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
- <identifier identifierType="DOI">10.21384/foo</identifier>
+   .. code-tab:: xml
+
+        <identifier identifierType="DOI">10.21384/foo</identifier>
+   
+   .. code-tab:: json
+
+        "doi": "10.21384/foo"
 
 .. _1.a:
 

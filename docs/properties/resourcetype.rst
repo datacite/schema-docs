@@ -18,11 +18,21 @@ Free text. The recommended content is a single term of some detail so that a pai
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
- <resourceType resourceTypeGeneral="Dataset">Census Data</resourceType>
+   .. code-tab:: xml
+
+        <resourceType resourceTypeGeneral="Dataset">Census Data</resourceType>
+   
+   .. code-tab:: json
+
+        "types": {
+            "resourceType": "Census Data",
+            "resourceTypeGeneral": "Dataset"
+        }
+
 
 .. _10.a:
 

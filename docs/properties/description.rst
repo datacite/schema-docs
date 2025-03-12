@@ -20,14 +20,25 @@ It is a best practice to supply a description.
 .. contents:: :local:
     :backlinks: none
     
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <descriptions>
-      <description xml:lang="en" descriptionType="Abstract">Example abstract</description>
-  </descriptions>
+   .. code-tab:: xml
 
+      <descriptions>
+          <description xml:lang="en" descriptionType="Abstract">Example abstract</description>
+      </descriptions>
+   
+   .. code-tab:: json
+
+      "descriptions": [
+        {
+          "lang": "en",
+          "description": "Example abstract",
+          "descriptionType": "Abstract"
+        }
+      ]
 
 .. _17.a:
 

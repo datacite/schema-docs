@@ -24,23 +24,65 @@ Examples: Charpy, Antoine; Foo Data Center
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <contributors>
-      <contributor contributorType="Data Collector">
-          <contributorName nameType="Personal">Garcia, Sofia</contributorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
-      </contributor>
-      <contributor contributorType="HostingInstitution">
-          <contributorName xml:lang="en" nameType="Organizational">California Digital Library</contributorName>
-          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
-      </contributor>
-  </contributors>
+   .. code-tab:: xml
+
+        <contributors>
+            <contributor contributorType="DataCollector">
+                <contributorName nameType="Personal">Garcia, Sofia</contributorName>
+                <givenName>Sofia</givenName>
+                <familyName>Garcia</familyName>
+                <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
+                <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiliationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
+            </contributor>
+            <contributor contributorType="HostingInstitution">
+                <contributorName xml:lang="en" nameType="Organizational">California Digital Library</contributorName>
+                <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+            </contributor>
+        </contributors>
+   
+   .. code-tab:: json
+
+      "contributors": [
+        {
+          "name": "Garcia, Sofia",
+          "nameType": "Personal",
+          "givenName": "Sofia",
+          "familyName": "Garcia",
+          "affiliation": [
+            {
+              "affiliationIdentifier": "https://ror.org/03efmqc40",
+              "affiliationIdentifierScheme": "ROR",
+              "name": "Arizona State University",
+              "schemeUri": "https://ror.org/"
+            }
+          ],
+          "contributorType": "Data Collector",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0001-5727-2427",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "California Digital Library",
+          "nameType": "Organizational",
+          "contributorType": "HostingInstitution",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://ror.org",
+              "nameIdentifier": "https://ror.org/03yrm5c26",
+              "nameIdentifierScheme": "ROR"
+            },
+            "lang": "en"
+          ]
+        }
+      ]
 
 .. _7.a:
 

@@ -31,13 +31,28 @@ Examples:
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <rightsList>
-    <rights xml:lang="en" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</rights>
-  </rightsList>
+   .. code-tab:: xml
+
+      <rightsList>
+        <rights xml:lang="en" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</rights>
+      </rightsList>
+   
+   .. code-tab:: json
+
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "CC-BY-4.0",
+          "rightsIdentifierScheme": "SPDX",
+          "lang": "en"
+        }
+      ]
 
 .. _16.a:
 

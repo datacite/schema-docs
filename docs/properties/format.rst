@@ -17,8 +17,19 @@ Use file extension or MIME type where possible, e.g., PDF, XML, MPG or applicati
 
 .. rubric:: Example XML
 
-.. code:: xml
+.. rubric:: Example
 
-  <formats>
-      <format>application/xml</format>
-  </formats>
+.. tabs::
+
+   .. code-tab:: xml
+
+      <formats>
+          <format>application/xml</format>
+      </formats>
+   
+   .. code-tab:: json
+
+      "formats": [
+        "application/xml"
+      ]
+

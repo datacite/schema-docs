@@ -18,14 +18,30 @@ Free text.
 .. contents:: :local:
     :backlinks: none
 
-.. rubric:: Example XML
+.. rubric:: Example
 
-.. code:: xml
+.. tabs::
 
-  <titles>
-      <title xml:lang="en">Example title</title>
-      <title xml:lang="en" titleType="Subtitle">Example subtitle</title>
-  </titles>
+   .. code-tab:: xml
+
+      <titles>
+          <title xml:lang="en">Example title</title>
+          <title xml:lang="en" titleType="Subtitle">Example subtitle</title>
+      </titles>
+
+   .. code-tab:: json
+
+      "titles": [
+        {
+          "lang": "en",
+          "title": "Example title"
+        },
+        {
+          "lang": "en",
+          "title": "Example subtitle",
+          "titleType": "Subtitle"
+        }
+      ]
 
 .. _3.a:
 
