@@ -410,6 +410,7 @@ When a related resource does not have an identifier, the related item property c
       </relatedItems>
 
    .. code-tab:: json
+
       "relatedItems": [
         {
           "relationType": "References",
@@ -468,6 +469,7 @@ In this case, the :ref:`12` property is strongly recommended for indexing. In ad
       </relatedItems>
 
    .. code-tab:: json
+    
       "relatedIdentifiers": [
         {
           "relationType": "IsCitedBy",
