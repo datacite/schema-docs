@@ -84,7 +84,7 @@ Example: Journal article in a journal (with an ISSN)
           "type": "dois",
           "attributes": {
               "url": "https://example.org/RelatedItem1",
-              "prefix": "10.21384/ExampleArticle",
+              "doi": "10.21384/ExampleArticle",
               "creators": [
                   {
                       "name": "Garcia, Sofia",
@@ -204,7 +204,7 @@ Example: Digitized book chapter in a book (with no identifier)
           "type": "dois",
           "attributes": {
               "url": "https://example.org/RelatedItem3",
-              "prefix": "10.21384/ExampleBookChapter",
+              "doi": "10.21384/ExampleBookChapter",
               "creators": [
                   {
                       "name": "Garcia, Sofia",
@@ -316,7 +316,7 @@ Example: Digitized book chapter in a book (with an ISBN)
           "type": "dois",
           "attributes": {
               "url": "https://example.org/RelatedItem3",
-              "prefix": "10.21384/ExampleBookChapter",
+              "doi": "10.21384/ExampleBookChapter",
               "creators": [
                   {
                       "name": "Garcia, Sofia",
