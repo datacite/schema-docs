@@ -1,12 +1,12 @@
-Version 4.6 Update
+Version 4.7 Update
 ====================
 
 .. note::
 
    To access the documentation in PDF or Epub format, access the menu in the bottom left corner or the links below:
 
-   - PDF: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.6/pdf/
-   - Epub: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.6/epub/
+   - PDF: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.7/pdf/
+   - Epub: https://datacite-metadata-schema.readthedocs.io/_/downloads/en/4.7/epub/
 
 These changes are in response to requests from DataCite community members—people like you that have used the metadata schema and have imagined ways in which it might work better for their particular use cases. We are indebted to everyone who has provided us with their feedback, allowing us to improve our service for the broader DataCite community.
 
@@ -16,24 +16,16 @@ These changes are in response to requests from DataCite community members—peop
 Schema changes
 -----------------------------
 
-* Addition of :ref:`Award` and :ref:`Project` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
+* Addition of :ref:`Poster` and :ref:`Presentation` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
  * These values may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
-* Addition of :ref:`CSTR` and :ref:`RRID` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
+* Addition of new :doc:`/appendices/appendix-1/relationType`: :ref:`relationType_Other`
 
- * These values may be used in :ref:`12.a` and other places where relatedIdentifierType is used (:ref:`20.1.a`).
+* FIXME add relationTypeInformation attribute
 
-* Addition of new :doc:`/appendices/appendix-1/contributorType`: :ref:`Translator`
-
- * This value may be used in :ref:`7.a` and other places where contributorType is used (:ref:`20.12.a`).
-
-* Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`HasTranslation` and :ref:`IsTranslationOf`
-
-* Addition of new :doc:`/appendices/appendix-1/dateType`: :ref:`Coverage`
 
 Documentation changes
 -----------------------------
 
-* Clarification of the allowed values for :ref:`9`.
-* Updated the guidance for using :ref:`xmllang`.
+* FIXME

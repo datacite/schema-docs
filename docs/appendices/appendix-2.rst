@@ -5,6 +5,22 @@ Appendix 2 provides the update contents of earlier versions of the schema.
 
 .. contents:: :local:
 
+`Version 4.6 <https://datacite-metadata-schema.readthedocs.io/en/4.6/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rubric:: Schema changes
+
+* Addition of :ref:`Award` and :ref:`Project` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
+* Addition of :ref:`CSTR` and :ref:`RRID` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
+* Addition of new :doc:`/appendices/appendix-1/contributorType`: :ref:`Translator`
+* Addition of new :doc:`/appendices/appendix-1/relationType` pair: :ref:`HasTranslation` and :ref:`IsTranslationOf`
+* Addition of new :doc:`/appendices/appendix-1/dateType`: :ref:`Coverage`
+
+.. rubric:: Documentation changes
+
+* Clarification of the allowed values for :ref:`9`.
+* Updated the guidance for using :ref:`xmllang`.
+
 `Version 4.5 <https://datacite-metadata-schema.readthedocs.io/en/4.5/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
