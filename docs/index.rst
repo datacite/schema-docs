@@ -3,7 +3,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
 .. note::
 
-  DataCite Metadata Working Group. (2025). DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Outputs. Version 4.7. DataCite e.V. https://doi.org/10.14454/FIXME
+  DataCite Metadata Working Group. (2025). DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Outputs. Version 4.7. DataCite e.V. https://doi.org/10.14454/qdd3-ps68
 
 Contributors from the DataCite Metadata Working Group:
 

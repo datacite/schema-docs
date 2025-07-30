@@ -5,7 +5,7 @@ About the DataCite Metadata Schema
 
 .. note::
 
-   **Citation:** DataCite Metadata Working Group. (2025). DataCite Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs. Version 4.7. DataCite e.V. https://doi.org/10.14454/FIXME
+   **Citation:** DataCite Metadata Working Group. (2025). DataCite Metadata Schema Documentation for the Publication and Citation of Research Data and Other Research Outputs. Version 4.7. DataCite e.V. https://doi.org/10.14454/qdd3-ps68
 
    Note that the schema and this documentation will always have the same version number.
 
