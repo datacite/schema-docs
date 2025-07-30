@@ -119,9 +119,9 @@ Contributors from the DataCite Metadata Working Group:
 
   <a class="affiliation" href="https://ror.org/043kfff89">The National Gallery<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
 
-.. |National Institute of Standards and Technology (US)| raw:: html
+.. |Sage Data| raw:: html
 
-   <a class="affiliation" href="https://ror.org/05xpvk416">National Institute of Standards and Technology (US)<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
+   <a class="affiliation" href="https://ror.org/05534qc24">Sage Data<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
 
 .. |University of Maryland| raw:: html
 
@@ -183,7 +183,7 @@ Contributors from the DataCite Metadata Working Group:
   * |Melissa Harrison|, |EMBL-EBI|
   * |Robin Kraus|, |TIB Hanover|
   * |Ian Mathews|, |Redivis|
-  * |Andrea Medina-Smith|, |National Institute of Standards and Technology (US)|
+  * |Andrea Medina-Smith|, |Sage Data|
   * |Adam Vials Moore|, |Jisc|
   * |Joseph Padfield|, |The National Gallery|
   * |Anne Raugh|, |University of Maryland|
@@ -207,7 +207,7 @@ Contributors from the DataCite Metadata Working Group:
   * Melissa Harrison, EMBL-EBI
   * Robin Kraus, TIB Hanover
   * Ian Mathews, Redivis
-  * Andrea Medina-Smith, National Institute of Standards and Technology (US)
+  * Andrea Medina-Smith, Sage Data
   * Adam Vials Moore, Jisc
   * Joseph Padfield, The National Gallery
   * Anne Raugh, University of Maryland
