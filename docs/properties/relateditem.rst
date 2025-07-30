@@ -123,10 +123,25 @@ Use the controlled list values as stated in :ref:`12.b`:
 * :ref:`Collects`
 * :ref:`IsTranslationOf`
 * :ref:`HasTranslation`
+* :ref:`relationType_Other`
 
 relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples, and usage notes.
+
+.. _20.c:
+
+20.c relationTypeInformation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Definition:** Specific information about the relation type, if appropriate. 
+
+**Allowed values, examples, other constraints:**
+
+Free text. 
+May be used to provide more information about the nature of the relationship. Recommended for use with the relationType :ref:`relationType_Other`.
 
 .. _20.1:
 

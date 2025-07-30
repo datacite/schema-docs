@@ -21,7 +21,7 @@ Note: Some relationTypes are processed as citations and references. Read more ab
 IsCitedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that B includes A in a citation
+**Definition:** Indicates that B includes A in a citation
 
 **Example and Usage Notes:**
 
@@ -37,7 +37,7 @@ IsCitedBy
 Cites
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that A includes B in a citation
+**Definition:** Indicates that A includes B in a citation
 
 **Example and Usage Notes:**
 
@@ -53,7 +53,7 @@ Cites
 IsSupplementTo
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that A is a supplement to B
+**Definition:** Indicates that A is a supplement to B
 
 **Example and Usage Notes:**
 
@@ -69,7 +69,7 @@ IsSupplementTo
 IsSupplementedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that B is a supplement to A
+**Definition:** Indicates that B is a supplement to A
 
 **Example and Usage Notes:**
 
@@ -85,7 +85,7 @@ IsSupplementedBy
 IsContinuedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is continued by the work B
+**Definition:** Indicates A is continued by the work B
 
 **Example and Usage Notes:**
 
@@ -99,7 +99,7 @@ IsContinuedBy
 Continues
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a continuation of the work B
+**Definition:** Indicates A is a continuation of the work B
 
 **Example and Usage Notes:**
 
@@ -113,7 +113,7 @@ Continues
 Describes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A describes B
+**Definition:** Indicates A describes B
 
 **Example and Usage Notes:**
 
@@ -127,7 +127,7 @@ Describes
 IsDescribedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is described by B
+**Definition:** Indicates A is described by B
 
 **Example and Usage Notes:**
 
@@ -141,7 +141,7 @@ IsDescribedBy
 HasMetadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates resource A has additional metadata B
+**Definition:** Indicates resource A has additional metadata B
 
 **Example and Usage Notes:**
 
@@ -155,7 +155,7 @@ HasMetadata
 IsMetadataFor
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates additional metadata A for a resource B
+**Definition:** Indicates additional metadata A for a resource B
 
 **Example and Usage Notes:**
 
@@ -169,7 +169,7 @@ IsMetadataFor
 HasVersion
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A has a version B
+**Definition:** Indicates A has a version B
 
 **Example and Usage Notes:**
 
@@ -185,7 +185,7 @@ The registered resource such as a software package or code repository has a vers
 IsVersionOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a version of B
+**Definition:** Indicates A is a version of B
 
 **Example and Usage Notes:**
 
@@ -201,7 +201,7 @@ The registered resource is an instance of a target resource (indicates that A is
 IsNewVersionOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a new edition of B, where the new edition has been modified or updated
+**Definition:** Indicates A is a new edition of B, where the new edition has been modified or updated
 
 **Example and Usage Notes:**
 
@@ -215,7 +215,7 @@ IsNewVersionOf
 IsPreviousVersionOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a previous edition of B
+**Definition:** Indicates A is a previous edition of B
 
 **Example and Usage Notes:**
 
@@ -229,7 +229,7 @@ IsPreviousVersionOf
 IsPartOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a portion of B; may be used for elements of a series
+**Definition:** Indicates A is a portion of B; may be used for elements of a series
 
 **Example and Usage Notes:**
 
@@ -249,7 +249,7 @@ May be used for individual software modules; note that code repository-to-versio
 HasPart
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A includes the part B
+**Definition:** Indicates A includes the part B
 
 **Example and Usage Notes:**
 
@@ -269,7 +269,7 @@ May be used for individual software modules; note that code repository-to-versio
 IsPublishedIn
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is published inside B, but is independent of other things published inside of B
+**Definition:** Indicates A is published inside B, but is independent of other things published inside of B
 
 **Example and Usage Notes:**
 
@@ -283,7 +283,7 @@ IsPublishedIn
 IsReferencedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is used as a source of information by B
+**Definition:** Indicates A is used as a source of information by B
 
 **Example and Usage Notes:**
 
@@ -299,7 +299,7 @@ IsReferencedBy
 References
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates B is used as a source of information for A
+**Definition:** Indicates B is used as a source of information for A
 
 **Example and Usage Notes:**
 
@@ -315,7 +315,7 @@ References
 IsDocumentedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates B is documentation about/explaining A
+**Definition:** Indicates B is documentation about/explaining A
 
 **Example and Usage Notes:**
 
@@ -331,7 +331,7 @@ May be used for software documentation.
 Documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is documentation about/explaining B
+**Definition:** Indicates A is documentation about/explaining B
 
 **Example and Usage Notes:**
 
@@ -347,7 +347,7 @@ May be used for software documentation.
 IsCompiledBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates B is used to compile or create A
+**Definition:** Indicates B is used to compile or create A
 
 **Example and Usage Notes:**
 
@@ -363,7 +363,7 @@ May be used to indicate either a traditional text compilation, or the compiler p
 Compiles
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates B is the result of a compile or creation event using A
+**Definition:** Indicates B is the result of a compile or creation event using A
 
 **Example and Usage Notes:**
 
@@ -379,7 +379,7 @@ May be used for software and text, as a compiler can be a computer program or a 
 IsVariantFormOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a variant or different form of B
+**Definition:** Indicates A is a variant or different form of B
 
 **Example and Usage Notes:**
 
@@ -397,7 +397,7 @@ May be used for different software operating systems or compiler formats, for ex
 IsOriginalFormOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is the original form of B
+**Definition:** Indicates A is the original form of B
 
 **Example and Usage Notes:**
 
@@ -413,7 +413,7 @@ May be used for different software operating systems or compiler formats, for ex
 IsIdenticalTo
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource
+**Definition:** Indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource
 
 **Example and Usage Notes:**
 
@@ -429,7 +429,7 @@ IsIdenticalTo should be used for a resource that is the same as the registered r
 IsReviewedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that A is reviewed by B
+**Definition:** Indicates that A is reviewed by B
 
 **Example and Usage Notes:**
 
@@ -443,7 +443,7 @@ IsReviewedBy
 Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates that A is a review of B
+**Definition:** Indicates that A is a review of B
 
 **Example and Usage Notes:**
 
@@ -457,7 +457,7 @@ Reviews
 IsDerivedFrom
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates B is a source upon which A is based
+**Definition:** Indicates B is a source upon which A is based
 
 **Example and Usage Notes:**
 
@@ -475,7 +475,7 @@ In this example, the dataset is derived from a larger dataset and data values ha
 IsSourceOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a source upon which B is based
+**Definition:** Indicates A is a source upon which B is based
 
 **Example and Usage Notes:**
 
@@ -585,7 +585,7 @@ May be used to indicate the relationship between an instrument and where it has 
 IsTranslationOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A is a translation of B
+**Definition:** Indicates A is a translation of B
 
 **Example and Usage Notes:**
 
@@ -601,7 +601,7 @@ When a resource is shared in one language, then later translated to another, use
 HasTranslation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Definition:** indicates A has a translation B
+**Definition:** Indicates A has a translation B
 
 **Example and Usage Notes:**
 
@@ -611,4 +611,20 @@ When a resource is released at the same time in multiple languages, use "HasTran
 
 .. code:: xml
 
-  <relatedIdentifier relatedIdentifierType="DOI"relationType="HasTranslation">10.21384/g01j-jm06</relatedIdentifier>
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="HasTranslation">10.21384/g01j-jm06</relatedIdentifier>
+
+
+.. _relationType_Other:
+
+Other
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** Indicates that A is related to B and the relationship does not fit into an existing category.
+
+**Example and Usage Notes:**
+
+If selected, supply a value for :ref:`12.g` (or :ref:`20.c` for RelatedItem).
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="Other" relationTypeInformation="is output of" resourceTypeGeneral="Project">10.21384/p27z-6n52</relatedIdentifier>

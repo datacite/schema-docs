@@ -145,6 +145,7 @@ Note: Some relationTypes are processed as citations and references. Read more ab
 * :ref:`Collects`
 * :ref:`IsTranslationOf`
 * :ref:`HasTranslation`
+* :ref:`relationType_Other`
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples and usage notes.
 
@@ -242,3 +243,17 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`resourceTypeGeneral_Other`
 
 See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>` for definitions, examples and usage notes.
+
+.. _12.g:
+
+12.g relationTypeInformation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Definition:** Specific information about the relation type, if appropriate. 
+
+**Allowed values, examples, other constraints:**
+
+Free text. 
+May be used to provide more information about the nature of the relationship. Recommended for use with the relationType :ref:`relationType_Other`.

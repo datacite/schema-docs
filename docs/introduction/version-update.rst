@@ -18,12 +18,12 @@ Schema changes
 
 * Addition of :ref:`Poster` and :ref:`Presentation` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
- * These values may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
-
+  * These values may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 * Addition of new :doc:`/appendices/appendix-1/relationType`: :ref:`relationType_Other`
+* Addition of new sub-properties:
 
-* FIXME add relationTypeInformation attribute
-
+  * :ref:`12.g` for :ref:`12`
+  * :ref:`20.c` for :ref:`20`
 
 Documentation changes
 -----------------------------
