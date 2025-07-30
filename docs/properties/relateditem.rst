@@ -56,7 +56,9 @@ Use the controlled list values as stated in :ref:`10.a`:
 * :ref:`OutputManagementPlan`
 * :ref:`PeerReview`
 * :ref:`PhysicalObject`
+* :ref:`Poster`
 * :ref:`Preprint`
+* :ref:`Presentation`
 * :ref:`Project`
 * :ref:`Report`
 * :ref:`Service`

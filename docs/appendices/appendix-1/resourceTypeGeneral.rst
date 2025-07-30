@@ -355,6 +355,24 @@ Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.
 **Suggested Dublin Core Mapping:** PhysicalObject
 
 
+.. _Poster:
+
+Poster
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event.
+
+**Examples and Usage Notes:** 
+
+Example:
+
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Poster">Conference poster</resourceType>
+
+**Suggested Dublin Core Mapping:** N/A
+
+
 .. _Preprint:
 
 Preprint
@@ -371,6 +389,26 @@ Example:
   <resourceType resourceTypeGeneral="Preprint">Research Paper</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
+
+
+.. _Presentation:
+
+Presentation
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** A set of slides containing text, tables or figures, designed to communicate ideas or research results, for viewing by an audience at a conference, symposium, seminar, lecture, workshop or other event.
+
+**Examples and Usage Notes:**
+
+For a video recording of a presentation, use “Audiovisual”.
+
+Example:
+
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Presentation">Conference presentation slides</resourceType>
+
+**Suggested Dublin Core Mapping:** N/A
 
 
 .. _Project:

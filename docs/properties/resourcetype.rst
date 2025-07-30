@@ -68,7 +68,9 @@ Free text. The recommended content is a single term of some detail so that a pai
 * :ref:`OutputManagementPlan`
 * :ref:`PeerReview`
 * :ref:`PhysicalObject`
+* :ref:`Poster`
 * :ref:`Preprint`
+* :ref:`Presentation`
 * :ref:`Project`
 * :ref:`Report`
 * :ref:`Service`
