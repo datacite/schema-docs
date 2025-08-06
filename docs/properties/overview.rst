@@ -113,8 +113,8 @@ The schema provides the :ref:`9` property to be used to describe the language of
 Mandatory Properties
 -------------------------------------------------
 
-The mandatory properties must be supplied with any initial metadata submission to DataCite, together with their relevant sub-properties. **If one of the required
-properties is unavailable**, please use one of the standard (machine-recognizable) codes listed in
+The mandatory properties must be supplied with any initial metadata submission to DataCite, together with their relevant sub-properties. If one of the required
+properties is unavailable, please use one of the standard (machine-recognizable) codes listed in
 :doc:`/appendices/appendix-3`.
 
 .. _Table_1:
@@ -139,15 +139,12 @@ Table 1: DataCite Mandatory Properties
 | 10 | :ref:`ResourceType <10>`                                                                | M          |
 +----+-----------------------------------------------------------------------------------------+------------+
 
+.. _Guidance_missing_values: 
+
 Guidance for handling missing mandatory property values
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If providing values for any of the mandatory properties presents a difficulty, use of standard machine - recognizable codes is strongly advised. A set of the codes is provided in :doc:`/appendices/appendix-3`. However, we recommend that you consider the resulting effect on the citation created from the metadata provided.
-
-Here is an example of a citation that uses machine-readable substitutions for all but one of the required metadata properties. Obviously the more metadata that is supplied, the more information is conveyed. Note that this is a demonstration DOI and not an actual identifier, so the link will not work. ::
-
-  :unkn 9999: :none. :null. Dataset. https://doi.org/10.5072/FK2JW8C992
-
+If providing values for any of the mandatory properties presents a difficulty, use of standard machine-recognizable codes is strongly advised. A set of the codes is provided in :doc:`/appendices/appendix-3`. However, we recommend that you consider the resulting effect on the citation created from the metadata provided. [#f4]_
 
 Recommended and Optional Properties
 -------------------------------------------------
@@ -197,3 +194,4 @@ Table 2: DataCite Recommended and Optional Properties
 .. [#f1] This convention is known as “camelCase.” https://en.wikipedia.org/wiki/CamelCase
 .. [#f2] `xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
 .. [#f3] For creator and contributor names, `xml:lang` is recommended only when nameType is "Organizational".
+.. [#f4] The standard values will be represented as provided in the citation string. For example, here is an example of a citation that uses machine-readable substitutions for all but one of the required metadata properties. The less metadata that is supplied, the less information is conveyed: ``:unkn (2020). :none. :null. https://doi.org/10.5072/FK2JW8C992``
