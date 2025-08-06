@@ -41,3 +41,4 @@ Documentation changes
   * :ref:`20.3.x` for :ref:`20.3`
   * :ref:`20.12.1.x` for :ref:`20.12.1`
 
+* Updated examples in :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>`.

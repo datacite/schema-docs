@@ -22,7 +22,9 @@ Audiovisual
 
 **Examples and Usage Notes:** May be used for films, video, etc.
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17608/k6.auckland.4620790.v1
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Audiovisual">Video recording</resourceType>
 
 **Suggested Dublin Core Mapping:** MovingImage
 
@@ -56,8 +58,6 @@ Book
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
   <resourceType resourceTypeGeneral="Book">Textbook</resourceType>
@@ -74,9 +74,9 @@ BookChapter
 
 **Examples and Usage Notes:**
 
-https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.15122/isbn.978-2-406-09313-8.p.0639
+.. code:: xml
 
-https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17613/m6631d
+  <resourceType resourceTypeGeneral="BookChapter"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -90,7 +90,9 @@ Collection
 
 **Examples and Usage Notes:** A collection of samples, or various files making up a report
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.1594/pangaea.877589
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Collection">Collection of datasets</resourceType>
 
 **Suggested Dublin Core Mapping:** Collection
 
@@ -104,11 +106,9 @@ ComputationalNotebook
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="ComputationalNotebook">Jupyter</resourceType>
+  <resourceType resourceTypeGeneral="ComputationalNotebook">Jupyter notebook</resourceType>
 
 **Suggested Dublin Core Mapping:** InteractiveResource
 
@@ -122,11 +122,9 @@ ConferencePaper
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="ConferencePaper">Experience Report</resourceType>
+  <resourceType resourceTypeGeneral="ConferencePaper">Experience report</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -140,11 +138,9 @@ ConferenceProceeding
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="ConferenceProceeding">Annual Convention</resourceType>
+  <resourceType resourceTypeGeneral="ConferenceProceeding"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -158,7 +154,9 @@ DataPaper
 
 **Examples and Usage Notes:** A data paper describes data provenance and methodologies used in the gathering, processing, organizing, and representing the data
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.17912/w2mw2d
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="DataPaper"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -172,7 +170,10 @@ Dataset
 
 **Examples and Usage Notes:** Data file or files
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.1594/pangaea.804876
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Dataset">Survey data</resourceType>
+
 
 **Suggested Dublin Core Mapping:** Dataset
 
@@ -185,8 +186,6 @@ Dissertation
 **Description:** A written essay, treatise, or thesis, especially one written by a candidate for the degree of Doctor of Philosophy.
 
 **Examples and Usage Notes:**
-
-Example:
 
 .. code:: xml
 
@@ -204,7 +203,9 @@ Event
 
 **Examples and Usage Notes:** Descriptive information and/or content that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event such as a webcast or convention
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7269/p3rn35sz
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Event">Conference</resourceType>
 
 **Suggested Dublin Core Mapping:** Event
 
@@ -218,7 +219,9 @@ Image
 
 **Examples and Usage Notes:** Digitised or born digital images, drawings or photographs
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.6083/m4qn65c5
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Image">Photograph</resourceType>
 
 **Suggested Dublin Core Mapping:** Image
 
@@ -231,8 +234,6 @@ Instrument
 **Description:** A device, tool or apparatus used to obtain, measure and/or analyze data.
 
 **Examples and Usage Notes:** Note that this is meant to be the instrument instance, e.g., the individual physical device, not the digital description or design of an instrument.
-
-Example:
 
 .. code:: xml
 
@@ -250,7 +251,9 @@ InteractiveResource
 
 **Examples and Usage Notes:** Training modules, files that require use of a viewer (e.g., Flash), or query/response portals
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7269/p3tb14tr
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="InteractiveResource"/>
 
 **Suggested Dublin Core Mapping:** InteractiveResource
 
@@ -264,11 +267,9 @@ Journal
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="Journal"></resourceType>
+  <resourceType resourceTypeGeneral="Journal"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -282,11 +283,9 @@ JournalArticle
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="JournalArticle"></resourceType>
+  <resourceType resourceTypeGeneral="JournalArticle"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -300,7 +299,9 @@ Model
 
 **Examples and Usage Notes:** Modelled descriptions of, for example, different aspects of languages or a molecular biology reaction chain
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.5285/4d866cd2-c907-4ce2-b070-084ca9779dc2
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Model">3D model</resourceType>
 
 **Suggested Dublin Core Mapping:** N/A
 
@@ -313,8 +314,6 @@ OutputManagementPlan
 **Description:** A formal document that outlines how research outputs are to be handled both during a research project and after the project is completed.
 
 **Examples and Usage Notes:** Includes data, software, and materials.
-
-Example:
 
 .. code:: xml
 
@@ -330,13 +329,11 @@ PeerReview
 
 **Description:** Evaluation of scientific, academic, or professional work by others working in the same field.
 
-**Examples and Usage Notes:** https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.6084/m9.figshare.5742270
-
-Example:
+**Examples and Usage Notes:**
 
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="PeerReview">Scientific Article</resourceType>
+  <resourceType resourceTypeGeneral="PeerReview"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -350,7 +347,9 @@ PhysicalObject
 
 **Examples and Usage Notes:** Artifacts, specimens, material samples, and features-of-interest of any size. Note that digital representations of physical objects should use one of the other resourceTypeGeneral values.
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7299/X78052RB
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="PhysicalObject">Individual Sample</resourceType>
 
 **Suggested Dublin Core Mapping:** PhysicalObject
 
@@ -363,8 +362,6 @@ Poster
 **Description:** A display poster, typically containing text with illustrative figures and/or tables, usually reporting research results or proposing hypotheses, submitted for acceptance to and/or presented at a conference, seminar, symposium, workshop or similar event.
 
 **Examples and Usage Notes:** 
-
-Example:
 
 .. code:: xml
 
@@ -382,11 +379,9 @@ Preprint
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="Preprint">Research Paper</resourceType>
+  <resourceType resourceTypeGeneral="Preprint">Research paper</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -401,8 +396,6 @@ Presentation
 **Examples and Usage Notes:**
 
 For a video recording of a presentation, use “Audiovisual”.
-
-Example:
 
 .. code:: xml
 
@@ -419,8 +412,6 @@ Project
 **Description:** A planned endeavor or activity, frequently collaborative, intended to achieve a particular aim using allocated resources such as budget, time, and expertise.
 
 **Examples and Usage Notes:** This resource type represents the project and includes research projects and studies. For a project deliverable or description of a project, use the corresponding resource type for the output—e.g., for a project report, dissertation, or study registration, use the resourceTypeGeneral “Report”, “Dissertation”, or “StudyRegistration” instead.
-
-Examples:
 
 .. code:: xml
 
@@ -443,11 +434,9 @@ Report
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="Report">Annual Report</resourceType>
+  <resourceType resourceTypeGeneral="Report">Annual report</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -461,7 +450,9 @@ Service
 
 **Examples and Usage Notes:** Data management service, or long-term preservation service
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.21938/3I01ISNUCODNH1ZJBCVUWA
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Service"/>
 
 **Suggested Dublin Core Mapping:** Service
 
@@ -475,7 +466,9 @@ Software
 
 **Examples and Usage Notes:** Software supporting scholarly research
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.4225/03/5954F738EE5AA
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Software">Simulation tool</resourceType>
 
 **Suggested Dublin Core Mapping:** Software
 
@@ -489,7 +482,9 @@ Sound
 
 **Examples and Usage Notes:** Audio recording
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.7282/T3J67F05
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Sound">Music</resourceType>
 
 **Suggested Dublin Core Mapping:** Sound
 
@@ -503,11 +498,9 @@ Standard
 
 **Examples and Usage Notes:**
 
-Example:
-
 .. code:: xml
 
-  <resourceType resourceTypeGeneral="Standard">Dublin Core</resourceType>
+  <resourceType resourceTypeGeneral="Standard"/>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -520,8 +513,6 @@ StudyRegistration
 **Description:**  A detailed, time-stamped description of a research plan, often openly shared in a registry or published in a journal before the study is conducted to lend accountability and transparency in the hypothesis generating and testing process.
 
 **Examples and Usage Notes:** Includes pre-registrations, registered reports, and clinical trials. Study registrations are sometimes peer-reviewed and may include the hypothesis, expected results, study design, and/or analysis plan.
-
-Example:
 
 .. code:: xml
 
@@ -539,7 +530,9 @@ Text
 
 **Examples and Usage Notes:**
 
-Example: https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.5682/9786065914018
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Text">Correspondence</resourceType>
 
 **Suggested Dublin Core Mapping:** Text
 
@@ -552,6 +545,10 @@ Workflow
 **Description:** A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner.
 
 **Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). [#f2]_
+
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="Workflow"/>Protocol</resourceType>
 
 **Suggested Dublin Core Mapping:** N/A
 
