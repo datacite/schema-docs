@@ -111,3 +111,17 @@ Example:
 (where 310607 is the classification code associated with the subject term “Nanobiotechnology” in the ANZSRC Fields of Research subject scheme)
 
 The classificationCode sub-property may be used for subject schemes, like ANZSRC, which do not have valueURIs for each subject term.
+
+
+.. _6.x:
+
+6.x xml:lang
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the subject.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.

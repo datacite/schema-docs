@@ -107,3 +107,17 @@ Example: SPDX
 **Allowed values, examples, other constraints:**
 
 Example: https://spdx.org/licenses/
+
+
+.. _16.x:
+
+16.x xml:lang
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the rights information.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.

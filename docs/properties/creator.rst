@@ -107,6 +107,21 @@ Note that the personal name format should be: family, given. Names in non-roman 
  * Organizational
  * Personal
 
+.. _2.1.x:
+
+2.1.x xml:lang
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the creator name.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
+
+For creator names, `xml:lang` is recommended only when nameType is "Organizational".
+
 .. _2.2:
 
 2.2 givenName

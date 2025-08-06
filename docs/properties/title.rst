@@ -62,3 +62,17 @@ Free text.
 * Other
 
 The titleType subproperty is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
+
+
+.. _3.x:
+
+3.x xml:lang
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the title.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.

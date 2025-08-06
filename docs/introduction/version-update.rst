@@ -28,4 +28,16 @@ Schema changes
 Documentation changes
 -----------------------------
 
-* FIXME
+* Documentation of existing `xml:lang` sub-properties on their property pages:
+
+  * :ref:`2.1.x` for :ref:`2.1`
+  * :ref:`3.x` for :ref:`3`
+  * :ref:`4.x` for :ref:`4`
+  * :ref:`6.x` for :ref:`6`
+  * :ref:`7.1.x` for :ref:`7.1`
+  * :ref:`16.x` for :ref:`16`
+  * :ref:`17.x` for :ref:`17`
+  * :ref:`20.2.1.x` for :ref:`20.2.1`
+  * :ref:`20.3.x` for :ref:`20.3`
+  * :ref:`20.12.1.x` for :ref:`20.12.1`
+

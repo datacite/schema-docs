@@ -124,7 +124,6 @@ If Contributor is used, then contributorType is mandatory.
 
 See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix-1/contributorType>` for definitions.
 
-
 .. _7.1:
 
 7.1 contributorName
@@ -157,6 +156,21 @@ The personal name format should be: family, given. Non- roman names should be tr
 
  * Organizational
  * Personal
+
+.. _7.1.x:
+
+7.1.x xml:lang
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the contributor name.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
+
+For contributor names, `xml:lang` is recommended only when nameType is "Organizational".
 
 .. _7.2:
 

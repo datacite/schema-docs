@@ -281,6 +281,23 @@ Note: The personal name, format should be: family, given. Non-roman names may be
  * Personal
 
 
+.. _20.2.1.x:
+
+20.2.1.x xml:lang
+###################
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the creator name.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
+
+For creator names, `xml:lang` is recommended only when nameType is "Organizational".
+
+.. _20.2.2:
+
 20.2.2 givenName
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -292,6 +309,7 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 Examples based on the `20.2.1`_ names: Antoine; Mae
 
+.. _20.2.3:
 
 20.2.3 familyName
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -330,7 +348,23 @@ Example: Journal of the American Chemical Society
 
 The titleType sub-property is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
+
+.. _20.3.x:
+
+20.3.x xml:lang
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the title.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
 .. _20.4:
+
+
+.. _20.4: 
 
 20.4 publicationYear
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -528,6 +562,24 @@ Note: The personal name, format should be: family, given. Non-roman names may be
  * Personal
 
 
+.. _20.12.1.x:
+
+20.12.1.x xml:lang
+###################
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the contributor name.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
+
+For contributor names, `xml:lang` is recommended only when nameType is "Organizational".
+
+
+.. _20.12.2:
+
 20.12.2 givenName
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -539,6 +591,8 @@ Note: The personal name, format should be: family, given. Non-roman names may be
 
 Examples based on the `20.12.1`_ names: Antoine; Mae
 
+
+.. _20.12.3:
 
 20.12.3 familyName
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

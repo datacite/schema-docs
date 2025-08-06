@@ -66,3 +66,17 @@ If Description is used, descriptionType is mandatory.
 Note: :ref:`SeriesInformation` as a container for series title, volume, issue, page number, and related fields, is now superseded by the new :ref:`20` property with relationType "IsPublishedIn" selected.
 
 See :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix-1/descriptionType>` for definitions.
+
+
+.. _17.x:
+
+17.x xml:lang
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Definition:** The language of the description.
+
+**Allowed values, examples, other constraints:**
+
+`xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
