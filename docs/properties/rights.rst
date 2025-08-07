@@ -109,9 +109,9 @@ Example: SPDX
 Example: https://spdx.org/licenses/
 
 
-.. _16.x:
+.. _16.lang:
 
-16.x xml:lang
+16.lang xml:lang
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1

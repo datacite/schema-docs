@@ -107,9 +107,9 @@ Note that the personal name format should be: family, given. Names in non-roman 
  * Organizational
  * Personal
 
-.. _2.1.x:
+.. _2.1.lang:
 
-2.1.x xml:lang
+2.1.lang xml:lang
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1

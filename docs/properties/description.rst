@@ -68,9 +68,9 @@ Note: :ref:`SeriesInformation` as a container for series title, volume, issue, p
 See :doc:`Appendix 1: Controlled List Definitions - descriptionType </appendices/appendix-1/descriptionType>` for definitions.
 
 
-.. _17.x:
+.. _17.lang:
 
-17.x xml:lang
+17.lang xml:lang
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1

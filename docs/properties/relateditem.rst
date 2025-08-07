@@ -281,10 +281,10 @@ Note: The personal name, format should be: family, given. Non-roman names may be
  * Personal
 
 
-.. _20.2.1.x:
+.. _20.2.1.lang:
 
-20.2.1.x xml:lang
-###################
+20.2.1.lang xml:lang
+#######################
 
 **Occurrences:** 0-1
 
@@ -349,9 +349,9 @@ Example: Journal of the American Chemical Society
 The titleType sub-property is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
 
-.. _20.3.x:
+.. _20.3.lang:
 
-20.3.x xml:lang
+20.3.lang xml:lang
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -562,10 +562,10 @@ Note: The personal name, format should be: family, given. Non-roman names may be
  * Personal
 
 
-.. _20.12.1.x:
+.. _20.12.1.lang:
 
-20.12.1.x xml:lang
-###################
+20.12.1.lang xml:lang
+#######################
 
 **Occurrences:** 0-1
 

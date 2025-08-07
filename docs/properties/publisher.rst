@@ -106,9 +106,9 @@ Examples:
 * https://www.wikidata.org/wiki/
 
 
-.. _4.x:
+.. _4.lang:
 
-4.x xml:lang
+4.lang xml:lang
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1

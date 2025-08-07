@@ -157,9 +157,9 @@ The personal name format should be: family, given. Non- roman names should be tr
  * Organizational
  * Personal
 
-.. _7.1.x:
+.. _7.1.lang:
 
-7.1.x xml:lang
+7.1.lang xml:lang
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1

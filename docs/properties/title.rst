@@ -64,9 +64,9 @@ Free text.
 The titleType subproperty is used when more than a single title is provided. Unless otherwise indicated by titleType, a title is considered to be the main title.
 
 
-.. _3.x:
+.. _3.lang:
 
-3.x xml:lang
+3.lang xml:lang
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1

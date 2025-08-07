@@ -113,9 +113,9 @@ Example:
 The classificationCode sub-property may be used for subject schemes, like ANZSRC, which do not have valueURIs for each subject term.
 
 
-.. _6.x:
+.. _6.lang:
 
-6.x xml:lang
+6.lang xml:lang
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
