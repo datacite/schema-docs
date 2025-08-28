@@ -251,7 +251,7 @@ See :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </append
 
 **Occurrences:** 0-1
 
-**Definition:** Specific information about the relation type, if appropriate. 
+**Definition:** Additional information about the selected :ref:`12.b`, if appropriate. 
 
 **Allowed values, examples, other constraints:**
 
