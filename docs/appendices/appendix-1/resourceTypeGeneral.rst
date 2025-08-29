@@ -363,6 +363,8 @@ Poster
 
 **Examples and Usage Notes:** 
 
+Posters may be physical or digital.
+
 .. code:: xml
 
   <resourceType resourceTypeGeneral="Poster">Conference poster</resourceType>
