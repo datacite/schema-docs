@@ -361,8 +361,6 @@ The titleType sub-property is used when more than a single title is provided. Un
 **Allowed values, examples, other constraints:**
 
 `xml:lang` values must follow the pattern defined by the `XML schema language type <https://www.w3.org/TR/xmlschema-2/#language>`_, e.g.: fr, cmn, nys, swh.  See the W3C’s `Choosing a Language Tag <https://www.w3.org/International/questions/qa-choosing-language-tags>`_ for guidance on recommended values.
-.. _20.4:
-
 
 .. _20.4: 
 
