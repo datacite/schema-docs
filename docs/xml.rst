@@ -5,7 +5,7 @@ XML Schema
 --------------------------------
 
 The XML Schema is available here:
-https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
+https://schema.datacite.org/meta/kernel-4.7/metadata.xsd
 
 
 JSON Representation
@@ -25,31 +25,39 @@ Demonstration Examples
 
    .. tab:: XML
 
-        * `Full DataCite metadata example (all properties) <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-full-v4.xml>`_
-        * `Dataset resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-dataset-v4.xml>`_
-        * `Award resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-award-v4.xml>`_
-        * `Project resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-project-v4.xml>`_
-        * `Coverage dateType <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-coverage-v4.xml>`_
+        * `Full DataCite metadata example (all properties) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-full-v4.xml>`_
+        * `Dataset resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-dataset-v4.xml>`_
+        * `Poster resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-poster-v4.xml>`_
+        * `Presentation resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-presentation-v4.xml>`_
+        * `Audiovisual resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-audiovisual-v4.xml>`_
+        * `Award resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-award-v4.xml>`_
+        * `Project resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-project-v4.xml>`_
+        * `relationTypeInformation attribute with relationType "Other" <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relationtypeinformation-v4.xml>`_
+        * `Coverage dateType <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-coverage-v4.xml>`_
         * Connecting a translation to the original work: 
 
-            * `Translation <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-translation-translated-v4.xml>`_
-            * `Original (translated) work <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-translation-original-v4.xml>`_
-        * `Document containing two languages in parallel <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-parallel-languages-v4.xml>`_
-        * `Multilingual metadata <http://schema.datacite.org/meta/kernel-4.6/example/datacite-example-multilingual-v4.xml>`_
+            * `Translation <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-translation-translated-v4.xml>`_
+            * `Original (translated) work <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-translation-original-v4.xml>`_
+        * `Document containing two languages in parallel <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-parallel-languages-v4.xml>`_
+        * `Multilingual metadata <http://schema.datacite.org/meta/kernel-4.7/example/datacite-example-multilingual-v4.xml>`_
 
         * RelatedItem:
 
-            * `Journal article in a journal (with an ISSN) <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-relateditem1-v4.xml>`_
-            * `Digitized book chapter in a book (with no identifier) <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-relateditem2-v4.xml>`_
-            * `Digitized book chapter in a book (with an ISBN) <https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-relateditem3-v4.xml>`_
+            * `Journal article in a journal (with an ISSN) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relateditem1-v4.xml>`_
+            * `Digitized book chapter in a book (with no identifier) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relateditem2-v4.xml>`_
+            * `Digitized book chapter in a book (with an ISBN) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relateditem3-v4.xml>`_
 
 
    .. tab:: JSON
 
         * `Full DataCite metadata example (all properties) <https://api.test.datacite.org/dois/10.82433/B09Z-4K37?publisher=true&affiliation=true>`_
         * `Dataset resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/9184-DY35?publisher=true&affiliation=true>`_
+        * `Poster resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/q80x-4z58?publisher=true&affiliation=true>`_
+        * `Presentation resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/v14f-gk24?publisher=true&affiliation=true>`_
+        * `Audiovisual resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/9jbk-4c28?publisher=true&affiliation=true>`_
         * `Award resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/p1zt-4c67?publisher=true&affiliation=true>`_
         * `Project resourceTypeGeneral <https://api.test.datacite.org/dois/10.82433/84dj-am41?publisher=true&affiliation=true>`_
+        * `relationTypeInformation attribute with relationType "Other" <https://api.test.datacite.org/dois/10.82433/0320-9g16?publisher=true&affiliation=true>`_
         * `Coverage dateType <https://api.test.datacite.org/dois/10.82433/pgk2-ar97?publisher=true&affiliation=true>`_
         * Connecting a translation to the original work: 
 
