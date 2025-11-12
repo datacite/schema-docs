@@ -272,6 +272,22 @@ PURL
   <relatedIdentifier relatedIdentifierType="PURL" relationType="Cites">http://purl.oclc.org/foo/bar</relatedIdentifier>
 
 
+.. _RAiD:
+
+RAiD
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Full Name:** Research Activity Identifier
+
+**Description:** The Research Activity Identifier (RAiD) is a persistent identifier (PID) and global registry dedicated to research projects. RAiD is governed by `ISO standard 23527:2022 <https://www.iso.org/standard/75931.html>`_, with the `Australian Research Data Commons (ARDC) <https://ardc.edu.au/>`_ as the Registration Authority and lead developer of the system. RAiD provides a system to store, update, share, and link project information across the research community.
+
+**Example:**
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="RAiD" relationType="IsPartOf" resourceTypeGeneral="Project">https://raid.org/10.26259/5c43ca8f</relatedIdentifier>
+
+  
 .. _RRID:
 
 RRID
@@ -286,6 +302,24 @@ RRID
 .. code:: xml
 
   <relatedIdentifier relatedIdentifierType="RRID" relationType="Cites">RRID:SCR_014641</relatedIdentifier>
+
+
+.. _SWHID:
+
+SWHID
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Full Name:** SoftWare Hash Identifier
+
+**Description:** SWHIDs (from “SoftWare Hash IDentifiers”) are persistent, intrinsic identifiers for software source code artifacts such as source code files, source trees, commits, and other objects typically found in version control systems.
+
+A SWHID consists of two separate parts, a mandatory core identifier that can point to any software artifact (or “object”) available in the Software Heritage archive, and an optional list of qualifiers that allows to specify the context where the object is meant to be seen and point to a subpart of the object itself.
+
+**Example:**
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="SWHID" relationType="Cites">swh:1:cnt:94a9ed024d3859793618152ea559a168bbcbb5e2</relatedIdentifier>
 
 
 .. _UPC:

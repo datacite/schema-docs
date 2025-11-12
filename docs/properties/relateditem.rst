@@ -187,7 +187,9 @@ Use the controlled list values as stated in :ref:`12.a`:
 * :ref:`LSID`
 * :ref:`PMID`
 * :ref:`PURL`
+* :ref:`RAiD`
 * :ref:`RRID`
+* :ref:`SWHID`
 * :ref:`UPC`
 * :ref:`URL`
 * :ref:`URN`

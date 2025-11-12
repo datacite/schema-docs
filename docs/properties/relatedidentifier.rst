@@ -82,7 +82,9 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 * :ref:`LSID`
 * :ref:`PMID`
 * :ref:`PURL`
+* :ref:`RAiD`
 * :ref:`RRID`
+* :ref:`SWHID`
 * :ref:`UPC`
 * :ref:`URL`
 * :ref:`URN`

@@ -19,6 +19,9 @@ Schema changes
 * Addition of :ref:`Poster` and :ref:`Presentation` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
   * These values may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
+* Addition of :ref:`RAiD` and :ref:`SWHID` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
+
+  * These values may be used in :ref:`12.a` and other places where relatedIdentifierType is used (:ref:`20.1.a`).
 * Addition of new :doc:`/appendices/appendix-1/relationType`: :ref:`relationType_Other`
 * Addition of new sub-properties:
 
