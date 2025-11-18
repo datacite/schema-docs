@@ -40,6 +40,34 @@ Repeat this property to indicate several different locations.
             <northBoundLatitude>49.28</northBoundLatitude>
           </geoLocationBox>
         </geoLocation>
+        <geoLocation>
+          <geoLocationPlace>Triangle Park, Vancouver, British Columbia, Canada</geoLocationPlace>
+          <geoLocationPolygon>
+            <polygonPoint>
+              <pointLatitude>49.27221864484867</pointLatitude>
+              <pointLongitude>-123.10816711373577</pointLongitude>
+            </polygonPoint>
+            <polygonPoint>
+              <pointLatitude>49.27221277624654</pointLatitude>
+              <pointLongitude>-123.1079152171403</pointLongitude>
+            </polygonPoint>
+            <polygonPoint>
+              <pointLatitude>49.271782397943014</pointLatitude>
+              <pointLongitude>-123.10793993417674</pointLongitude>
+            </polygonPoint>
+            <polygonPoint>
+              <pointLatitude>49.27178389083912</pointLatitude>
+              <pointLongitude>-123.10797492052856</pointLongitude>
+            </polygonPoint>
+            <polygonPoint>
+              <pointLatitude>49.27221864484867</pointLatitude>
+              <pointLongitude>-123.10816711373577</pointLongitude>
+            </polygonPoint>
+            <inPolygonPoint>
+              <pointLatitude>49.272001</pointLatitude>
+              <pointLongitude>-123.108041</pointLongitude>
+            </inPolygonPoint>
+          </geoLocationPolygon>
       </geoLocations>
 
    .. code-tab:: json
@@ -59,10 +87,49 @@ Repeat this property to indicate several different locations.
             "southBoundLatitude": 49.24,
             "westBoundLongitude": 123.27
           }
+        },
+        {
+          "geoLocationPlace": "Triangle Park, Vancouver, British Columbia, Canada",
+          "geoLocationPolygon": [
+            {
+              "polygonPoint": {
+                "pointLatitude": 49.27221864484867,
+                "pointLongitude": -123.10816711373577
+              }
+            },
+            {
+              "polygonPoint": {
+                "pointLatitude": 49.27221277624654,
+                "pointLongitude": -123.1079152171403
+              }
+            },
+            {
+              "polygonPoint": {
+                "pointLatitude": 49.271782397943014,
+                "pointLongitude": -123.10793993417674
+              }
+            },
+            {
+              "polygonPoint": {
+                "pointLatitude": 49.27178389083912,
+                "pointLongitude": -123.10797492052856
+              }
+            },
+            {
+              "polygonPoint": {
+                "pointLatitude": 49.27221864484867,
+                "pointLongitude": -123.10816711373577
+              }
+            },
+            {
+              "inPolygonPoint": {
+                "pointLatitude": 49.272001,
+                "pointLongitude": -123.108041
+              }            
+            }
+          ]
         }
-      ],
-
-
+      ]
 
 .. _18.1:
 
