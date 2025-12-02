@@ -546,7 +546,7 @@ Workflow
 
 **Description:** A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner.
 
-**Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system, such as Taverna (http://www.taverna.org.uk/). [#f2]_
+**Examples and Usage Notes:** Computational workflows involving sequential operations made on data by wrapped software and may be specified in a format belonging to a workflow management system.
 
 .. code:: xml
 
@@ -569,4 +569,3 @@ Other
 
 .. rubric:: Footnotes
 .. [#f1] Where there is direct correspondence with the Dublin Core Metadata, DataCite definitions have borrowed liberally from the DCMI definitions. See: http://dublincore.org/documents/dcmi-terms/index.shtml
-.. [#f2] An education module on workflows prepared by DataONE is available at http://www.dataone.org/sites/all/documents/L10_AnalysisWorkflows.pptx
