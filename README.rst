@@ -3,7 +3,7 @@ DataCite Metadata Schema Documentation
 
 This repository holds the official DataCite Metadata Schema documentation for versions:
 
-- Schema 4.7 (released FIXME 2026)
+- Schema 4.7 (released 3 March 2026)
 - Schema 4.6 (released 5 December 2024)
 - Schema 4.5 (released 22 January 2024)
 
