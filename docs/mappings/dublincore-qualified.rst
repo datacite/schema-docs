@@ -1,7 +1,7 @@
 DataCite to Dublin Core Qualified Mapping
 =================================================================
 
-This mapping can be used to convert records described following version 4.7 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
+This mapping can be used to convert records described following version 4.8 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 
 .. _Table 4:
 
