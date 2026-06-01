@@ -17,7 +17,17 @@ If you have ideas for the DataCite Metadata Schema, we invite you to contribute 
 
 Schema changes
 -----------------------------
+* Addition of a new :ref:`21` property, with sub-properties:
+
+  * :ref:`21.1`
+  * :ref:`21.1.a`
+  * :ref:`21.1.b`
+  * :ref:`21.1.c`
+  * :ref:`21.1.d`
+* Addition of a new :ref:`22` property, with sub-property:
+
+  * :ref:`22.a`
 
 Documentation changes
 -----------------------------
-
+* Addition of :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appendix-1/accessType>` to accompany :ref:`22.a` and :ref:`21.1.c`.

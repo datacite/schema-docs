@@ -1,0 +1,158 @@
+.. _21:
+
+21. Distribution
+====================
+
+**Occurrences:** 0-n
+
+**Definition:** Represents a form of a resource that can be accessed or retrieved, such as downloadable files. This property can be repeated if different variations are available.
+
+**Allowed values, examples, other constraints:**
+
+The use of this property indicates directly downloadable distributions.
+
+.. contents:: :local:
+    :backlinks: none
+
+.. rubric:: Example
+
+.. tabs::
+
+   .. code-tab:: xml
+
+        <distributions>
+            <distribution>
+                <contentURL byteSize="838861" mediaType="text/plain" accessType="Public" contentName="readme.txt">https://example.org/readme.txt</contentURL>
+                <contentURL byteSize="5242880" mediaType="application/json" accessType="Restricted" contentName="data.json">https://example.org/data.json"</contentURL>
+            </distribution>
+            <distribution>
+                <contentURL byteSize="6081741" mediaType="application/zip" accessType="Public" contentName="package.zip">https://example.org/package.zip</contentURL>
+            </distribution>
+        <distributions>
+   
+   .. code-tab:: json
+    
+        "distributions": [
+          [
+            {
+              "contentUrl": "https://example.org/readme.txt",
+              "byteSize": 838861,
+              "mediaType": "text/plain",
+              "accessType": "Public",
+              "contentName": "readme.txt"
+            },
+            {
+              "contentUrl": "https://example.org/data.json",
+              "byteSize": 5242880,
+              "mediaType": "application/json",
+              "accessType": "Restricted",
+              "contentName": "data.json"
+            }
+            ],
+          [
+            {
+              "contentUrl": "https://example.org/package.zip",
+              "byteSize": 6081741,
+              "mediaType": "application/zip",
+              "accessType": "Public",
+              "contentName": "package.json"
+            }
+          ]
+        ]
+
+.. _21.1:
+
+21.1 contentURL
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1-n
+
+**Definition:** The URL leading to content provided by a repository using a valid protocol.
+
+**Allowed values, examples, other constraints:** 
+
+If Distribution is used, at least one contentURL is mandatory. URLs should use schemes that are registered with IANA (e.g., https, ftp): https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml.
+
+A contentURL can either represent the entirety of the distribution, or a part of it. Collections of files can be described either using a single contentURL (e.g., an archive format or a BagIt folder structure) or as multiple contentURLs.
+
+Examples:
+
+* https://example.org/data.csv
+* ftp://example.org/data.txt
+* https://example.org/files.gzip
+
+.. _21.1.a:
+
+21.1.a byteSize
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** The size of the object retrievable via the contentURL in bytes.
+
+**Allowed values, examples, other constraints:**
+
+The size in bytes can be approximated (as an integer) when the precise size is not known.
+
+Example:
+
+* 1048576 (for 1 Megabyte)
+
+.. _21.1.b:
+
+21.1.b mediaType
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** Media type of the object retrievable via the contentURL.
+
+**Allowed values, examples, other constraints:**
+
+Media types (formerly known as MIME types) from the list maintained by IANA are strongly recommended. [#f1]_
+
+Examples:
+
+* application/zip
+* audio/mpeg
+
+.. _21.1.c:
+
+21.1.c accessType
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** The type of access for which the object at the contentURL is available.
+
+**Allowed values, examples, other constraints:**
+
+To describe access conditions for the overall resource, use the :ref:`22` property.
+
+To provide copyright or licensing information, use the :ref:`16` property. To provide an embargo date, use the :ref:`8` property with :ref:`8.a` :ref:`Available`.
+
+*Controlled List Values:*
+
+ * :ref:`public`
+ * :ref:`restricted`
+
+See :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appendix-1/accessType>` for definitions.
+
+.. _21.1.d:
+
+21.1.d contentName
+^^^^^^^^^^^^^^^^^^^
+
+**Occurrences:** 0-1
+
+**Definition:** A name given to the content at the contentURL.
+
+**Allowed values, examples, other constraints:**
+
+Example:
+
+* readme.
+
+
+.. rubric:: Footnotes
+.. [#f1] See the IANA's list of `Media Types <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and the MDN's documentation on `Media types (MIME types) <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types>`_ for guidance.

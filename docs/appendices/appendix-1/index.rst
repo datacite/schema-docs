@@ -11,3 +11,4 @@ Controlled list values that enhance the prospect that the resource’s metadata 
    relatedIdentifierType
    relationType
    descriptionType
+   accessType
