@@ -37,7 +37,7 @@ To provide copyright or licensing information, use the :ref:`16` property. To pr
 
 .. _22.a:
 
-22.1 accessType
+22.a accessType
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
