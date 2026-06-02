@@ -22,11 +22,11 @@ The use of this property indicates directly downloadable distributions.
 
         <distributions>
             <distribution>
-                <contentURL byteSize="838861" mediaType="text/plain" accessType="Public" contentName="readme.txt">https://example.org/readme.txt</contentURL>
-                <contentURL byteSize="5242880" mediaType="application/json" accessType="Restricted" contentName="data.json">https://example.org/data.json"</contentURL>
+                <contentURL byteSize=838861 mediaType="text/plain" accessType="Public" contentName="readme.txt">https://example.org/readme.txt</contentURL>
+                <contentURL byteSize=5242880 mediaType="application/json" accessType="Restricted" contentName="data.json">https://example.org/data.json"</contentURL>
             </distribution>
             <distribution>
-                <contentURL byteSize="6081741" mediaType="application/zip" accessType="Public" contentName="package.zip">https://example.org/package.zip</contentURL>
+                <contentURL byteSize=6081741 mediaType="application/zip" accessType="Public" contentName="package.zip">https://example.org/package.zip</contentURL>
             </distribution>
         <distributions>
    
@@ -71,15 +71,15 @@ The use of this property indicates directly downloadable distributions.
 
 **Allowed values, examples, other constraints:** 
 
-If Distribution is used, at least one contentURL is mandatory. URLs should use schemes that are registered with IANA (e.g., https, ftp): https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml.
+If Distribution is used, at least one contentURL is mandatory. URLs should use schemes that are registered with IANA (e.g., https, ftp). [#f1]_
 
 A contentURL can either represent the entirety of the distribution, or a part of it. Collections of files can be described either using a single contentURL (e.g., an archive format or a BagIt folder structure) or as multiple contentURLs.
 
 Examples:
 
-* https://example.org/data.csv
-* ftp://example.org/data.txt
-* https://example.org/files.gzip
+* ``https://example.org/data.csv``
+* ``ftp://example.org/data.txt``
+* ``https://example.org/files.gzip``
 
 .. _21.1.a:
 
@@ -109,7 +109,7 @@ Example:
 
 **Allowed values, examples, other constraints:**
 
-Media types (formerly known as MIME types) from the list maintained by IANA are strongly recommended. [#f1]_
+Media types (formerly known as MIME types) from the list maintained by IANA are strongly recommended. [#f2]_
 
 Examples:
 
@@ -129,7 +129,7 @@ Examples:
 
 To describe access conditions for the overall resource, use the :ref:`22` property.
 
-To provide copyright or licensing information, use the :ref:`16` property. To provide an embargo date, use the :ref:`8` property with :ref:`8.a` :ref:`Available`.
+To provide copyright or licensing information, use the :ref:`16` property. To provide an embargo date, use the :ref:`8` property with dateType :ref:`Available`.
 
 *Controlled List Values:*
 
@@ -151,8 +151,9 @@ See :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appe
 
 Example:
 
-* readme.
+* readme.txt
 
 
 .. rubric:: Footnotes
-.. [#f1] See the IANA's list of `Media Types <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and the MDN's documentation on `Media types (MIME types) <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types>`_ for guidance.
+.. [#f1] See the IANA's list of `Uniform Resource Identifier (URI) Schemes <https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml>`_.
+.. [#f2] See the IANA's list of `Media Types <http://www.iana.org/assignments/media-types/media-types.xhtml>`_ and the MDN's documentation on `Media types (MIME types) <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types>`_ for guidance.
