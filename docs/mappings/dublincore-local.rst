@@ -181,6 +181,8 @@ Table 5: DataCite - Dublin Core local extension
      - –
    * - :ref:`12.f`
      - –
+   * - :ref:`12.g`
+     - –
    * - :ref:`13`
      - `dc.format.extent <http://purl.org/dc/terms/extent>`_
    * - :ref:`14`
@@ -271,6 +273,8 @@ Table 5: DataCite - Dublin Core local extension
      - –
    * - :ref:`20.b`
      - –
+   * - :ref:`20.c`
+     - –
    * - :ref:`20.1`
      - `dc.relation <http://purl.org/dc/terms/relation>`_
    * - :ref:`20.1.a`
@@ -307,3 +311,19 @@ Table 5: DataCite - Dublin Core local extension
      - –
    * - :ref:`20.12.1`
      - `dc.relation <http://purl.org/dc/terms/relation>`_.{relationType}.contributor.{contributorType}
+   * - :ref:`21`
+     - –
+   * - :ref:`21.1`
+     - –
+   * - :ref:`21.1.a`
+     - –
+   * - :ref:`21.1.b`
+     - –
+   * - :ref:`21.1.c`
+     - –
+   * - :ref:`21.1.d`
+     - –
+   * - :ref:`22`
+     - `dc.accessRights <http://purl.org/dc/terms/accessRights>`_
+   * - :ref:`22.a`
+     - –
