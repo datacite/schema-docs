@@ -49,6 +49,7 @@ Free text. The recommended content is a single term of some detail so that a pai
 
 * :ref:`Audiovisual`
 * :ref:`Award`
+* :ref:`BlogPost`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`

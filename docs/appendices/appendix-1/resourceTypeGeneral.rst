@@ -49,6 +49,22 @@ Award
 **Suggested Dublin Core Mapping:** N/A
 
 
+.. _BlogPost:
+
+BlogPost
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** A piece of writing or other item of content published on a blog.
+
+**Examples and Usage Notes:**
+
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="BlogPost"/>
+
+**Suggested Dublin Core Mapping:** Text
+
+
 .. _Book:
 
 Book

@@ -37,6 +37,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 
 * :ref:`Audiovisual`
 * :ref:`Award`
+* :ref:`BlogPost`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`

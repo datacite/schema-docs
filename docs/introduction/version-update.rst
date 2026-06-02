@@ -27,6 +27,9 @@ Schema changes
 * Addition of a new :ref:`22` property, with sub-property:
 
   * :ref:`22.a`
+* Addition of :ref:`BlogPost` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
+
+  * This value may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
 
 Documentation changes
 -----------------------------
