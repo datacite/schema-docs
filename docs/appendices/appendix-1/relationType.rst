@@ -23,6 +23,8 @@ IsCitedBy
 
 **Definition:** Indicates that B includes A in a citation
 
+**Inverse relationType:** :ref:`Cites`
+
 **Example and Usage Notes:**
 
 *Recommended for discovery.*
@@ -38,6 +40,8 @@ Cites
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates that A includes B in a citation
+
+**Inverse relationType:** :ref:`IsCitedBy`
 
 **Example and Usage Notes:**
 
@@ -55,6 +59,8 @@ IsSupplementTo
 
 **Definition:** Indicates that A is a supplement to B
 
+**Inverse relationType:** :ref:`IsSupplementedBy`
+
 **Example and Usage Notes:**
 
 *Recommended for discovery.*
@@ -70,6 +76,8 @@ IsSupplementedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates that B is a supplement to A
+
+**Inverse relationType:** :ref:`IsSupplementTo`
 
 **Example and Usage Notes:**
 
@@ -87,6 +95,8 @@ IsContinuedBy
 
 **Definition:** Indicates A is continued by the work B
 
+**Inverse relationType:** :ref:`Continues`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -100,6 +110,8 @@ Continues
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A is a continuation of the work B
+
+**Inverse relationType:** :ref:`IsContinuedBy`
 
 **Example and Usage Notes:**
 
@@ -115,6 +127,8 @@ Describes
 
 **Definition:** Indicates A describes B
 
+**Inverse relationType:** :ref:`IsDescribedBy`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -128,6 +142,8 @@ IsDescribedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A is described by B
+
+**Inverse relationType:** :ref:`Describes`
 
 **Example and Usage Notes:**
 
@@ -143,6 +159,8 @@ HasMetadata
 
 **Definition:** Indicates resource A has additional metadata B
 
+**Inverse relationType:** :ref:`IsMetadataFor`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -157,6 +175,8 @@ IsMetadataFor
 
 **Definition:** Indicates additional metadata A for a resource B
 
+**Inverse relationType:** :ref:`HasMetadata`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -170,6 +190,8 @@ HasVersion
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A has a version B
+
+**Inverse relationType:** :ref:`IsVersionOf`
 
 **Example and Usage Notes:**
 
@@ -187,6 +209,8 @@ IsVersionOf
 
 **Definition:** Indicates A is a version of B
 
+**Inverse relationType:** :ref:`HasVersion`
+
 **Example and Usage Notes:**
 
 The registered resource is an instance of a target resource (indicates that A is an instance of B). It may be used, e.g., to relate a specific version of a software package to its software code repository.
@@ -203,6 +227,8 @@ IsNewVersionOf
 
 **Definition:** Indicates A is a new edition of B, where the new edition has been modified or updated
 
+**Inverse relationType:** :ref:`IsPreviousVersionOf`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -217,6 +243,8 @@ IsPreviousVersionOf
 
 **Definition:** Indicates A is a previous edition of B
 
+**Inverse relationType:** :ref:`IsNewVersionOf`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -230,6 +258,8 @@ IsPartOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A is a portion of B; may be used for elements of a series
+
+**Inverse relationType:** :ref:`HasPart`
 
 **Example and Usage Notes:**
 
@@ -251,6 +281,8 @@ HasPart
 
 **Definition:** Indicates A includes the part B
 
+**Inverse relationType:** :ref:`IsPartOf`
+
 **Example and Usage Notes:**
 
 *Recommended for discovery.*
@@ -271,6 +303,8 @@ IsPublishedIn
 
 **Definition:** Indicates A is published inside B, but is independent of other things published inside of B
 
+**Inverse relationType:** N/A
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -284,6 +318,8 @@ IsReferencedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A is used as a source of information by B
+
+**Inverse relationType:** :ref:`References`
 
 **Example and Usage Notes:**
 
@@ -301,6 +337,8 @@ References
 
 **Definition:** Indicates B is used as a source of information for A
 
+**Inverse relationType:** :ref:`IsReferencedBy`
+
 **Example and Usage Notes:**
 
 *Recommended for discovery.*
@@ -316,6 +354,8 @@ IsDocumentedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates B is documentation about/explaining A
+
+**Inverse relationType:** :ref:`Documents`
 
 **Example and Usage Notes:**
 
@@ -333,6 +373,8 @@ Documents
 
 **Definition:** Indicates A is documentation about/explaining B
 
+**Inverse relationType:** :ref:`IsDocumentedBy`
+
 **Example and Usage Notes:**
 
 May be used for software documentation.
@@ -348,6 +390,8 @@ IsCompiledBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates B is used to compile or create A
+
+**Inverse relationType:** :ref:`Compiles`
 
 **Example and Usage Notes:**
 
@@ -365,6 +409,8 @@ Compiles
 
 **Definition:** Indicates B is the result of a compile or creation event using A
 
+**Inverse relationType:** :ref:`IsCompiledBy`
+
 **Example and Usage Notes:**
 
 May be used for software and text, as a compiler can be a computer program or a person.
@@ -380,6 +426,8 @@ IsVariantFormOf
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A is a variant or different form of B
+
+**Inverse relationType:** :ref:`IsOriginalFormOf`
 
 **Example and Usage Notes:**
 
@@ -399,6 +447,8 @@ IsOriginalFormOf
 
 **Definition:** Indicates A is the original form of B
 
+**Inverse relationType:** :ref:`IsVariantFormOf`
+
 **Example and Usage Notes:**
 
 May be used for different software operating systems or compiler formats, for example.
@@ -414,6 +464,8 @@ IsIdenticalTo
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource
+
+**Inverse relationType:** N/A
 
 **Example and Usage Notes:**
 
@@ -431,6 +483,8 @@ IsReviewedBy
 
 **Definition:** Indicates that A is reviewed by B
 
+**Inverse relationType:** :ref:`Reviews`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -445,6 +499,8 @@ Reviews
 
 **Definition:** Indicates that A is a review of B
 
+**Inverse relationType:** :ref:`IsReviewedBy`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -458,6 +514,8 @@ IsDerivedFrom
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates B is a source upon which A is based
+
+**Inverse relationType:** :ref:`IsSourceOf`
 
 **Example and Usage Notes:**
 
@@ -477,6 +535,8 @@ IsSourceOf
 
 **Definition:** Indicates A is a source upon which B is based
 
+**Inverse relationType:** :ref:`IsDerivedFrom`
+
 **Example and Usage Notes:**
 
 IsSourceOf is the original resource from which a derivative resource was created.
@@ -495,6 +555,8 @@ IsRequiredBy
 
 **Definition:** Indicates A is required by B
 
+**Inverse relationType:** :ref:`Requires`
+
 **Example and Usage Notes:**
 
 May be used to indicate software dependencies.
@@ -510,6 +572,8 @@ Requires
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A requires B
+
+**Inverse relationType:** :ref:`IsRequiredBy`
 
 **Example and Usage Notes:**
 
@@ -527,6 +591,8 @@ Obsoletes
 
 **Definition:** Indicates A replaces B
 
+**Inverse relationType:** :ref:`IsObsoletedBy`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -541,6 +607,8 @@ IsObsoletedBy
 
 **Definition:** Indicates A is replaced by B
 
+**Inverse relationType:** :ref:`Obsoletes`
+
 **Example and Usage Notes:**
 
 .. code:: xml
@@ -554,6 +622,8 @@ IsCollectedBy
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A is collected by B
+
+**Inverse relationType:** :ref:`Collects`
 
 **Example and Usage Notes:**
 
@@ -571,6 +641,8 @@ Collects
 
 **Definition:** Indicates A collects B
 
+**Inverse relationType:** :ref:`IsCollectedBy`
+
 **Example and Usage Notes:**
 
 May be used to indicate the relationship between an instrument and where it has been used to collect, measure, obtain, or observe data (as in, instrument A collects dataset B).
@@ -587,6 +659,8 @@ IsTranslationOf
 
 **Definition:** Indicates A is a translation of B
 
+**Inverse relationType:** :ref:`HasTranslation`
+
 **Example and Usage Notes:**
 
 When a resource is shared in one language, then later translated to another, use "IsTranslationOf" to link the translation to the original.
@@ -602,6 +676,8 @@ HasTranslation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates A has a translation B
+
+**Inverse relationType:** :ref:`IsTranslationOf`
 
 **Example and Usage Notes:**
 
@@ -621,6 +697,8 @@ IsOutputOf
 
 **Definition:** Indicates A is an output of B
 
+**Inverse relationType:** :ref:`HasOutput`
+
 **Example and Usage Notes:** May be used to connect the outputs of awards, projects, and software to their sources.
 
 .. code:: xml
@@ -635,6 +713,8 @@ HasOutput
 
 **Definition:** Indicates A has an output B
 
+**Inverse relationType:** :ref:`IsOutputOf`
+
 **Example and Usage Notes:** May be used to connect awards, projects, and software to their associated outputs.
 
 .. code:: xml
@@ -648,6 +728,8 @@ Other
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Definition:** Indicates that A is related to B and the relationship does not fit into an existing category.
+
+**Inverse relationType:** N/A
 
 **Example and Usage Notes:**
 
