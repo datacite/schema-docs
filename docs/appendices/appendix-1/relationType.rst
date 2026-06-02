@@ -614,6 +614,34 @@ When a resource is released at the same time in multiple languages, use "HasTran
   <relatedIdentifier relatedIdentifierType="DOI" relationType="HasTranslation">10.21384/g01j-jm06</relatedIdentifier>
 
 
+.. _IsOutputOf:
+
+IsOutputOf
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** Indicates A is an output of B
+
+**Example and Usage Notes:** May be used to connect the outputs of awards, projects, and software to their sources.
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsOutputOf" resourceTypeGeneral="Project">10.21384/g01j-jm06</relatedIdentifier>
+
+
+.. _HasOutput:
+
+HasOutput
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition:** Indicates A has an output B
+
+**Example and Usage Notes:** May be used to connect awards, projects, and software to their associated outputs.
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="HasOutput" resourceTypeGeneral="Dataset">10.21384/828a-cm38</relatedIdentifier>
+
+
 .. _relationType_Other:
 
 Other

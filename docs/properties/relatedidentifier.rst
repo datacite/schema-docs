@@ -148,6 +148,8 @@ Note: Some relationTypes are processed as citations and references. Read more ab
 * :ref:`Collects`
 * :ref:`IsTranslationOf`
 * :ref:`HasTranslation`
+* :ref:`IsOutputOf`
+* :ref:`HasOutput`
 * :ref:`relationType_Other`
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples and usage notes.

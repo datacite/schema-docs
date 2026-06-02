@@ -124,6 +124,8 @@ Use the controlled list values as stated in :ref:`12.b`:
 * :ref:`Collects`
 * :ref:`IsTranslationOf`
 * :ref:`HasTranslation`
+* :ref:`IsOutputOf`
+* :ref:`HasOutput`
 * :ref:`relationType_Other`
 
 relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
