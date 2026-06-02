@@ -41,4 +41,5 @@ Schema changes
 
 Documentation changes
 -----------------------------
-* Addition of :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appendix-1/accessType>` to accompany :ref:`22.a` and :ref:`21.1.c`.
+* Addition of :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appendix-1/accessType>` to accompany :ref:`22.a` and :ref:`21.1.c`.* Updated definition for :ref:`Book` in the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values. 
+* Updated definition for :ref:`Book` in the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
