@@ -22,13 +22,13 @@ The use of this property indicates directly downloadable distributions.
 
         <distributions>
             <distribution>
-                <contentURL byteSize=838861 mediaType="text/plain" accessType="Public" contentName="readme.txt">https://example.org/readme.txt</contentURL>
-                <contentURL byteSize=5242880 mediaType="application/json" accessType="Restricted" contentName="data.json">https://example.org/data.json"</contentURL>
+                <contentURL byteSize="838861" mediaType="text/plain" accessType="Public" contentName="readme.txt">https://example.org/readme.txt</contentURL>
+                <contentURL byteSize="524288" mediaType="application/json" accessType="Restricted" contentName="data.json">https://example.org/data.json"</contentURL>
             </distribution>
             <distribution>
-                <contentURL byteSize=6081741 mediaType="application/zip" accessType="Public" contentName="package.zip">https://example.org/package.zip</contentURL>
+                <contentURL byteSize="6081741" mediaType="application/zip" accessType="Public" contentName="package.zip">https://example.org/package.zip</contentURL>
             </distribution>
-        <distributions>
+        </distributions>
    
    .. code-tab:: json
     
