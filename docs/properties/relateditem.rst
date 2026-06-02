@@ -186,6 +186,7 @@ Use the controlled list values as stated in :ref:`12.a`:
 * :ref:`ISTC`
 * :ref:`LISSN`
 * :ref:`LSID`
+* :ref:`PatentNumber`
 * :ref:`PMID`
 * :ref:`PURL`
 * :ref:`RAiD`

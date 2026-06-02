@@ -30,6 +30,9 @@ Schema changes
 * Addition of :ref:`BlogPost` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
 
   * This value may be used in :ref:`10.a` and other places where resourceTypeGeneral is used (:ref:`12.f`, :ref:`20.a`).
+* Addition of :ref:`PatentNumber` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
+
+  * This value may be used in :ref:`12.a` and other places where relatedIdentifierType is used (:ref:`20.1.a`).
 
 Documentation changes
 -----------------------------

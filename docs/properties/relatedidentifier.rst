@@ -80,6 +80,7 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 * :ref:`ISTC`
 * :ref:`LISSN`
 * :ref:`LSID`
+* :ref:`PatentNumber`
 * :ref:`PMID`
 * :ref:`PURL`
 * :ref:`RAiD`
