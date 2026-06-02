@@ -33,6 +33,9 @@ Schema changes
 * Addition of :ref:`PatentNumber` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
 
   * This value may be used in :ref:`12.a` and other places where relatedIdentifierType is used (:ref:`20.1.a`).
+* Addition of new :doc:`/appendices/appendix-1/contributorType`: :ref:`Reviewer`
+
+  * This value may be used in :ref:`7.a` and other places where contributorType is used (:ref:`20.12.a`).
 
 Documentation changes
 -----------------------------
