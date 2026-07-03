@@ -79,9 +79,9 @@ A contentURL can either represent the entirety of the distribution, or a part of
 
 Examples:
 
-* ``https://example.org/data.csv``
-* ``ftp://example.org/data.txt``
-* ``https://example.org/files.gzip``
+* ``https://example.org/files/2023-06_ocean-temperature_pacific.csv``
+* ``ftp://example.org/files/survey-responses_2022_deidentified.txt``
+* ``https://example.org/files/census-microdata_2016.tar.gz``
 
 .. _21.1.a:
 
