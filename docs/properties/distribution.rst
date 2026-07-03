@@ -149,13 +149,17 @@ See :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appe
 
 **Occurrences:** 0-1
 
-**Definition:** A name given to the content at the contentURL.
+**Definition:** A name given to the object at the contentURL, typically a file name.
 
 **Allowed values, examples, other constraints:**
 
 Example:
 
-* readme.txt
+* ``2023-06_ocean-temperature_pacific.csv``
+* ``survey-responses_2022_deidentified.txt``
+* ``census-microdata_2016.tar.gz``
+* ``Dmelanogaster_assembly_r6.48.fasta.gz``
+* ``Sentinel2_AmazonBasin_20230615.tif``
 
 
 .. rubric:: Footnotes
