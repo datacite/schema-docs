@@ -11,6 +11,8 @@
 
 The use of this property indicates directly downloadable distributions.
 
+*Sub-properties:*
+
 .. contents:: :local:
     :backlinks: none
 

@@ -15,6 +15,8 @@ To describe access conditions for specific content URLs, use :ref:`21.1.c` (part
 
 To provide copyright or licensing information, use the :ref:`16` property. To provide an embargo date, use the :ref:`8` property with dateType :ref:`Available`.
 
+*Sub-properties:*
+
 .. contents:: :local:
     :backlinks: none
 
