@@ -82,6 +82,8 @@ Examples:
 * ``https://example.org/files/2023-06_ocean-temperature_pacific.csv``
 * ``ftp://example.org/files/survey-responses_2022_deidentified.txt``
 * ``https://example.org/files/census-microdata_2016.tar.gz``
+* ``https://example.org/api/download?id=550e8400-e29b-41d4-a716-446644550000``
+* ``https://data.example.org/records/98765/export``
 
 .. _21.1.a:
 
