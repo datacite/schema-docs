@@ -3,6 +3,8 @@
 20. RelatedItem
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Information about a resource related to the one being registered.
