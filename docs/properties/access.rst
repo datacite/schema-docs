@@ -3,6 +3,8 @@
 22. Access
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-1
 
 **Definition:** Access information relevant to the resource as a whole.

@@ -39,7 +39,7 @@ Properties and sub-properties have naming and numbering conventions as follows:
 - properties begin with a capital letter (e.g., ``Creator``)
 - sub-properties begin with a lower case letter, with subsequent words using capital letters (e.g., ``creatorName``, ``nameType``) [#f1]_
 
-Each property is numbered. The major properties are numbered 1-20.
+Each property is numbered. The major properties are numbered 1-22.
 
 Occurrences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -187,6 +187,10 @@ Table 2: DataCite Recommended and Optional Properties
 | 19 | :ref:`FundingReference <19>`                                                            | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 | 20 | :ref:`RelatedItem <20>`                                                                 | O          |
++----+-----------------------------------------------------------------------------------------+------------+
+| 21 | :ref:`Distribution <21>`                                                                | O          |
++----+-----------------------------------------------------------------------------------------+------------+
+| 22 | :ref:`Access <22>`                                                                      | O          |
 +----+-----------------------------------------------------------------------------------------+------------+
 
 

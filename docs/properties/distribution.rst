@@ -3,6 +3,8 @@
 21. Distribution
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Represents a form of a resource that can be accessed or retrieved, such as downloadable files. This property can be repeated if different variations are available.
