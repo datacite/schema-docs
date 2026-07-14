@@ -151,7 +151,7 @@ See :doc:`Appendix 1: Controlled List Definitions - accessType </appendices/appe
 
 **Occurrences:** 0-1
 
-**Definition:** A name given to the object at the contentURL, typically a file name.
+**Definition:** A name or label assigned to the object represented by the contentURL. This may be the file name, a human-readable title, or other descriptive label.
 
 **Allowed values, examples, other constraints:**
 
