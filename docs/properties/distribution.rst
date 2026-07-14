@@ -11,7 +11,7 @@
 
 **Allowed values, examples, other constraints:**
 
-The use of this property indicates directly downloadable distributions.
+The use of this property indicates directly downloadable distributions. There is no expectation that different downloadable distributions must contain exactly equivalent information. Different distributions might include or exclude different subsets of the entire resource.
 
 *Sub-properties:*
 
@@ -77,7 +77,7 @@ The use of this property indicates directly downloadable distributions.
 
 If Distribution is used, at least one contentURL is mandatory. URLs should use schemes that are registered with IANA (e.g., https, ftp). [#f1]_
 
-A contentURL can either represent the entirety of the distribution, or a part of it. Collections of files can be described either using a single contentURL (e.g., an archive format or a BagIt folder structure) or as multiple contentURLs.
+A contentURL can either represent an entire distribution, or a part of it. Collections of files can be represented either using a single contentURL (e.g., an archive format or a BagIt package) or as multiple contentURLs.
 
 Examples:
 
