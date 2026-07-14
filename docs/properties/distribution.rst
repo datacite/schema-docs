@@ -115,7 +115,7 @@ Example:
 
 **Allowed values, examples, other constraints:**
 
-Media types (formerly known as MIME types) from the list maintained by IANA are strongly recommended. [#f2]_
+Media types (formerly known as MIME types) from the list maintained by IANA are strongly recommended. [#f2]_ Where no suitable IANA-registered media type exists, an appropriate community-accepted media type may be used.
 
 Examples:
 
