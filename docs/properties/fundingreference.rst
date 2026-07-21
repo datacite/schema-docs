@@ -107,7 +107,7 @@ If funderIdentifier is used, funderIdentifierType is mandatory.
 * ROR [#f1]_
 * Crossref Funder ID [#f2]_
 * GRID [#f3]_
-* ISNI [#f4]_
+* ISNI
 * Other
 
 .. _19.2.b:
@@ -171,6 +171,5 @@ Example: Socioenvironmental Monitoring of the Amazon Basin and Xingu
 
 .. rubric:: Footnotes
 .. [#f1] The `Research Organization Registry (ROR) <https://ror.org>`_ is a global, community-led registry of open persistent identifiers for research and funding organizations.
-.. [#f2] The Crossref service is called `Open Funder Registry <https://www.crossref.org/services/funder-registry/>`_. In September 2023, Crossref and ROR announced a long-term plan to deprecate the Open Funder Registry and merge it into ROR. More information in the ROR documentation: `Transition from Open Funder Registry to ROR <https://ror.readme.io/docs/funder-registry>`_
-.. [#f3] In 2021, GRID published its final public release and passed the torch to ROR for being the community driven research organisation identifier. More information in the ROR documentation: `Transition from GRID to ROR <https://ror.readme.io/docs/grid>`_
-.. [#f4] International Standard Name Identifier (ISNI): https://isni.org
+.. [#f2] Crossref Funder IDs and the Open Funder Registry are being replaced by ROR. See: https://ror.readme.io/docs/funder-registry
+.. [#f3] GRID is no longer openly available and recommends use of ROR. See: https://ror.readme.io/docs/grid
