@@ -27,15 +27,15 @@ It is a best practice to supply funding information when financial support has b
       <fundingReferences>
         <fundingReference>
           <funderName>European Commission</funderName>
-          <funderIdentifier funderIdentifierType="Crossref Funder ID">https://doi.org/10.13039/501100000780</funderIdentifier>
+          <funderIdentifier funderIdentifierType="ROR">https://ror.org/00k4n6c32</funderIdentifier>
           <awardNumber awardURI="https://cordis.europa.eu/project/rcn/100180_en.html">282625</awardNumber>
           <awardTitle>MOTivational strength of ecosystem services and alternative ways to express the value of BIOdiversity</awardTitle>
           </fundingReference>
         <fundingReference>
-          <funderName>European Commission</funderName>
-          <funderIdentifier funderIdentifierType="Crossref Funder ID">https://doi.org/10.13039/501100000780</funderIdentifier>
-          <awardNumber awardURI="https://cordis.europa.eu/project/rcn/100603_en.html">284382</awardNumber>
-          <awardTitle>Institutionalizing global genetic-resource commons. Global Strategies for accessing and using essential public knowledge assets in the life sciences</awardTitle>
+          <funderName>Therapeutic Innovation Australia</funderName>
+          <funderIdentifier funderIdentifierType="ROR">https://ror.org/01rde0531</funderIdentifier>
+          <awardNumber awardURI="https://doi.org/10.82292/hbrw-rw97"></awardNumber>
+          <awardTitle>Products for Cartilage and Bone Repair using Human Induced Pluripotent Stem Cell-Derived Organoids and Decellularized Organoid Scaffolds</awardTitle>
         </fundingReference>
       </fundingReferences>
    
@@ -47,16 +47,15 @@ It is a best practice to supply funding information when financial support has b
           "awardTitle": "MOTivational strength of ecosystem services and alternative ways to express the value of BIOdiversity",
           "funderName": "European Commission",
           "awardNumber": "282625",
-          "funderIdentifier": "https://doi.org/10.13039/501100000780",
-          "funderIdentifierType": "Crossref Funder ID"
+          "funderIdentifier": "https://ror.org/00k4n6c32",
+          "funderIdentifierType": "ROR"
         },
         {
-          "awardUri": "https://cordis.europa.eu/project/rcn/100603_en.html",
-          "awardTitle": "Institutionalizing global genetic-resource commons. Global Strategies for accessing and using essential public knowledge assets in the life sciences",
-          "funderName": "European Commission",
-          "awardNumber": "284382",
-          "funderIdentifier": "https://doi.org/10.13039/501100000780",
-          "funderIdentifierType": "Crossref Funder ID"
+          "awardUri": "https://doi.org/10.82292/hbrw-rw97",
+          "awardTitle": "Products for Cartilage and Bone Repair using Human Induced Pluripotent Stem Cell-Derived Organoids and Decellularized Organoid Scaffolds",
+          "funderName": "Therapeutic Innovation Australia",
+          "funderIdentifier": "https://ror.org/01rde0531",
+          "funderIdentifierType": "ROR"
         }
       ]
 
@@ -88,7 +87,7 @@ Example: Gordon and Betty Moore Foundation
 
 **Allowed values, examples, other constraints:**
 
-Example: https://doi.org/10.13039/100000936
+Example: https://ror.org/00k4n6c32
 
 .. _19.2.a:
 
@@ -105,10 +104,10 @@ If funderIdentifier is used, funderIdentifierType is mandatory.
 
 *Controlled List Values:*
 
-* Crossref Funder ID [#f1]_
-* GRID
-* ISNI
-* ROR
+* ROR [#f1]_
+* Crossref Funder ID [#f2]_
+* GRID [#f3]_
+* ISNI [#f4]_
 * Other
 
 .. _19.2.b:
@@ -124,8 +123,8 @@ If funderIdentifier is used, funderIdentifierType is mandatory.
 
 Examples:
 
-* https://www.crossref.org/services/funder-registry/
 * https://ror.org/
+* https://www.crossref.org/services/funder-registry/
 
 .. _19.3:
 
@@ -171,4 +170,7 @@ Example: Socioenvironmental Monitoring of the Amazon Basin and Xingu
 
 
 .. rubric:: Footnotes
-.. [#f1] The Crossref service is called “Funder Registry” (https://www.crossref.org/services/funder-registry/) and Crossref Funder ID is the name for a Crossref identifier.
+.. [#f1] The `Research Organization Registry (ROR) <https://ror.org>`_ is a global, community-led registry of open persistent identifiers for research and funding organizations.
+.. [#f2] The Crossref service is called `Open Funder Registry" <https://www.crossref.org/services/funder-registry/>`_. In September 2023, Crossref and ROR announced a long-term plan to deprecate the Open Funder Registry and merge it into ROR. More information in the ROR documentation: `Transition from Open Funder Registry to ROR <https://ror.readme.io/docs/funder-registry>`_
+.. [#f3] In 2021, GRID published its final public release and passed the torch to ROR for being the community driven research organisation identifier. More information in the ROR documentation: `Transition from GRID to ROR <https://ror.readme.io/docs/grid>`_
+.. [#f4] International Standard Name Identifier (ISNI): https://isni.org
