@@ -40,6 +40,7 @@ Demonstration Examples
             * `Original (translated) work <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-translation-original-v4.xml>`_
         * `Document containing two languages in parallel <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-parallel-languages-v4.xml>`_
         * `Multilingual metadata <http://schema.datacite.org/meta/kernel-4.8/example/datacite-example-multilingual-v4.xml>`_
+        * `Embargo date <http://schema.datacite.org/meta/kernel-4.8/example/datacite-example-embargo-v4.xml>`_
 
         * RelatedItem:
 
@@ -65,6 +66,7 @@ Demonstration Examples
             * `Original (translated) work <https://api.test.datacite.org/dois/10.82433/pma6-nf93?publisher=true&affiliation=true>`_
         * `Document containing two languages in parallel <https://api.test.datacite.org/dois/10.82433/4r08-sa38?publisher=true&affiliation=true>`_
         * `Multilingual metadata <https://api.test.datacite.org/dois/10.82433/byt7-2g42?publisher=true&affiliation=true>`_
+        * `Embargo date <https://api.test.datacite.org/dois/10.82433/13mc-zr18?publisher=true&affiliation=true>`_
 
         * RelatedItem:
 
