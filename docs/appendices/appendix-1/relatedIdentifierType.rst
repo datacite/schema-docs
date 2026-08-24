@@ -240,6 +240,22 @@ LSID
   <relatedIdentifier relatedIdentifierType="LSID" relationType="Cites">urn:lsid:ubio.org:namebank:11815</relatedIdentifier>
 
 
+.. _PatentNumber:
+
+PatentNumber
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Full Name:** Patent number
+
+**Description:** A unique identifier assigned by a patent authority to a granted patent or published patent application.
+
+**Example:**
+
+.. code:: xml
+
+  <relatedIdentifier relatedIdentifierType="PatentNumber" relationType="Cites">WO2025188512A1</relatedIdentifier>
+
+
 .. _PMID:
 
 PMID

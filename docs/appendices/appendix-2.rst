@@ -5,6 +5,22 @@ Appendix 2 provides the update contents of earlier versions of the schema.
 
 .. contents:: :local:
 
+`Version 4.7 <https://datacite-metadata-schema.readthedocs.io/en/4.7/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rubric:: Schema changes
+
+* Addition of :ref:`Poster` and :ref:`Presentation` to the :doc:`/appendices/appendix-1/resourceTypeGeneral` controlled list values.
+* Addition of :ref:`RAiD` and :ref:`SWHID` to the :doc:`/appendices/appendix-1/relatedIdentifierType` controlled list values.
+* Addition of new :doc:`/appendices/appendix-1/relationType`: :ref:`relationType_Other`
+* Addition of new sub-properties: :ref:`12.g` for :ref:`12` and :ref:`20.c` for :ref:`20`
+
+.. rubric:: Documentation changes
+
+* Documentation of existing `xml:lang` sub-properties on their property pages.
+* Updated examples in :doc:`Appendix 1: Controlled List Definitions - resourceTypeGeneral </appendices/appendix-1/resourceTypeGeneral>`.
+* Updated the :ref:`Guidance_missing_values`.
+
 `Version 4.6 <https://datacite-metadata-schema.readthedocs.io/en/4.6/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

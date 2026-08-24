@@ -185,6 +185,16 @@ Example: Space Research & Planetary Sciences Division of the University of Bern 
 Source: doi:10.26302/SSHADE/EXPERIMEN T_OP_20201104_001
 
 
+.. _Reviewer:
+
+Reviewer
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** A person or organization responsible for conducting an assessment or evaluation of the content of the resource.
+
+**Usage Notes:** May be used for crediting a person or organization who reviews an award, publication, or other research output, including those who perform peer review.
+
+
 .. _RightsHolder:
 
 RightsHolder

@@ -3,6 +3,8 @@
 20. RelatedItem
 ====================
 
+**Obligation:** Optional
+
 **Occurrences:** 0-n
 
 **Definition:** Information about a resource related to the one being registered.
@@ -37,6 +39,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 
 * :ref:`Audiovisual`
 * :ref:`Award`
+* :ref:`BlogPost`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`
@@ -123,6 +126,8 @@ Use the controlled list values as stated in :ref:`12.b`:
 * :ref:`Collects`
 * :ref:`IsTranslationOf`
 * :ref:`HasTranslation`
+* :ref:`IsOutputOf`
+* :ref:`HasOutput`
 * :ref:`relationType_Other`
 
 relationType :ref:`IsPublishedIn` can be used to include series information, like title, volume, issue, page, etc.
@@ -185,6 +190,7 @@ Use the controlled list values as stated in :ref:`12.a`:
 * :ref:`ISTC`
 * :ref:`LISSN`
 * :ref:`LSID`
+* :ref:`PatentNumber`
 * :ref:`PMID`
 * :ref:`PURL`
 * :ref:`RAiD`

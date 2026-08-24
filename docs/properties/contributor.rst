@@ -115,6 +115,7 @@ If Contributor is used, then contributorType is mandatory.
 * :ref:`RelatedPerson`
 * :ref:`Researcher`
 * :ref:`ResearchGroup`
+* :ref:`Reviewer`
 * :ref:`RightsHolder`
 * :ref:`Sponsor`
 * :ref:`Supervisor`

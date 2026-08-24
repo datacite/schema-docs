@@ -80,6 +80,7 @@ If relatedIdentifier is used, relatedIdentifierType is mandatory.
 * :ref:`ISTC`
 * :ref:`LISSN`
 * :ref:`LSID`
+* :ref:`PatentNumber`
 * :ref:`PMID`
 * :ref:`PURL`
 * :ref:`RAiD`
@@ -147,6 +148,8 @@ Note: Some relationTypes are processed as citations and references. Read more ab
 * :ref:`Collects`
 * :ref:`IsTranslationOf`
 * :ref:`HasTranslation`
+* :ref:`IsOutputOf`
+* :ref:`HasOutput`
 * :ref:`relationType_Other`
 
 See :doc:`Appendix 1: Controlled List Definitions - relationType </appendices/appendix-1/relationType>` for definitions, examples and usage notes.
@@ -211,6 +214,7 @@ Use the controlled list values as stated in :ref:`10.a`:
 
 * :ref:`Audiovisual`
 * :ref:`Award`
+* :ref:`BlogPost`
 * :ref:`Book`
 * :ref:`BookChapter`
 * :ref:`Collection`

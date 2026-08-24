@@ -1,7 +1,7 @@
 DataCite to Dublin Core Qualified Mapping
 =================================================================
 
-This mapping can be used to convert records described following version 4.7 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
+This mapping can be used to convert records described following version 4.8 of the DataCite Metadata Schema into records that comply with the Dublin Core Metadata Initiative Schema.
 
 .. _Table 4:
 
@@ -181,6 +181,8 @@ Table 4: DataCite to Dublin Core Qualified Mapping
      - –
    * - :ref:`12.f`
      - –
+   * - :ref:`12.g`
+     - –
    * - :ref:`13`
      - `dc.format.extent <http://purl.org/dc/terms/extent>`_
    * - :ref:`14`
@@ -271,6 +273,8 @@ Table 4: DataCite to Dublin Core Qualified Mapping
      - –
    * - :ref:`20.b`
      - –
+   * - :ref:`20.c`
+     - –
    * - :ref:`20.1`
      - `dc.relation <http://purl.org/dc/terms/relation>`_
    * - :ref:`20.1.a`
@@ -306,6 +310,22 @@ Table 4: DataCite to Dublin Core Qualified Mapping
    * - :ref:`20.12.a`
      - –
    * - :ref:`20.12.1`
+     - –
+   * - :ref:`21`
+     - –
+   * - :ref:`21.1`
+     - –
+   * - :ref:`21.1.a`
+     - –
+   * - :ref:`21.1.b`
+     - –
+   * - :ref:`21.1.c`
+     - –
+   * - :ref:`21.1.d`
+     - –
+   * - :ref:`22`
+     - `dc.accessRights <http://purl.org/dc/terms/accessRights>`_
+   * - :ref:`22.a`
      - –
 
 

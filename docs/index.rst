@@ -3,7 +3,7 @@ DataCite Metadata Schema Documentation for the Publication and Citation of Resea
 
 .. note::
 
-  DataCite Metadata Working Group. (2026). DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Outputs. Version 4.7. DataCite e.V. https://doi.org/10.14454/qdd3-ps68
+  DataCite Metadata Working Group. (2026). DataCite Metadata Schema for the Publication and Citation of Research Data and Other Research Outputs. Version 4.8. DataCite e.V. https://doi.org/10.14454/kwsj-rh55
 
 Contributors from the DataCite Metadata Working Group:
 
@@ -47,29 +47,9 @@ Contributors from the DataCite Metadata Working Group:
 
   <a class="orcid" href="https://orcid.org/0000-0002-3368-5080">Wendy Robertson<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
 
-.. |Mike Shallcross| raw:: html
-
-  <a class="orcid" href="https://orcid.org/0000-0001-6289-5717">Mike Shallcross<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
-
 .. |Kelly Stathis| raw:: html
 
   <a class="orcid" href="https://orcid.org/0000-0001-6133-4045">Kelly Stathis<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
-
-.. |Nicola Tarocco| raw:: html
-
-  <a class="orcid" href="https://orcid.org/0000-0002-2227-1229">Nicola Tarocco<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
-
-.. |Hana Vyčítalová| raw:: html
-
-  <a class="orcid" href="https://orcid.org/0000-0002-8323-5790">Hana Vyčítalová<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
-
-.. |Melissa Harrison| raw:: html
-
-  <a class="orcid" href="https://orcid.org/0000-0003-3523-4408">Melissa Harrison<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
-
-.. |Peyton Tvrdy| raw:: html
-
-  <a class="orcid" href="https://orcid.org/0000-0002-9720-4725">Peyton Tvrdy<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
 
 .. |Dorothea Strecker| raw:: html
 
@@ -87,9 +67,17 @@ Contributors from the DataCite Metadata Working Group:
 
   <a class="orcid" href="https://orcid.org/0000-0002-2085-1908">Adam Vials Moore<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
 
-.. |Sara El-Gebali| raw:: html
+.. |Gretchen Gueguen| raw:: html
 
-  <a class="orcid" href="https://orcid.org/0000-0003-1378-5495">Sara El-Gebali<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
+  <a class="orcid" href="https://orcid.org/0000-0002-7804-9942">Gretchen Gueguen<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
+
+.. |Jia Liu| raw:: html
+
+  <a class="orcid" href="https://orcid.org/0000-0001-8251-3480">Jia Liu<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
+
+.. |Myung-Ja K. Han| raw:: html
+
+  <a class="orcid" href="https://orcid.org/0000-0001-5891-6466">Myung-Ja K. Han<img alt="ORCID logo" src="_static/ORCID-iD_icon_vector.svg"/></a>
 
 .. |British Library| raw:: html
 
@@ -131,26 +119,6 @@ Contributors from the DataCite Metadata Working Group:
 
   <a class="affiliation" href="https://ror.org/036jqmy94">University of Iowa<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
 
-.. |Inter-university Consortium for Political and Social Research| raw:: html
-
-  <a class="affiliation" href="https://ror.org/02q7mkh03">Inter-university Consortium for Political and Social Research<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
-
-.. |CERN| raw:: html
-
-   <a class="affiliation" href="https://ror.org/01ggx4157">CERN<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
-
-.. |National Library of Technology (Czech Republic)| raw:: html
-
-   <a class="affiliation" href="https://ror.org/028txef36">National Library of Technology (Czech Republic)<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
-
-.. |EMBL-EBI| raw:: html
-
-  <a class="affiliation" href="https://ror.org/02catss52">EMBL-EBI<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
-
-.. |National Transportation Library, United States Department of Transportation| raw:: html
-
-  <a class="affiliation" href="https://ror.org/02xfw2e90">National Transportation Library, United States Department of Transportation<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
-
 .. |Berlin School of Library and Information Science, Humboldt-Universität zu Berlin| raw:: html
 
   <a class="affiliation" href="https://ror.org/01hcx6992">Berlin School of Library and Information Science, Humboldt-Universität zu Berlin<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
@@ -167,6 +135,18 @@ Contributors from the DataCite Metadata Working Group:
 
   <a class="affiliation" href="https://ror.org/04wxnsj81">Jisc<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
 
+.. |Center for Open Science| raw:: html
+
+  <a class="affiliation" href="https://ror.org/05d5mza29">Center for Open Science<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
+
+.. |Computer Network Information Center of the Chinese Academy of Sciences| raw:: html
+
+  <a class="affiliation" href="https://ror.org/01s0wyf50">Computer Network Information Center of the Chinese Academy of Sciences<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
+
+.. |University of Illinois Urbana-Champaign| raw:: html
+
+  <a class="affiliation" href="https://ror.org/047426m28">University of Illinois Urbana-Champaign<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
+
 .. |DataCite| raw:: html
 
   <a class="affiliation" href="https://ror.org/01rv9gx86">DataCite<img alt="ROR logo" src="_static/ror-icon-rgb.svg"/></a>
@@ -179,21 +159,18 @@ Contributors from the DataCite Metadata Working Group:
   * |Isabel Bernal|, |Spanish National Research Council (CSIC)|
   * |Anusuriya Devaraju|, |Commonwealth Scientific and Industrial Research Organisation (CSIRO)|
   * |Kirsten Elger|, |GFZ German Research Centre for Geosciences|
+  * |Gretchen Gueguen|, |Center for Open Science|
   * |Ted Habermann|, |Metadata Game Changers|
-  * |Melissa Harrison|, |EMBL-EBI|
+  * |Myung-Ja K. Han|, |University of Illinois Urbana-Champaign|
   * |Robin Kraus|, |TIB Hanover|
+  * |Jia Liu|, |Computer Network Information Center of the Chinese Academy of Sciences|
   * |Ian Mathews|, |Redivis|
   * |Andrea Medina-Smith|, |Sage Data|
   * |Adam Vials Moore|, |Jisc|
   * |Joseph Padfield|, |The National Gallery|
   * |Anne Raugh|, |University of Maryland|
-  * |Mike Shallcross|, |Inter-university Consortium for Political and Social Research|
   * |Dorothea Strecker|, |Berlin School of Library and Information Science, Humboldt-Universität zu Berlin|
-  * |Nicola Tarocco|, |CERN|
-  * |Peyton Tvrdy|, |National Transportation Library, United States Department of Transportation|
-  * |Hana Vyčítalová|, |National Library of Technology (Czech Republic)|
   * |Kelly Stathis|, |DataCite|
-  * |Sara El-Gebali|, |DataCite|
 
 .. only:: latex
 
@@ -203,21 +180,18 @@ Contributors from the DataCite Metadata Working Group:
   * Isabel Bernal, Spanish National Research Council (CSIC)
   * Anusuriya Devaraju, Commonwealth Scientific and Industrial Research Organisation (CSIRO) 
   * Kirsten Elger, GFZ German Research Centre for Geosciences
+  * Gretchen Gueguen, Center for Open Science
   * Ted Habermann, Metadata Game Changers
-  * Melissa Harrison, EMBL-EBI
+  * Myung-Ja K. Han, University of Illinois Urbana-Champaign
   * Robin Kraus, TIB Hanover
+  * Jia Liu, Computer Network Information Center of the Chinese Academy of Sciences
   * Ian Mathews, Redivis
   * Andrea Medina-Smith, Sage Data
   * Adam Vials Moore, Jisc
   * Joseph Padfield, The National Gallery
   * Anne Raugh, University of Maryland
-  * Mike Shallcross, Inter-university Consortium for Political and Social Research
   * Dorothea Strecker, Berlin School of Library and Information Science, Humboldt-Universität zu Berlin
-  * Nicola Tarocco, CERN
-  * Peyton Tvrdy, National Transportation Library, United States Department of Transportation
-  * Hana Vyčítalová, National Library of Technology (Czech Republic)
   * Kelly Stathis, DataCite
-  * Sara El-Gebali, DataCite
 
 
 Contents

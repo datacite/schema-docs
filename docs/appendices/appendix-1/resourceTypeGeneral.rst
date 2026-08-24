@@ -49,12 +49,28 @@ Award
 **Suggested Dublin Core Mapping:** N/A
 
 
+.. _BlogPost:
+
+BlogPost
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Description:** A piece of writing or other item of content published on a blog.
+
+**Examples and Usage Notes:**
+
+.. code:: xml
+
+  <resourceType resourceTypeGeneral="BlogPost"/>
+
+**Suggested Dublin Core Mapping:** Text
+
+
 .. _Book:
 
 Book
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Description:** A medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover.
+**Description:** A non-serial publication that is complete in one volume or a designated finite number of volumes
 
 **Examples and Usage Notes:**
 

@@ -5,7 +5,7 @@ XML Schema
 --------------------------------
 
 The XML Schema is available here:
-https://schema.datacite.org/meta/kernel-4.7/metadata.xsd
+https://schema.datacite.org/meta/kernel-4.8/metadata.xsd
 
 
 JSON Representation
@@ -25,28 +25,29 @@ Demonstration Examples
 
    .. tab:: XML
 
-        * `Full DataCite metadata example (all properties) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-full-v4.xml>`_
-        * `Dataset resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-dataset-v4.xml>`_
-        * `Poster resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-poster-v4.xml>`_
-        * `Presentation resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-presentation-v4.xml>`_
-        * `Audiovisual resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-audiovisual-v4.xml>`_
-        * `Award resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-award-v4.xml>`_
-        * `Project resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-project-v4.xml>`_
-        * `relationTypeInformation attribute with relationType "Other" <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relationtypeinformation-v4.xml>`_
-        * `Coverage dateType <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-coverage-v4.xml>`_
+        * `Full DataCite metadata example (all properties) <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-full-v4.xml>`_
+        * `Dataset resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-dataset-v4.xml>`_
+        * `Poster resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-poster-v4.xml>`_
+        * `Presentation resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-presentation-v4.xml>`_
+        * `Audiovisual resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-audiovisual-v4.xml>`_
+        * `Award resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-award-v4.xml>`_
+        * `Project resourceTypeGeneral <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-project-v4.xml>`_
+        * `relationTypeInformation attribute with relationType "Other" <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-relationtypeinformation-v4.xml>`_
+        * `Coverage dateType <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-coverage-v4.xml>`_
         * Connecting a translation to the original work: 
 
-            * `Translation <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-translation-translated-v4.xml>`_
-            * `Original (translated) work <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-translation-original-v4.xml>`_
-        * `Document containing two languages in parallel <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-parallel-languages-v4.xml>`_
-        * `Multilingual metadata <http://schema.datacite.org/meta/kernel-4.7/example/datacite-example-multilingual-v4.xml>`_
+            * `Translation <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-translation-translated-v4.xml>`_
+            * `Original (translated) work <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-translation-original-v4.xml>`_
+        * `Document containing two languages in parallel <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-parallel-languages-v4.xml>`_
+        * `Multilingual metadata <http://schema.datacite.org/meta/kernel-4.8/example/datacite-example-multilingual-v4.xml>`_
+        * `Embargo date <http://schema.datacite.org/meta/kernel-4.8/example/datacite-example-embargo-v4.xml>`_
 
         * RelatedItem:
 
-            * `Journal article in a journal (with an ISSN) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relateditem1-v4.xml>`_
-            * `Digitized book chapter in a book (with no identifier) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relateditem2-v4.xml>`_
-            * `Digitized book chapter in a book (with an ISBN) <https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-relateditem3-v4.xml>`_
-
+            * `Journal article in a journal (with an ISSN) <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-relateditem1-v4.xml>`_
+            * `Digitized book chapter in a book (with no identifier) <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-relateditem2-v4.xml>`_
+            * `Digitized book chapter in a book (with an ISBN) <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-relateditem3-v4.xml>`_
+        * `Distribution and Access <https://schema.datacite.org/meta/kernel-4.8/example/datacite-example-distribution-access-v4.xml>`_
 
    .. tab:: JSON
 
@@ -65,12 +66,14 @@ Demonstration Examples
             * `Original (translated) work <https://api.test.datacite.org/dois/10.82433/pma6-nf93?publisher=true&affiliation=true>`_
         * `Document containing two languages in parallel <https://api.test.datacite.org/dois/10.82433/4r08-sa38?publisher=true&affiliation=true>`_
         * `Multilingual metadata <https://api.test.datacite.org/dois/10.82433/byt7-2g42?publisher=true&affiliation=true>`_
+        * `Embargo date <https://api.test.datacite.org/dois/10.82433/13mc-zr18?publisher=true&affiliation=true>`_
 
         * RelatedItem:
 
             * `Journal article in a journal (with an ISSN) <https://api.test.datacite.org/dois/10.82433/q54d-pf76?publisher=true&affiliation=true>`_
             * `Digitized book chapter in a book (with no identifier) <https://api.test.datacite.org/dois/10.82433/eck0-f231?publisher=true&affiliation=true>`_
             * `Digitized book chapter in a book (with an ISBN) <https://api.test.datacite.org/dois/10.82433/4fdh-rh04?publisher=true&affiliation=true>`_
+        * `Distribution and Access <https://api.test.datacite.org/dois/10.82433/gn9x-q865?publisher=true&affiliation=true>`_
 
 
 
@@ -86,6 +89,7 @@ Live Examples
    .. tab:: XML
 
         * `Software resourceTypeGeneral <https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.5281/zenodo.7635478>`_
+        * `BlogPost resourceTypeGeneral <https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.5438/6qc3-bz91>`_
         * `GeoLocation <https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.1594/PANGAEA.770250>`_
         * `(GeoLocation) Polygon <https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.15129/3da7087a-91a3-40be-9a83-7e412156db59>`_
         * `HasMetadata as related resource <https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.26164/leopoldina_10_00390>`_
@@ -102,6 +106,7 @@ Live Examples
    .. tab:: JSON
 
         * `Software resourceTypeGeneral <https://api.datacite.org/dois/10.5281/zenodo.7635478?publisher=true&affiliation=true>`_
+        * `BlogPost resourceTypeGeneral <https://api.datacite.org/dois/10.5438/6qc3-bz91?affiliation=true&publisher=true>`_
         * `GeoLocation <https://api.datacite.org/dois/10.1594/PANGAEA.770250?publisher=true&affiliation=true>`_
         * `(GeoLocation) Polygon <https://api.datacite.org/dois/10.15129/3da7087a-91a3-40be-9a83-7e412156db59?publisher=true&affiliation=true>`_
         * `HasMetadata as related resource <https://api.datacite.org/dois/10.26164/leopoldina_10_00390?publisher=true&affiliation=true>`_

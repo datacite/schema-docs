@@ -24,4 +24,6 @@ DataCite Metadata Properties
    geolocation
    fundingreference
    relateditem
+   distribution
+   access
 
