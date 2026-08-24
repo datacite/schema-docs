@@ -699,7 +699,7 @@ IsOutputOf
 
 **Inverse relationType:** :ref:`HasOutput`
 
-**Example and Usage Notes:** May be used to connect the outputs of awards, projects, and software to their sources.
+**Example and Usage Notes:** May be used to connect the outputs of awards, projects, software, etc. to their sources.
 
 .. code:: xml
 
@@ -715,7 +715,7 @@ HasOutput
 
 **Inverse relationType:** :ref:`IsOutputOf`
 
-**Example and Usage Notes:** May be used to connect awards, projects, and software to their associated outputs.
+**Example and Usage Notes:** May be used to connect awards, projects, software, etc. to their associated outputs.
 
 .. code:: xml
 
