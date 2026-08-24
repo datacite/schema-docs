@@ -23,4 +23,6 @@ Public
 Restricted
 ~~~~~~~~~~~~~~~~~
 
-**Description:** The resource is not publicly available. Access is limited to authorized users or systems, based on defined access controls or processes.
+**Description:** The resource is not publicly available. Access is limited to authorized users or systems, based on defined access controls or processes. 
+
+**Usage Notes:** May be used for an active temporary restriction, e.g., an embargo. When the temporary restriction ends, update the accessType to "Public".
